@@ -1,0 +1,8 @@
+LinkedHashMap	dropConfig
+LinkedHashMap	parallax
+String	shape
+LinkedHashMap	baseLeaves
+LinkedHashMap	crownLeaves
+String	name
+LinkedHashMap	trunkLeaves
+LinkedHashMap	branchLeaves

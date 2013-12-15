@@ -1,0 +1,4 @@
+Double	wavelength
+Double	height
+String	name
+Integer	noise

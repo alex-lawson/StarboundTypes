@@ -1,0 +1,7 @@
+String	inventoryIcon
+String	inspectionKind
+String	shortdescription
+String	rarity
+String	techModule
+String	itemName
+String	description

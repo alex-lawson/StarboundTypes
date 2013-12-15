@@ -1,0 +1,13 @@
+String	inventoryIcon
+String	shortdescription
+String	rarity
+Double	windupTime
+String	image
+String	itemName
+Boolean	edgeTrigger
+String	projectileType
+Integer	ammoUsage
+LinkedHashMap	projectileConfig
+String	description
+Double	cooldown
+Integer	maxStack

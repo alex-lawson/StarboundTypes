@@ -1,0 +1,5 @@
+String	image
+LinkedHashMap	frameGrid
+LinkedHashMap	aliases
+LinkedHashMap	grouped
+LinkedHashMap	frameList

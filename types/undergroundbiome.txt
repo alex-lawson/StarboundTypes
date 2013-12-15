@@ -1,0 +1,13 @@
+LinkedHashMap	sky
+LinkedHashMap	undergroundMusicTrack
+ArrayList<String>	subBlocks
+String	undergroundParallax
+String	ores
+String	name
+String	caveLiquidType
+LinkedHashMap	undergroundAmbientNoises
+String	mainBlock
+ArrayList<Integer>	hueShiftOptions
+LinkedHashMap	undergroundPlaceables
+LinkedHashMap	undergroundPlants
+LinkedHashMap	statusParameters

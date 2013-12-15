@@ -1,0 +1,17 @@
+Boolean	altOptionAsFacialMask
+Boolean	headOptionAsHairColor
+Boolean	altOptionAsUndyColor
+ArrayList<String>	undyColor
+ArrayList<LinkedHashMap>	genders
+String	kind
+ArrayList<String>	nameGen
+Boolean	hairColorAsBodySubColor
+ArrayList<LinkedHashMap>	hairColor
+Boolean	altOptionAsHairColor
+Boolean	headOptionAsFacialhair
+LinkedHashMap	defaultBlueprints
+Integer	index
+ArrayList<LinkedHashMap>	bodyColor
+ArrayList<String>	ouchNoises
+ArrayList<LinkedHashMap>	undyColor
+ArrayList<String>	hairColor

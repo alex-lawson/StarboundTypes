@@ -1,0 +1,15 @@
+Boolean	initialTick
+ArrayList<String>	icon
+String	kind
+String	damageKind
+LinkedHashMap	tick
+String	mainInterfaceIcon
+ArrayList	effectSources
+String	tooltipAmountLabel
+Boolean	percentage
+Boolean	suppressTooltip
+ArrayList<String>	effectSources
+String	tooltipLabel
+Integer	duration
+ArrayList<LinkedHashMap>	primitives
+Double	interval

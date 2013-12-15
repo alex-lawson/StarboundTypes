@@ -1,0 +1,3 @@
+LinkedHashMap	metadata
+ArrayList<LinkedHashMap>	tiles
+ArrayList<LinkedHashMap>	parts

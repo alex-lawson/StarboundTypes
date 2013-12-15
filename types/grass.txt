@@ -1,0 +1,3 @@
+Boolean	ceiling
+String	name
+ArrayList<String>	images

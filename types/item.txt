@@ -1,0 +1,10 @@
+String	inventoryIcon
+String	shortdescription
+Integer	fuelAmount
+String	rarity
+String	itemName
+String	glitchdescription
+ArrayList<String>	learnBlueprintsOnPickup
+String	description
+ArrayList<ArrayList>	effects
+String	florandescription

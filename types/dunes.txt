@@ -1,0 +1,5 @@
+Integer	maxHeight
+Integer	minWidth
+Integer	maxWidth
+String	name
+Integer	minHeight

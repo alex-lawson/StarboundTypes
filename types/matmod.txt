@@ -1,0 +1,12 @@
+String	Description
+String	footstepSound
+Boolean	tilled
+Boolean	grass
+String	frames
+Boolean	breaksWithTile
+Integer	variants
+Integer	modId
+String	itemDrop
+Integer	health
+String	modName
+String	description

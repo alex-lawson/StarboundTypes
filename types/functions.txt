@@ -1,0 +1,13 @@
+ArrayList<String>	drawTimeMultiplier
+ArrayList<String>	busterImageSelector
+ArrayList<String>	npcLevelHealthMultiplier
+ArrayList<String>	monsterLevelTouchDamageMultiplier
+ArrayList<String>	gunDamageLevelMultiplier
+ArrayList<String>	swordDamageLevelMultiplier
+ArrayList<String>	bowImageSelector
+ArrayList<String>	monsterLevelPowerMultiplier
+ArrayList<String>	shieldLevelMultiplier
+ArrayList<String>	busterTimeMultiplier
+ArrayList<String>	gunLevelEnergyCostPerDamage
+ArrayList<String>	npcLevelEnergyMultiplier
+ArrayList<String>	monsterLevelHealthMultiplier

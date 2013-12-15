@@ -1,0 +1,9 @@
+String	inventoryIcon
+String	shortdescription
+String	rarity
+String	tierRecipesUnlock
+String	image
+String	itemName
+String	unlockMessage
+String	description
+String	sectorUnlock

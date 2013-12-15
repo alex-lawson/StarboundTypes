@@ -1,0 +1,8 @@
+LinkedHashMap	baseline
+String	rarity
+String	kind
+String	nameGenerator
+String	hitSound
+String	name
+String	description
+ArrayList<LinkedHashMap>	palette

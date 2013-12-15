@@ -1,0 +1,12 @@
+String	inventoryIcon
+String	maleFrames
+String	shortdescription
+String	rarity
+String	femaleFrames
+ArrayList<LinkedHashMap>	colorOptions
+ArrayList<String>	effectSources
+String	itemName
+ArrayList<LinkedHashMap>	augments
+ArrayList<LinkedHashMap>	statusEffects
+ArrayList<Double>	dropCollision
+String	description

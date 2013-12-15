@@ -1,0 +1,13 @@
+Integer	mediumStackLimit
+String	inventoryIcon
+String	shortdescription
+ArrayList<String>	pickupSoundsLarge
+ArrayList<String>	pickupSoundsMedium
+String	rarity
+String	itemName
+ArrayList<String>	pickupSoundsSmall
+Integer	value
+Integer	smallStackLimit
+ArrayList<Double>	dropCollision
+String	description
+Integer	maxStack

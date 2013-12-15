@@ -1,0 +1,9 @@
+Double	horizontalNoiseDivider
+Integer	width
+Double	noiseScale
+Integer	hillynessFactor
+Double	largeVerticalNoiseMult
+Integer	height
+String	name
+Double	largeVerticalFreqDivider
+Double	verticalNoiseDivider

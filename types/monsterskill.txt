@@ -1,0 +1,5 @@
+String	label
+String	image
+LinkedHashMap	parameters
+String	name
+LinkedHashMap	config

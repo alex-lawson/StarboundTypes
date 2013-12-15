@@ -1,0 +1,4 @@
+ArrayList<String>	groups
+LinkedHashMap	output
+ArrayList	input
+ArrayList<LinkedHashMap>	input

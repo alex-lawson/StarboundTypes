@@ -1,0 +1,16 @@
+String	inventoryIcon
+String	shortdescription
+String	rarity
+String	femaleFrames
+String	itemName
+ArrayList<LinkedHashMap>	augments
+ArrayList<Double>	dropCollision
+ArrayList<String>	learnBlueprintsOnPickup
+Integer	maxStack
+String	maleFrames
+String	inspectionKind
+String	mask
+ArrayList<LinkedHashMap>	colorOptions
+ArrayList<LinkedHashMap>	statusEffects
+String	description
+ArrayList<String>	colorOptions

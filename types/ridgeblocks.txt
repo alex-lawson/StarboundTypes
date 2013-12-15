@@ -1,0 +1,9 @@
+Integer	magic2
+Integer	magic3
+Integer	magic4
+Integer	magic5
+Integer	size
+Double	frequency
+Double	noise
+String	name
+Integer	magic1

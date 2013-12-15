@@ -1,0 +1,10 @@
+Boolean	barren
+ArrayList<String>	allowedDetachedBiomes
+ArrayList<Integer>	hueShiftOptions
+LinkedHashMap	surfaceParameters
+ArrayList<LinkedHashMap>	skyOptions
+String	oceanLiquidType
+String	name
+LinkedHashMap	statusParameters
+LinkedHashMap	subSurfaceParameters
+String	caveLiquidType

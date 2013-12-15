@@ -1,0 +1,11 @@
+LinkedHashMap	crown
+LinkedHashMap	base
+LinkedHashMap	dropConfig
+String	shape
+Integer	middleMinSize
+LinkedHashMap	middle
+Boolean	ceiling
+LinkedHashMap	branch
+String	name
+Integer	middleMaxSize
+Integer	health

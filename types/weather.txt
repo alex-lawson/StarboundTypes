@@ -1,0 +1,7 @@
+LinkedHashMap	weatherNoises
+ArrayList<LinkedHashMap>	particles
+Integer	density
+Double	maxDarkness
+Double	lightningFrequency
+ArrayList<Integer>	windVelocity
+String	name

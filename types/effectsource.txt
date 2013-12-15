@@ -1,0 +1,3 @@
+String	location
+String	kind
+LinkedHashMap	definition

@@ -1,0 +1,11 @@
+String	inventoryIcon
+String	shortdescription
+String	rarity
+String	itemName
+String	category
+String	glitchdescription
+ArrayList<Double>	dropCollision
+ArrayList<String>	learnBlueprintsOnPickup
+Integer	materialId
+String	description
+String	florandescription

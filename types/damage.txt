@@ -1,0 +1,7 @@
+Double	damageCooldownDuration
+String	damageCooldownMode
+String	kind
+String	damageCooldownGroup
+LinkedHashMap	damageNumberParticleKind
+Double	damageCooldownPreGrace
+LinkedHashMap	effects

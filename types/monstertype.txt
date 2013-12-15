@@ -1,0 +1,15 @@
+Integer	damageTeam
+ArrayList<String>	categories
+String	animation
+String	type
+String	projectiles
+ArrayList<LinkedHashMap>	dropPools
+String	colors
+Boolean	reversed
+LinkedHashMap	partParameterDescription
+LinkedHashMap	spawnParameters
+ArrayList<ArrayList>	variantParameters
+ArrayList<ArrayList>	familyParameters
+LinkedHashMap	baseParameters
+ArrayList<String>	parts
+ArrayList<String>	dropPools

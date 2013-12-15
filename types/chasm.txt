@@ -1,0 +1,15 @@
+Double	minDist
+Double	minWidth
+Integer	distanceBetween
+Double	maxDist
+Double	ceiling
+Double	jaggedScaleX
+Double	cutoff
+Double	jaggedScaleY
+String	name
+Integer	clumpingWavelength
+Double	maxDepth
+Double	minDepth
+Double	maxWidth
+Integer	clumpingAmplitude
+Integer	jaggedSize

@@ -1,0 +1,17 @@
+Integer	damageTeam
+LinkedHashMap	scriptConfig
+LinkedHashMap	items
+Boolean	disableWornArmor
+LinkedHashMap	splashConfig
+Boolean	persistent
+LinkedHashMap	movementControllerSettings
+String	type
+LinkedHashMap	humanoidTiming
+ArrayList<String>	scripts
+ArrayList<LinkedHashMap>	inateStatusEffects
+ArrayList<Double>	levelVariance
+ArrayList<Integer>	levelVariance
+String	baseType
+Integer	scriptDelta
+LinkedHashMap	statusParameters
+ArrayList<String>	dropPools

@@ -1,0 +1,12 @@
+LinkedHashMap	animatedParts
+Integer	frameNumber
+LinkedHashMap	rotationGroups
+Double	loops
+LinkedHashMap	scalingGroups
+String	frames
+Boolean	looping
+ArrayList<Integer>	offset
+Integer	variants
+LinkedHashMap	particleEmitters
+Double	animationCycle
+LinkedHashMap	effects

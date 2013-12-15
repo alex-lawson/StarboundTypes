@@ -1,0 +1,5 @@
+String	type
+String	category
+LinkedHashMap	frames
+LinkedHashMap	parameters
+String	name

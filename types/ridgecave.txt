@@ -1,0 +1,4 @@
+Integer	size
+Double	frequency
+Double	noise
+String	name

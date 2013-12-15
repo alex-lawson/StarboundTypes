@@ -1,0 +1,9 @@
+Integer	xwavelength
+Integer	xoctaves
+Integer	amplitude
+Integer	verticalOffset
+Integer	xamplitude
+Double	xvarscale
+String	name
+Double	scale
+Integer	wavelength

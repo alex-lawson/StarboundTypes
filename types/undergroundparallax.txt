@@ -1,0 +1,7 @@
+Double	parallax
+Integer	parallax
+String	image
+ArrayList<Integer>	origin
+Boolean	nohueshift
+Integer	nohueshift
+String	dividerimage

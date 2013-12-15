@@ -1,0 +1,10 @@
+Integer	curvyNoise
+Integer	minDist
+Integer	curvyNoisePeriod
+Integer	maxHeight
+Integer	minWidth
+Integer	maxWidth
+String	name
+Integer	maxDist
+Integer	minHeight
+Integer	islandHumpiness

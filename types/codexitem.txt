@@ -1,0 +1,8 @@
+String	codexkind
+String	inventoryIcon
+String	codexId
+String	shortdescription
+String	rarity
+String	itemName
+String	title
+String	description

@@ -1,0 +1,17 @@
+Double	width
+Double	lightToEnergyPerTick
+Double	regenModifier
+String	kind
+Integer	angle
+String	name
+Double	rating
+Double	ambient
+ArrayList	icon
+Double	chance
+ArrayList<Integer>	offset
+ArrayList<Integer>	color
+Double	energyPerTick
+ArrayList<LinkedHashMap>	list
+Integer	duration
+ArrayList<LinkedHashMap>	statusEffects
+Double	bonusArmor

@@ -1,4 +1,4 @@
-ArrayList<String>	groups
+Array<String>	groups
 LinkedHashMap	output
-ArrayList	input
-ArrayList<LinkedHashMap>	input
+Array	input
+Array<LinkedHashMap>	input

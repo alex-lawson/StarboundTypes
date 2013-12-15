@@ -1,13 +1,13 @@
 Integer	mediumStackLimit
 String	inventoryIcon
+Array<String>	pickupSoundsSmall
 String	shortdescription
-ArrayList<String>	pickupSoundsLarge
-ArrayList<String>	pickupSoundsMedium
 String	rarity
+Array<String>	pickupSoundsLarge
 String	itemName
-ArrayList<String>	pickupSoundsSmall
 Integer	value
 Integer	smallStackLimit
-ArrayList<Double>	dropCollision
+Array<String>	pickupSoundsMedium
+Array<Double>	dropCollision
 String	description
 Integer	maxStack

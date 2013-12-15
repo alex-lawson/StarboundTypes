@@ -1,10 +1,10 @@
+Array<Integer>	moneyRange
 String	text
-ArrayList<Integer>	moneyRange
 String	planetMode
-ArrayList<ArrayList>	rewards
 String	id
-ArrayList	questDungeons
-ArrayList<LinkedHashMap>	conditions
+Array<ArrayList>	rewards
+Array<LinkedHashMap>	conditions
 String	title
+Array	questDungeons
 String	completionText
 String	followUp

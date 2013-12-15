@@ -1,10 +1,10 @@
 LinkedHashMap	undergroundMusicTrack
 String	mainBlock
-ArrayList<Integer>	hueShiftOptions
-ArrayList<String>	subBlocks
 String	undergroundParallax
 String	ores
+Array<String>	subBlocks
 String	name
 LinkedHashMap	undergroundPlaceables
 LinkedHashMap	statusParameters
+Array<Integer>	hueShiftOptions
 LinkedHashMap	undergroundAmbientNoises

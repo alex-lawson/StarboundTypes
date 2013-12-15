@@ -1,13 +1,14 @@
+Array<Integer>	handPosition
 Long	durability
 Boolean	twoHanded
 String	shortdescription
 Integer	durability
 String	rarity
+Array<ArrayList>	durabilityRegenChart
 Double	tileDamage
-ArrayList<Double>	dropCollision
+Array<Double>	dropCollision
 String	idleSound
 Integer	blockRadius
-ArrayList<ArrayList>	durabilityRegenChart
 Integer	swingFinish
 Double	animationCycle
 Integer	frames
@@ -21,7 +22,6 @@ Integer	durabilityPerUse
 Double	tileDamageBlunted
 Integer	maxStack
 String	inspectionKind
-ArrayList<Integer>	handPosition
 String	image
 Integer	altBlockRadius
 String	largeImage

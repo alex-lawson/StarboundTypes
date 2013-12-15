@@ -4,5 +4,5 @@ String	kind
 String	nameGenerator
 String	hitSound
 String	name
+Array<LinkedHashMap>	palette
 String	description
-ArrayList<LinkedHashMap>	palette

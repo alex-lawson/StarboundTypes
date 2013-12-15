@@ -1,5 +1,5 @@
 String	mainBlock
-ArrayList<Integer>	hueShiftOptions
 String	ores
 String	name
 LinkedHashMap	statusParameters
+Array<Integer>	hueShiftOptions

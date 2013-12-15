@@ -4,8 +4,8 @@ String	rarity
 String	itemName
 String	category
 String	glitchdescription
-ArrayList<Double>	dropCollision
-ArrayList<String>	learnBlueprintsOnPickup
+Array<String>	learnBlueprintsOnPickup
+Array<Double>	dropCollision
 Integer	materialId
 String	description
 String	florandescription

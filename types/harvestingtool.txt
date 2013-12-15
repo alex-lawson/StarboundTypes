@@ -1,4 +1,5 @@
 String	inventoryIcon
+Array<Integer>	handPosition
 Boolean	twoHanded
 Double	fireTime
 String	shortdescription
@@ -6,10 +7,9 @@ String	rarity
 String	itemName
 String	strikeSound
 String	idleSound
-ArrayList<Double>	dropCollision
+Array<Double>	dropCollision
 Integer	blockRadius
 Integer	maxStack
-ArrayList<Integer>	handPosition
 String	inspectionKind
 String	image
 Integer	altBlockRadius

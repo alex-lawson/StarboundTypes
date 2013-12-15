@@ -14,8 +14,8 @@ String	stairImage
 Integer	tillableMod
 Integer	materialId
 String	materialName
-ArrayList<Integer>	particleColor
 Double	health
+Array<Integer>	particleColor
 Boolean	cascading
 Boolean	multicolored
 String	platformImage

@@ -6,12 +6,12 @@ LinkedHashMap	splashConfig
 Boolean	persistent
 LinkedHashMap	movementControllerSettings
 String	type
+Array<String>	dropPools
 LinkedHashMap	humanoidTiming
-ArrayList<String>	scripts
-ArrayList<LinkedHashMap>	inateStatusEffects
-ArrayList<Double>	levelVariance
-ArrayList<Integer>	levelVariance
+Array<String>	scripts
+Array<Double>	levelVariance
+Array<Integer>	levelVariance
 String	baseType
 Integer	scriptDelta
+Array<LinkedHashMap>	inateStatusEffects
 LinkedHashMap	statusParameters
-ArrayList<String>	dropPools

@@ -1,8 +1,8 @@
 String	inventoryIcon
-ArrayList<Integer>	handPosition
+Array<Integer>	handPosition
+Array<ArrayList>	effects
 String	shortdescription
 String	rarity
 String	emote
 String	itemName
 String	description
-ArrayList<ArrayList>	effects

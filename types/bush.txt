@@ -1,5 +1,5 @@
-ArrayList<LinkedHashMap>	shapes
+Array<LinkedHashMap>	shapes
 String	ceiling
 Boolean	ceiling
-ArrayList<String>	mods
 String	name
+Array<String>	mods

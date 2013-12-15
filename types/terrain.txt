@@ -1,5 +1,5 @@
 Integer	yYInfluence
-ArrayList<LinkedHashMap>	sources
+Array<LinkedHashMap>	sources
 String	type
 Integer	xXInfluence
 String	xType
@@ -7,12 +7,12 @@ Double	yBias
 Integer	value
 String	name
 LinkedHashMap	source
-ArrayList<Integer>	yClamp
 Double	yAmp
 Integer	xOctaves
 Integer	xAmp
 Integer	yOctaves
 Double	xFreq
+Array<Integer>	yClamp
 Integer	yAmp
 String	yType
 Double	yFreq

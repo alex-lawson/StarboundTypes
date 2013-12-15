@@ -1,5 +1,4 @@
 String	inventoryIcon
-ArrayList<Double>	firePosition
 Boolean	twoHanded
 Integer	level
 Double	fireTime
@@ -8,12 +7,13 @@ LinkedHashMap	primaryStances
 String	rarity
 String	kind
 String	itemName
-ArrayList<Double>	dropCollision
-ArrayList<Integer>	firePosition
+Array<Double>	dropCollision
 LinkedHashMap	soundEffect
 Integer	maxStack
+Array<Double>	firePosition
 String	inspectionKind
 String	image
-ArrayList<LinkedHashMap>	colorOptions
 Boolean	fireAfterWindup
+Array<LinkedHashMap>	colorOptions
 String	description
+Array<Integer>	firePosition

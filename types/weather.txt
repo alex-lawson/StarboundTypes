@@ -1,7 +1,7 @@
 LinkedHashMap	weatherNoises
-ArrayList<LinkedHashMap>	particles
 Integer	density
 Double	maxDarkness
 Double	lightningFrequency
-ArrayList<Integer>	windVelocity
+Array<LinkedHashMap>	particles
+Array<Integer>	windVelocity
 String	name

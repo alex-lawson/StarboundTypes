@@ -1,3 +1,3 @@
-ArrayList<LinkedHashMap>	audio
-ArrayList	audio
-ArrayList<LinkedHashMap>	panels
+Array	audio
+Array<LinkedHashMap>	audio
+Array<LinkedHashMap>	panels

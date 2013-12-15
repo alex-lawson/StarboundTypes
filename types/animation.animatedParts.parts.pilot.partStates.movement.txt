@@ -1,0 +1,8 @@
+LinkedHashMap	phase2
+LinkedHashMap	phase1
+LinkedHashMap	phase3
+LinkedHashMap	attack
+LinkedHashMap	idle
+LinkedHashMap	invisible
+LinkedHashMap	move
+LinkedHashMap	open

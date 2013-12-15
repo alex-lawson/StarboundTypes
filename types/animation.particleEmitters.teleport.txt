@@ -1,0 +1,2 @@
+Array<LinkedHashMap>	particles
+Integer	emissionRate

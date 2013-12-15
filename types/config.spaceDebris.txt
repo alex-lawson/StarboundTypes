@@ -1,0 +1,7 @@
+Array<Double>	animationSpeed
+Integer	cellSize
+Array<Integer>	numFields
+Array<Integer>	angularVelocity
+Array<String>	list
+Array<Integer>	cellCount
+Array<Integer>	velocityRange

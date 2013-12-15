@@ -1,0 +1,7 @@
+LinkedHashMap	beam
+LinkedHashMap	bag
+LinkedHashMap	craft
+LinkedHashMap	money
+LinkedHashMap	codex
+LinkedHashMap	questLog
+LinkedHashMap	inspect

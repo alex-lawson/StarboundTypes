@@ -1,0 +1,10 @@
+Array<Double>	initialVelocity
+Array<Double>	finalVelocity
+Boolean	collidesForeground
+String	layer
+String	destructionAction
+Array<Integer>	approach
+String	type
+Double	timeToLive
+Double	destructionTime
+Double	size

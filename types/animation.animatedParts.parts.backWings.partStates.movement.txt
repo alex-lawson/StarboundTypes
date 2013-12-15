@@ -1,0 +1,6 @@
+LinkedHashMap	gliding
+LinkedHashMap	knockback
+LinkedHashMap	standing
+LinkedHashMap	knockout
+LinkedHashMap	flyingAttack
+LinkedHashMap	flying

@@ -1,0 +1,8 @@
+Array<Double>	priceVarianceRange
+Integer	numItems
+LinkedHashMap	items
+Array<String>	categories
+Integer	waitTime
+LinkedHashMap	dialog
+Array<Integer>	priceVarianceRange
+Integer	storeRadius

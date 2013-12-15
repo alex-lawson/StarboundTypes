@@ -1,0 +1,12 @@
+Array<String>	scripts
+String	shooterSkillName
+String	staticSkillName
+Double	staticProjectileCooldown
+Array<String>	shooterProjectile
+Array<String>	staticProjectile
+Double	swoopBounceTime
+Double	swoopDiameter
+Integer	swoopBounceAngle
+Double	swoopBounceLimit
+Double	staticProjectileHoldTime
+Double	swoopTime

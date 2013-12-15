@@ -1,0 +1,5 @@
+String	baseImageChecked
+String	type
+Array<LinkedHashMap>	buttons
+String	baseImage
+Array<Integer>	position

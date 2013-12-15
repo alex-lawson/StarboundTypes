@@ -1,0 +1,5 @@
+LinkedHashMap	shoot
+LinkedHashMap	die
+LinkedHashMap	recoil
+LinkedHashMap	idle
+LinkedHashMap	invisible

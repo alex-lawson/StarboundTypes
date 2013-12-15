@@ -1,0 +1,6 @@
+Integer	followDistance
+Integer	loseSightTime
+LinkedHashMap	dialog
+Integer	sayComeBackCooldown
+Integer	warningTime
+Integer	loseSightDistance

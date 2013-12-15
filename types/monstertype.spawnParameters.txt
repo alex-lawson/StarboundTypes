@@ -1,0 +1,3 @@
+String	area
+String	time
+String	region

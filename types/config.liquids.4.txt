@@ -1,0 +1,11 @@
+String	breathable
+Array<Integer>	bottomLightMix
+Array<LinkedHashMap>	ontouchStatusEffects
+Integer	bottomLightMultiplier
+Integer	textureMovementFactor
+Array<Integer>	color
+Double	drawMinimum
+String	name
+Double	blockGenerationChance
+Array<String>	blockOptions
+String	texture

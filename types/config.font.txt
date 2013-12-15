@@ -1,0 +1,6 @@
+Integer	baseSize
+Integer	itemSize
+Integer	buttonSize
+Integer	nameSize
+Integer	planetSize
+Array<Integer>	defaultColor

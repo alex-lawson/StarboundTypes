@@ -1,0 +1,5 @@
+String	backingImage
+String	type
+Array<Integer>	spacing
+Array<Integer>	dimensions
+Array<Integer>	position

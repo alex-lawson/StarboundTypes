@@ -1,0 +1,4 @@
+String	type
+String	file
+Array<Integer>	position
+Boolean	scissoring

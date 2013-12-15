@@ -1,0 +1,5 @@
+String	kind
+String	uiconfig
+Integer	slotCount
+Array<String>	openSounds
+Array<String>	closeSounds

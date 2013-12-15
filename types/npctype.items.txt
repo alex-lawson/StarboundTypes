@@ -1,0 +1,7 @@
+Array<ArrayList>	avian
+Array<ArrayList>	glitch
+Array<ArrayList>	default
+Array<ArrayList>	apex
+Array<ArrayList>	hylotl
+Array<ArrayList>	human
+Array<ArrayList>	floran

@@ -1,0 +1,2 @@
+LinkedHashMap	local
+LinkedHashMap	normal

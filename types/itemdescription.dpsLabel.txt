@@ -1,0 +1,5 @@
+Integer	width
+Boolean	centered
+String	type
+String	hAnchor
+Array<Integer>	position

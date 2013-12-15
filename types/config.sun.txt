@@ -1,0 +1,2 @@
+Integer	radius
+String	image

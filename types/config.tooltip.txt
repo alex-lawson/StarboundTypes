@@ -1,0 +1,6 @@
+Integer	radius
+LinkedHashMap	panefeature
+Array<Integer>	offset
+Boolean	allowOver
+LinkedHashMap	itemList
+Double	hoverTime

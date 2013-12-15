@@ -1,0 +1,6 @@
+Integer	variants
+Double	ceilingDensity
+Integer	ceilingVariants
+Array<String>	ceilingList
+Array<String>	list
+Double	density

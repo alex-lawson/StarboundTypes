@@ -1,0 +1,5 @@
+LinkedHashMap	saveAndQuit
+LinkedHashMap	background
+LinkedHashMap	showOptions
+LinkedHashMap	paneFeature
+LinkedHashMap	returnToGame

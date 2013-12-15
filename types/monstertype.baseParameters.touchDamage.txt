@@ -1,0 +1,5 @@
+Array<ArrayList>	poly
+String	teamType
+String	damageSourceKind
+Array	statusEffects
+Integer	damage

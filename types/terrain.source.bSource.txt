@@ -1,0 +1,12 @@
+Integer	yYInfluence
+Integer	xAmp
+Integer	xOctaves
+Integer	yOctaves
+Integer	xXInfluence
+Double	xFreq
+String	type
+String	xType
+Integer	yAmp
+String	yType
+LinkedHashMap	source
+Double	yFreq

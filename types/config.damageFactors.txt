@@ -1,0 +1,12 @@
+Double	explosive
+Integer	fire
+Double	tilling
+Double	blockish
+Integer	plantish
+Double	beamish
+Double	plantish
+Integer	tilling
+Integer	blockish
+Double	fire
+Integer	explosive
+Integer	beamish

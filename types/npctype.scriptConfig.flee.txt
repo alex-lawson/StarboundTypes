@@ -1,0 +1,8 @@
+Integer	stuckTime
+Array<Integer>	dialogTimeRange
+LinkedHashMap	dialog
+Integer	safeDistanceWithGuards
+Integer	safeDistance
+Array<Double>	reactionTimeRange
+Integer	stuckCooldown
+Integer	safeTimer

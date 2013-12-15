@@ -1,0 +1,5 @@
+LinkedHashMap	large
+LinkedHashMap	tiny
+LinkedHashMap	verylarge
+LinkedHashMap	huge
+LinkedHashMap	small

@@ -1,0 +1,9 @@
+LinkedHashMap	click
+LinkedHashMap	energyBar
+LinkedHashMap	compassoffworld
+LinkedHashMap	compass
+LinkedHashMap	leader
+LinkedHashMap	overlay
+LinkedHashMap	healthBar
+LinkedHashMap	portrait
+LinkedHashMap	backing

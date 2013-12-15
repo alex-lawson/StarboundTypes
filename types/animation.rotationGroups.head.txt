@@ -1,0 +1,2 @@
+Array<Double>	rotationCenter
+Double	angularVelocity

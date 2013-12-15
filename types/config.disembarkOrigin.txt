@@ -1,0 +1,2 @@
+Array<Integer>	offset
+Integer	rotation

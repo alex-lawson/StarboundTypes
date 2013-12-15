@@ -1,0 +1,3 @@
+Array	particles
+Array<String>	sounds
+Array<ArrayList>	particles

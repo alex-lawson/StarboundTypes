@@ -1,0 +1,3 @@
+Integer	cycle
+String	mode
+Integer	frames

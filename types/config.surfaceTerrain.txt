@@ -1,0 +1,9 @@
+LinkedHashMap	hills
+LinkedHashMap	mountains
+LinkedHashMap	totallyflat
+LinkedHashMap	flats
+LinkedHashMap	canyons
+LinkedHashMap	dunes
+LinkedHashMap	islands
+LinkedHashMap	barren
+LinkedHashMap	chasms

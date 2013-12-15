@@ -1,0 +1,5 @@
+Array<LinkedHashMap>	recipes
+Boolean	titleFromEntity
+Boolean	requiresBlueprint
+Array	filter
+String	config

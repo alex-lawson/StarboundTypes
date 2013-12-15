@@ -1,0 +1,3 @@
+Integer	baseCount
+Integer	mod1Count
+Integer	mod2Count

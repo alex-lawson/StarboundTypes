@@ -1,0 +1,3 @@
+Integer	waitTime
+LinkedHashMap	dialog
+Integer	waitTargetDistance

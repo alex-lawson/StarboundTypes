@@ -1,0 +1,5 @@
+Integer	stepLead
+Double	stepTrackFactor
+Boolean	interpolationEnabled
+Integer	stepMaxDistance
+Integer	heartbeatDelta

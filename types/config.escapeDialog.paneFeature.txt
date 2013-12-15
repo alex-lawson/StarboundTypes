@@ -1,0 +1,4 @@
+Boolean	positionLocked
+String	anchor
+String	type
+Boolean	keyDismissable

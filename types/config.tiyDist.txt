@@ -1,0 +1,9 @@
+Integer	typePeriod
+Double	densityOffset
+Integer	octaves
+Integer	densityPeriod
+Integer	modulus
+String	type
+Double	beta
+Integer	modulusVariance
+Double	alpha

@@ -1,0 +1,14 @@
+Double	airFriction
+Double	fireTime
+Array<ArrayList>	collisionPoly
+Integer	cooldown
+Double	fireDt
+Double	groundFriction
+Double	bounceFactor
+Double	mass
+Double	liquidFriction
+LinkedHashMap	projectileParams
+String	projectileType
+Double	maxMovementPerStep
+Boolean	ignorePlatformCollision
+Double	gravityMultiplier

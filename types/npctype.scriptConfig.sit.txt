@@ -1,0 +1,6 @@
+Integer	moveTimeLimit
+Integer	cooldown
+Array<ArrayList>	timeOfDayRanges
+Integer	searchRadius
+Integer	sitRadius
+Array<Integer>	timeRange

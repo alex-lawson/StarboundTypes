@@ -1,0 +1,6 @@
+LinkedHashMap	properties
+Double	cycle
+String	transition
+String	mode
+LinkedHashMap	frameProperties
+Integer	frames

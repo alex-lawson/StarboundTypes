@@ -1,0 +1,4 @@
+Double	recoilTime
+Double	fireTime
+Integer	pollenShotDistance
+Integer	seedShotDistance

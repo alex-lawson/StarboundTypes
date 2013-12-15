@@ -1,0 +1,15 @@
+Array<Integer>	itemOffset
+Integer	hideTime
+Array<Integer>	offsetHidden
+String	progressEmpty
+Array<Integer>	barPos
+Integer	windowSpring
+String	progressContainer
+Array<Integer>	offset
+Integer	showTime
+Array<Integer>	iconPos
+Array<Integer>	textOffset
+Array<Integer>	offsetHiddenBar
+String	progressFilled
+Array<Integer>	textContainerOffset
+String	textContainer

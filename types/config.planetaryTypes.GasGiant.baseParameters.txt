@@ -1,0 +1,10 @@
+String	smallImage
+String	overlayImage
+Array<Integer>	dynamicsRange
+Array<Integer>	shadowNumber
+String	type
+Integer	overlayMasks
+String	baseImage
+String	shadowImages
+String	dynamicsImages
+String	description

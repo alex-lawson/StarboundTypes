@@ -1,0 +1,5 @@
+Integer	fireTime
+Integer	cooldown
+Double	fireDt
+LinkedHashMap	projectileParams
+String	projectileType

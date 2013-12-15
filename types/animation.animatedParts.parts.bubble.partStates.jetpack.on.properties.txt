@@ -1,0 +1,3 @@
+String	image
+Boolean	back
+Boolean	centered

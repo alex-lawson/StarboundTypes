@@ -1,0 +1,5 @@
+Integer	defaultPadding
+String	rightBase
+String	rightHover
+String	leftHover
+String	leftBase

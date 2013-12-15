@@ -1,0 +1,3 @@
+String	image
+Array<Integer>	textPos
+Array<Integer>	pos

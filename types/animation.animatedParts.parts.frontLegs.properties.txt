@@ -1,0 +1,3 @@
+Array<Double>	offset
+Boolean	centered
+Integer	zLevel

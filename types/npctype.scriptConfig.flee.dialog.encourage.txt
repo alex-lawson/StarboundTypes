@@ -1,0 +1,3 @@
+Array<String>	glitch
+Array<String>	default
+Array<String>	floran

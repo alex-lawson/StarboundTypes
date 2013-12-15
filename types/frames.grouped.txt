@@ -1,0 +1,3 @@
+Array<Integer>	offset
+LinkedHashMap	nested
+Array<String>	names

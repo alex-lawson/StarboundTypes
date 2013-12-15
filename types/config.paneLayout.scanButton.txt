@@ -1,0 +1,5 @@
+String	base
+String	type
+String	hover
+Array<Integer>	position
+Integer	zlevel

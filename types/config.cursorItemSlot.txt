@@ -1,0 +1,6 @@
+Boolean	showDurability
+Boolean	showCount
+String	type
+Boolean	iconMode
+Array<Integer>	position
+String	callback

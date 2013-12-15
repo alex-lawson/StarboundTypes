@@ -1,0 +1,7 @@
+String	base
+String	type
+Array<Integer>	position
+String	hover
+Array<Integer>	pressedOffset
+Integer	zlevel
+String	pressed

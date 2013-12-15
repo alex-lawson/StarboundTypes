@@ -1,0 +1,3 @@
+String	backingImage
+String	type
+Array<Integer>	position

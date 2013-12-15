@@ -1,0 +1,3 @@
+String	type
+Integer	upOffset
+Array<Integer>	position

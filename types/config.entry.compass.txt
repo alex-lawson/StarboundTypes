@@ -1,0 +1,6 @@
+Boolean	centered
+String	type
+Array<Integer>	position
+String	file
+Integer	zlevel
+Boolean	scissoring

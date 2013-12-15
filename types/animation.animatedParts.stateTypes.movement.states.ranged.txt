@@ -1,0 +1,4 @@
+String	transition
+String	mode
+LinkedHashMap	frameProperties
+Integer	frames

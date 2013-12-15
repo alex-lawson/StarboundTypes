@@ -1,0 +1,8 @@
+Double	splashSpeedMin
+LinkedHashMap	splashParticleVariance
+Integer	numSplashParticles
+Double	splashMinWaterLevel
+LinkedHashMap	splashParticle
+Array<Integer>	splashBottomSensor
+Array<Integer>	splashTopSensor
+Double	splashYVelocityFactor

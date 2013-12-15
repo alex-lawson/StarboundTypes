@@ -1,0 +1,3 @@
+Array<String>	projectile
+Array<Double>	timeRange
+Double	movementRadius

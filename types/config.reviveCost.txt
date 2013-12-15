@@ -1,0 +1,2 @@
+Integer	absolute
+Double	percentile

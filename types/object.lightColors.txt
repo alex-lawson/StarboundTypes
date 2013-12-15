@@ -1,0 +1,9 @@
+Array<Integer>	white
+Array<Integer>	pink
+Array<Integer>	green
+Array<Integer>	black
+Array<Integer>	yellow
+Array<Integer>	default
+Array<Integer>	orange
+Array<Integer>	red
+Array<Integer>	blue

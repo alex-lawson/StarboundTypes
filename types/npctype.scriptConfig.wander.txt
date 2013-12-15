@@ -1,0 +1,11 @@
+Integer	dropDownChance
+Integer	indoorSearchRadius
+Integer	cooldown
+Array<ArrayList>	chairSensorRegion
+Array<ArrayList>	indoorTimeOfDayRanges
+Integer	chatDistance
+Integer	indoorLookaheadDistance
+Array<Double>	timeRange
+Integer	changeDirectionCooldown
+Integer	maxDistanceFromSpawnPoint
+Double	moveToTargetTime

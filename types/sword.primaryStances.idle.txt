@@ -1,0 +1,7 @@
+Array<Integer>	handPosition
+Boolean	twoHanded
+String	armFrameOverride
+Array<Double>	handPosition
+Integer	swordAngle
+Integer	armAngle
+Double	duration

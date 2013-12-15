@@ -1,0 +1,4 @@
+Array<Double>	offset
+Boolean	centered
+Integer	zLevel
+String	rotationGroup

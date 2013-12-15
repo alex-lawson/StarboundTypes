@@ -1,0 +1,7 @@
+LinkedHashMap	itemIcon
+LinkedHashMap	notcraftableoverlay
+LinkedHashMap	itemName
+LinkedHashMap	level
+LinkedHashMap	priceLabel
+LinkedHashMap	background
+LinkedHashMap	moneyIcon

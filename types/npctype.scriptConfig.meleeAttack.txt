@@ -1,0 +1,8 @@
+Array<Double>	backoffDistanceRange
+Integer	swingDistance
+Integer	sayAttackStartDistance
+Double	swingCooldownTime
+Integer	searchTime
+Integer	runThreshold
+Double	swingTime
+Array<Double>	repositionCooldownTimeRange

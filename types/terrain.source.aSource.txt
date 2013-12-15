@@ -1,0 +1,13 @@
+Integer	yYInfluence
+Integer	xAmp
+Integer	xOctaves
+Integer	yClampSmoothing
+Integer	yOctaves
+Double	xFreq
+String	type
+String	xType
+Array<Integer>	yClamp
+Integer	yAmp
+String	yType
+LinkedHashMap	source
+Double	yFreq

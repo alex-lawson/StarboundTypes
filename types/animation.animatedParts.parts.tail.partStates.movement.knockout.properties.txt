@@ -1,0 +1,3 @@
+Array<Double>	offset
+Array<Integer>	offset
+String	image

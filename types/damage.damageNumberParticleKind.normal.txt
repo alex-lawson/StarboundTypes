@@ -1,0 +1,2 @@
+String	kill
+String	hit

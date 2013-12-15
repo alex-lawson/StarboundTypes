@@ -1,0 +1,5 @@
+Array<ArrayList>	poly
+String	damageSourceKind
+String	damageType
+Integer	damage
+Array<LinkedHashMap>	statusEffects

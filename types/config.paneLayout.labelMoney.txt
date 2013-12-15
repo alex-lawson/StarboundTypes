@@ -1,0 +1,5 @@
+String	value
+String	type
+Array<Integer>	position
+Array<Integer>	color
+Integer	fontSize

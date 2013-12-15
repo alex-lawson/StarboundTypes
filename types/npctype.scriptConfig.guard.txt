@@ -1,0 +1,13 @@
+Array<Integer>	changeDirectionTimeRange
+Integer	hailPercent
+Integer	patrolDistance
+Integer	noticeDistance
+Integer	stopDistance
+Integer	attackDistance
+Integer	attackSayingPercent
+Integer	loseSightTime
+LinkedHashMap	dialog
+Integer	hailDistance
+Array<Integer>	timeRange
+Integer	wallCheckDistance
+Integer	loseSightDistance

@@ -1,0 +1,12 @@
+LinkedHashMap	charge
+LinkedHashMap	walk
+LinkedHashMap	aggro
+LinkedHashMap	spin
+LinkedHashMap	knockback
+LinkedHashMap	run
+LinkedHashMap	aim
+LinkedHashMap	knockout
+LinkedHashMap	jump
+LinkedHashMap	chargeWindup
+LinkedHashMap	idle
+LinkedHashMap	invisible

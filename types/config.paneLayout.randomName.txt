@@ -1,0 +1,4 @@
+String	base
+String	type
+Array<Integer>	position
+String	hover

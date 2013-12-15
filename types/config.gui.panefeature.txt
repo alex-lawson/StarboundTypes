@@ -1,0 +1,4 @@
+String	anchor
+Boolean	persistent
+String	type
+Boolean	keyDismissable

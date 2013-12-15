@@ -1,0 +1,4 @@
+Double	cycle
+String	mode
+LinkedHashMap	frameProperties
+Integer	frames

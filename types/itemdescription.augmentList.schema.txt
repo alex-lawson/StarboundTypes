@@ -1,0 +1,3 @@
+Array<Integer>	memberSize
+Array<Integer>	spacing
+LinkedHashMap	listTemplate

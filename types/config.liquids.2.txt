@@ -1,0 +1,13 @@
+String	breathable
+Array<Integer>	bottomLightMix
+Boolean	endless
+Integer	bottomLightMultiplier
+Boolean	connectedOnly
+Integer	flowAs
+Integer	textureMovementFactor
+Array<Integer>	color
+Double	drawMinimum
+String	name
+Double	blockGenerationChance
+Array<String>	blockOptions
+String	texture

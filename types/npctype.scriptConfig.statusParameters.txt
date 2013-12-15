@@ -1,0 +1,6 @@
+String	bodyMaterialKind
+String	damageConfig
+Integer	baseMaxEnergy
+Double	energyReplenishmentRate
+Integer	invulnerabilityTime
+Integer	baseMaxHealth

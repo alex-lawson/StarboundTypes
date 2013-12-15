@@ -1,0 +1,16 @@
+LinkedHashMap	damage
+LinkedHashMap	levelUp
+LinkedHashMap	dashParticles
+LinkedHashMap	mechActivateParticles
+LinkedHashMap	mechDeactivateParticles
+LinkedHashMap	jetpackParticles
+LinkedHashMap	deathPoof
+LinkedHashMap	multiJumpParticles
+LinkedHashMap	morphballActivateParticles
+LinkedHashMap	boostParticles
+LinkedHashMap	miniboss
+LinkedHashMap	captured
+LinkedHashMap	teleport
+LinkedHashMap	jumpParticles
+LinkedHashMap	captureParticles
+LinkedHashMap	morphballDeactivateParticles

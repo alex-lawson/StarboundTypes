@@ -1,0 +1,5 @@
+Array<LinkedHashMap>	sources
+LinkedHashMap	aSource
+String	type
+LinkedHashMap	bSource
+LinkedHashMap	mixSource

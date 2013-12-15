@@ -1,0 +1,6 @@
+Double	searchDistance
+Array<ArrayList>	timeOfDayRanges
+Array<Double>	timeRange
+Double	toolRange
+Array<ArrayList>	tools
+Double	cooldown

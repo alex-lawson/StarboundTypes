@@ -1,0 +1,5 @@
+Array<ArrayList>	initialParticles
+Array<ArrayList>	finalParticles
+Boolean	loops
+Array<ArrayList>	particles
+Double	duration

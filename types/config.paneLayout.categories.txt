@@ -1,0 +1,4 @@
+Array	buttons
+Boolean	toggleMode
+String	type
+Array<LinkedHashMap>	buttons

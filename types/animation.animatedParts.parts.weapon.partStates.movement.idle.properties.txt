@@ -1,0 +1,2 @@
+Array<Double>	offset
+String	image

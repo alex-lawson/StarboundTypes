@@ -1,0 +1,4 @@
+String	whisper
+String	broadcast
+String	channel
+String	commandResult

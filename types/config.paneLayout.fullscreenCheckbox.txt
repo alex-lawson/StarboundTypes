@@ -1,0 +1,5 @@
+String	baseImageChecked
+Boolean	checkable
+String	base
+String	type
+Array<Integer>	position

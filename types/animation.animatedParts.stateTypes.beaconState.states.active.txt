@@ -1,0 +1,3 @@
+Double	cycle
+String	mode
+Integer	frames

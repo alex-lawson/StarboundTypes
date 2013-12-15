@@ -1,0 +1,16 @@
+Double	portraitScale
+String	backingImage
+Array<Integer>	noPlayerTextColor
+String	noPlayerHover
+String	createText
+Array<Integer>	portraitOffset
+String	switchText
+String	playerHover
+Array<Integer>	textColor
+String	modeText
+Array<Integer>	playerNameOffset
+Array<Integer>	textColorDisabled
+Array<Integer>	modeNameOffset
+String	noPlayer
+Array<Integer>	modeOffset
+String	noPlayerText

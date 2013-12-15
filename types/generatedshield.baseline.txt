@@ -1,0 +1,6 @@
+Array<ArrayList>	shieldPoly
+String	knockbackDamageKind
+Array<ArrayList>	damagePoly
+Double	recoil
+Integer	knockbackPower
+Array<LinkedHashMap>	statusEffects

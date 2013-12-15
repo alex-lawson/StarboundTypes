@@ -1,0 +1,2 @@
+Integer	zLevel
+Boolean	centered

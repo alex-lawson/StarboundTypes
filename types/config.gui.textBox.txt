@@ -1,0 +1,4 @@
+String	type
+Array<Integer>	position
+Integer	maxWidth
+String	color

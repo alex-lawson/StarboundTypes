@@ -1,0 +1,14 @@
+Array<String>	apex
+LinkedHashMap	human
+LinkedHashMap	floran
+Array<String>	default
+Array<String>	avian
+LinkedHashMap	attack
+LinkedHashMap	apex
+Array<String>	glitch
+Array<String>	human
+LinkedHashMap	avian
+LinkedHashMap	hylotl
+Array<String>	hylotl
+LinkedHashMap	glitch
+Array<String>	floran

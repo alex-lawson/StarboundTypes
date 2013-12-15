@@ -1,0 +1,3 @@
+Boolean	centered
+Integer	zLevel
+String	rotationGroup

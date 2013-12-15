@@ -1,0 +1,14 @@
+Array<Double>	projectileSourcePosition
+Array<String>	attackNoise
+Array<String>	turnHostileNoise
+Array<String>	deathNoise
+Double	walkMultiplier
+Double	runMultiplier
+Array<Double>	gunBarrelOffset
+Array<String>	painNoise
+Double	jumpMultiplier
+Array<Double>	gunBaseOffset
+Array<String>	skills
+String	projectileType
+Array<Integer>	projectileSourcePosition
+Array<String>	idleNoise

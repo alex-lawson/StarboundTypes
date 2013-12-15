@@ -1,0 +1,6 @@
+String	direction
+LinkedHashMap	progressSet
+String	type
+Array<Integer>	position
+String	background
+Integer	zlevel

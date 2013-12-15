@@ -1,0 +1,4 @@
+Array<Double>	initialVelocity
+Array<Double>	finalVelocity
+Array<Integer>	initialVelocity
+Array<Integer>	position

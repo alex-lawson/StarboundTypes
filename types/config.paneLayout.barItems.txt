@@ -1,0 +1,10 @@
+Boolean	showDurability
+String	backingImage
+Array<Integer>	rowSpacing
+String	type
+Array<Integer>	position
+Array<Integer>	dimensions
+Integer	zlevel
+Boolean	showBackingImageWhenFull
+Boolean	showBackingImageWhenEmpty
+Array<Integer>	columnSpacing

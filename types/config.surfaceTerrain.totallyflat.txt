@@ -1,0 +1,5 @@
+String	oreSelector
+String	subBlockSelector
+String	surfaceSelector
+String	bgCaveSelector
+String	caveSelector

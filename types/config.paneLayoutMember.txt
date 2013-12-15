@@ -1,0 +1,5 @@
+LinkedHashMap	windowtitle
+LinkedHashMap	panefeature
+LinkedHashMap	name
+LinkedHashMap	beamToShip
+LinkedHashMap	background

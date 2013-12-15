@@ -1,0 +1,3 @@
+Double	timeToLive
+Integer	power
+Integer	speed

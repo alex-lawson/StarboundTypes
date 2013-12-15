@@ -1,0 +1,6 @@
+String	textAlign
+String	type
+String	regex
+Array<Integer>	position
+Integer	maxWidth
+String	hint

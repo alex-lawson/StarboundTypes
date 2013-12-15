@@ -1,0 +1,3 @@
+Integer	zLevel
+Array<Double>	rotationCenter
+String	rotationGroup

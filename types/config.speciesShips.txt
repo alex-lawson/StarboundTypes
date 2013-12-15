@@ -1,0 +1,6 @@
+String	floran
+String	apex
+String	avian
+String	human
+String	hylotl
+String	glitch

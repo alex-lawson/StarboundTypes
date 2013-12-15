@@ -1,0 +1,6 @@
+String	base
+String	press
+String	type
+Array<Integer>	position
+String	hover
+String	caption

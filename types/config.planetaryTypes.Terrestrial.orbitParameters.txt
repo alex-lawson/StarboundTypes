@@ -1,0 +1,3 @@
+Array<LinkedHashMap>	Hot
+Array<LinkedHashMap>	Cold
+Array<LinkedHashMap>	Mild

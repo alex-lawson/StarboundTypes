@@ -1,0 +1,4 @@
+String	rightClickCallback
+String	type
+Array<Integer>	position
+Integer	zlevel

@@ -1,0 +1,7 @@
+Double	twinkleMin
+Array<String>	hyperlist
+Integer	cellSize
+Double	twinkleMax
+Integer	frames
+Array<String>	list
+Array<Integer>	cellCount

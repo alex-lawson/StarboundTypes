@@ -1,0 +1,8 @@
+Array<ArrayList>	sounds
+LinkedHashMap	start
+String	location
+LinkedHashMap	stop
+Integer	duration
+Boolean	loops
+Array<ArrayList>	particles
+Double	duration

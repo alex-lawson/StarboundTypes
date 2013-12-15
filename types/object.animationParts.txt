@@ -1,0 +1,8 @@
+String	bracket
+String	beam
+String	gun
+String	switch
+String	beacon
+String	camera
+String	tis1
+String	door

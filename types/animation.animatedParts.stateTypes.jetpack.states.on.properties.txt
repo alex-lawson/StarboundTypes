@@ -1,0 +1,2 @@
+String	persistentSound
+Array<String>	particleEmittersOn

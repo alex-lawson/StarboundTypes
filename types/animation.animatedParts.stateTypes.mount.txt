@@ -1,0 +1,3 @@
+LinkedHashMap	states
+String	default
+Integer	priority

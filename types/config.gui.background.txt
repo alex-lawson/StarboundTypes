@@ -1,0 +1,4 @@
+String	fileHeader
+String	type
+String	fileFooter
+String	fileBody

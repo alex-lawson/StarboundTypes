@@ -1,0 +1,7 @@
+Array<Double>	initialVelocity
+Array<Double>	finalVelocity
+String	size
+Array<Integer>	initialVelocity
+Array<Integer>	position
+Array<Integer>	color
+Array<Integer>	finalVelocity

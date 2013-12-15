@@ -1,0 +1,8 @@
+Double	airFriction
+Array<ArrayList>	collisionPoly
+Integer	maximumCorrection
+Double	bounceFactor
+Double	liquidFriction
+Boolean	ignorePlatformCollision
+Double	maxMovementPerStep
+Double	gravityMultiplier

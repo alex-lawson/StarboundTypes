@@ -1,0 +1,3 @@
+Double	emissionRate
+Array<LinkedHashMap>	particles
+Array	particles

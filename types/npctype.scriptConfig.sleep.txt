@@ -1,0 +1,5 @@
+Double	moveToBedTimeLimit
+Integer	cooldown
+Array<ArrayList>	timeOfDayRanges
+Integer	lieDownRadius
+Integer	searchRadius

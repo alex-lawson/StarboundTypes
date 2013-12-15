@@ -1,0 +1,3 @@
+Integer	temperatureVariability
+Array<Integer>	temperatureBounds
+Integer	dayNightTemperatureVariability

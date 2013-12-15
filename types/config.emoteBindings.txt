@@ -1,0 +1,8 @@
+Array<String>	happy
+Array<String>	angry
+Array<String>	wink
+Array<String>	neutral
+Array<String>	laugh
+Array<String>	oh
+Array<String>	sad
+Array<String>	oooh

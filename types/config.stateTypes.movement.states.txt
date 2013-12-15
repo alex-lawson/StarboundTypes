@@ -1,0 +1,10 @@
+LinkedHashMap	cleaningbotSpawn
+LinkedHashMap	repairbotSpawn
+LinkedHashMap	resetStart
+LinkedHashMap	serpentdroidSpawn
+LinkedHashMap	idleOpen
+LinkedHashMap	spawn
+LinkedHashMap	close
+LinkedHashMap	idle
+LinkedHashMap	reset
+LinkedHashMap	resetEnd

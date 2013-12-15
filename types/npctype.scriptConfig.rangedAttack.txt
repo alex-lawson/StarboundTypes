@@ -1,0 +1,9 @@
+Integer	searchTime
+Double	attackerSpacing
+Integer	maxDistance
+Double	coverYOffset
+Double	coverYClearanceOffset
+Integer	minDistance
+Array<Double>	coverHideTimeRange
+Array<Double>	coverFireTimeRange
+Double	coverDistance

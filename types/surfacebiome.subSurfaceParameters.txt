@@ -1,0 +1,5 @@
+String	mainBlock
+String	ores
+Array<String>	subBlocks
+LinkedHashMap	undergroundPlaceables
+LinkedHashMap	statusParameters

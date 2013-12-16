@@ -19,7 +19,7 @@
 	"tileDamageBlunted" : "Double",
 	"shortdescription" : "String",
 	"animationCycle" : "Double",
-	"durabilityRegenChart" : "Array<ArrayList>",
+	"durabilityRegenChart" : "Array<Array<Array<String>>>",
 	"altBlockRadius" : "Integer",
 	"durabilityPerUse" : "Integer",
 	"fireTime" : "Double",

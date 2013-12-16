@@ -8,7 +8,7 @@
 		}
 	}
 	"undergroundPlaceables" : {
-		"items" : "Array<LinkedHashMap>"
+		"items" : "Array<Object>"
 	}
 	"ores" : "String",
 	"mainBlock" : "String",

@@ -2,5 +2,5 @@
 	"ceiling" : "Boolean",
 	"name" : "String",
 	"mods" : "Array<String>",
-	"shapes" : "Array<LinkedHashMap>"
+	"shapes" : "Array<Object>"
 }

@@ -3,11 +3,11 @@
 	"interval" : "Double",
 	"percentage" : "Boolean",
 	"suppressTooltip" : "Boolean",
-	"primitives" : "Array<LinkedHashMap>",
+	"primitives" : "Array<Object>",
 	"tooltipLabel" : "String",
 	"kind" : "String",
 	"tick" : {
-		"statusEffects" : "Array<LinkedHashMap>"
+		"statusEffects" : "Array<Object>"
 	}
 	"damageKind" : "String",
 	"initialTick" : "Boolean",

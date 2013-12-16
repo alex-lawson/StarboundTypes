@@ -3,13 +3,13 @@
 	"scriptDelta" : "Integer",
 	"scriptConfig" : {
 		"wander" : {
-			"chairSensorRegion" : "Array<ArrayList>",
+			"chairSensorRegion" : "Array<Array<Integer>>",
 			"chatDistance" : "Integer",
 			"dropDownChance" : "Integer",
 			"timeRange" : "Array<Double>",
 			"moveToTargetTime" : "Double",
 			"indoorSearchRadius" : "Integer",
-			"indoorTimeOfDayRanges" : "Array<ArrayList>",
+			"indoorTimeOfDayRanges" : "Array<Array<Double>>",
 			"changeDirectionCooldown" : "Integer",
 			"indoorLookaheadDistance" : "Integer",
 			"cooldown" : "Integer",
@@ -18,7 +18,7 @@
 		"dropPools" : "Array<String>",
 		"idleTimeRange" : "Array<Double>",
 		"chat" : {
-			"conversations" : "Array<ArrayList>",
+			"conversations" : "Array<Array<Array<Integer>>>",
 			"cooldown" : "Integer",
 			"distanceRange" : "Array<Double>"
 		}
@@ -219,57 +219,57 @@
 		}
 		"trading" : {
 			"requiresBlueprint" : "Boolean",
-			"recipes" : "Array<LinkedHashMap>",
+			"recipes" : "Array<Object>",
 			"config" : "String",
 			"titleFromEntity" : "Boolean",
 			"filter" : "Array"
 		}
 		"work" : {
-			"tools" : "Array<ArrayList>",
+			"tools" : "Array<Array<String>>",
 			"timeRange" : "Array<Double>",
-			"timeOfDayRanges" : "Array<ArrayList>",
+			"timeOfDayRanges" : "Array<Array<Double>>",
 			"toolRange" : "Double",
 			"searchDistance" : "Double",
 			"cooldown" : "Double"
 		}
-		"gapFarSideSensors" : "Array<ArrayList>",
+		"gapFarSideSensors" : "Array<Array<Double>>",
 		"attackerLimit" : "Integer",
 		"merchant" : {
 			"waitTime" : "Integer",
 			"items" : {
-				"stimmerchant" : "Array<ArrayList>",
-				"test" : "Array<ArrayList>",
-				"humanarmorblueprints" : "Array<ArrayList>",
-				"avianingredients" : "Array<ArrayList>",
-				"floraningredients" : "Array<ArrayList>",
-				"apexweaponblueprints" : "Array<ArrayList>",
-				"avianclothes" : "Array<ArrayList>",
-				"hylotlingredients" : "Array<ArrayList>",
-				"chefmerchant" : "Array<ArrayList>",
-				"avianarmorblueprints" : "Array<ArrayList>",
-				"floranarmorblueprints" : "Array<ArrayList>",
-				"randomguns" : "Array<ArrayList>",
-				"wizardmerchant" : "Array<ArrayList>",
-				"glitchingredients" : "Array<ArrayList>",
-				"floranclothes" : "Array<ArrayList>",
-				"apexclothes" : "Array<ArrayList>",
-				"randomswords" : "Array<ArrayList>",
-				"doctormerchant" : "Array<ArrayList>",
-				"hylotlclothes" : "Array<ArrayList>",
-				"glitcharmorblueprints" : "Array<ArrayList>",
-				"musicalinstruments" : "Array<ArrayList>",
-				"humanweaponblueprints" : "Array<ArrayList>",
-				"glitchweaponblueprints" : "Array<ArrayList>",
-				"humanclothes" : "Array<ArrayList>",
-				"avianweaponblueprints" : "Array<ArrayList>",
-				"glitchclothes" : "Array<ArrayList>",
-				"hylotlweaponblueprints" : "Array<ArrayList>",
-				"toolmerchant" : "Array<ArrayList>",
-				"floranweaponblueprints" : "Array<ArrayList>",
-				"humaningredients" : "Array<ArrayList>",
-				"hylotlarmorblueprints" : "Array<ArrayList>",
-				"apexingredients" : "Array<ArrayList>",
-				"apexarmorblueprints" : "Array<ArrayList>"
+				"stimmerchant" : "Array<Array<Integer>>",
+				"test" : "Array<Array<Integer>>",
+				"humanarmorblueprints" : "Array<Array<Integer>>",
+				"avianingredients" : "Array<Array<Integer>>",
+				"floraningredients" : "Array<Array<Integer>>",
+				"apexweaponblueprints" : "Array<Array<Integer>>",
+				"avianclothes" : "Array<Array<Integer>>",
+				"hylotlingredients" : "Array<Array<Integer>>",
+				"chefmerchant" : "Array<Array<Integer>>",
+				"avianarmorblueprints" : "Array<Array<Integer>>",
+				"floranarmorblueprints" : "Array<Array<Integer>>",
+				"randomguns" : "Array<Array<Integer>>",
+				"wizardmerchant" : "Array<Array<Integer>>",
+				"glitchingredients" : "Array<Array<Integer>>",
+				"floranclothes" : "Array<Array<Integer>>",
+				"apexclothes" : "Array<Array<Integer>>",
+				"randomswords" : "Array<Array<Integer>>",
+				"doctormerchant" : "Array<Array<Integer>>",
+				"hylotlclothes" : "Array<Array<Integer>>",
+				"glitcharmorblueprints" : "Array<Array<Integer>>",
+				"musicalinstruments" : "Array<Array<Integer>>",
+				"humanweaponblueprints" : "Array<Array<Integer>>",
+				"glitchweaponblueprints" : "Array<Array<Integer>>",
+				"humanclothes" : "Array<Array<Integer>>",
+				"avianweaponblueprints" : "Array<Array<Integer>>",
+				"glitchclothes" : "Array<Array<Integer>>",
+				"hylotlweaponblueprints" : "Array<Array<Integer>>",
+				"toolmerchant" : "Array<Array<Integer>>",
+				"floranweaponblueprints" : "Array<Array<Integer>>",
+				"humaningredients" : "Array<Array<Integer>>",
+				"hylotlarmorblueprints" : "Array<Array<Integer>>",
+				"apexingredients" : "Array<Array<Integer>>",
+				"apexarmorblueprints" : "Array<Array<Integer>>"
 			}
 			"storeRadius" : "Integer",
 			"categories" : "Array<String>",
@@ -325,7 +325,7 @@
 			"priceVarianceRange" : "Array<Integer>"
 		}
 		"sleep" : {
-			"timeOfDayRanges" : "Array<ArrayList>",
+			"timeOfDayRanges" : "Array<Array<Array<Double>>>",
 			"lieDownRadius" : "Integer",
 			"moveToBedTimeLimit" : "Double",
 			"searchRadius" : "Integer",
@@ -341,14 +341,14 @@
 		}
 		"sit" : {
 			"timeRange" : "Array<Integer>",
-			"timeOfDayRanges" : "Array<ArrayList>",
+			"timeOfDayRanges" : "Array<Array<Double>>",
 			"sitRadius" : "Integer",
 			"searchRadius" : "Integer",
 			"cooldown" : "Integer",
 			"moveTimeLimit" : "Integer"
 		}
 		"attackerLimitCooldown" : "Integer",
-		"doorHitPoly" : "Array<ArrayList>",
+		"doorHitPoly" : "Array<Array<Integer>>",
 		"flee" : {
 			"stuckCooldown" : "Integer",
 			"stuckTime" : "Integer",
@@ -381,7 +381,7 @@
 			}
 		}
 		"items" : {
-			"glitch" : "Array<ArrayList>"
+			"glitch" : "Array<Array<Integer>>"
 		}
 		"hound" : {
 			"warningTime" : "Integer",
@@ -408,7 +408,7 @@
 						"default" : "Array<String>"
 					}
 				}
-				"warnings" : "Array<LinkedHashMap>"
+				"warnings" : "Array<Object>"
 			}
 		}
 		"returnToStore" : {
@@ -444,7 +444,7 @@
 				}
 			}
 		}
-		"gapSensor" : "Array<ArrayList>",
+		"gapSensor" : "Array<Array<Double>>",
 		"rangedAttack" : {
 			"maxDistance" : "Integer",
 			"minDistance" : "Integer",
@@ -482,7 +482,7 @@
 			"size" : "Double"
 		}
 	}
-	"inateStatusEffects" : "Array<LinkedHashMap>",
+	"inateStatusEffects" : "Array<Object>",
 	"statusParameters" : {
 		"bodyMaterialKind" : "String",
 		"baseMaxEnergy" : "Integer",
@@ -503,13 +503,13 @@
 	"damageTeam" : "Integer",
 	"baseType" : "String",
 	"items" : {
-		"glitch" : "Array<ArrayList>",
-		"default" : "Array<ArrayList>",
-		"apex" : "Array<ArrayList>",
-		"avian" : "Array<ArrayList>",
-		"hylotl" : "Array<ArrayList>",
-		"floran" : "Array<ArrayList>",
-		"human" : "Array<ArrayList>"
+		"glitch" : "Array<Array<Integer>>",
+		"default" : "Array<Array<Integer>>",
+		"apex" : "Array<Array<Integer>>",
+		"avian" : "Array<Array<Integer>>",
+		"hylotl" : "Array<Array<Integer>>",
+		"floran" : "Array<Array<Integer>>",
+		"human" : "Array<Array<Integer>>"
 	}
 	"movementControllerSettings" : {
 		"runSpeed" : "Integer",
@@ -519,8 +519,8 @@
 			"jumpSpeed" : "Double"
 		}
 		"jumpSpeed" : "Double",
-		"crouchingPoly" : "Array<ArrayList>",
-		"standingPoly" : "Array<ArrayList>",
+		"crouchingPoly" : "Array<Array<Double>>",
+		"standingPoly" : "Array<Array<Double>>",
 		"walkSpeed" : "Integer"
 	}
 }

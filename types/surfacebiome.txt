@@ -11,7 +11,7 @@
 			}
 		}
 		"undergroundPlaceables" : {
-			"items" : "Array<LinkedHashMap>",
+			"items" : "Array<Object>",
 			"grassModDensity" : "Double",
 			"grassMod" : "Array<String>"
 		}
@@ -32,13 +32,13 @@
 			"dayNightTemperatureVariability" : "Integer"
 		}
 		"surfacePlaceables" : {
-			"items" : "Array<LinkedHashMap>",
+			"items" : "Array<Object>",
 			"grassModDensity" : "Double",
 			"modDensity" : "Double",
 			"grassMod" : "Array<String>"
 		}
 		"mainBlock" : "String",
-		"weather" : "Array<LinkedHashMap>",
+		"weather" : "Array<Object>",
 		"undergroundAmbientNoises" : {
 			"night" : {
 				"tracks" : "Array<String>"
@@ -58,12 +58,12 @@
 		"subBlocks" : "Array<String>"
 	}
 	"name" : "String",
-	"skyOptions" : "Array<LinkedHashMap>",
+	"skyOptions" : "Array<Object>",
 	"allowedDetachedBiomes" : "Array<String>",
 	"hueShiftOptions" : "Array<Integer>",
 	"subSurfaceParameters" : {
 		"undergroundPlaceables" : {
-			"items" : "Array<LinkedHashMap>",
+			"items" : "Array<Object>",
 			"grassModDensity" : "Double",
 			"grassMod" : "Array<String>"
 		}

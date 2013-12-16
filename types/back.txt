@@ -1,14 +1,14 @@
 {
 	"dropCollision" : "Array<Double>",
 	"itemName" : "String",
-	"statusEffects" : "Array<LinkedHashMap>",
+	"statusEffects" : "Array<Object>",
 	"description" : "String",
 	"rarity" : "String",
 	"inventoryIcon" : "String",
 	"effectSources" : "Array<String>",
 	"femaleFrames" : "String",
-	"augments" : "Array<LinkedHashMap>",
+	"augments" : "Array<Object>",
 	"shortdescription" : "String",
-	"colorOptions" : "Array<LinkedHashMap>",
+	"colorOptions" : "Array<Object>",
 	"maleFrames" : "String"
 }

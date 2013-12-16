@@ -1,18 +1,18 @@
 {
 	"definition" : {
 		"stop" : {
-			"particles" : "Array<ArrayList>",
-			"sounds" : "Array<ArrayList>"
+			"particles" : "Array<Array>",
+			"sounds" : "Array<Array>"
 		}
 		"loops" : "Boolean",
 		"duration" : "Double",
 		"start" : {
-			"particles" : "Array<ArrayList>",
-			"sounds" : "Array<ArrayList>"
+			"particles" : "Array<Array>",
+			"sounds" : "Array<Array>"
 		}
 		"location" : "String",
-		"particles" : "Array<ArrayList>",
-		"sounds" : "Array<ArrayList>"
+		"particles" : "Array<Array<String>>",
+		"sounds" : "Array<Array>"
 	}
 	"location" : "String",
 	"kind" : "String"

@@ -1,6 +1,6 @@
 {
 	"maxStack" : "Integer",
-	"palette" : "Array<LinkedHashMap>",
+	"palette" : "Array<Object>",
 	"rarity" : "String",
 	"muzzleFlashes" : "Array<String>",
 	"inspectionKind" : "String",

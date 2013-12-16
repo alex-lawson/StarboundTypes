@@ -1,5 +1,5 @@
 {
-	"layers" : "Array<LinkedHashMap>",
+	"layers" : "Array<Object>",
 	"settings" : {
 		"verticalOrigin" : "Integer",
 		"definitions" : {

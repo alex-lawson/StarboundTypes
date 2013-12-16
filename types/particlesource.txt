@@ -2,9 +2,9 @@
 	"definition" : {
 		"loops" : "Boolean",
 		"duration" : "Double",
-		"initialParticles" : "Array<ArrayList>",
-		"particles" : "Array<ArrayList>",
-		"finalParticles" : "Array<ArrayList>"
+		"initialParticles" : "Array<Array<String>>",
+		"particles" : "Array<Array<String>>",
+		"finalParticles" : "Array<Array<String>>"
 	}
 	"kind" : "String"
 }

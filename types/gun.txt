@@ -2,7 +2,7 @@
 	"imageFrameSelector" : "String",
 	"muzzleEffect" : {
 		"animation" : "String",
-		"fireSound" : "Array<LinkedHashMap>"
+		"fireSound" : "Array<Object>"
 	}
 	"dropCollision" : "Array<Double>",
 	"itemName" : "String",

@@ -1,4 +1,4 @@
 {
-	"audio" : "Array<LinkedHashMap>",
-	"panels" : "Array<LinkedHashMap>"
+	"audio" : "Array<Object>",
+	"panels" : "Array<Object>"
 }

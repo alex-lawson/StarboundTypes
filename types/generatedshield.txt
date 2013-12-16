@@ -1,15 +1,15 @@
 {
 	"description" : "String",
 	"name" : "String",
-	"palette" : "Array<LinkedHashMap>",
+	"palette" : "Array<Object>",
 	"rarity" : "String",
 	"baseline" : {
-		"statusEffects" : "Array<LinkedHashMap>",
-		"shieldPoly" : "Array<ArrayList>",
+		"statusEffects" : "Array<Object>",
+		"shieldPoly" : "Array<Array<Integer>>",
 		"knockbackDamageKind" : "String",
 		"recoil" : "Double",
 		"knockbackPower" : "Integer",
-		"damagePoly" : "Array<ArrayList>"
+		"damagePoly" : "Array<Array<Integer>>"
 	}
 	"hitSound" : "String",
 	"nameGenerator" : "String",

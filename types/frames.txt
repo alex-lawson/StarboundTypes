@@ -1,6 +1,6 @@
 {
 	"frameGrid" : {
-		"names" : "Array<ArrayList>",
+		"names" : "Array<Array<String>>",
 		"dimensions" : "Array<Integer>",
 		"size" : "Array<Integer>"
 	}

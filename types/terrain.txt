@@ -7,7 +7,7 @@
 	"yType" : "String",
 	"yBias" : "Double",
 	"type" : "String",
-	"sources" : "Array<LinkedHashMap>",
+	"sources" : "Array<Object>",
 	"yOctaves" : "Integer",
 	"xFreq" : "Double",
 	"source" : {
@@ -84,7 +84,7 @@
 			"yAmp" : "Integer",
 			"type" : "String"
 		}
-		"sources" : "Array<LinkedHashMap>"
+		"sources" : "Array<Object>"
 	}
 	"name" : "String",
 	"yYInfluence" : "Integer",

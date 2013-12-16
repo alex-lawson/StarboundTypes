@@ -3,7 +3,7 @@
 	"fireAfterWindup" : "Boolean",
 	"maxStack" : "Integer",
 	"rarity" : "String",
-	"palette" : "Array<LinkedHashMap>",
+	"palette" : "Array<Object>",
 	"muzzleFlashes" : "Array",
 	"inspectionKind" : "String",
 	"multiplier" : "Double",
@@ -25,7 +25,7 @@
 		}
 		"windup" : {
 			"duration" : "Double",
-			"statusEffects" : "Array<LinkedHashMap>",
+			"statusEffects" : "Array<Object>",
 			"armAngle" : "Integer",
 			"twoHanded" : "Boolean",
 			"swordAngle" : "Integer",
@@ -36,7 +36,7 @@
 		}
 		"cooldown" : {
 			"duration" : "Double",
-			"statusEffects" : "Array<LinkedHashMap>",
+			"statusEffects" : "Array<Object>",
 			"armAngle" : "Integer",
 			"twoHanded" : "Boolean",
 			"swordAngle" : "Integer",

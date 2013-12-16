@@ -1,7 +1,7 @@
 {
 	"maxStack" : "Integer",
 	"strikeSound" : "String",
-	"colorNumbers" : "Array<ArrayList>",
+	"colorNumbers" : "Array<Array<Integer>>",
 	"minBeamWidth" : "Integer",
 	"maxBeamWidth" : "Integer",
 	"minBeamTrans" : "Double",

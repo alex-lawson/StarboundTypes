@@ -127,25 +127,25 @@
 		}
 	}
 	"dropConfig" : {
-		"drops" : "Array<ArrayList>",
+		"drops" : "Array<Array<Object>>",
 		"particles" : {
 			"breakTree" : {
 				"density" : "Integer",
-				"options" : "Array<LinkedHashMap>"
+				"options" : "Array<Object>"
 			}
 			"hitGround" : {
 				"density" : "Integer",
-				"options" : "Array<LinkedHashMap>"
+				"options" : "Array<Object>"
 			}
 			"damageTree" : {
 				"density" : "Integer",
-				"options" : "Array<LinkedHashMap>"
+				"options" : "Array<Object>"
 			}
 		}
 		"sounds" : {
-			"breakTree" : "Array<LinkedHashMap>",
-			"hitGround" : "Array<LinkedHashMap>",
-			"damageTree" : "Array<LinkedHashMap>"
+			"breakTree" : "Array<Object>",
+			"hitGround" : "Array<Object>",
+			"damageTree" : "Array<Object>"
 		}
 	}
 	"middleMinSize" : "Integer"

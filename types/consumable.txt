@@ -4,7 +4,7 @@
 	"description" : "String",
 	"inventoryIcon" : "String",
 	"rarity" : "String",
-	"effects" : "Array<ArrayList>",
+	"effects" : "Array<Array<Object>>",
 	"shortdescription" : "String",
 	"handPosition" : "Array<Integer>"
 }

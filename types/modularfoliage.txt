@@ -72,20 +72,20 @@
 		}
 	}
 	"dropConfig" : {
-		"drops" : "Array<ArrayList>",
+		"drops" : "Array<Array>",
 		"particles" : {
 			"breakTree" : {
 				"density" : "Integer",
-				"options" : "Array<LinkedHashMap>"
+				"options" : "Array<Object>"
 			}
 			"hitGround" : {
 				"density" : "Integer",
-				"options" : "Array<LinkedHashMap>"
+				"options" : "Array<Object>"
 			}
 		}
 		"sounds" : {
-			"breakTree" : "Array<LinkedHashMap>",
-			"hitGround" : "Array<LinkedHashMap>"
+			"breakTree" : "Array<Object>",
+			"hitGround" : "Array<Object>"
 		}
 	}
 	"trunkLeaves" : {

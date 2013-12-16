@@ -25,7 +25,7 @@
 		"airFriction" : "Double",
 		"bounceFactor" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"ignorePlatformCollision" : "Boolean",
 		"groundFriction" : "Double",
 		"liquidFriction" : "Double",
@@ -38,7 +38,7 @@
 		"airFriction" : "Double",
 		"bounceFactor" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"ignorePlatformCollision" : "Boolean",
 		"groundFriction" : "Double",
 		"liquidFriction" : "Double",
@@ -66,7 +66,7 @@
 			"sidewaysSpeedModifier" : "Double",
 			"bottomLightMix" : "Array<Integer>",
 			"downwardsSpeedModifier" : "Integer",
-			"ontouchStatusEffects" : "Array<LinkedHashMap>",
+			"ontouchStatusEffects" : "Array<Object>",
 			"drawMinimum" : "Double",
 			"bottomLightMultiplier" : "Integer",
 			"textureMovementFactor" : "Integer",
@@ -155,7 +155,7 @@
 			"sidewaysSpeedModifier" : "Double",
 			"bottomLightMix" : "Array<Integer>",
 			"downwardsSpeedModifier" : "Integer",
-			"ontouchStatusEffects" : "Array<LinkedHashMap>",
+			"ontouchStatusEffects" : "Array<Object>",
 			"drawMinimum" : "Double",
 			"bottomLightMultiplier" : "Integer",
 			"textureMovementFactor" : "Integer",
@@ -187,7 +187,7 @@
 			"blockGenerationChance" : "Double",
 			"name" : "String",
 			"bottomLightMix" : "Array<Integer>",
-			"ontouchStatusEffects" : "Array<LinkedHashMap>"
+			"ontouchStatusEffects" : "Array<Object>"
 		}
 	}
 	"splashConfig" : {
@@ -296,7 +296,7 @@
 	"planetaryTypes" : {
 		"GasGiant" : {
 			"satelliteProbability" : "Double",
-			"variationParameters" : "Array<LinkedHashMap>",
+			"variationParameters" : "Array<Object>",
 			"selectionWeight" : "Double",
 			"baseParameters" : {
 				"shadowNumber" : "Array<Integer>",
@@ -313,11 +313,11 @@
 		}
 		"Terrestrial" : {
 			"satelliteProbability" : "Double",
-			"variationParameters" : "Array<LinkedHashMap>",
+			"variationParameters" : "Array<Object>",
 			"orbitParameters" : {
-				"Cold" : "Array<LinkedHashMap>",
-				"Hot" : "Array<LinkedHashMap>",
-				"Mild" : "Array<LinkedHashMap>"
+				"Cold" : "Array<Object>",
+				"Hot" : "Array<Object>",
+				"Mild" : "Array<Object>"
 			}
 			"selectionWeight" : "Double",
 			"baseParameters" : {
@@ -337,7 +337,7 @@
 	"shadowEdge" : "Double",
 	"youAreHereIndicator" : "String",
 	"itemDraggableArea" : "Array<Integer>",
-	"systemSuffixNames" : "Array<ArrayList>",
+	"systemSuffixNames" : "Array<Array<Double>>",
 	"itemLineDraggableArea" : "Array<Integer>",
 	"indicatorPulseTime" : "Double",
 	"constellationLineColor" : "Array<Integer>",
@@ -373,7 +373,7 @@
 		"projectileType" : "String"
 	}
 	"systemProbability" : "Double",
-	"arrivalPath" : "Array<LinkedHashMap>",
+	"arrivalPath" : "Array<Object>",
 	"interpolationSettings" : {
 		"normal" : {
 			"stepLead" : "Integer",
@@ -453,7 +453,7 @@
 		"mass" : "Double",
 		"airFriction" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"ignorePlatformCollision" : "Boolean",
 		"liquidFriction" : "Double",
 		"groundFriction" : "Integer",
@@ -514,7 +514,7 @@
 		"airFriction" : "Double",
 		"bounceFactor" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"ignorePlatformCollision" : "Boolean",
 		"groundFriction" : "Double",
 		"liquidFriction" : "Double",
@@ -560,7 +560,7 @@
 		"projectileParams" : {
 			"speed" : "Integer",
 			"power" : "Integer",
-			"actionOnReap" : "Array<LinkedHashMap>"
+			"actionOnReap" : "Array<Object>"
 		}
 		"cooldown" : "Double",
 		"fireDt" : "Double",
@@ -568,19 +568,19 @@
 	}
 	"inventoryBar" : {
 		"craft" : {
-			"poly" : "Array<ArrayList>",
+			"poly" : "Array<Array<Integer>>",
 			"base" : "String",
 			"hover" : "String",
 			"pos" : "Array<Integer>"
 		}
 		"questLog" : {
-			"poly" : "Array<ArrayList>",
+			"poly" : "Array<Array<Integer>>",
 			"base" : "String",
 			"hover" : "String",
 			"pos" : "Array<Integer>"
 		}
 		"codex" : {
-			"poly" : "Array<ArrayList>",
+			"poly" : "Array<Array<Integer>>",
 			"base" : "String",
 			"hover" : "String",
 			"pos" : "Array<Integer>"
@@ -588,7 +588,7 @@
 		"bag" : {
 			"open" : "String",
 			"openHover" : "String",
-			"poly" : "Array<ArrayList>",
+			"poly" : "Array<Array<Integer>>",
 			"base" : "String",
 			"hover" : "String"
 		}
@@ -598,13 +598,13 @@
 			"pos" : "Array<Integer>"
 		}
 		"beam" : {
-			"poly" : "Array<ArrayList>",
+			"poly" : "Array<Array<Integer>>",
 			"base" : "Array<String>",
 			"hover" : "Array<String>",
 			"pos" : "Array<Integer>"
 		}
 		"inspect" : {
-			"poly" : "Array<ArrayList>",
+			"poly" : "Array<Array<Integer>>",
 			"base" : "String",
 			"hover" : "String",
 			"pos" : "Array<Integer>"
@@ -623,7 +623,7 @@
 	"indicatorPulseLevel" : "Double",
 	"cacheLimitEvery" : "Integer",
 	"maxBehindUpdates" : "Integer",
-	"names" : "Array<LinkedHashMap>",
+	"names" : "Array<Object>",
 	"shadowTopEdge" : "Double",
 	"chestArmorOffset" : "Array<Integer>",
 	"worldInfoFontSize" : "Integer",
@@ -680,11 +680,11 @@
 	}
 	"satelliteTypes" : {
 		"Terrestrial" : {
-			"variationParameters" : "Array<LinkedHashMap>",
+			"variationParameters" : "Array<Object>",
 			"orbitParameters" : {
-				"Cold" : "Array<LinkedHashMap>",
-				"Hot" : "Array<LinkedHashMap>",
-				"Mild" : "Array<LinkedHashMap>"
+				"Cold" : "Array<Object>",
+				"Hot" : "Array<Object>",
+				"Mild" : "Array<Object>"
 			}
 			"selectionWeight" : "Double",
 			"baseParameters" : {
@@ -724,7 +724,7 @@
 	"numPassiveFamilies" : "Integer",
 	"fallDamageFactor" : "Double",
 	"slaveUpdateSkip" : "Integer",
-	"namegen" : "Array<LinkedHashMap>",
+	"namegen" : "Array<Object>",
 	"liquidForce" : "Double",
 	"groundForce" : "Double",
 	"bubbles" : {
@@ -740,7 +740,7 @@
 	"gravitybullet" : {
 		"mass" : "Double",
 		"airFriction" : "Double",
-		"collisionBody" : "Array<ArrayList>",
+		"collisionBody" : "Array<Array<Double>>",
 		"bounceFactor" : "Double",
 		"gravityMultiplier" : "Double",
 		"ignorePlatformCollision" : "Boolean",
@@ -803,14 +803,14 @@
 		"offset" : "Array<Integer>"
 	}
 	"charGen" : {
-		"personalities" : "Array<ArrayList>"
+		"personalities" : "Array<Array<String>>"
 	}
 	"bouncer" : {
 		"mass" : "Double",
 		"airFriction" : "Double",
 		"bounceFactor" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"ignorePlatformCollision" : "Boolean",
 		"groundFriction" : "Double",
 		"liquidFriction" : "Double",
@@ -828,7 +828,7 @@
 		"airFriction" : "Double",
 		"bounceFactor" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"ignorePlatformCollision" : "Boolean",
 		"liquidFriction" : "Double",
 		"groundFriction" : "Integer",
@@ -846,7 +846,7 @@
 	"focusIndicatorCenter" : "String",
 	"slowdownTimer" : "Double",
 	"title.connectionString" : "String",
-	"sectorBackgroundLayers" : "Array<LinkedHashMap>",
+	"sectorBackgroundLayers" : "Array<Object>",
 	"teleportOutBeam" : "String",
 	"disabledButton" : "String",
 	"serverName" : "String",
@@ -869,7 +869,7 @@
 			"speed" : "Integer",
 			"power" : "Integer"
 		}
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"ignorePlatformCollision" : "Boolean",
 		"liquidFriction" : "Double",
 		"cooldown" : "Integer",
@@ -923,7 +923,7 @@
 	"flashTimer" : "Double",
 	"boomerang" : {
 		"airFriction" : "Integer",
-		"collisionBody" : "Array<ArrayList>",
+		"collisionBody" : "Array<Array<Double>>",
 		"bounceFactor" : "Double",
 		"gravityMultiplier" : "Double",
 		"fireTime" : "Double",
@@ -948,7 +948,7 @@
 		"projectileParams" : {
 			"speed" : "Integer",
 			"power" : "Integer",
-			"actionOnReap" : "Array<LinkedHashMap>"
+			"actionOnReap" : "Array<Object>"
 		}
 		"muzzleFlash" : {
 			"animation" : "String",
@@ -959,7 +959,7 @@
 		"projectileType" : "String"
 	}
 	"minimumInspectionLight" : "Double",
-	"undergroundLayers" : "Array<LinkedHashMap>",
+	"undergroundLayers" : "Array<Object>",
 	"maxAge" : "Integer",
 	"skyLevelExponent" : "Double",
 	"portraitScale" : "Double",
@@ -969,7 +969,7 @@
 		"airFriction" : "Double",
 		"stickyForce" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"stickyCollision" : "Boolean",
 		"ignorePlatformCollision" : "Boolean",
 		"groundFriction" : "Double",
@@ -1138,8 +1138,8 @@
 		"projectileType" : "String"
 	}
 	"missingAssetsAudio" : "String",
-	"sectors" : "Array<LinkedHashMap>",
-	"healthResponses" : "Array<LinkedHashMap>",
+	"sectors" : "Array<Object>",
+	"healthResponses" : "Array<Object>",
 	"spinner" : {
 		"rightBase" : "String",
 		"rightHover" : "String",
@@ -1302,7 +1302,7 @@
 			"baseImageChecked" : "String",
 			"hoverImageChecked" : "String",
 			"hoverImage" : "String",
-			"buttons" : "Array<LinkedHashMap>",
+			"buttons" : "Array<Object>",
 			"type" : "String",
 			"baseImage" : "String",
 			"zlevel" : "Integer"
@@ -1330,7 +1330,7 @@
 		"airFriction" : "Double",
 		"bounceFactor" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"ignorePlatformCollision" : "Boolean",
 		"groundFriction" : "Double",
 		"liquidFriction" : "Double",
@@ -1399,7 +1399,7 @@
 	}
 	"nametagColor" : "String",
 	"xySearchCoordRange" : "Array<Integer>",
-	"swaps" : "Array<LinkedHashMap>",
+	"swaps" : "Array<Object>",
 	"surfaceTries" : "Integer",
 	"flyMaxVelocity" : "Integer",
 	"teleportVolume" : "Integer",
@@ -1423,14 +1423,14 @@
 		"airFriction" : "Double",
 		"stickyForce" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"stickyCollision" : "Boolean",
 		"ignorePlatformCollision" : "Boolean",
 		"groundFriction" : "Double",
 		"liquidFriction" : "Double",
 		"maxMovementPerStep" : "Double"
 	}
-	"list" : "Array<LinkedHashMap>",
+	"list" : "Array<Object>",
 	"colorMultiplier" : "Double",
 	"clusterSize" : "Array<Integer>",
 	"starmapScreenScale" : "Double",
@@ -1440,13 +1440,13 @@
 		"stateFrames" : "Array<Integer>",
 		"stateCycle" : "Array<Double>"
 	}
-	"planetaryOrbitPositions" : "Array<ArrayList>",
+	"planetaryOrbitPositions" : "Array<Array<Integer>>",
 	"floatystickybomb" : {
 		"mass" : "Double",
 		"airFriction" : "Double",
 		"stickyForce" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"stickyCollision" : "Boolean",
 		"ignorePlatformCollision" : "Boolean",
 		"groundFriction" : "Double",
@@ -1482,17 +1482,17 @@
 	"colorMapPixellation" : "Double",
 	"mouseoverOffset" : "Array<Integer>",
 	"defaultBlueprints" : {
-		"level37" : "Array<LinkedHashMap>",
-		"tier1" : "Array<LinkedHashMap>",
-		"portable3dprinter" : "Array<LinkedHashMap>",
-		"level32" : "Array<LinkedHashMap>",
-		"level34" : "Array<LinkedHashMap>",
-		"tier2" : "Array<LinkedHashMap>",
-		"level33" : "Array<LinkedHashMap>",
-		"tier3" : "Array<LinkedHashMap>",
-		"level36" : "Array<LinkedHashMap>",
-		"tier4" : "Array<LinkedHashMap>",
-		"level35" : "Array<LinkedHashMap>"
+		"level37" : "Array<Object>",
+		"tier1" : "Array<Object>",
+		"portable3dprinter" : "Array<Object>",
+		"level32" : "Array<Object>",
+		"level34" : "Array<Object>",
+		"tier2" : "Array<Object>",
+		"level33" : "Array<Object>",
+		"tier3" : "Array<Object>",
+		"level36" : "Array<Object>",
+		"tier4" : "Array<Object>",
+		"level35" : "Array<Object>"
 	}
 	"bareHandsCrafting" : {
 		"filter" : "Array<String>"
@@ -1503,13 +1503,13 @@
 		"airFriction" : "Double",
 		"bounceFactor" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"ignorePlatformCollision" : "Boolean",
 		"groundFriction" : "Double",
 		"liquidFriction" : "Double",
 		"maxMovementPerStep" : "Double"
 	}
-	"systemNames" : "Array<ArrayList>",
+	"systemNames" : "Array<Array<Double>>",
 	"clusterCloseRect" : "Array<Integer>",
 	"storageTriggerInterval" : "Integer",
 	"itemIconDurabilityOffset" : "Array<Integer>",
@@ -1566,7 +1566,7 @@
 		"airFriction" : "Double",
 		"bounceFactor" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"ignorePlatformCollision" : "Boolean",
 		"groundFriction" : "Double",
 		"liquidFriction" : "Double",
@@ -1654,7 +1654,7 @@
 		"airFriction" : "Double",
 		"bounceFactor" : "Integer",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"ignorePlatformCollision" : "Boolean",
 		"liquidFriction" : "Double",
 		"groundSlideMovementEnabled" : "Boolean",
@@ -1753,7 +1753,7 @@
 		"fireDt" : "Double",
 		"projectileType" : "String"
 	}
-	"resolutionList" : "Array<ArrayList>",
+	"resolutionList" : "Array<Array<Integer>>",
 	"errorSound" : "String",
 	"trashBurnTimeout" : "Double",
 	"paneLayout" : {
@@ -1848,7 +1848,7 @@
 		}
 		"modeStack" : {
 			"position" : "Array<Integer>",
-			"stack" : "Array<LinkedHashMap>",
+			"stack" : "Array<Object>",
 			"type" : "String"
 		}
 		"lblProduct" : {
@@ -1906,7 +1906,7 @@
 		"gridModeSelector" : {
 			"position" : "Array<Integer>",
 			"baseImageChecked" : "String",
-			"buttons" : "Array<LinkedHashMap>",
+			"buttons" : "Array<Object>",
 			"type" : "String",
 			"baseImage" : "String"
 		}
@@ -2105,7 +2105,7 @@
 			"baseImageChecked" : "String",
 			"hoverImageChecked" : "String",
 			"hoverImage" : "String",
-			"buttons" : "Array<LinkedHashMap>",
+			"buttons" : "Array<Object>",
 			"type" : "String",
 			"baseImage" : "String"
 		}
@@ -2336,7 +2336,7 @@
 			"baseImageChecked" : "String",
 			"hoverImageChecked" : "String",
 			"hoverImage" : "String",
-			"buttons" : "Array<LinkedHashMap>",
+			"buttons" : "Array<Object>",
 			"type" : "String",
 			"baseImage" : "String"
 		}
@@ -2403,7 +2403,7 @@
 			"type" : "String"
 		}
 		"rarities" : {
-			"buttons" : "Array<LinkedHashMap>",
+			"buttons" : "Array<Object>",
 			"type" : "String",
 			"toggleMode" : "Boolean"
 		}
@@ -2429,7 +2429,7 @@
 			"escapeKey" : "String",
 			"enterKey" : "String",
 			"maxWidth" : "Integer",
-			"buttons" : "Array<LinkedHashMap>",
+			"buttons" : "Array<Object>",
 			"focus" : "Boolean",
 			"hint" : "String",
 			"type" : "String",
@@ -2851,7 +2851,7 @@
 			"type" : "String"
 		}
 		"categories" : {
-			"buttons" : "Array<LinkedHashMap>",
+			"buttons" : "Array<Object>",
 			"type" : "String",
 			"toggleMode" : "Boolean"
 		}
@@ -2940,7 +2940,7 @@
 		"projectileParams" : {
 			"speed" : "Integer",
 			"power" : "Integer",
-			"actionOnReap" : "Array<LinkedHashMap>"
+			"actionOnReap" : "Array<Object>"
 		}
 		"cooldown" : "Double",
 		"fireDt" : "Double",
@@ -2951,7 +2951,7 @@
 		"airFriction" : "Double",
 		"stickyForce" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"stickyCollision" : "Boolean",
 		"ignorePlatformCollision" : "Boolean",
 		"groundFriction" : "Double",
@@ -2978,7 +2978,7 @@
 		"airFriction" : "Double",
 		"bounceFactor" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"ignorePlatformCollision" : "Boolean",
 		"groundFriction" : "Double",
 		"liquidFriction" : "Double",
@@ -2992,7 +2992,7 @@
 		"airFriction" : "Double",
 		"stickyForce" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"stickyCollision" : "Boolean",
 		"ignorePlatformCollision" : "Boolean",
 		"groundFriction" : "Double",
@@ -3015,7 +3015,7 @@
 		"modulus" : "Integer"
 	}
 	"clearPlayerFiles" : "Boolean",
-	"energyResponses" : "Array<LinkedHashMap>",
+	"energyResponses" : "Array<Object>",
 	"reviveCost" : {
 		"absolute" : "Integer",
 		"percentile" : "Double"
@@ -3027,7 +3027,7 @@
 	"gravityEnabled" : "Boolean",
 	"ambulatingGroundFriction" : "Double",
 	"portraitPos" : "Array<Integer>",
-	"textLabels" : "Array<ArrayList>",
+	"textLabels" : "Array<Array<String>>",
 	"fireswirl" : {
 		"fireTime" : "Double",
 		"projectileParams" : {
@@ -3071,13 +3071,13 @@
 		"projectileParams" : {
 			"speed" : "Integer",
 			"power" : "Integer",
-			"actionOnReap" : "Array<LinkedHashMap>"
+			"actionOnReap" : "Array<Object>"
 		}
 		"cooldown" : "Double",
 		"fireDt" : "Double",
 		"projectileType" : "String"
 	}
-	"cursorTypes" : "Array<LinkedHashMap>",
+	"cursorTypes" : "Array<Object>",
 	"systemSelectDiameter" : "Integer",
 	"lightning" : {
 		"fireTime" : "Integer",
@@ -3096,9 +3096,9 @@
 	"systemTypes" : {
 		"RedDwarf" : {
 			"planetaryBodyProbability" : "Double",
-			"variationParameters" : "Array<LinkedHashMap>",
+			"variationParameters" : "Array<Object>",
 			"selectionWeight" : "Double",
-			"orbitRegions" : "Array<ArrayList>",
+			"orbitRegions" : "Array<Array<Array<Integer>>>",
 			"baseParameters" : {
 				"twinkleTime" : "Array<Double>",
 				"image" : "String"
@@ -3106,9 +3106,9 @@
 		}
 		"BlueGiant" : {
 			"planetaryBodyProbability" : "Double",
-			"variationParameters" : "Array<LinkedHashMap>",
+			"variationParameters" : "Array<Object>",
 			"selectionWeight" : "Double",
-			"orbitRegions" : "Array<ArrayList>",
+			"orbitRegions" : "Array<Array<Array<Integer>>>",
 			"baseParameters" : {
 				"twinkleTime" : "Array<Double>",
 				"image" : "String"
@@ -3116,9 +3116,9 @@
 		}
 		"RedGiant" : {
 			"planetaryBodyProbability" : "Double",
-			"variationParameters" : "Array<LinkedHashMap>",
+			"variationParameters" : "Array<Object>",
 			"selectionWeight" : "Double",
-			"orbitRegions" : "Array<ArrayList>",
+			"orbitRegions" : "Array<Array<Array<Integer>>>",
 			"baseParameters" : {
 				"twinkleTime" : "Array<Double>",
 				"image" : "String"
@@ -3126,9 +3126,9 @@
 		}
 		"YellowDwarf" : {
 			"planetaryBodyProbability" : "Double",
-			"variationParameters" : "Array<LinkedHashMap>",
+			"variationParameters" : "Array<Object>",
 			"selectionWeight" : "Double",
-			"orbitRegions" : "Array<ArrayList>",
+			"orbitRegions" : "Array<Array<Array<Integer>>>",
 			"baseParameters" : {
 				"twinkleTime" : "Array<Double>",
 				"image" : "String"
@@ -3141,7 +3141,7 @@
 		"airFriction" : "Double",
 		"bounceFactor" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"ignorePlatformCollision" : "Boolean",
 		"groundFriction" : "Double",
 		"liquidFriction" : "Double",
@@ -3154,7 +3154,7 @@
 	"slider" : {
 		"rightBase" : "String",
 		"rightHover" : "String",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"defaultPadding" : "Integer",
 		"ignorePlatformCollision" : "Boolean",
 		"liquidFriction" : "Double",
@@ -3312,7 +3312,7 @@
 		"numFields" : "Array<Integer>"
 	}
 	"stickyCollision" : "Boolean",
-	"collisionPoly" : "Array<ArrayList>",
+	"collisionPoly" : "Array<Array<Double>>",
 	"objectPreviewInnerAlpha" : "Double",
 	"systemNameFontSize" : "Integer",
 	"textboxCursorHorizontal" : "Array<Double>",
@@ -3328,7 +3328,7 @@
 	"defaultSurfaceTerrain" : "String",
 	"maxFood" : "Double",
 	"headDuckOffset" : "Array<Integer>",
-	"systemOrbitPositions" : "Array<ArrayList>",
+	"systemOrbitPositions" : "Array<Array<Integer>>",
 	"missingAssetsImage" : "String",
 	"scanFactor" : "Integer",
 	"underwaterSensor" : "Array<Double>",
@@ -3395,15 +3395,15 @@
 			"mass" : "Double",
 			"airFriction" : "Double",
 			"maximumCorrection" : "Integer",
-			"crouchingPoly" : "Array<ArrayList>",
-			"standingPoly" : "Array<ArrayList>",
+			"crouchingPoly" : "Array<Array<Double>>",
+			"standingPoly" : "Array<Array<Double>>",
 			"maxMovementPerStep" : "Double"
 		}
 	}
 	"homeIndicator" : "String",
 	"warmthPos" : "Array<Integer>",
 	"deathPoof" : {
-		"particles" : "Array<LinkedHashMap>"
+		"particles" : "Array<Object>"
 	}
 	"hoverIndicatorBR" : "String",
 	"crashexplosion" : {
@@ -3411,7 +3411,7 @@
 		"projectileParams" : {
 			"speed" : "Integer",
 			"power" : "Integer",
-			"actionOnReap" : "Array<LinkedHashMap>"
+			"actionOnReap" : "Array<Object>"
 		}
 		"cooldown" : "Double",
 		"fireDt" : "Double",
@@ -3622,7 +3622,7 @@
 		"airFriction" : "Double",
 		"bounceFactor" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"ignorePlatformCollision" : "Boolean",
 		"groundFriction" : "Double",
 		"liquidFriction" : "Double",
@@ -4220,8 +4220,8 @@
 	}
 	"radialSlots" : "Integer",
 	"kind" : "String",
-	"nameGen" : "Array<LinkedHashMap>",
-	"backdropImages" : "Array<ArrayList>",
+	"nameGen" : "Array<Object>",
+	"backdropImages" : "Array<Array<Array<Integer>>>",
 	"pollen" : {
 		"fireTime" : "Double",
 		"projectileParams" : {
@@ -4307,7 +4307,7 @@
 		"airFriction" : "Double",
 		"bounceFactor" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"ignorePlatformCollision" : "Boolean",
 		"groundFriction" : "Double",
 		"liquidFriction" : "Double",
@@ -4330,7 +4330,7 @@
 		"projectileParams" : {
 			"speed" : "Integer",
 			"power" : "Integer",
-			"actionOnReap" : "Array<LinkedHashMap>"
+			"actionOnReap" : "Array<Object>"
 		}
 		"cooldown" : "Double",
 		"fireDt" : "Double",
@@ -4344,7 +4344,7 @@
 		"projectileParams" : {
 			"speed" : "Integer",
 			"power" : "Integer",
-			"actionOnReap" : "Array<LinkedHashMap>"
+			"actionOnReap" : "Array<Object>"
 		}
 		"cooldown" : "Double",
 		"fireDt" : "Double",
@@ -4409,7 +4409,7 @@
 		"blockProbability" : "Double",
 		"type" : "String"
 	}
-	"mainMenuButtonsOffsets" : "Array<ArrayList>",
+	"mainMenuButtonsOffsets" : "Array<Array<Integer>>",
 	"clusterDespawnCheckCount" : "Integer",
 	"zoomLevel" : "Double",
 	"actionBarSelectOffset" : "Array<Integer>",
@@ -4417,7 +4417,7 @@
 	"previewGlowBorder" : "Integer",
 	"windowedResolution" : "Array<Integer>",
 	"head" : "String",
-	"parenting" : "Array<ArrayList>",
+	"parenting" : "Array<Array<String>>",
 	"purgeableCacheLimit" : "Integer",
 	"blockDamageParticleProbability" : "Double",
 	"tiyDistPlatform" : {
@@ -4459,7 +4459,7 @@
 		"airFriction" : "Double",
 		"bounceFactor" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"ignorePlatformCollision" : "Boolean",
 		"groundFriction" : "Double",
 		"liquidFriction" : "Double",
@@ -4473,7 +4473,7 @@
 		"maximumCorrection" : "Integer",
 		"bounceFactor" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"ignorePlatformCollision" : "Boolean",
 		"liquidFriction" : "Double",
 		"maxMovementPerStep" : "Double"
@@ -4497,7 +4497,7 @@
 		"stickyForce" : "Double",
 		"bounceFactor" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"stickyCollision" : "Boolean",
 		"ignorePlatformCollision" : "Boolean",
 		"liquidFriction" : "Double",
@@ -4609,7 +4609,7 @@
 		"projectileParams" : {
 			"speed" : "Integer",
 			"power" : "Integer",
-			"actionOnReap" : "Array<LinkedHashMap>"
+			"actionOnReap" : "Array<Object>"
 		}
 		"cooldown" : "Double",
 		"fireDt" : "Double",
@@ -4621,7 +4621,7 @@
 		"airFriction" : "Double",
 		"stickyForce" : "Double",
 		"gravityMultiplier" : "Double",
-		"collisionPoly" : "Array<ArrayList>",
+		"collisionPoly" : "Array<Array<Double>>",
 		"stickyCollision" : "Boolean",
 		"ignorePlatformCollision" : "Boolean",
 		"groundFriction" : "Double",
@@ -4718,7 +4718,7 @@
 		"projectileParams" : {
 			"speed" : "Integer",
 			"power" : "Integer",
-			"actionOnReap" : "Array<LinkedHashMap>"
+			"actionOnReap" : "Array<Object>"
 		}
 		"cooldown" : "Double",
 		"fireDt" : "Double",
@@ -4726,7 +4726,7 @@
 	}
 	"warmingIndicatorOffset" : "Array<Integer>",
 	"spawnRegion" : "Boolean",
-	"modeTypeTextAndColor" : "Array<ArrayList>",
+	"modeTypeTextAndColor" : "Array<Array<String>>",
 	"bodyMaterialKind" : "String",
 	"charPlate" : {
 		"portraitOffset" : "Array<Integer>",
@@ -4840,7 +4840,7 @@
 			"zlevel" : "Integer"
 		}
 	}
-	"disembarkPath" : "Array<LinkedHashMap>",
+	"disembarkPath" : "Array<Object>",
 	"ftlAnimation" : {
 		"speedUp" : "Array<Integer>",
 		"speedDownLoopTime" : "Double",

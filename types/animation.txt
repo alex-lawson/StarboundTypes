@@ -2,14 +2,14 @@
 	"loops" : "Double",
 	"particleEmitters" : {
 		"levelUp" : {
-			"particles" : "Array<LinkedHashMap>"
+			"particles" : "Array<Object>"
 		}
 		"mechDeactivateParticles" : {
 			"particles" : "Array"
 		}
 		"jumpParticles" : {
 			"emissionRate" : "Double",
-			"particles" : "Array<LinkedHashMap>"
+			"particles" : "Array<Object>"
 		}
 		"morphballActivateParticles" : {
 			"particles" : "Array"
@@ -20,43 +20,43 @@
 		}
 		"dashParticles" : {
 			"emissionRate" : "Double",
-			"particles" : "Array<LinkedHashMap>"
+			"particles" : "Array<Object>"
 		}
 		"damage" : {
 			"emissionRate" : "Double",
 			"particles" : "Array"
 		}
 		"captured" : {
-			"particles" : "Array<LinkedHashMap>"
+			"particles" : "Array<Object>"
 		}
 		"deathPoof" : {
-			"particles" : "Array<LinkedHashMap>"
+			"particles" : "Array<Object>"
 		}
 		"morphballDeactivateParticles" : {
 			"particles" : "Array"
 		}
 		"multiJumpParticles" : {
-			"particles" : "Array<LinkedHashMap>"
+			"particles" : "Array<Object>"
 		}
 		"captureParticles" : {
-			"particles" : "Array<LinkedHashMap>"
+			"particles" : "Array<Object>"
 		}
 		"jetpackParticles" : {
 			"emissionRate" : "Double",
-			"particles" : "Array<LinkedHashMap>"
+			"particles" : "Array<Object>"
 		}
 		"mechActivateParticles" : {
 			"particles" : "Array"
 		}
 		"teleport" : {
 			"emissionRate" : "Integer",
-			"particles" : "Array<LinkedHashMap>"
+			"particles" : "Array<Object>"
 		}
 		"miniboss" : {
 			"emissionRate" : "Integer",
 			"active" : "Boolean",
 			"emissionVariance" : "Double",
-			"particles" : "Array<LinkedHashMap>"
+			"particles" : "Array<Object>"
 		}
 	}
 	"animatedParts" : {
@@ -345,7 +345,7 @@
 					"backWalk" : {
 						"frameProperties" : {
 							"immediateSound" : "Array<String>",
-							"stateNudge" : "Array<ArrayList>"
+							"stateNudge" : "Array<Array<Integer>>"
 						}
 						"cycle" : "Double",
 						"frames" : "Integer",
@@ -358,7 +358,7 @@
 					}
 					"jump" : {
 						"frameProperties" : {
-							"stateNudge" : "Array<ArrayList>"
+							"stateNudge" : "Array<Array<Integer>>"
 						}
 						"cycle" : "Double",
 						"frames" : "Integer",
@@ -412,7 +412,7 @@
 					}
 					"fall" : {
 						"frameProperties" : {
-							"stateNudge" : "Array<ArrayList>"
+							"stateNudge" : "Array<Array<Integer>>"
 						}
 						"cycle" : "Double",
 						"frames" : "Integer",
@@ -454,7 +454,7 @@
 					"walk" : {
 						"frameProperties" : {
 							"immediateSound" : "Array<String>",
-							"stateNudge" : "Array<ArrayList>"
+							"stateNudge" : "Array<Array<Integer>>"
 						}
 						"cycle" : "Double",
 						"frames" : "Integer",
@@ -1213,7 +1213,7 @@
 						}
 						"move" : {
 							"frameProperties" : {
-								"offset" : "Array<ArrayList>"
+								"offset" : "Array<Array<Double>>"
 							}
 							"properties" : {
 								"image" : "String"
@@ -1671,7 +1671,7 @@
 						}
 						"fall" : {
 							"frameProperties" : {
-								"offset" : "Array<ArrayList>"
+								"offset" : "Array<Array<Integer>>"
 							}
 							"properties" : {
 								"image" : "String"
@@ -1679,7 +1679,7 @@
 						}
 						"walk" : {
 							"frameProperties" : {
-								"offset" : "Array<ArrayList>"
+								"offset" : "Array<Array<Integer>>"
 							}
 							"properties" : {
 								"image" : "String"
@@ -1687,7 +1687,7 @@
 						}
 						"backWalk" : {
 							"frameProperties" : {
-								"offset" : "Array<ArrayList>"
+								"offset" : "Array<Array<Integer>>"
 							}
 							"properties" : {
 								"image" : "String"
@@ -1695,7 +1695,7 @@
 						}
 						"jump" : {
 							"frameProperties" : {
-								"offset" : "Array<ArrayList>"
+								"offset" : "Array<Array<Integer>>"
 							}
 							"properties" : {
 								"image" : "String"
@@ -2267,7 +2267,7 @@
 						}
 						"move" : {
 							"frameProperties" : {
-								"move" : "Array<ArrayList>"
+								"move" : "Array<Array<Double>>"
 							}
 							"properties" : {
 								"image" : "String"
@@ -2470,7 +2470,7 @@
 						}
 						"fall" : {
 							"frameProperties" : {
-								"offset" : "Array<ArrayList>"
+								"offset" : "Array<Array<Integer>>"
 							}
 							"properties" : {
 								"image" : "String"
@@ -2478,7 +2478,7 @@
 						}
 						"walk" : {
 							"frameProperties" : {
-								"offset" : "Array<ArrayList>"
+								"offset" : "Array<Array<Integer>>"
 							}
 							"properties" : {
 								"image" : "String"
@@ -2486,7 +2486,7 @@
 						}
 						"backWalk" : {
 							"frameProperties" : {
-								"offset" : "Array<ArrayList>"
+								"offset" : "Array<Array<Integer>>"
 							}
 							"properties" : {
 								"image" : "String"
@@ -2494,7 +2494,7 @@
 						}
 						"jump" : {
 							"frameProperties" : {
-								"offset" : "Array<ArrayList>"
+								"offset" : "Array<Array<Integer>>"
 							}
 							"properties" : {
 								"image" : "String"
@@ -2648,7 +2648,7 @@
 						}
 						"attack" : {
 							"frameProperties" : {
-								"offset" : "Array<ArrayList>"
+								"offset" : "Array<Array<Double>>"
 							}
 							"properties" : {
 								"image" : "String"
@@ -2656,7 +2656,7 @@
 						}
 						"move" : {
 							"frameProperties" : {
-								"offset" : "Array<ArrayList>"
+								"offset" : "Array<Array<Double>>"
 							}
 							"properties" : {
 								"image" : "String"
@@ -3015,7 +3015,7 @@
 						}
 						"walk" : {
 							"frameProperties" : {
-								"offset" : "Array<ArrayList>"
+								"offset" : "Array<Array<Integer>>"
 							}
 							"properties" : {
 								"image" : "String",

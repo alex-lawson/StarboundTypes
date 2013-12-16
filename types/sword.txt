@@ -1,6 +1,6 @@
 {
 	"soundEffect" : {
-		"fireSound" : "Array<LinkedHashMap>"
+		"fireSound" : "Array<Object>"
 	}
 	"dropCollision" : "Array<Double>",
 	"itemName" : "String",
@@ -11,7 +11,7 @@
 	"inspectionKind" : "String",
 	"image" : "String",
 	"shortdescription" : "String",
-	"colorOptions" : "Array<LinkedHashMap>",
+	"colorOptions" : "Array<Object>",
 	"kind" : "String",
 	"level" : "Integer",
 	"fireTime" : "Double",
@@ -29,7 +29,7 @@
 		}
 		"windup" : {
 			"duration" : "Double",
-			"statusEffects" : "Array<LinkedHashMap>",
+			"statusEffects" : "Array<Object>",
 			"armAngle" : "Integer",
 			"twoHanded" : "Boolean",
 			"swordAngle" : "Integer",
@@ -41,7 +41,7 @@
 		}
 		"cooldown" : {
 			"duration" : "Double",
-			"statusEffects" : "Array<LinkedHashMap>",
+			"statusEffects" : "Array<Object>",
 			"armAngle" : "Integer",
 			"twoHanded" : "Boolean",
 			"swordAngle" : "Integer",

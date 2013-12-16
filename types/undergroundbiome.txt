@@ -10,7 +10,7 @@
 	"caveLiquidType" : "String",
 	"ores" : "String",
 	"undergroundPlaceables" : {
-		"items" : "Array<LinkedHashMap>",
+		"items" : "Array<Object>",
 		"grassModDensity" : "Double",
 		"modDensity" : "Double",
 		"grassMod" : "Array<String>"
@@ -19,7 +19,7 @@
 		"bushes" : {
 			"density" : "Double",
 			"variants" : "Integer",
-			"list" : "Array<LinkedHashMap>"
+			"list" : "Array<Object>"
 		}
 		"grass" : {
 			"ceilingDensity" : "Double",

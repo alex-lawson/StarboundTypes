@@ -1,11 +1,11 @@
 {
-	"conditions" : "Array<LinkedHashMap>",
+	"conditions" : "Array<Object>",
 	"id" : "String",
 	"text" : "String",
 	"title" : "String",
 	"planetMode" : "String",
 	"questDungeons" : "Array",
-	"rewards" : "Array<ArrayList>",
+	"rewards" : "Array<Array<Array<String>>>",
 	"moneyRange" : "Array<Integer>",
 	"completionText" : "String",
 	"followUp" : "String"

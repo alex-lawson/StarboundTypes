@@ -1,7 +1,7 @@
 {
 	"dropCollision" : "Array<Double>",
 	"itemName" : "String",
-	"statusEffects" : "Array<LinkedHashMap>",
+	"statusEffects" : "Array<Object>",
 	"description" : "String",
 	"maxStack" : "Integer",
 	"rarity" : "String",
@@ -12,9 +12,9 @@
 		"backSleeve" : "String"
 	}
 	"inspectionKind" : "String",
-	"augments" : "Array<LinkedHashMap>",
+	"augments" : "Array<Object>",
 	"shortdescription" : "String",
-	"colorOptions" : "Array<LinkedHashMap>",
+	"colorOptions" : "Array<Object>",
 	"maleFrames" : {
 		"body" : "String",
 		"frontSleeve" : "String",

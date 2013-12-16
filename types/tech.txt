@@ -9,8 +9,8 @@
 		"groundForce" : "Double",
 		"normalGroundFriction" : "Double",
 		"slopeSlidingFactor" : "Double",
-		"crouchingPoly" : "Array<ArrayList>",
-		"standingPoly" : "Array<ArrayList>",
+		"crouchingPoly" : "Array<Array<Double>>",
+		"standingPoly" : "Array<Array<Double>>",
 		"liquidJumpProfile" : {
 			"jumpHoldTime" : "Double",
 			"jumpInitialPercentage" : "Double",
@@ -68,8 +68,8 @@
 			"jumpSpeed" : "Double"
 		}
 		"normalGroundFriction" : "Double",
-		"standingPoly" : "Array<ArrayList>",
-		"crouchingPoly" : "Array<ArrayList>"
+		"standingPoly" : "Array<Array<Double>>",
+		"crouchingPoly" : "Array<Array<Double>>"
 	}
 	"jetpackControlForce" : "Double",
 	"energyUsagePerSecond" : "Double",

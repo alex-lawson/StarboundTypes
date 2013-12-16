@@ -3,6 +3,6 @@
 	"config" : {
 		"fuelMax" : "Integer"
 	}
-	"blockKey" : "Array<LinkedHashMap>",
-	"backgroundOverlays" : "Array<LinkedHashMap>"
+	"blockKey" : "Array<Object>",
+	"backgroundOverlays" : "Array<Object>"
 }

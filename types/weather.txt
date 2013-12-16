@@ -15,5 +15,5 @@
 			"tracks" : "Array<String>"
 		}
 	}
-	"particles" : "Array<LinkedHashMap>"
+	"particles" : "Array<Object>"
 }

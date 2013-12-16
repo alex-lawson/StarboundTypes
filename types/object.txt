@@ -1,5 +1,5 @@
 {
-	"particleEmitters" : "Array<LinkedHashMap>",
+	"particleEmitters" : "Array<Object>",
 	"sitAngle" : "String",
 	"lightColors" : {
 		"orange" : "Array<Integer>",
@@ -24,13 +24,13 @@
 	}
 	"scriptDelta" : "Integer",
 	"spawner" : {
-		"npcParameterOptions" : "Array<LinkedHashMap>",
+		"npcParameterOptions" : "Array<Object>",
 		"npcTypeOptions" : "Array<String>",
 		"searchRadius" : "Double",
 		"npcSpeciesOptions" : "Array<String>"
 	}
-	"sitStatusEffects" : "Array<LinkedHashMap>",
-	"breakDropOptions" : "Array<ArrayList>",
+	"sitStatusEffects" : "Array<Object>",
+	"breakDropOptions" : "Array<Array<Array<String>>>",
 	"interactionTransition" : {
 		"2" : {
 			"command" : "String",
@@ -68,14 +68,14 @@
 	"outboundNodesLocation" : "Array<Integer>",
 	"description" : "String",
 	"touchDamage" : {
-		"statusEffects" : "Array<LinkedHashMap>",
+		"statusEffects" : "Array<Object>",
 		"damageType" : "String",
 		"damageSourceKind" : "String",
-		"poly" : "Array<ArrayList>",
+		"poly" : "Array<Array<Double>>",
 		"damage" : "Integer"
 	}
 	"closeSounds" : "Array<String>",
-	"truthtable" : "Array<ArrayList>",
+	"truthtable" : "Array<Array<Boolean>>",
 	"inventoryIcon" : "String",
 	"openSounds" : "Array<String>",
 	"sitCoverImage" : "String",
@@ -95,16 +95,16 @@
 	"category" : "String",
 	"pointBeam" : "Double",
 	"price" : "String",
-	"inboundNodes" : "Array<ArrayList>",
+	"inboundNodes" : "Array<Array<Integer>>",
 	"flickerDistance" : "Double",
 	"uiConfig" : "String",
 	"fireCooldown" : "Double",
-	"orientations" : "Array<LinkedHashMap>",
+	"orientations" : "Array<Object>",
 	"sitEffectEmitters" : "Array<String>",
 	"hydrophobic" : "Boolean",
 	"animationPosition" : "Array<Integer>",
 	"interval" : "Integer",
-	"engineOnOrientations" : "Array<LinkedHashMap>",
+	"engineOnOrientations" : "Array<Object>",
 	"state" : {
 		"uiconfig" : "String",
 		"closeSounds" : "Array<String>",
@@ -113,7 +113,7 @@
 		"slotCount" : "Integer"
 	}
 	"tipOffset" : "Array<Double>",
-	"outboundNodes" : "Array<ArrayList>",
+	"outboundNodes" : "Array<Array<Integer>>",
 	"targetHoldTime" : "Integer",
 	"sitPosition" : "Array<Integer>",
 	"onSounds" : "Array<String>",
@@ -158,12 +158,12 @@
 	"apexDescription" : "String",
 	"avianDescription" : "String",
 	"humanDescription" : "String",
-	"projectileOptions" : "Array<LinkedHashMap>",
+	"projectileOptions" : "Array<Object>",
 	"baseOffset" : "Array<Double>",
 	"damageTeam" : {
 		"type" : "String"
 	}
-	"statusEffects" : "Array<LinkedHashMap>",
+	"statusEffects" : "Array<Object>",
 	"interactData" : {
 		"config" : "String",
 		"filter" : "Array<String>"
@@ -173,7 +173,7 @@
 	"subtitle" : "String",
 	"sitEmote" : "String",
 	"maxLaserLength" : "Integer",
-	"smashDropOptions" : "Array<ArrayList>",
+	"smashDropOptions" : "Array<Array<Array<String>>>",
 	"recipeGroup" : "String",
 	"unbreakable" : "Boolean",
 	"objectType" : "String"

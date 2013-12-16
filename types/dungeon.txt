@@ -1,6 +1,6 @@
 {
-	"tiles" : "Array<LinkedHashMap>",
-	"parts" : "Array<LinkedHashMap>",
+	"tiles" : "Array<Object>",
+	"parts" : "Array<Object>",
 	"metadata" : {
 		"species" : "String",
 		"maxRadius" : "Integer",

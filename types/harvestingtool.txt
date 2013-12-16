@@ -1,20 +1,22 @@
-String	inventoryIcon
-Array<Integer>	handPosition
-Boolean	twoHanded
-Double	fireTime
-String	shortdescription
-String	rarity
-String	itemName
-String	strikeSound
-String	idleSound
-Array<Double>	dropCollision
-Integer	blockRadius
-Integer	maxStack
-String	inspectionKind
-String	image
-Integer	altBlockRadius
-Double	animationCycle
-String	largeImage
-Integer	damage
-String	description
-Integer	frames
+{
+	"dropCollision" : "Array<Double>",
+	"itemName" : "String",
+	"maxStack" : "Integer",
+	"damage" : "Integer",
+	"twoHanded" : "Boolean",
+	"rarity" : "String",
+	"largeImage" : "String",
+	"strikeSound" : "String",
+	"image" : "String",
+	"inspectionKind" : "String",
+	"shortdescription" : "String",
+	"idleSound" : "String",
+	"animationCycle" : "Double",
+	"altBlockRadius" : "Integer",
+	"fireTime" : "Double",
+	"frames" : "Integer",
+	"description" : "String",
+	"inventoryIcon" : "String",
+	"blockRadius" : "Integer",
+	"handPosition" : "Array<Integer>"
+}

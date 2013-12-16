@@ -1,8 +1,10 @@
-String	codexkind
-String	inventoryIcon
-String	codexId
-String	shortdescription
-String	rarity
-String	itemName
-String	title
-String	description
+{
+	"itemName" : "String",
+	"codexkind" : "String",
+	"title" : "String",
+	"description" : "String",
+	"rarity" : "String",
+	"inventoryIcon" : "String",
+	"codexId" : "String",
+	"shortdescription" : "String"
+}

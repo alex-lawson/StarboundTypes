@@ -1,3 +1,0 @@
-Integer	failure
-Integer	success
-Array<Integer>	duration

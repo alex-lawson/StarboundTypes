@@ -1,8 +1,0 @@
-Boolean	collisionCancelled
-Double	jumpControlForce
-Double	jumpSpeed
-Boolean	autoJump
-Double	reJumpDelay
-Double	jumpInitialPercentage
-Boolean	multiJump
-Double	jumpHoldTime

@@ -1,2 +1,31 @@
-String	kind
-LinkedHashMap	definition
+{
+	"definition" : {
+		"position" : "Array<Integer>",
+		"fade" : "Double",
+		"text" : "String",
+		"animation" : "String",
+		"initialVelocity" : "Array<Double>",
+		"destructionTime" : "Double",
+		"layer" : "String",
+		"looping" : "Boolean",
+		"variance" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"initialVelocity" : "Array<Double>",
+			"finalVelocity" : "Array<Double>",
+			"size" : "String"
+		}
+		"type" : "String",
+		"timeToLive" : "Double",
+		"size" : "Integer",
+		"flipable" : "Boolean",
+		"color" : "Array<Integer>",
+		"length" : "String",
+		"angularVelocity" : "Integer",
+		"approach" : "Array<Integer>",
+		"finalVelocity" : "Array<Integer>",
+		"light" : "Array<Integer>",
+		"destructionAction" : "String"
+	}
+	"kind" : "String"
+}

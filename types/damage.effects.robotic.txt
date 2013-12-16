@@ -1,2 +1,0 @@
-LinkedHashMap	kill
-LinkedHashMap	hit

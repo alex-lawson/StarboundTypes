@@ -1,3 +1,0 @@
-String	bodyMaterialKind
-String	damageConfig
-Integer	baseMaxHealth

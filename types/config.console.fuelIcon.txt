@@ -1,5 +1,0 @@
-String	type
-Array<Integer>	position
-String	file
-Integer	zlevel
-Double	scale

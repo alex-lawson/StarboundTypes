@@ -1,5 +1,0 @@
-String	backingImage
-String	type
-Boolean	iconMode
-Array<Integer>	position
-String	callback

@@ -1,12 +1,14 @@
-String	inventoryIcon
-Array<String>	effectSources
-Array<LinkedHashMap>	augments
-String	maleFrames
-String	shortdescription
-String	rarity
-String	femaleFrames
-String	itemName
-Array<LinkedHashMap>	colorOptions
-Array<Double>	dropCollision
-String	description
-Array<LinkedHashMap>	statusEffects
+{
+	"dropCollision" : "Array<Double>",
+	"itemName" : "String",
+	"statusEffects" : "Array<LinkedHashMap>",
+	"description" : "String",
+	"rarity" : "String",
+	"inventoryIcon" : "String",
+	"effectSources" : "Array<String>",
+	"femaleFrames" : "String",
+	"augments" : "Array<LinkedHashMap>",
+	"shortdescription" : "String",
+	"colorOptions" : "Array<LinkedHashMap>",
+	"maleFrames" : "String"
+}

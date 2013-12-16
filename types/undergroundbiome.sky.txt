@@ -1,4 +1,0 @@
-Array<Integer>	nightBottomColor
-Array<Integer>	topColor
-Array<Integer>	nightTopColor
-Array<Integer>	bottomColor

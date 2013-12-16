@@ -1,6 +1,0 @@
-Array<Integer>	cloudRadius
-Array<Double>	cloudSpeed
-Array<Integer>	cloudCount
-Array<String>	clouds
-Double	scale
-Integer	yCenter

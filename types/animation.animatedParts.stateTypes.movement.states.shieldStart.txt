@@ -1,4 +1,0 @@
-Double	cycle
-String	transition
-String	mode
-Integer	frames

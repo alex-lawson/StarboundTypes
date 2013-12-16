@@ -1,6 +1,0 @@
-Double	altProbability
-Array<String>	stemList
-Integer	treeFoliageHueShiftMax
-Array<String>	foliageList
-Integer	treeStemHueShiftMax
-Double	density

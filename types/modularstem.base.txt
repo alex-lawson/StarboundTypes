@@ -1,3 +1,0 @@
-LinkedHashMap	base1
-LinkedHashMap	base2
-LinkedHashMap	base3

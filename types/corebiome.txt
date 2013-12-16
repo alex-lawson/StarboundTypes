@@ -1,10 +1,32 @@
-LinkedHashMap	undergroundMusicTrack
-String	mainBlock
-String	undergroundParallax
-String	ores
-Array<String>	subBlocks
-String	name
-LinkedHashMap	undergroundPlaceables
-LinkedHashMap	statusParameters
-Array<Integer>	hueShiftOptions
-LinkedHashMap	undergroundAmbientNoises
+{
+	"undergroundMusicTrack" : {
+		"night" : {
+			"tracks" : "Array<String>"
+		}
+		"day" : {
+			"tracks" : "Array<String>"
+		}
+	}
+	"undergroundPlaceables" : {
+		"items" : "Array<LinkedHashMap>"
+	}
+	"ores" : "String",
+	"mainBlock" : "String",
+	"name" : "String",
+	"undergroundParallax" : "String",
+	"hueShiftOptions" : "Array<Integer>",
+	"undergroundAmbientNoises" : {
+		"night" : {
+			"tracks" : "Array<String>"
+		}
+		"day" : {
+			"tracks" : "Array<String>"
+		}
+	}
+	"statusParameters" : {
+		"temperatureBounds" : "Array<Integer>",
+		"temperatureVariability" : "Integer",
+		"dayNightTemperatureVariability" : "Integer"
+	}
+	"subBlocks" : "Array<String>"
+}

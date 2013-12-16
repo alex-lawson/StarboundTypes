@@ -1,25 +1,26 @@
-String	breathable
-Boolean	falling
-String	footstepSound
-String	frames
-String	shortdescription
-Integer	platformVariants
-Integer	variants
-Boolean	transparent
-String	glitchdescription
-Boolean	platform
-String	itemDrop
-Integer	stairVariants
-String	stairImage
-Integer	tillableMod
-Integer	materialId
-String	materialName
-Double	health
-Array<Integer>	particleColor
-Boolean	cascading
-Boolean	multicolored
-String	platformImage
-String	damageTable
-Integer	health
-String	description
-String	florandescription
+{
+	"platform" : "Boolean",
+	"materialName" : "String",
+	"stairImage" : "String",
+	"materialId" : "Integer",
+	"footstepSound" : "String",
+	"tillableMod" : "Integer",
+	"falling" : "Boolean",
+	"health" : "Double",
+	"particleColor" : "Array<Integer>",
+	"shortdescription" : "String",
+	"multicolored" : "Boolean",
+	"stairVariants" : "Integer",
+	"florandescription" : "String",
+	"glitchdescription" : "String",
+	"breathable" : "String",
+	"frames" : "String",
+	"itemDrop" : "String",
+	"description" : "String",
+	"variants" : "Integer",
+	"platformImage" : "String",
+	"cascading" : "Boolean",
+	"transparent" : "Boolean",
+	"platformVariants" : "Integer",
+	"damageTable" : "String"
+}

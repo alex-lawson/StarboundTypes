@@ -1,7 +1,0 @@
-Integer	yInfluence
-Integer	octaves
-Integer	amp
-Double	freq
-String	type
-Integer	xInfluence
-String	function

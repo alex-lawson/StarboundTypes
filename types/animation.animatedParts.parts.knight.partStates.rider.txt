@@ -1,4 +1,0 @@
-LinkedHashMap	run
-LinkedHashMap	jump
-LinkedHashMap	dismounted
-LinkedHashMap	idle

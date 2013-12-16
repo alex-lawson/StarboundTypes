@@ -1,3 +1,0 @@
-Array<Integer>	size
-String	type
-Array<Integer>	position

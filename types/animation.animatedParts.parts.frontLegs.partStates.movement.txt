@@ -1,8 +1,0 @@
-LinkedHashMap	charge
-LinkedHashMap	walk
-LinkedHashMap	knockback
-LinkedHashMap	run
-LinkedHashMap	knockout
-LinkedHashMap	jump
-LinkedHashMap	chargeWindup
-LinkedHashMap	idle

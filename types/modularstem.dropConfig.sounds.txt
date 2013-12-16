@@ -1,3 +1,0 @@
-Array<LinkedHashMap>	breakTree
-Array<LinkedHashMap>	damageTree
-Array<LinkedHashMap>	hitGround

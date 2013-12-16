@@ -1,5 +1,0 @@
-Array<Integer>	mixCombatOut
-Array<Integer>	mixCombatIn
-Array<Integer>	mixMusicOut
-Array<Integer>	mixMusicIn
-Integer	grace

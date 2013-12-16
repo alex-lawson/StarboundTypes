@@ -1,82 +1,84 @@
-Array<ArrayList>	banditTreasure
-Array<ArrayList>	villagertreasure
-Array<ArrayList>	chickentreasure
-Array<ArrayList>	apexmutanttreasure
-Array<ArrayList>	bunkerRepairBotTreasure
-Array<ArrayList>	glitchStarterTreasure
-Array<ArrayList>	eyeTreasure
-Array<ArrayList>	tombtreasure
-Array<ArrayList>	basicMonsterTreasure
-Array<ArrayList>	royaltreasure
-Array<ArrayList>	chamberlockertreasure
-Array<ArrayList>	cellTreasure
-Array<ArrayList>	humanPrisonLore
-Array<ArrayList>	boss3Treasure
-Array<ArrayList>	apexstimtreasure
-Array<ArrayList>	minibosstreasure
-Array<ArrayList>	avianTempleLore
-Array<ArrayList>	apexStarterTreasure
-Array<ArrayList>	bone
-Array<ArrayList>	hylotlStarterTreasure
-Array<ArrayList>	abandonedminesTreasure
-Array<ArrayList>	naturalcaveTreasure
-Array<ArrayList>	avianAirshipLore
-Array<ArrayList>	vendingtreasure
-Array<ArrayList>	brain
-Array<ArrayList>	apexlockertreasure
-Array<ArrayList>	techTreasure
-Array<ArrayList>	floranStarterTreasure
-Array<ArrayList>	boneTreasure
-Array<ArrayList>	crappyWeapon
-Array<ArrayList>	castlelordtreasure
-Array<ArrayList>	bunkerSerpentDroidTreasure
-Array<ArrayList>	eyeguardtreasure
-Array<ArrayList>	floranHuntLore
-Array<ArrayList>	avianStarterTreasure
-Array<ArrayList>	labscientisttreasure
-Array<ArrayList>	naturalcaveTreasureLarge
-Array<ArrayList>	bunkerCleaningBotTreasure
-Array<ArrayList>	toxicTreasure
-Array<ArrayList>	iceTreasure
-Array<ArrayList>	boss2Treasure
-Array<ArrayList>	apexTownLore
-Array<ArrayList>	airshipcaptaintreasure
-Array<ArrayList>	shroomguardtreasure
-Array<ArrayList>	avianTombLore
-Array<ArrayList>	apexlabtreasure
-Array<ArrayList>	fleshTreasure
-Array<ArrayList>	apexfridge
-Array<ArrayList>	apexLabLore
-Array<ArrayList>	sandstoneTreasure
-Array<ArrayList>	wizardtreasure
-Array<ArrayList>	boss4Treasure
-Array<ArrayList>	giantflowerTreasure
-Array<ArrayList>	humanBunkerLore
-Array<ArrayList>	apexTestLore
-Array<ArrayList>	rustTreasure
-Array<ArrayList>	stimtreasure
-Array<ArrayList>	humanStarterTreasure
-Array<ArrayList>	avianTowerLore
-Array<ArrayList>	basicMonsterTreasure6
-Array<ArrayList>	basicMonsterTreasure4
-Array<ArrayList>	guardtreasure
-Array<ArrayList>	basicTreasure
-Array<ArrayList>	basicMonsterTreasure5
-Array<ArrayList>	basicMonsterTreasure2
-Array<ArrayList>	icesphereTreasure
-Array<ArrayList>	basicMonsterTreasure3
-Array<ArrayList>	crystalTreasure
-Array<ArrayList>	hunting
-Array<ArrayList>	potreasure
-Array<ArrayList>	glitchVillageLore
-Array<ArrayList>	glitchCastleLore
-Array<ArrayList>	floranHellLore
-Array<ArrayList>	airshipguardtreasure
-Array<ArrayList>	boss1Treasure
-Array<ArrayList>	rainbowTreasure
-Array<ArrayList>	starterTreasure
-Array<ArrayList>	glitchSewerLore
-Array<ArrayList>	avianVillageLore
-Array<ArrayList>	mushroomTreasure
-Array<ArrayList>	floranVillageLore
-Array<ArrayList>	geometricTreasure
+{
+	"avianTempleLore" : "Array<ArrayList>",
+	"giantflowerTreasure" : "Array<ArrayList>",
+	"apexLabLore" : "Array<ArrayList>",
+	"boss1Treasure" : "Array<ArrayList>",
+	"eyeTreasure" : "Array<ArrayList>",
+	"avianVillageLore" : "Array<ArrayList>",
+	"floranHellLore" : "Array<ArrayList>",
+	"apexStarterTreasure" : "Array<ArrayList>",
+	"basicTreasure" : "Array<ArrayList>",
+	"boss2Treasure" : "Array<ArrayList>",
+	"boss4Treasure" : "Array<ArrayList>",
+	"mushroomTreasure" : "Array<ArrayList>",
+	"starterTreasure" : "Array<ArrayList>",
+	"floranStarterTreasure" : "Array<ArrayList>",
+	"tombtreasure" : "Array<ArrayList>",
+	"brain" : "Array<ArrayList>",
+	"guardtreasure" : "Array<ArrayList>",
+	"floranHuntLore" : "Array<ArrayList>",
+	"chickentreasure" : "Array<ArrayList>",
+	"villagertreasure" : "Array<ArrayList>",
+	"apexTownLore" : "Array<ArrayList>",
+	"fleshTreasure" : "Array<ArrayList>",
+	"glitchCastleLore" : "Array<ArrayList>",
+	"apexlockertreasure" : "Array<ArrayList>",
+	"avianTombLore" : "Array<ArrayList>",
+	"floranVillageLore" : "Array<ArrayList>",
+	"minibosstreasure" : "Array<ArrayList>",
+	"geometricTreasure" : "Array<ArrayList>",
+	"banditTreasure" : "Array<ArrayList>",
+	"bunkerRepairBotTreasure" : "Array<ArrayList>",
+	"hylotlStarterTreasure" : "Array<ArrayList>",
+	"apexmutanttreasure" : "Array<ArrayList>",
+	"crappyWeapon" : "Array<ArrayList>",
+	"royaltreasure" : "Array<ArrayList>",
+	"stimtreasure" : "Array<ArrayList>",
+	"airshipcaptaintreasure" : "Array<ArrayList>",
+	"hunting" : "Array<ArrayList>",
+	"humanBunkerLore" : "Array<ArrayList>",
+	"shroomguardtreasure" : "Array<ArrayList>",
+	"techTreasure" : "Array<ArrayList>",
+	"humanStarterTreasure" : "Array<ArrayList>",
+	"avianTowerLore" : "Array<ArrayList>",
+	"icesphereTreasure" : "Array<ArrayList>",
+	"apexTestLore" : "Array<ArrayList>",
+	"bunkerSerpentDroidTreasure" : "Array<ArrayList>",
+	"chamberlockertreasure" : "Array<ArrayList>",
+	"glitchStarterTreasure" : "Array<ArrayList>",
+	"rainbowTreasure" : "Array<ArrayList>",
+	"naturalcaveTreasureLarge" : "Array<ArrayList>",
+	"naturalcaveTreasure" : "Array<ArrayList>",
+	"labscientisttreasure" : "Array<ArrayList>",
+	"eyeguardtreasure" : "Array<ArrayList>",
+	"airshipguardtreasure" : "Array<ArrayList>",
+	"sandstoneTreasure" : "Array<ArrayList>",
+	"avianAirshipLore" : "Array<ArrayList>",
+	"basicMonsterTreasure2" : "Array<ArrayList>",
+	"iceTreasure" : "Array<ArrayList>",
+	"apexstimtreasure" : "Array<ArrayList>",
+	"boneTreasure" : "Array<ArrayList>",
+	"humanPrisonLore" : "Array<ArrayList>",
+	"bone" : "Array<ArrayList>",
+	"basicMonsterTreasure4" : "Array<ArrayList>",
+	"basicMonsterTreasure3" : "Array<ArrayList>",
+	"avianStarterTreasure" : "Array<ArrayList>",
+	"basicMonsterTreasure6" : "Array<ArrayList>",
+	"basicMonsterTreasure5" : "Array<ArrayList>",
+	"toxicTreasure" : "Array<ArrayList>",
+	"apexlabtreasure" : "Array<ArrayList>",
+	"potreasure" : "Array<ArrayList>",
+	"wizardtreasure" : "Array<ArrayList>",
+	"basicMonsterTreasure" : "Array<ArrayList>",
+	"castlelordtreasure" : "Array<ArrayList>",
+	"apexfridge" : "Array<ArrayList>",
+	"boss3Treasure" : "Array<ArrayList>",
+	"crystalTreasure" : "Array<ArrayList>",
+	"bunkerCleaningBotTreasure" : "Array<ArrayList>",
+	"glitchVillageLore" : "Array<ArrayList>",
+	"abandonedminesTreasure" : "Array<ArrayList>",
+	"vendingtreasure" : "Array<ArrayList>",
+	"glitchSewerLore" : "Array<ArrayList>",
+	"cellTreasure" : "Array<ArrayList>",
+	"rustTreasure" : "Array<ArrayList>"
+}

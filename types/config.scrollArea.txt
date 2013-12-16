@@ -1,3 +1,0 @@
-LinkedHashMap	buttons
-LinkedHashMap	thumbs
-Double	buttonAdvance

@@ -1,3 +1,0 @@
-LinkedHashMap	messages
-LinkedHashMap	overlay
-LinkedHashMap	inHandDrawable

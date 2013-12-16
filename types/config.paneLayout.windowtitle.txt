@@ -1,6 +1,0 @@
-String	subtitle
-Integer	size
-LinkedHashMap	icon
-String	type
-Array<Integer>	position
-String	title

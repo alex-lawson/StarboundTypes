@@ -1,10 +1,85 @@
-Boolean	barren
-Array<LinkedHashMap>	skyOptions
-Array<String>	allowedDetachedBiomes
-LinkedHashMap	surfaceParameters
-String	oceanLiquidType
-String	name
-LinkedHashMap	statusParameters
-LinkedHashMap	subSurfaceParameters
-Array<Integer>	hueShiftOptions
-String	caveLiquidType
+{
+	"barren" : "Boolean",
+	"caveLiquidType" : "String",
+	"surfaceParameters" : {
+		"undergroundMusicTrack" : {
+			"night" : {
+				"tracks" : "Array<String>"
+			}
+			"day" : {
+				"tracks" : "Array<String>"
+			}
+		}
+		"undergroundPlaceables" : {
+			"items" : "Array<LinkedHashMap>",
+			"grassModDensity" : "Double",
+			"grassMod" : "Array<String>"
+		}
+		"ores" : "String",
+		"ambientNoises" : {
+			"night" : {
+				"tracks" : "Array<String>"
+			}
+			"day" : {
+				"tracks" : "Array<String>"
+			}
+		}
+		"undergroundParallax" : "String",
+		"parallax" : "String",
+		"statusParameters" : {
+			"temperatureBounds" : "Array<Integer>",
+			"temperatureVariability" : "Integer",
+			"dayNightTemperatureVariability" : "Integer"
+		}
+		"surfacePlaceables" : {
+			"items" : "Array<LinkedHashMap>",
+			"grassModDensity" : "Double",
+			"modDensity" : "Double",
+			"grassMod" : "Array<String>"
+		}
+		"mainBlock" : "String",
+		"weather" : "Array<LinkedHashMap>",
+		"undergroundAmbientNoises" : {
+			"night" : {
+				"tracks" : "Array<String>"
+			}
+			"day" : {
+				"tracks" : "Array<String>"
+			}
+		}
+		"musicTrack" : {
+			"night" : {
+				"tracks" : "Array<String>"
+			}
+			"day" : {
+				"tracks" : "Array<String>"
+			}
+		}
+		"subBlocks" : "Array<String>"
+	}
+	"name" : "String",
+	"skyOptions" : "Array<LinkedHashMap>",
+	"allowedDetachedBiomes" : "Array<String>",
+	"hueShiftOptions" : "Array<Integer>",
+	"subSurfaceParameters" : {
+		"undergroundPlaceables" : {
+			"items" : "Array<LinkedHashMap>",
+			"grassModDensity" : "Double",
+			"grassMod" : "Array<String>"
+		}
+		"ores" : "String",
+		"mainBlock" : "String",
+		"statusParameters" : {
+			"temperatureBounds" : "Array<Integer>",
+			"temperatureVariability" : "Integer",
+			"dayNightTemperatureVariability" : "Integer"
+		}
+		"subBlocks" : "Array<String>"
+	}
+	"oceanLiquidType" : "String",
+	"statusParameters" : {
+		"temperatureBounds" : "Array<Integer>",
+		"temperatureVariability" : "Integer",
+		"dayNightTemperatureVariability" : "Integer"
+	}
+}

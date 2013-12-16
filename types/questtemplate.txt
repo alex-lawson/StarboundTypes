@@ -1,10 +1,12 @@
-Array<Integer>	moneyRange
-String	text
-String	planetMode
-String	id
-Array<ArrayList>	rewards
-Array<LinkedHashMap>	conditions
-String	title
-Array	questDungeons
-String	completionText
-String	followUp
+{
+	"conditions" : "Array<LinkedHashMap>",
+	"id" : "String",
+	"text" : "String",
+	"title" : "String",
+	"planetMode" : "String",
+	"questDungeons" : "Array",
+	"rewards" : "Array<ArrayList>",
+	"moneyRange" : "Array<Integer>",
+	"completionText" : "String",
+	"followUp" : "String"
+}

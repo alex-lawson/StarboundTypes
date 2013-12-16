@@ -1,11 +1,152 @@
-LinkedHashMap	crown
-LinkedHashMap	base
-LinkedHashMap	dropConfig
-String	shape
-Integer	middleMinSize
-LinkedHashMap	middle
-Boolean	ceiling
-LinkedHashMap	branch
-String	name
-Integer	middleMaxSize
-Integer	health
+{
+	"middleMaxSize" : "Integer",
+	"ceiling" : "Boolean",
+	"crown" : {
+		"crown3" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer",
+				"y" : "Integer",
+				"x" : "Integer"
+			}
+		}
+		"crown2" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer",
+				"y" : "Integer",
+				"x" : "Integer"
+			}
+		}
+		"crown1" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer",
+				"y" : "Integer",
+				"x" : "Integer"
+			}
+		}
+	}
+	"name" : "String",
+	"base" : {
+		"base3" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer",
+				"y" : "Integer",
+				"x" : "Integer"
+			}
+		}
+		"base1" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer",
+				"y" : "Integer",
+				"x" : "Integer"
+			}
+		}
+		"base2" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer",
+				"y" : "Integer",
+				"x" : "Integer"
+			}
+		}
+	}
+	"branch" : {
+		"branch3" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer",
+				"h" : "Integer"
+			}
+		}
+		"branch2" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer",
+				"h" : "Integer"
+			}
+		}
+		"branch1" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer",
+				"h" : "Integer"
+			}
+		}
+	}
+	"shape" : "String",
+	"health" : "Integer",
+	"middle" : {
+		"middle4" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer",
+				"y" : "Integer",
+				"x" : "Integer"
+			}
+		}
+		"middle3" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer",
+				"y" : "Integer",
+				"x" : "Integer"
+			}
+		}
+		"middle2" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer",
+				"y" : "Integer",
+				"x" : "Integer"
+			}
+		}
+		"middle1" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer",
+				"y" : "Integer",
+				"x" : "Integer"
+			}
+		}
+	}
+	"dropConfig" : {
+		"drops" : "Array<ArrayList>",
+		"particles" : {
+			"breakTree" : {
+				"density" : "Integer",
+				"options" : "Array<LinkedHashMap>"
+			}
+			"hitGround" : {
+				"density" : "Integer",
+				"options" : "Array<LinkedHashMap>"
+			}
+			"damageTree" : {
+				"density" : "Integer",
+				"options" : "Array<LinkedHashMap>"
+			}
+		}
+		"sounds" : {
+			"breakTree" : "Array<LinkedHashMap>",
+			"hitGround" : "Array<LinkedHashMap>",
+			"damageTree" : "Array<LinkedHashMap>"
+		}
+	}
+	"middleMinSize" : "Integer"
+}

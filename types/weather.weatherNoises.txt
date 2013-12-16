@@ -1,3 +1,0 @@
-LinkedHashMap	light
-LinkedHashMap	heavy
-LinkedHashMap	medium

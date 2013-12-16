@@ -1,3 +1,0 @@
-LinkedHashMap	trees
-LinkedHashMap	bushes
-LinkedHashMap	grass

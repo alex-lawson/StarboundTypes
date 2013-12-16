@@ -1,9 +1,11 @@
-Double	horizontalNoiseDivider
-Integer	width
-Double	noiseScale
-Integer	hillynessFactor
-Double	largeVerticalNoiseMult
-Integer	height
-String	name
-Double	largeVerticalFreqDivider
-Double	verticalNoiseDivider
+{
+	"noiseScale" : "Double",
+	"largeVerticalFreqDivider" : "Double",
+	"hillynessFactor" : "Integer",
+	"largeVerticalNoiseMult" : "Double",
+	"height" : "Integer",
+	"width" : "Integer",
+	"name" : "String",
+	"horizontalNoiseDivider" : "Double",
+	"verticalNoiseDivider" : "Double"
+}

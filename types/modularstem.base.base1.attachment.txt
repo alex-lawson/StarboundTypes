@@ -1,4 +1,0 @@
-Integer	y
-Integer	bx
-Integer	x
-Integer	by

@@ -1,2 +1,0 @@
-LinkedHashMap	itemList
-LinkedHashMap	questList

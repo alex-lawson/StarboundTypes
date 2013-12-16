@@ -1,21 +1,172 @@
-LinkedHashMap	augmentList
-LinkedHashMap	handednessLabel
-LinkedHashMap	damagePerShotTitleLabel
-LinkedHashMap	speedLabel
-LinkedHashMap	descriptionLabel
-LinkedHashMap	damageKindImage
-LinkedHashMap	priceLabel
-LinkedHashMap	speedTitleLabel
-LinkedHashMap	background
-LinkedHashMap	dpsLabel
-LinkedHashMap	energyPerShotLabel
-LinkedHashMap	statusList
-LinkedHashMap	dpsTitleLabel
-LinkedHashMap	largeImage
-LinkedHashMap	armorProtection
-LinkedHashMap	objectImage
-LinkedHashMap	energyPerShotTitleLabel
-LinkedHashMap	moneyIcon
-LinkedHashMap	moneyInfo
-LinkedHashMap	damagePerShotLabel
-LinkedHashMap	rarityLabel
+{
+	"priceLabel" : {
+		"position" : "Array<Integer>",
+		"value" : "String",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"descriptionLabel" : {
+		"position" : "Array<Integer>",
+		"width" : "Integer",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"dpsLabel" : {
+		"position" : "Array<Integer>",
+		"centered" : "Boolean",
+		"width" : "Integer",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"energyPerShotLabel" : {
+		"position" : "Array<Integer>",
+		"width" : "Integer",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"largeImage" : {
+		"position" : "Array<Integer>",
+		"centered" : "Boolean",
+		"minSize" : "Array<Integer>",
+		"file" : "String",
+		"type" : "String",
+		"maxSize" : "Array<Integer>"
+	}
+	"statusList" : {
+		"schema" : {
+			"listTemplate" : {
+				"statusImage" : {
+					"position" : "Array<Integer>",
+					"file" : "String",
+					"type" : "String",
+					"scissoring" : "Boolean"
+				}
+				"statusAmount" : {
+					"position" : "Array<Integer>",
+					"hAnchor" : "String",
+					"type" : "String"
+				}
+				"statusLabel" : {
+					"position" : "Array<Integer>",
+					"hAnchor" : "String",
+					"type" : "String"
+				}
+			}
+			"memberSize" : "Array<Integer>",
+			"spacing" : "Array<Integer>"
+		}
+		"position" : "Array<Integer>",
+		"type" : "String",
+		"scissoring" : "Boolean"
+	}
+	"damageKindImage" : {
+		"position" : "Array<Integer>",
+		"centered" : "Boolean",
+		"minSize" : "Array<Integer>",
+		"file" : "String",
+		"type" : "String",
+		"maxSize" : "Array<Integer>"
+	}
+	"energyPerShotTitleLabel" : {
+		"position" : "Array<Integer>",
+		"value" : "String",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"rarityLabel" : {
+		"position" : "Array<Integer>",
+		"centered" : "Boolean",
+		"width" : "Integer",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"dpsTitleLabel" : {
+		"position" : "Array<Integer>",
+		"value" : "String",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"handednessLabel" : {
+		"position" : "Array<Integer>",
+		"centered" : "Boolean",
+		"width" : "Integer",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"damagePerShotLabel" : {
+		"position" : "Array<Integer>",
+		"width" : "Integer",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"damagePerShotTitleLabel" : {
+		"position" : "Array<Integer>",
+		"value" : "String",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"background" : {
+		"fileHeader" : "String",
+		"fileBody" : "String",
+		"fileFooter" : "String",
+		"type" : "String"
+	}
+	"moneyInfo" : {
+		"position" : "Array<Integer>",
+		"value" : "String",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"armorProtection" : {
+		"position" : "Array<Integer>",
+		"centered" : "Boolean",
+		"width" : "Integer",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"objectImage" : {
+		"position" : "Array<Integer>",
+		"centered" : "Boolean",
+		"minSize" : "Array<Integer>",
+		"file" : "String",
+		"type" : "String",
+		"maxSize" : "Array<Integer>"
+	}
+	"speedTitleLabel" : {
+		"position" : "Array<Integer>",
+		"value" : "String",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"speedLabel" : {
+		"position" : "Array<Integer>",
+		"width" : "Integer",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"moneyIcon" : {
+		"position" : "Array<Integer>",
+		"file" : "String",
+		"type" : "String"
+	}
+	"augmentList" : {
+		"schema" : {
+			"listTemplate" : {
+				"augmentImage" : {
+					"position" : "Array<Integer>",
+					"file" : "String",
+					"type" : "String"
+				}
+				"augmentLabel" : {
+					"position" : "Array<Integer>",
+					"hAnchor" : "String",
+					"type" : "String"
+				}
+			}
+			"memberSize" : "Array<Integer>",
+			"spacing" : "Array<Integer>"
+		}
+		"position" : "Array<Integer>",
+		"type" : "String"
+	}
+}

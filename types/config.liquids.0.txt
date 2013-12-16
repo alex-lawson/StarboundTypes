@@ -1,8 +1,0 @@
-String	breathable
-Array<Integer>	bottomLightMix
-Integer	bottomLightMultiplier
-Integer	textureMovementFactor
-Array<Integer>	color
-Double	drawMinimum
-String	name
-String	texture

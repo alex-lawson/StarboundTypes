@@ -1,4 +1,0 @@
-Array<LinkedHashMap>	particles
-Boolean	active
-Integer	emissionRate
-Double	emissionVariance

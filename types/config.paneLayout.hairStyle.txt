@@ -1,3 +1,0 @@
-String	type
-Array<Integer>	position
-Integer	zlevel

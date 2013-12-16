@@ -1,3 +1,0 @@
-Array<Integer>	rect
-String	type
-Integer	zlevel

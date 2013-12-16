@@ -1,8 +1,0 @@
-String	textAlign
-String	type
-Array<Integer>	position
-String	regex
-Integer	maxWidth
-Integer	zlevel
-Array<Integer>	color
-Integer	fontSize

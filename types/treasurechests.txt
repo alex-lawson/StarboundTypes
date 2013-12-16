@@ -1,34 +1,36 @@
-Array<LinkedHashMap>	floranhuntChest
-Array<LinkedHashMap>	avianvillageChest
-Array<LinkedHashMap>	sandstoneChest
-Array<LinkedHashMap>	aviantowerChest
-Array<LinkedHashMap>	basicChest
-Array<LinkedHashMap>	apextownChest
-Array<LinkedHashMap>	humanbunkerChest
-Array<LinkedHashMap>	apextestChest
-Array<LinkedHashMap>	humanprisonChest
-Array<LinkedHashMap>	barrelChest
-Array<LinkedHashMap>	crystalChest
-Array<LinkedHashMap>	floranhellChest
-Array<LinkedHashMap>	weaponChest
-Array<LinkedHashMap>	boneChest
-Array<LinkedHashMap>	aviantombChest
-Array<LinkedHashMap>	fleshChest
-Array<LinkedHashMap>	mushroomChest
-Array<LinkedHashMap>	avianairshipChest
-Array<LinkedHashMap>	rustChest
-Array<LinkedHashMap>	aviantempleChest
-Array<LinkedHashMap>	glitchcastleChest
-Array<LinkedHashMap>	cellChest
-Array<LinkedHashMap>	glitchvillageChest
-Array<LinkedHashMap>	rainbowChest
-Array<LinkedHashMap>	eyeChest
-Array<LinkedHashMap>	apexlabChest
-Array<LinkedHashMap>	icesphereChest
-Array<LinkedHashMap>	geometricChest
-Array<LinkedHashMap>	iceChest
-Array<LinkedHashMap>	floranvillageChest
-Array<LinkedHashMap>	giantflowerChest
-Array<LinkedHashMap>	glitchsewerChest
-Array<LinkedHashMap>	toxicChest
-Array<LinkedHashMap>	techChest
+{
+	"aviantombChest" : "Array<LinkedHashMap>",
+	"giantflowerChest" : "Array<LinkedHashMap>",
+	"floranhellChest" : "Array<LinkedHashMap>",
+	"basicChest" : "Array<LinkedHashMap>",
+	"floranvillageChest" : "Array<LinkedHashMap>",
+	"humanbunkerChest" : "Array<LinkedHashMap>",
+	"toxicChest" : "Array<LinkedHashMap>",
+	"mushroomChest" : "Array<LinkedHashMap>",
+	"glitchvillageChest" : "Array<LinkedHashMap>",
+	"glitchsewerChest" : "Array<LinkedHashMap>",
+	"cellChest" : "Array<LinkedHashMap>",
+	"apexlabChest" : "Array<LinkedHashMap>",
+	"iceChest" : "Array<LinkedHashMap>",
+	"avianvillageChest" : "Array<LinkedHashMap>",
+	"apextestChest" : "Array<LinkedHashMap>",
+	"techChest" : "Array<LinkedHashMap>",
+	"glitchcastleChest" : "Array<LinkedHashMap>",
+	"icesphereChest" : "Array<LinkedHashMap>",
+	"barrelChest" : "Array<LinkedHashMap>",
+	"boneChest" : "Array<LinkedHashMap>",
+	"eyeChest" : "Array<LinkedHashMap>",
+	"rustChest" : "Array<LinkedHashMap>",
+	"crystalChest" : "Array<LinkedHashMap>",
+	"aviantowerChest" : "Array<LinkedHashMap>",
+	"aviantempleChest" : "Array<LinkedHashMap>",
+	"geometricChest" : "Array<LinkedHashMap>",
+	"humanprisonChest" : "Array<LinkedHashMap>",
+	"apextownChest" : "Array<LinkedHashMap>",
+	"weaponChest" : "Array<LinkedHashMap>",
+	"rainbowChest" : "Array<LinkedHashMap>",
+	"floranhuntChest" : "Array<LinkedHashMap>",
+	"fleshChest" : "Array<LinkedHashMap>",
+	"avianairshipChest" : "Array<LinkedHashMap>",
+	"sandstoneChest" : "Array<LinkedHashMap>"
+}

@@ -1,6 +1,0 @@
-String	selectedImage
-String	backingImage
-String	selectedImageHover
-Array<Integer>	numberOffset
-String	backingImageHover
-Array<Integer>	portraitOffset

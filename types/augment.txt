@@ -1,17 +1,19 @@
-Double	width
-Double	lightToEnergyPerTick
-Double	regenModifier
-String	kind
-Array	icon
-Integer	angle
-String	name
-Double	rating
-Double	ambient
-Array<LinkedHashMap>	list
-Array<Integer>	offset
-Double	chance
-Double	energyPerTick
-Integer	duration
-Array<Integer>	color
-Double	bonusArmor
-Array<LinkedHashMap>	statusEffects
+{
+	"icon" : "Array",
+	"energyPerTick" : "Double",
+	"width" : "Double",
+	"list" : "Array<LinkedHashMap>",
+	"chance" : "Double",
+	"ambient" : "Double",
+	"kind" : "String",
+	"angle" : "Integer",
+	"bonusArmor" : "Double",
+	"lightToEnergyPerTick" : "Double",
+	"duration" : "Integer",
+	"statusEffects" : "Array<LinkedHashMap>",
+	"color" : "Array<Integer>",
+	"name" : "String",
+	"rating" : "Double",
+	"offset" : "Array<Integer>",
+	"regenModifier" : "Double"
+}

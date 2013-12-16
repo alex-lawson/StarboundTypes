@@ -1,17 +1,526 @@
-Integer	damageTeam
-LinkedHashMap	scriptConfig
-LinkedHashMap	items
-Boolean	disableWornArmor
-LinkedHashMap	splashConfig
-Boolean	persistent
-LinkedHashMap	movementControllerSettings
-String	type
-Array<String>	dropPools
-LinkedHashMap	humanoidTiming
-Array<String>	scripts
-Array<Double>	levelVariance
-Array<Integer>	levelVariance
-String	baseType
-Integer	scriptDelta
-Array<LinkedHashMap>	inateStatusEffects
-LinkedHashMap	statusParameters
+{
+	"dropPools" : "Array<String>",
+	"scriptDelta" : "Integer",
+	"scriptConfig" : {
+		"wander" : {
+			"chairSensorRegion" : "Array<ArrayList>",
+			"chatDistance" : "Integer",
+			"dropDownChance" : "Integer",
+			"timeRange" : "Array<Double>",
+			"moveToTargetTime" : "Double",
+			"indoorSearchRadius" : "Integer",
+			"indoorTimeOfDayRanges" : "Array<ArrayList>",
+			"changeDirectionCooldown" : "Integer",
+			"indoorLookaheadDistance" : "Integer",
+			"cooldown" : "Integer",
+			"maxDistanceFromSpawnPoint" : "Integer"
+		}
+		"dropPools" : "Array<String>",
+		"idleTimeRange" : "Array<Double>",
+		"chat" : {
+			"conversations" : "Array<ArrayList>",
+			"cooldown" : "Integer",
+			"distanceRange" : "Array<Double>"
+		}
+		"noticePlayersRadius" : "Double",
+		"guard" : {
+			"hailPercent" : "Integer",
+			"timeRange" : "Array<Integer>",
+			"hailDistance" : "Integer",
+			"loseSightTime" : "Integer",
+			"patrolDistance" : "Integer",
+			"noticeDistance" : "Integer",
+			"attackSayingPercent" : "Integer",
+			"attackDistance" : "Integer",
+			"wallCheckDistance" : "Integer",
+			"loseSightDistance" : "Integer",
+			"changeDirectionTimeRange" : "Array<Integer>",
+			"stopDistance" : "Integer",
+			"dialog" : {
+				"hail" : {
+					"glitch" : {
+						"glitch" : "Array<String>",
+						"default" : "Array<String>",
+						"apex" : "Array<String>",
+						"avian" : "Array<String>",
+						"hylotl" : "Array<String>",
+						"floran" : "Array<String>",
+						"human" : "Array<String>"
+					}
+					"default" : "Array<String>",
+					"apex" : {
+						"default" : "Array<String>"
+					}
+					"avian" : {
+						"default" : "Array<String>"
+					}
+					"hylotl" : {
+						"default" : "Array<String>",
+						"floran" : "Array<String>"
+					}
+					"floran" : {
+						"glitch" : "Array<String>",
+						"default" : "Array<String>",
+						"apex" : "Array<String>",
+						"avian" : "Array<String>",
+						"hylotl" : "Array<String>",
+						"floran" : "Array<String>",
+						"human" : "Array<String>"
+					}
+					"human" : {
+						"glitch" : "Array<String>",
+						"default" : "Array<String>",
+						"apex" : "Array<String>",
+						"avian" : "Array<String>",
+						"hylotl" : "Array<String>",
+						"floran" : "Array<String>",
+						"human" : "Array<String>"
+					}
+				}
+				"stop" : {
+					"default" : "Array<String>"
+				}
+				"reattack" : {
+					"default" : "Array<String>"
+				}
+				"attack" : {
+					"glitch" : {
+						"default" : "Array<String>",
+						"floran" : "Array<String>"
+					}
+					"default" : "Array<String>",
+					"apex" : {
+						"default" : "Array<String>"
+					}
+					"avian" : {
+						"default" : "Array<String>"
+					}
+					"hylotl" : {
+						"default" : "Array<String>",
+						"floran" : "Array<String>"
+					}
+					"floran" : {
+						"glitch" : "Array<String>",
+						"default" : "Array<String>"
+					}
+					"human" : {
+						"default" : "Array<String>"
+					}
+				}
+			}
+		}
+		"converse" : {
+			"waitTime" : "Double",
+			"dialog" : {
+				"glitch" : {
+					"glitch" : "Array<String>",
+					"default" : "Array<String>",
+					"apex" : "Array<String>",
+					"avian" : "Array<String>",
+					"hylotl" : "Array<String>",
+					"floran" : "Array<String>",
+					"human" : "Array<String>"
+				}
+				"default" : "Array<String>",
+				"apex" : {
+					"glitch" : "Array<String>",
+					"default" : "Array<String>",
+					"apex" : "Array<String>",
+					"avian" : "Array<String>",
+					"hylotl" : "Array<String>",
+					"floran" : "Array<String>",
+					"human" : "Array<String>"
+				}
+				"avian" : {
+					"glitch" : "Array<String>",
+					"default" : "Array<String>",
+					"apex" : "Array<String>",
+					"avian" : "Array<String>",
+					"hylotl" : "Array<String>",
+					"floran" : "Array<String>",
+					"human" : "Array<String>"
+				}
+				"hylotl" : {
+					"glitch" : "Array<String>",
+					"default" : "Array<String>",
+					"apex" : "Array<String>",
+					"avian" : "Array<String>",
+					"hylotl" : "Array<String>",
+					"floran" : "Array<String>",
+					"human" : "Array<String>"
+				}
+				"attack" : {
+					"glitch" : {
+						"default" : "Array<String>"
+					}
+					"default" : "Array<String>"
+				}
+				"floran" : {
+					"glitch" : "Array<String>",
+					"default" : "Array<String>",
+					"apex" : "Array<String>",
+					"avian" : "Array<String>",
+					"hylotl" : "Array<String>",
+					"floran" : "Array<String>",
+					"human" : "Array<String>"
+				}
+				"human" : {
+					"glitch" : "Array<String>",
+					"default" : "Array<String>",
+					"apex" : "Array<String>",
+					"avian" : "Array<String>",
+					"hylotl" : "Array<String>",
+					"floran" : "Array<String>",
+					"human" : "Array<String>"
+				}
+			}
+		}
+		"returnToPost" : {
+			"minDistance" : "Integer",
+			"moveTime" : "Integer"
+		}
+		"dialog" : {
+			"start" : {
+				"glitch" : {
+					"default" : "Array<String>"
+				}
+				"default" : "Array<String>",
+				"apex" : {
+					"default" : "Array<String>"
+				}
+				"avian" : {
+					"default" : "Array<String>"
+				}
+				"hylotl" : {
+					"default" : "Array<String>",
+					"floran" : "Array<String>"
+				}
+				"floran" : {
+					"default" : "Array<String>",
+					"hylotl" : "Array<String>"
+				}
+			}
+			"end" : {
+				"glitch" : {
+					"default" : "Array<String>"
+				}
+				"default" : "Array<String>"
+			}
+		}
+		"meleeAttack" : {
+			"repositionCooldownTimeRange" : "Array<Double>",
+			"swingTime" : "Double",
+			"sayAttackStartDistance" : "Integer",
+			"runThreshold" : "Integer",
+			"searchTime" : "Integer",
+			"backoffDistanceRange" : "Array<Double>",
+			"swingCooldownTime" : "Double",
+			"swingDistance" : "Integer"
+		}
+		"trading" : {
+			"requiresBlueprint" : "Boolean",
+			"recipes" : "Array<LinkedHashMap>",
+			"config" : "String",
+			"titleFromEntity" : "Boolean",
+			"filter" : "Array"
+		}
+		"work" : {
+			"tools" : "Array<ArrayList>",
+			"timeRange" : "Array<Double>",
+			"timeOfDayRanges" : "Array<ArrayList>",
+			"toolRange" : "Double",
+			"searchDistance" : "Double",
+			"cooldown" : "Double"
+		}
+		"gapFarSideSensors" : "Array<ArrayList>",
+		"attackerLimit" : "Integer",
+		"merchant" : {
+			"waitTime" : "Integer",
+			"items" : {
+				"stimmerchant" : "Array<ArrayList>",
+				"test" : "Array<ArrayList>",
+				"humanarmorblueprints" : "Array<ArrayList>",
+				"avianingredients" : "Array<ArrayList>",
+				"floraningredients" : "Array<ArrayList>",
+				"apexweaponblueprints" : "Array<ArrayList>",
+				"avianclothes" : "Array<ArrayList>",
+				"hylotlingredients" : "Array<ArrayList>",
+				"chefmerchant" : "Array<ArrayList>",
+				"avianarmorblueprints" : "Array<ArrayList>",
+				"floranarmorblueprints" : "Array<ArrayList>",
+				"randomguns" : "Array<ArrayList>",
+				"wizardmerchant" : "Array<ArrayList>",
+				"glitchingredients" : "Array<ArrayList>",
+				"floranclothes" : "Array<ArrayList>",
+				"apexclothes" : "Array<ArrayList>",
+				"randomswords" : "Array<ArrayList>",
+				"doctormerchant" : "Array<ArrayList>",
+				"hylotlclothes" : "Array<ArrayList>",
+				"glitcharmorblueprints" : "Array<ArrayList>",
+				"musicalinstruments" : "Array<ArrayList>",
+				"humanweaponblueprints" : "Array<ArrayList>",
+				"glitchweaponblueprints" : "Array<ArrayList>",
+				"humanclothes" : "Array<ArrayList>",
+				"avianweaponblueprints" : "Array<ArrayList>",
+				"glitchclothes" : "Array<ArrayList>",
+				"hylotlweaponblueprints" : "Array<ArrayList>",
+				"toolmerchant" : "Array<ArrayList>",
+				"floranweaponblueprints" : "Array<ArrayList>",
+				"humaningredients" : "Array<ArrayList>",
+				"hylotlarmorblueprints" : "Array<ArrayList>",
+				"apexingredients" : "Array<ArrayList>",
+				"apexarmorblueprints" : "Array<ArrayList>"
+			}
+			"storeRadius" : "Integer",
+			"categories" : "Array<String>",
+			"dialog" : {
+				"start" : {
+					"glitch" : {
+						"default" : "Array<String>",
+						"floran" : "Array<String>"
+					}
+					"default" : "Array<String>",
+					"apex" : {
+						"default" : "Array<String>"
+					}
+					"avian" : {
+						"default" : "Array<String>"
+					}
+					"hylotl" : {
+						"default" : "Array<String>",
+						"floran" : "Array<String>"
+					}
+					"floran" : {
+						"default" : "Array<String>",
+						"hylotl" : "Array<String>",
+						"floran" : "Array<String>"
+					}
+					"human" : {
+						"default" : "Array<String>"
+					}
+				}
+				"end" : {
+					"glitch" : {
+						"default" : "Array<String>"
+					}
+					"default" : "Array<String>",
+					"apex" : {
+						"default" : "Array<String>"
+					}
+					"avian" : {
+						"default" : "Array<String>"
+					}
+					"hylotl" : {
+						"default" : "Array<String>"
+					}
+					"floran" : {
+						"default" : "Array<String>"
+					}
+					"human" : {
+						"default" : "Array<String>"
+					}
+				}
+			}
+			"numItems" : "Integer",
+			"priceVarianceRange" : "Array<Integer>"
+		}
+		"sleep" : {
+			"timeOfDayRanges" : "Array<ArrayList>",
+			"lieDownRadius" : "Integer",
+			"moveToBedTimeLimit" : "Double",
+			"searchRadius" : "Integer",
+			"cooldown" : "Integer"
+		}
+		"statusParameters" : {
+			"bodyMaterialKind" : "String",
+			"baseMaxEnergy" : "Integer",
+			"energyReplenishmentRate" : "Double",
+			"invulnerabilityTime" : "Integer",
+			"damageConfig" : "String",
+			"baseMaxHealth" : "Integer"
+		}
+		"sit" : {
+			"timeRange" : "Array<Integer>",
+			"timeOfDayRanges" : "Array<ArrayList>",
+			"sitRadius" : "Integer",
+			"searchRadius" : "Integer",
+			"cooldown" : "Integer",
+			"moveTimeLimit" : "Integer"
+		}
+		"attackerLimitCooldown" : "Integer",
+		"doorHitPoly" : "Array<ArrayList>",
+		"flee" : {
+			"stuckCooldown" : "Integer",
+			"stuckTime" : "Integer",
+			"safeDistance" : "Integer",
+			"reactionTimeRange" : "Array<Double>",
+			"safeTimer" : "Integer",
+			"dialogTimeRange" : "Array<Integer>",
+			"safeDistanceWithGuards" : "Integer",
+			"dialog" : {
+				"safe" : {
+					"glitch" : "Array<String>",
+					"default" : "Array<String>",
+					"floran" : "Array<String>"
+				}
+				"helpthem" : {
+					"glitch" : "Array<String>",
+					"default" : "Array<String>",
+					"floran" : "Array<String>"
+				}
+				"encourage" : {
+					"glitch" : "Array<String>",
+					"default" : "Array<String>",
+					"floran" : "Array<String>"
+				}
+				"helpme" : {
+					"glitch" : "Array<String>",
+					"default" : "Array<String>",
+					"floran" : "Array<String>"
+				}
+			}
+		}
+		"items" : {
+			"glitch" : "Array<ArrayList>"
+		}
+		"hound" : {
+			"warningTime" : "Integer",
+			"loseSightDistance" : "Integer",
+			"sayComeBackCooldown" : "Integer",
+			"loseSightTime" : "Integer",
+			"followDistance" : "Integer",
+			"dialog" : {
+				"weaponSheathed" : {
+					"glitch" : {
+						"default" : "Array<String>"
+					}
+					"default" : "Array<String>",
+					"floran" : {
+						"default" : "Array<String>"
+					}
+				}
+				"comeBack" : {
+					"glitch" : {
+						"default" : "Array<String>"
+					}
+					"default" : "Array<String>",
+					"floran" : {
+						"default" : "Array<String>"
+					}
+				}
+				"warnings" : "Array<LinkedHashMap>"
+			}
+		}
+		"returnToStore" : {
+			"waitTime" : "Integer",
+			"waitTargetDistance" : "Integer",
+			"dialog" : {
+				"welcome" : {
+					"default" : "Array<String>"
+				}
+				"tout" : {
+					"glitch" : {
+						"default" : "Array<String>",
+						"floran" : "Array<String>"
+					}
+					"default" : "Array<String>",
+					"apex" : {
+						"default" : "Array<String>"
+					}
+					"avian" : {
+						"default" : "Array<String>"
+					}
+					"hylotl" : {
+						"default" : "Array<String>",
+						"floran" : "Array<String>"
+					}
+					"floran" : {
+						"default" : "Array<String>",
+						"hylotl" : "Array<String>"
+					}
+				}
+				"follow" : {
+					"default" : "Array<String>"
+				}
+			}
+		}
+		"gapSensor" : "Array<ArrayList>",
+		"rangedAttack" : {
+			"maxDistance" : "Integer",
+			"minDistance" : "Integer",
+			"coverFireTimeRange" : "Array<Double>",
+			"coverDistance" : "Double",
+			"attackerSpacing" : "Double",
+			"coverHideTimeRange" : "Array<Double>",
+			"searchTime" : "Integer",
+			"coverYOffset" : "Double",
+			"coverYClearanceOffset" : "Double"
+		}
+		"gapJumpHoldTime" : "Double"
+	}
+	"type" : "String",
+	"disableWornArmor" : "Boolean",
+	"splashConfig" : {
+		"splashSpeedMin" : "Double",
+		"splashBottomSensor" : "Array<Integer>",
+		"splashYVelocityFactor" : "Double",
+		"numSplashParticles" : "Integer",
+		"splashTopSensor" : "Array<Integer>",
+		"splashMinWaterLevel" : "Double",
+		"splashParticleVariance" : {
+			"velocity" : "Array<Integer>"
+		}
+		"splashParticle" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"destructionTime" : "Double",
+			"approach" : "Array<Integer>",
+			"finalVelocity" : "Array<Integer>",
+			"type" : "String",
+			"timeToLive" : "Double",
+			"destructionAction" : "String",
+			"size" : "Double"
+		}
+	}
+	"inateStatusEffects" : "Array<LinkedHashMap>",
+	"statusParameters" : {
+		"bodyMaterialKind" : "String",
+		"baseMaxEnergy" : "Integer",
+		"energyReplenishmentRate" : "Double",
+		"invulnerabilityTime" : "Integer",
+		"damageConfig" : "String",
+		"baseMaxHealth" : "Integer"
+	}
+	"humanoidTiming" : {
+		"emoteCycle" : "Array<Double>",
+		"emoteFrames" : "Array<Integer>",
+		"stateFrames" : "Array<Integer>",
+		"stateCycle" : "Array<Double>"
+	}
+	"scripts" : "Array<String>",
+	"levelVariance" : "Array<Integer>",
+	"persistent" : "Boolean",
+	"damageTeam" : "Integer",
+	"baseType" : "String",
+	"items" : {
+		"glitch" : "Array<ArrayList>",
+		"default" : "Array<ArrayList>",
+		"apex" : "Array<ArrayList>",
+		"avian" : "Array<ArrayList>",
+		"hylotl" : "Array<ArrayList>",
+		"floran" : "Array<ArrayList>",
+		"human" : "Array<ArrayList>"
+	}
+	"movementControllerSettings" : {
+		"runSpeed" : "Integer",
+		"mass" : "Double",
+		"runningSuppressed" : "Boolean",
+		"airJumpProfile" : {
+			"jumpSpeed" : "Double"
+		}
+		"jumpSpeed" : "Double",
+		"crouchingPoly" : "Array<ArrayList>",
+		"standingPoly" : "Array<ArrayList>",
+		"walkSpeed" : "Integer"
+	}
+}

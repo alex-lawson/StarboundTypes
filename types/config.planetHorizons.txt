@@ -1,7 +1,0 @@
-String	biomeTextures
-String	liquidTextures
-String	shadowTextures
-String	maskTextures
-String	atmosphereTextures
-Array<Integer>	maskRange
-Array<Integer>	maskPerPlanetRange

@@ -1,2 +1,0 @@
-LinkedHashMap	swimming
-LinkedHashMap	idle

@@ -1,13 +1,65 @@
-LinkedHashMap	sky
-LinkedHashMap	undergroundMusicTrack
-String	undergroundParallax
-String	ores
-String	name
-Array<Integer>	hueShiftOptions
-String	caveLiquidType
-LinkedHashMap	undergroundAmbientNoises
-String	mainBlock
-Array<String>	subBlocks
-LinkedHashMap	undergroundPlaceables
-LinkedHashMap	undergroundPlants
-LinkedHashMap	statusParameters
+{
+	"undergroundMusicTrack" : {
+		"night" : {
+			"tracks" : "Array<String>"
+		}
+		"day" : {
+			"tracks" : "Array<String>"
+		}
+	}
+	"caveLiquidType" : "String",
+	"ores" : "String",
+	"undergroundPlaceables" : {
+		"items" : "Array<LinkedHashMap>",
+		"grassModDensity" : "Double",
+		"modDensity" : "Double",
+		"grassMod" : "Array<String>"
+	}
+	"undergroundPlants" : {
+		"bushes" : {
+			"density" : "Double",
+			"variants" : "Integer",
+			"list" : "Array<LinkedHashMap>"
+		}
+		"grass" : {
+			"ceilingDensity" : "Double",
+			"ceilingVariants" : "Integer",
+			"density" : "Double",
+			"variants" : "Integer",
+			"ceilingList" : "Array<String>",
+			"list" : "Array<String>"
+		}
+		"trees" : {
+			"treeStemHueShiftMax" : "Integer",
+			"foliageList" : "Array<String>",
+			"treeFoliageHueShiftMax" : "Integer",
+			"density" : "Double",
+			"stemList" : "Array<String>",
+			"altProbability" : "Double"
+		}
+	}
+	"undergroundParallax" : "String",
+	"statusParameters" : {
+		"temperatureBounds" : "Array<Integer>",
+		"temperatureVariability" : "Integer",
+		"dayNightTemperatureVariability" : "Integer"
+	}
+	"sky" : {
+		"nightBottomColor" : "Array<Integer>",
+		"bottomColor" : "Array<Integer>",
+		"nightTopColor" : "Array<Integer>",
+		"topColor" : "Array<Integer>"
+	}
+	"mainBlock" : "String",
+	"name" : "String",
+	"hueShiftOptions" : "Array<Integer>",
+	"undergroundAmbientNoises" : {
+		"night" : {
+			"tracks" : "Array<String>"
+		}
+		"day" : {
+			"tracks" : "Array<String>"
+		}
+	}
+	"subBlocks" : "Array<String>"
+}

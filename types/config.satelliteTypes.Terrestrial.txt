@@ -1,4 +1,0 @@
-LinkedHashMap	orbitParameters
-LinkedHashMap	baseParameters
-Array<LinkedHashMap>	variationParameters
-Double	selectionWeight

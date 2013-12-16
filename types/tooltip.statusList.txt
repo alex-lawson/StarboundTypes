@@ -1,4 +1,0 @@
-LinkedHashMap	schema
-String	type
-Array<Integer>	position
-Boolean	scissoring

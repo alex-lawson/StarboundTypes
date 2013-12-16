@@ -1,3 +1,0 @@
-Double	moonScale
-Array<Integer>	area
-Double	planetScale

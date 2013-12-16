@@ -1,5 +1,7 @@
-Integer	maxHeight
-Integer	minWidth
-Integer	maxWidth
-String	name
-Integer	minHeight
+{
+	"minHeight" : "Integer",
+	"minWidth" : "Integer",
+	"name" : "String",
+	"maxWidth" : "Integer",
+	"maxHeight" : "Integer"
+}

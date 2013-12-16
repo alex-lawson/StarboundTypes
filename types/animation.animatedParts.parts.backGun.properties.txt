@@ -1,6 +1,0 @@
-LinkedHashMap	relativeAnchors
-Array<Integer>	offset
-Array<Double>	rotationCenter
-Integer	zLevel
-Boolean	centered
-String	rotationGroup

@@ -1,4 +1,0 @@
-Double	jumpControlForce
-Double	jumpSpeed
-Double	jumpInitialPercentage
-Double	jumpHoldTime

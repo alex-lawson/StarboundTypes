@@ -1,5 +1,0 @@
-String	subtitle
-Integer	size
-String	type
-Array<Integer>	position
-String	title

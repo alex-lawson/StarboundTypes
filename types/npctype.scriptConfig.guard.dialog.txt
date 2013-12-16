@@ -1,4 +1,0 @@
-LinkedHashMap	stop
-LinkedHashMap	reattack
-LinkedHashMap	attack
-LinkedHashMap	hail

@@ -1,18 +1,20 @@
-Integer	slopeDistance
-Double	stepMinWidth
-Integer	maxDistance
-Integer	maxHeight
-Integer	xVariationLength
-Integer	minWidth
-Integer	maxWidth
-Integer	yVariation
-String	name
-Integer	minHeight
-Integer	xVariation
-Integer	stepMaxOffset
-Double	stepMinHeight
-Integer	minDistance
-Double	stepMaxWidth
-Double	stepMaxHeight
-Double	stepFrequency
-Integer	yVariationLength
+{
+	"minDistance" : "Integer",
+	"minWidth" : "Integer",
+	"xVariation" : "Integer",
+	"slopeDistance" : "Integer",
+	"stepMaxHeight" : "Double",
+	"stepFrequency" : "Double",
+	"stepMinHeight" : "Double",
+	"stepMaxOffset" : "Integer",
+	"xVariationLength" : "Integer",
+	"stepMinWidth" : "Double",
+	"stepMaxWidth" : "Double",
+	"minHeight" : "Integer",
+	"yVariationLength" : "Integer",
+	"maxDistance" : "Integer",
+	"name" : "String",
+	"maxHeight" : "Integer",
+	"maxWidth" : "Integer",
+	"yVariation" : "Integer"
+}

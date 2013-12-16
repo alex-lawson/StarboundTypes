@@ -1,4 +1,0 @@
-LinkedHashMap	BlueGiant
-LinkedHashMap	RedDwarf
-LinkedHashMap	YellowDwarf
-LinkedHashMap	RedGiant

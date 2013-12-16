@@ -1,751 +1,4887 @@
-LinkedHashMap	plasmabullet
-String	hungerIcon
-Integer	teleportVolume
-Integer	breathReplenishmentRate
-Array<Integer>	statusIconShift
-Boolean	requiresBlueprint
-Integer	planetSelectDiameter
-String	claimFile
-LinkedHashMap	gui
-Integer	autoCompressTimeout
-String	offSound
-LinkedHashMap	hazardUndergroundTop
-Array<Integer>	buttonPressedOffset
-String	windowTitle
-Boolean	maximized
-Integer	worldClientUpdateStepDelta
-Integer	maxFrameskip
-String	description
-Array<Integer>	footstepSensor
-Array<Integer>	systemCenter
-Double	indicatorPulseLevel
-Double	constellationProbability
-Array<ArrayList>	resolutionList
-Double	planetNameTime
-Array<String>	buttonClickSound
-String	authHostname
-Boolean	spawnDungeonNearSpawn
-LinkedHashMap	rockettrooperspawn
-Integer	teleportInFrames
-Array<Integer>	paneIconOffset
-Array<ArrayList>	parenting
-Array<Integer>	clusterCloseRect
-Double	pixelRatio
-Double	minimumConstellationLineLength
-Integer	idealTemperature
-LinkedHashMap	overgroundChests
-LinkedHashMap	100
-Integer	numPassiveFamilies
-LinkedHashMap	clustergoo
-String	hyperspaceAudio
-LinkedHashMap	monsterHealth
-String	bodyMaterialKind
-Array<Integer>	paneTitleColor
-Double	objectPreviewInnerAlpha
-Array<Integer>	clientBufferZone
-Array<LinkedHashMap>	namegen
-LinkedHashMap	modes
-Double	minimumFallSpeed
-Double	homeIndicatorScale
-Integer	statusIconBlinkThreshold
-Integer	flyMaxVelocity
-Integer	storageTriggerInterval
-Array<Double>	dropCollision
-Double	orbitPathScale
-Double	interactRadius
-LinkedHashMap	spinner
-Boolean	titleFromEntity
-Integer	jumpBob
-LinkedHashMap	font
-Array<Integer>	itemIconDurabilityOffset
-Double	correctionPower
-Double	ambulatingGroundFriction
-LinkedHashMap	dragonProjectile
-Array<String>	spaceBiomes
-LinkedHashMap	spaceTerrain
-Integer	targetFps
-Double	fallDamageFactor
-String	username
-LinkedHashMap	flame
-Boolean	crafting.filterHaveMaterials
-Array<Integer>	healthPos
-Integer	playerStartInitialGenRadius
-Array<Integer>	nametagOffset
-Double	maximumConstellationLineLength
-Integer	minimumConstellationMagnitude
-Double	warmthRateScale
-Double	focusIndicatorScale
-Array<LinkedHashMap>	energyResponses
-LinkedHashMap	layer2Chests
-Boolean	collisionEnabled
-Integer	starmapIndicatorSize
-Double	warmthTransferRate
-Double	refreshInterval
-Array<Integer>	runBob
-Array<Integer>	frontHandPosition
-Array<String>	planetarySuffixes
-Array<Integer>	headSitOffset
-Array<Integer>	skyBackdropDarken
-Double	gravityMultiplier
-LinkedHashMap	arrow
-LinkedHashMap	scrollArea
-Double	systemProbability
-Integer	textureTimeout
-Integer	controlPort
-Double	teleportOutTime
-LinkedHashMap	grenadezbomb
-String	shortdescription
-LinkedHashMap	layer1Chests
-Integer	individualSpawnChances
-Boolean	spawnDungeon
-Array<Integer>	constellationLineCountRange
-Double	miningBlockVolume
-Integer	constellationMaxTries
-Integer	serverConnectTimeout
-String	missingAssetsAudio
-Double	minimumFallTime
-Array<String>	coreBiomes
-LinkedHashMap	crashexplosion
-Array<Integer>	breathBarNextBarOffset
-LinkedHashMap	combatTrackMixSettings
-LinkedHashMap	bloodvomit
-String	rootKey
-Integer	slaveUpdateSkipSmear
-Boolean	ignorePlatformCollision
-Integer	starmapSelectDiameter
-Array<String>	mainMenuButtonsHover
-Double	trashBurnTimeout
-Double	twinkleScale
-Double	portraitScale
-Array<Integer>	warmingIndicatorPos
-Double	runSpeed
-Array<Integer>	warmthBarTextOffset
-Double	onGroundSustain
-LinkedHashMap	bouncer
-LinkedHashMap	mapping
-String	compass
-LinkedHashMap	sonic
-Double	airForce
-LinkedHashMap	denseSmall
-Array<Double>	textboxCursorVertical
-Array<Integer>	portraitIconOffset
-Integer	masterSleepUpdateSkip
-Double	slopeSlidingFactor
-LinkedHashMap	scatteredSmall
-Array<String>	onShowSound
-LinkedHashMap	password
-Integer	sectorTTLMillis
-Array<Integer>	xySearchCoordRange
-LinkedHashMap	lightning
-Array<Integer>	worldBiomeDrawPosition
-Array<Integer>	planetCenter
-Array<Double>	clusterTargetRect
-Array<Integer>	speedLimit
-String	tierBlueprintsUnlockedMessage
-LinkedHashMap	charSelector1
-String	scanSound
-LinkedHashMap	charSelector2
-Double	cameraSmoothDeadzone
-LinkedHashMap	charSelector3
-Array<LinkedHashMap>	disembarkPath
-Array<String>	buttonHoverSound
-LinkedHashMap	charSelector4
-Integer	maximumCorrection
-Array<Integer>	actionBarSelectOffset
-LinkedHashMap	background
-Integer	updateMeasureWindow
-Double	skyMaxAlpha
-LinkedHashMap	plasmatorpedo
-LinkedHashMap	intensity
-String	onSound
-LinkedHashMap	techControllerSettings
-Double	vaporTrailCycle
-LinkedHashMap	potsRare
-String	textColor
-Array<LinkedHashMap>	list
-Array<Integer>	legsArmorOffset
-LinkedHashMap	15
-Array<Double>	systemOrbitScales
-Array<Integer>	interfaceCrossoverRes
-LinkedHashMap	1
-Array<Double>	spawnRegionSize
-String	frontArm
-LinkedHashMap	10
-LinkedHashMap	trooperspawn
-Integer	dungeonQueryRadius
-Array<Integer>	headRunOffset
-LinkedHashMap	address
-LinkedHashMap	initialquests
-Array<Integer>	nameOffset
-LinkedHashMap	scatteredLarge
-String	arrivalAudio
-LinkedHashMap	grenadenobounce
-LinkedHashMap	bazookarocket
-LinkedHashMap	generalspawn
-Array<Integer>	maximizedResolution
-LinkedHashMap	tankspawn
-Double	liquidForce
-Double	terminalVelocityDifference
-LinkedHashMap	poopBurst
-LinkedHashMap	sonicwave
-Array	defaultItems
-Integer	satelliteIndicatorSize
-Integer	clockUpdatePacketInterval
-Double	liquidImpedance
-Double	liquidFriction
-Integer	musicDelta
-Array<Integer>	paneSubTitleColor
-Double	warmthTransferRateCap
-LinkedHashMap	25
-LinkedHashMap	playerUpButton
-Array<LinkedHashMap>	healthResponses
-Integer	runFallOffset
-Boolean	displayPerf
-String	keypadSound
-Array<ArrayList>	textLabels
-LinkedHashMap	flyswarm
-Array<Integer>	debugOffset
-Array<Integer>	itemCountRightAnchor
-LinkedHashMap	message
-String	hoverIndicatorBR
-Integer	minimumConstellationLineCloseness
-String	hoverIndicatorBL
-LinkedHashMap	seed
-Array<Integer>	headSwimOffset
-Integer	satelliteNameFontSize
-Integer	twinkleFrames
-Integer	audioChannels
-LinkedHashMap	tiyDistPlatform
-Double	zoomLevel
-Array<Double>	planetaryOrbitScales
-LinkedHashMap	icebreath
-Double	statusUpdateInterval
-String	serverName
-Integer	maxWorldSearches
-Integer	skyUpdateStepDelta
-LinkedHashMap	tech3DPrinterDialog
-LinkedHashMap	charPlate
-LinkedHashMap	titleCursor
-Array<Integer>	homeIndicatorBasePosition
-Double	damageNotificationBatchDuration
-Double	maxHealth
-LinkedHashMap	bomb
-LinkedHashMap	disembarkOrigin
-Integer	mainWakeupInterval
-Array<Integer>	inventoryItemMouseOffset
-Double	worldDimTime
-Integer	engineCrossfadeTime
-LinkedHashMap	defaultHumanoidIdentity
-LinkedHashMap	deathPoof
-Array<Integer>	gravityRange
-LinkedHashMap	bubbles
-Double	slowdownTimer
-LinkedHashMap	friendlybubble
-Array<Double>	visibleRect
-Integer	musicVol
-Integer	desiredTextWidth
-Boolean	frictionEnabled
-LinkedHashMap	5
-String	action
-Double	starmapScreenFastMovement
-Integer	fallThroughSustainFrames
-Integer	fontSize
-Double	shadowCorner
-LinkedHashMap	marioball
-String	teleportInBase
-Array<Integer>	travelLineColor
-LinkedHashMap	floatystickybomb
-String	caCertPath
-String	missingAssetsImage
-LinkedHashMap	blockDamageParticleVariance
-Array<Integer>	zCoordRange
-Integer	bottomOfWorldTouchMargin
-Double	lightMidWeight
-LinkedHashMap	beamGunSettings
-LinkedHashMap	denseLarge
-String	focusIndicatorLeft
-Double	textParticleFontSize
-LinkedHashMap	config
-Integer	bcryptRounds
-Integer	vaporTrailTime
-Array<Integer>	coolingIndicatorOffset
-Integer	worldInactiveShutdown
-LinkedHashMap	thorns
-String	dllLoadPath
-LinkedHashMap	blueprint
-LinkedHashMap	hazardUndergroundCeilingMid
-String	portraitBackgroundMask
-Boolean	renderSleep
-Integer	maxPlayers
-Double	liquidBuoyancy
-Integer	planetGenCacheSize
-LinkedHashMap	50
-String	backArm
-Double	airFriction
-Array<LinkedHashMap>	sectorBackgroundLayers
-LinkedHashMap	projectile
-Array<String>	serverPasswords
-Integer	travelLineWidth
-Integer	textBoxDefaultWidth
-Integer	duckOffset
-Double	minInterfaceScale
-Boolean	renderVirtualCursor
-String	focusIndicatorTop
-Integer	masterSleepBegin
-Double	masterSleepSpeed
-LinkedHashMap	emoteBindings
-LinkedHashMap	ftlAnimation
-Double	hoverIndicatorScale
-Double	explosionDisplacementProbability
-LinkedHashMap	gravitybomb
-LinkedHashMap	hazardUndergroundLower
-Array<Integer>	starmapNameDrawPosition
-Array<Integer>	windowedResolution
-Double	maxFallTimeFactor
-Array<Integer>	headArmorOffset
-Array<Integer>	surfaceScan
-LinkedHashMap	spaceDebris
-Integer	spawnDungeonNearSpawnMaxRadius
-LinkedHashMap	veryRareItem
-Integer	numCoordHashes
-Integer	maxRecentlyVisitedSystems
-Double	shadow
-Double	skyBrightnessBase
-Double	underwaterMinWaterLevel
-LinkedHashMap	splashConfig
-Integer	maxMessagePerEntity
-Double	flashTimer
-Integer	blockRadius
-LinkedHashMap	75
-Double	minimumDayLevel
-LinkedHashMap	biomeVerticalNoise
-Double	playerReviveTime
-Double	surfaceOnlyProbability
-Double	minimumLiquidLevel
-Boolean	speechBubbles
-Boolean	noCategoryFilters
-Array<Integer>	feetOffset
-Integer	socketTimeout
-Array<Integer>	warmingIndicatorOffset
-LinkedHashMap	scatteredPots
-Double	colorMapPixellation
-Integer	emoteCooldown
-Integer	systemSelectDiameter
-Integer	worldInfoFontSize
-Integer	workerPoolSize
-Integer	cacheLimitEvery
-String	portraitNullPlayerImagePart
-LinkedHashMap	laser
-LinkedHashMap	interpolationSettings
-Double	miningToolVolume
-LinkedHashMap	minibossoverground
-Array<Integer>	inventoryWindowChestSlot
-Double	playerReviveAnimationDelayTime
-String	defaultWorldCoordinate
-Double	modifiedTilePredictionTimeout
-Boolean	gravityEnabled
-String	head
-Integer	windChillFactor
-Array<Integer>	mouseOffsetLeader
-Array<ArrayList>	systemOrbitPositions
-Integer	travelLineDashLength
-Boolean	tracing
-Integer	tileDamageLimit
-LinkedHashMap	largeCharPlate
-Integer	altBlockRadius
-Double	cooldownDuration
-String	portraitIconImage
-LinkedHashMap	satelliteTypes
-LinkedHashMap	speciesShips
-LinkedHashMap	3DPrinterSettings
-LinkedHashMap	stickybomb
-String	disabledButton
-Array<Integer>	spawnNoDungeonReserve
-LinkedHashMap	rareClumpyLarge
-String	defaultFootstepSound
-Array<LinkedHashMap>	arrivalPath
-String	selectText
-Array<Integer>	clusterSize
-LinkedHashMap	hover
-String	teleportOutBase
-Integer	planetNameFontSize
-LinkedHashMap	fireball
-Array<Integer>	itemIconOffset
-String	password
-Double	lightNearWeight
-LinkedHashMap	99
-Integer	scanFactor
-Integer	textZoom
-String	damageConfig
-LinkedHashMap	materialItems
-LinkedHashMap	defaultBlueprints
-Array<Integer>	backArmorOffset
-String	teleportInBeam
-LinkedHashMap	bouncy
-Array<Integer>	blinkInterval
-Boolean	spawnRegion
-Array<Integer>	planetTextOffset
-Array<ArrayList>	collisionPoly
-Double	starmapScreenSlowMovement
-Double	foodDepletionRate
-LinkedHashMap	firespread
-LinkedHashMap	tiyDistTerrainfeatures
-LinkedHashMap	liquids
-LinkedHashMap	shock
-Array<Integer>	headDuckOffset
-Integer	spawnRegionMaximumSearch
-Integer	spawnDungeonSpawnMinRadius
-Array<Integer>	breathBarPos
-Integer	sfxDelta
-Integer	planetIndicatorSize
-LinkedHashMap	bullet
-LinkedHashMap	boomerang
-Array<Integer>	walkIntoInteractBias
-Array<Integer>	dayLengthRange
-LinkedHashMap	tooltip
-Double	cameraSmoothRadius
-LinkedHashMap	machinegunbullet
-Array<String>	pickupSounds
-LinkedHashMap	music
-Array<LinkedHashMap>	nameGen
-Integer	generationQueueTTLMillis
-Array<String>	mainMenuButtonsKeys
-Double	backgroundShadowing
-LinkedHashMap	explosivegoo
-Double	refreshTimer
-String	youAreHereIndicator
-LinkedHashMap	stateTypes
-LinkedHashMap	codex
-LinkedHashMap	meteor
-LinkedHashMap	cursorItemSlot
-Array<String>	spaceBiomeTerrain
-String	planetNameDirectives
-Double	initialBeamGunRadius
-LinkedHashMap	biomeHorizontalNoise
-Boolean	groundSlideMovementEnabled
-Boolean	verticalFlip
-LinkedHashMap	charGen
-LinkedHashMap	planetThreatAdjustment
-Integer	spawnFlatSurfaceRadius
-Integer	clusterDespawnCheckCount
-Double	planetNameFadeTime
-Array<Integer>	warmthPos
-Boolean	attemptAuthentication
-Double	statusDepletionDamage
-LinkedHashMap	penguintankround
-Boolean	startAtLoad
-Integer	serverDisconnectTimeout
-Integer	numAggressiveFamilies
-Double	landingVolume
-Array<Integer>	itemLineDraggableArea
-String	title.connectionString
-Integer	clusterSpawnCheckCount
-Array<String>	mainMenuButtonsDisabled
-Boolean	allowAdminCommands
-Integer	sfxVol
-String	errorSound
-LinkedHashMap	rareItems
-String	body
-Array<Integer>	planetNameDrawPosition
-Double	colorMultiplier
-LinkedHashMap	planetHorizon
-Array<Integer>	swimBob
-Double	maxBreath
-Array<String>	species
-LinkedHashMap	tiyDist
-Integer	previewGlowBorder
-LinkedHashMap	account
-LinkedHashMap	undergroundChests
-Double	starVelocityFactor
-Array<Integer>	coolingIndicatorPos
-Array<Integer>	mouseoverOffset
-String	warpSound
-LinkedHashMap	rock
-String	nametagColor
-Double	statusCriticalLevel
-Array<Integer>	walkBob
-Integer	assetCleanupTimeout
-LinkedHashMap	partTypes
-Array<Integer>	chestArmorOffset
-LinkedHashMap	slider
-Integer	starmapNameFontSize
-Integer	maxAge
-Double	enterHyperspaceAudioLeadIn
-Integer	teleportBeamHeight
-String	planetNameFormatString
-Double	skiddingGroundFriction
-LinkedHashMap	stars
-Array<String>	satelliteSuffixes
-Integer	maxSystemChunkSearches
-LinkedHashMap	acidspit
-String	orbitRings
-Integer	systemIndicatorSize
-LinkedHashMap	tiyDistRare
-LinkedHashMap	systemTypes
-LinkedHashMap	hazardUndergroundCeilingCore
-Array<Integer>	zoomList
-LinkedHashMap	planetaryTypes
-Double	youAreHereIndicatorScale
-Double	stickyForce
-Array<Integer>	systemHoverNameDrawPosition
-Double	lightFarWeight
-Double	statusRiskLevel
-Array<Integer>	bubbleOffset
-Array<Integer>	planetInfoSeparatorColor
-LinkedHashMap	undergroundTerrain
-LinkedHashMap	sun
-Integer	chunkSize
-LinkedHashMap	paneLayout
-Array<ArrayList>	backdropImages
-Boolean	renderPriority
-LinkedHashMap	arrivalOrigin
-LinkedHashMap	reviveCost
-Array<LinkedHashMap>	cursorTypes
-LinkedHashMap	connect
-LinkedHashMap	orbitallaunch
-Integer	slaveUpdateSkip
-Integer	teleportOutFrames
-Array<String>	dungeonWhitelist
-LinkedHashMap	hazardUndergroundMid
-LinkedHashMap	combatTrack
-LinkedHashMap	jellybossexplode
-Double	invitationPollInterval
-Double	teleportHeight
-Array<Integer>	warmthBarPos
-String	blueprintOnPickupMessage
-LinkedHashMap	flameBurst
-LinkedHashMap	snowball
-Integer	chunkCacheSize
-Double	flySpeed
-LinkedHashMap	blockbreaker
-Boolean	clearUniverseFiles
-Array<String>	nothingThere
-Array<Integer>	armWalkSeq
-Array<Integer>	mouseOffsetMember
-String	teleportNoiseUp
-LinkedHashMap	superCommon
-Double	shadowEdge
-LinkedHashMap	stickybullet
-Array<Double>	underwaterSensor
-Array<LinkedHashMap>	swaps
-Double	maxEnergy
-Double	groundForce
-LinkedHashMap	inventoryBar
-Integer	gamePort
-Integer	surfaceTries
-Integer	windowMonitoringBorder
-Boolean	clearPlayerFiles
-Integer	nametagFontSize
-Double	nametagOpacityRate
-Integer	purgeableCacheLimit
-Double	constellationLineWidth
-Array<Integer>	planetInfoBackgroundRect
-Double	skyLevelExponent
-Double	teleportInTime
-Array<Integer>	systemNameDrawPosition
-Array<Double>	textboxCursorHorizontal
-LinkedHashMap	lightball
-Array<ArrayList>	mainMenuButtonsOffsets
-Integer	blockCacheSize
-LinkedHashMap	singleShotTest
-String	traceFile
-LinkedHashMap	deathexplosion
-Array<Integer>	mainColor
-LinkedHashMap	liquidJumpProfile
-String	focusIndicatorBottom
-Array<Integer>	clusterCount
-LinkedHashMap	lighting
-Double	footstepVolumeVariance
-Array<Double>	levelVariability
-Double	exitHyperspaceAudioLeadIn
-Integer	targetClustersPerPlayer
-Integer	maxGenerationMillis
-LinkedHashMap	handgunbullet
-LinkedHashMap	blockDamageParticle
-Array<LinkedHashMap>	undergroundLayers
-LinkedHashMap	initialcodex
-Boolean	useDefaultWorldCoordinate
-Integer	systemNameFontSize
-Double	warpMessageDelay
-String	bind
-Array<Integer>	recoilOffset
-Double	indicatorPulseTime
-Integer	fadeout
-String	exitHyperspaceAudio
-Integer	interSystemFuelcost
-LinkedHashMap	randomEncounterUnderground
-String	passwordHash
-LinkedHashMap	orbitalup
-Boolean	jumpingSuppressed
-String	teleportNoiseDown
-Double	damageRecovery
-Array<Integer>	freezeOverlayColor
-Double	indicatorPulseMin
-Integer	playerMonitoringBorder
-Integer	layOffset
-Integer	teleportTallness
-Boolean	fullscreen
-LinkedHashMap	airJumpProfile
-Double	walkSpeed
-LinkedHashMap	playerDownButton
-Double	starmapScreenScale
-Integer	mouseoverRadius
-Array<Integer>	youAreHereIndicatorBasePosition
-Array<Integer>	energyPos
-LinkedHashMap	escapeDialog
-Array<Integer>	audioChannelSeparation
-Boolean	waitForUpdate
-LinkedHashMap	surfaceBiomeTerrains
-LinkedHashMap	gravitybullet
-Integer	blockDamageUpdateStep
-Double	objectPreviewOuterAlpha
-LinkedHashMap	randomEncounter
-Array<Integer>	constellationLineColor
-LinkedHashMap	satellite
-Array<Integer>	satelliteNameDrawPosition
-Array<ArrayList>	planetaryOrbitPositions
-LinkedHashMap	minibiomeChests
-Integer	sitOffset
-Double	cameraSmoothFactor
-Array<Integer>	worldThreatDrawPosition
-LinkedHashMap	rareClumpySmall
-String	kind
-Integer	systemHoverNameFontSize
-Double	comfortRegen
-String	portraitNullPlayerImageFull
-Array<LinkedHashMap>	names
-String	engineAudio
-Integer	spawnAdjustLimit
-Double	fullUpdateInterval
-Array<String>	assetsIgnorePatterns
-Integer	explosionDisplacementVelocity
-Double	assetLoadingWarnTime
-Array<Integer>	backArmOffset
-Double	defaultMaxDistance
-Integer	maxStoreMillis
-LinkedHashMap	pollen
-Array<Integer>	paneSubTitleOffset
-Integer	clientWaitLimit
-Double	runProbability
-Double	shadowTopEdge
-Boolean	audioEnabled
-LinkedHashMap	damageFactors
-String	direction
-Double	flyingTimer
-Array<Integer>	headLayOffset
-LinkedHashMap	console
-LinkedHashMap	bottom
-Double	fallStatusSpeedMin
-Array<String>	mainMenuButtons
-Integer	worldStorageStep
-String	focusIndicatorCenter
-Array<ArrayList>	systemSuffixNames
-Integer	displayCenteredWindowGap
-Array<LinkedHashMap>	sectors
-Array<Integer>	statusIconPos
-Integer	harvestToolVolume
-Integer	nametagOpacityBoost
-Integer	playerReviveMoveToShipDelayTime
-Double	speedupTimer
-LinkedHashMap	planetHorizons
-Double	dayTransitionTime
-Array<Integer>	mouthOffset
-LinkedHashMap	pulsecannon
-Integer	connectionTimeout
-Integer	orbitalLevels
-Double	airBuoyancy
-LinkedHashMap	undergroundtechChests
-Array<ArrayList>	systemNames
-Array	filter
-Array<String>	coreBiomeTerrain
-LinkedHashMap	darkgravityball
-LinkedHashMap	default
-Double	audioDecompressLimit
-String	hoverIndicatorTR
-Integer	renderPreSleepRemainder
-Double	keypressTimeout
-LinkedHashMap	spikeball
-Double	maxMovementPerStep
-String	homeIndicator
-LinkedHashMap	iceshot
-String	hoverIndicatorTL
-Array<Integer>	planetInfoBackgroundColor
-Double	energyReplenishmentRate
-LinkedHashMap	hazardUndergroundCore
-Array<Integer>	planetInfoSeparatorRect
-String	enterHyperspaceAudio
-Double	blockDamageParticleProbability
-Array<Integer>	itemDraggableArea
-LinkedHashMap	bareHandsCrafting
-Integer	intraSystemFuelcost
-Integer	masterSleepUpdateSkipSmear
-LinkedHashMap	planetSizes
-LinkedHashMap	waterballoon
-LinkedHashMap	gas
-Integer	cleanupTimeSmear
-LinkedHashMap	paneLayoutLeader
-Double	bounceFactor
-Boolean	spawnMonsters
-Array<Integer>	fullscreenResolution
-Boolean	vsync
-Double	mass
-String	missingIcon
-Integer	sampleRate
-String	teleportOutBeam
-Double	maxFood
-Double	maxOverlayPercent
-Array<Integer>	inventoryWindowLegsSlot
-Boolean	checkAssetsDigest
-Array<ArrayList>	modeTypeTextAndColor
-Integer	authPort
-Integer	interBubbleMargin
-LinkedHashMap	humanoidTiming
-String	focusIndicatorRight
-String	defaultSurfaceTerrain
-Integer	vaporTrailFrames
-Double	musicTrackSwitchGrace
-Boolean	upnpPortForwarding
-LinkedHashMap	paneLayoutMember
-Boolean	runningSuppressed
-String	openIcon
-Double	fadeout
-Array<Integer>	bodyTemperatureRangeLow
-Integer	breathDepletionRate
-LinkedHashMap	megabeam
-LinkedHashMap	denseMedium
-Double	footstepTiming
-Boolean	allowAdminCommandsFromAnyone
-LinkedHashMap	grenade
-Double	groundFriction
-LinkedHashMap	hazardUndergroundCeilingTop
-LinkedHashMap	biomeNoise
-LinkedHashMap	sticky
-Double	normalGroundFriction
-String	closedIcon
-Integer	radialSlots
-Boolean	stickyCollision
-Integer	maxBehindUpdates
-Array<Integer>	playerActiveRegionPad
-Integer	pixelRatioIdx
-LinkedHashMap	fireswirl
-Integer	serverProcessingGroupSteps
-Double	maxInterfaceScale
-Array<Integer>	paneTitleOffset
-Integer	livingWorldUpdateStep
-Double	lightStrength
-Double	minimumInspectionLight
-LinkedHashMap	hazardUndergroundCeilingLower
-Double	mouseoverTime
-LinkedHashMap	darkplasma
-Integer	itemRequestReset
-Array<Integer>	armRunSeq
-Array<Integer>	armRotationCenter
-LinkedHashMap	chip
-Array<Integer>	offset
-Array<Integer>	breathPos
-LinkedHashMap	surfaceTerrain
-Array<Integer>	portraitPos
-LinkedHashMap	entry
-Integer	debugFontSize
-Array<Integer>	actionBarSwapItemOffset
-LinkedHashMap	layer3Chests
+{
+	"speedLimit" : "Array<Integer>",
+	"playerReviveMoveToShipDelayTime" : "Integer",
+	"intensity" : {
+		"pointMaxAir" : "Integer",
+		"pointMaxObstacle" : "Integer",
+		"spreadPasses" : "Integer",
+		"pointObstacleBoost" : "Integer",
+		"spreadMaxAir" : "Integer",
+		"spreadMaxObstacle" : "Integer"
+	}
+	"mainMenuButtonsHover" : "Array<String>",
+	"maximizedResolution" : "Array<Integer>",
+	"vaporTrailFrames" : "Integer",
+	"allowAdminCommandsFromAnyone" : "Boolean",
+	"headSitOffset" : "Array<Integer>",
+	"worldStorageStep" : "Integer",
+	"teleportInFrames" : "Integer",
+	"objectPreviewOuterAlpha" : "Double",
+	"planetarySuffixes" : "Array<String>",
+	"musicVol" : "Integer",
+	"username" : "String",
+	"gravitybomb" : {
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"bounceFactor" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"ignorePlatformCollision" : "Boolean",
+		"groundFriction" : "Double",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double"
+	}
+	"collisionEnabled" : "Boolean",
+	"closedIcon" : "String",
+	"grenadezbomb" : {
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"bounceFactor" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"ignorePlatformCollision" : "Boolean",
+		"groundFriction" : "Double",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double"
+	}
+	"playerStartInitialGenRadius" : "Integer",
+	"satelliteNameFontSize" : "Integer",
+	"minibossoverground" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"runSpeed" : "Double",
+	"materialItems" : {
+		"cooldown" : "Double"
+	}
+	"worldThreatDrawPosition" : "Array<Integer>",
+	"teleportTallness" : "Integer",
+	"liquids" : {
+		"3" : {
+			"blockOptions" : "Array<String>",
+			"radiantLight" : "Array<Integer>",
+			"upwardsSpeedModifier" : "Double",
+			"backgroundFlowPercentage" : "Double",
+			"texture" : "String",
+			"sidewaysSpeedModifier" : "Double",
+			"bottomLightMix" : "Array<Integer>",
+			"downwardsSpeedModifier" : "Integer",
+			"ontouchStatusEffects" : "Array<LinkedHashMap>",
+			"drawMinimum" : "Double",
+			"bottomLightMultiplier" : "Integer",
+			"textureMovementFactor" : "Integer",
+			"breathable" : "String",
+			"color" : "Array<Integer>",
+			"name" : "String",
+			"blockGenerationChance" : "Double",
+			"interactions" : {
+				"2" : {
+					"blockOptions" : "Array<String>",
+					"blockGenerationChance" : "Integer"
+				}
+				"1" : {
+					"blockOptions" : "Array<String>",
+					"blockGenerationChance" : "Integer"
+				}
+			}
+		}
+		"2" : {
+			"blockOptions" : "Array<String>",
+			"connectedOnly" : "Boolean",
+			"texture" : "String",
+			"bottomLightMix" : "Array<Integer>",
+			"drawMinimum" : "Double",
+			"bottomLightMultiplier" : "Integer",
+			"textureMovementFactor" : "Integer",
+			"color" : "Array<Integer>",
+			"breathable" : "String",
+			"name" : "String",
+			"blockGenerationChance" : "Double",
+			"endless" : "Boolean",
+			"flowAs" : "Integer"
+		}
+		"1" : {
+			"blockOptions" : "Array<String>",
+			"drawMinimum" : "Double",
+			"textureMovementFactor" : "Integer",
+			"bottomLightMultiplier" : "Integer",
+			"breathable" : "String",
+			"color" : "Array<Integer>",
+			"texture" : "String",
+			"blockGenerationChance" : "Double",
+			"name" : "String",
+			"bottomLightMix" : "Array<Integer>"
+		}
+		"0" : {
+			"drawMinimum" : "Double",
+			"textureMovementFactor" : "Integer",
+			"bottomLightMultiplier" : "Integer",
+			"breathable" : "String",
+			"color" : "Array<Integer>",
+			"texture" : "String",
+			"name" : "String",
+			"bottomLightMix" : "Array<Integer>"
+		}
+		"7" : {
+			"blockOptions" : "Array<String>",
+			"drawMinimum" : "Double",
+			"textureMovementFactor" : "Integer",
+			"bottomLightMultiplier" : "Integer",
+			"breathable" : "String",
+			"color" : "Array<Integer>",
+			"texture" : "String",
+			"blockGenerationChance" : "Double",
+			"name" : "String",
+			"bottomLightMix" : "Array<Integer>"
+		}
+		"6" : {
+			"blockOptions" : "Array<String>",
+			"drawMinimum" : "Double",
+			"textureMovementFactor" : "Integer",
+			"bottomLightMultiplier" : "Integer",
+			"breathable" : "String",
+			"color" : "Array<Integer>",
+			"texture" : "String",
+			"blockGenerationChance" : "Double",
+			"name" : "String",
+			"bottomLightMix" : "Array<Integer>"
+		}
+		"5" : {
+			"blockOptions" : "Array<String>",
+			"upwardsSpeedModifier" : "Double",
+			"radiantLight" : "Array<Integer>",
+			"backgroundFlowPercentage" : "Double",
+			"texture" : "String",
+			"sidewaysSpeedModifier" : "Double",
+			"bottomLightMix" : "Array<Integer>",
+			"downwardsSpeedModifier" : "Integer",
+			"ontouchStatusEffects" : "Array<LinkedHashMap>",
+			"drawMinimum" : "Double",
+			"bottomLightMultiplier" : "Integer",
+			"textureMovementFactor" : "Integer",
+			"breathable" : "String",
+			"color" : "Array<Integer>",
+			"name" : "String",
+			"blockGenerationChance" : "Double",
+			"endless" : "Boolean",
+			"flowAs" : "Integer",
+			"interactions" : {
+				"2" : {
+					"blockOptions" : "Array<String>",
+					"blockGenerationChance" : "Integer"
+				}
+				"1" : {
+					"blockOptions" : "Array<String>",
+					"blockGenerationChance" : "Integer"
+				}
+			}
+		}
+		"4" : {
+			"blockOptions" : "Array<String>",
+			"drawMinimum" : "Double",
+			"textureMovementFactor" : "Integer",
+			"bottomLightMultiplier" : "Integer",
+			"breathable" : "String",
+			"color" : "Array<Integer>",
+			"texture" : "String",
+			"blockGenerationChance" : "Double",
+			"name" : "String",
+			"bottomLightMix" : "Array<Integer>",
+			"ontouchStatusEffects" : "Array<LinkedHashMap>"
+		}
+	}
+	"splashConfig" : {
+		"splashSpeedMin" : "Double",
+		"splashBottomSensor" : "Array<Integer>",
+		"splashYVelocityFactor" : "Double",
+		"numSplashParticles" : "Integer",
+		"splashTopSensor" : "Array<Integer>",
+		"splashMinWaterLevel" : "Double",
+		"splashParticleVariance" : {
+			"velocity" : "Array<Integer>",
+			"size" : "Double"
+		}
+		"splashParticle" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"destructionTime" : "Double",
+			"approach" : "Array<Integer>",
+			"finalVelocity" : "Array<Integer>",
+			"type" : "String",
+			"timeToLive" : "Double",
+			"destructionAction" : "String",
+			"size" : "Double"
+		}
+	}
+	"breathBarPos" : "Array<Integer>",
+	"fullscreen" : "Boolean",
+	"planetTextOffset" : "Array<Integer>",
+	"1" : {
+		"down" : "Array<String>",
+		"up" : "Array<String>"
+	}
+	"codex" : {
+		"overlay" : {
+			"iconOverlay" : {
+				"image" : "String"
+			}
+		}
+		"inHandDrawable" : {
+			"image" : "String"
+		}
+		"messages" : {
+			"learned" : "String",
+			"alreadyKnown" : "String"
+		}
+	}
+	"planetNameDirectives" : "String",
+	"tileDamageLimit" : "Integer",
+	"verticalFlip" : "Boolean",
+	"checkAssetsDigest" : "Boolean",
+	"denseSmall" : {
+		"modulusVariance" : "Integer",
+		"typePeriod" : "Integer",
+		"alpha" : "Double",
+		"octaves" : "Integer",
+		"densityOffset" : "Double",
+		"beta" : "Double",
+		"type" : "String",
+		"densityPeriod" : "Integer",
+		"modulus" : "Integer"
+	}
+	"5" : {
+		"down" : "Array<String>",
+		"up" : "Array<String>"
+	}
+	"armRotationCenter" : "Array<Integer>",
+	"upnpPortForwarding" : "Boolean",
+	"constellationProbability" : "Double",
+	"planetIndicatorSize" : "Integer",
+	"twinkleFrames" : "Integer",
+	"lightFarWeight" : "Double",
+	"flameBurst" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"interSystemFuelcost" : "Integer",
+	"clientWaitLimit" : "Integer",
+	"damageNotificationBatchDuration" : "Double",
+	"frictionEnabled" : "Boolean",
+	"denseMedium" : {
+		"modulusVariance" : "Integer",
+		"typePeriod" : "Integer",
+		"alpha" : "Double",
+		"octaves" : "Integer",
+		"densityOffset" : "Double",
+		"beta" : "Double",
+		"type" : "String",
+		"densityPeriod" : "Integer",
+		"modulus" : "Integer"
+	}
+	"walkSpeed" : "Double",
+	"undergroundtechChests" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"armWalkSeq" : "Array<Integer>",
+	"startAtLoad" : "Boolean",
+	"gravityMultiplier" : "Double",
+	"flyingTimer" : "Double",
+	"planetaryTypes" : {
+		"GasGiant" : {
+			"satelliteProbability" : "Double",
+			"variationParameters" : "Array<LinkedHashMap>",
+			"selectionWeight" : "Double",
+			"baseParameters" : {
+				"shadowNumber" : "Array<Integer>",
+				"dynamicsRange" : "Array<Integer>",
+				"shadowImages" : "String",
+				"description" : "String",
+				"overlayImage" : "String",
+				"smallImage" : "String",
+				"dynamicsImages" : "String",
+				"overlayMasks" : "Integer",
+				"type" : "String",
+				"baseImage" : "String"
+			}
+		}
+		"Terrestrial" : {
+			"satelliteProbability" : "Double",
+			"variationParameters" : "Array<LinkedHashMap>",
+			"orbitParameters" : {
+				"Cold" : "Array<LinkedHashMap>",
+				"Hot" : "Array<LinkedHashMap>",
+				"Mild" : "Array<LinkedHashMap>"
+			}
+			"selectionWeight" : "Double",
+			"baseParameters" : {
+				"shadowNumber" : "Array<Integer>",
+				"dynamicsRange" : "Array<Integer>",
+				"biomeMaskImages" : "String",
+				"liquidImages" : "String",
+				"shadowImages" : "String",
+				"description" : "String",
+				"biomeMasks" : "Integer",
+				"smallImage" : "String",
+				"dynamicsImages" : "String",
+				"type" : "String"
+			}
+		}
+	}
+	"shadowEdge" : "Double",
+	"youAreHereIndicator" : "String",
+	"itemDraggableArea" : "Array<Integer>",
+	"systemSuffixNames" : "Array<ArrayList>",
+	"itemLineDraggableArea" : "Array<Integer>",
+	"indicatorPulseTime" : "Double",
+	"constellationLineColor" : "Array<Integer>",
+	"damageConfig" : "String",
+	"blockCacheSize" : "Integer",
+	"dragonProjectile" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"noCategoryFilters" : "Boolean",
+	"skiddingGroundFriction" : "Double",
+	"playerDownButton" : {
+		"position" : "Array<Integer>",
+		"pressedOffset" : "Array<Integer>",
+		"base" : "String",
+		"type" : "String"
+	}
+	"arrivalAudio" : "String",
+	"iceshot" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"systemProbability" : "Double",
+	"arrivalPath" : "Array<LinkedHashMap>",
+	"interpolationSettings" : {
+		"normal" : {
+			"stepLead" : "Integer",
+			"heartbeatDelta" : "Integer",
+			"stepMaxDistance" : "Integer",
+			"interpolationEnabled" : "Boolean",
+			"stepTrackFactor" : "Double"
+		}
+		"local" : {
+			"stepLead" : "Integer",
+			"heartbeatDelta" : "Integer",
+			"stepMaxDistance" : "Integer",
+			"interpolationEnabled" : "Boolean",
+			"stepTrackFactor" : "Double"
+		}
+	}
+	"minimumFallSpeed" : "Double",
+	"tech3DPrinterDialog" : {
+		"paneFeature" : {
+			"persistent" : "Boolean",
+			"positionLocked" : "Boolean",
+			"keyDismissable" : "Boolean",
+			"type" : "String",
+			"anchor" : "String"
+		}
+		"background" : {
+			"fileHeader" : "String",
+			"fileBody" : "String",
+			"fileFooter" : "String",
+			"type" : "String"
+		}
+		"open3DPrinter" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"dismiss" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"openTech" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+	}
+	"titleFromEntity" : "Boolean",
+	"missingIcon" : "String",
+	"pickupSounds" : "Array<String>",
+	"starmapScreenSlowMovement" : "Double",
+	"headRunOffset" : "Array<Integer>",
+	"darkplasma" : {
+		"fireTime" : "Integer",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Integer",
+		"projectileType" : "String"
+	}
+	"liquidBuoyancy" : "Double",
+	"gamePort" : "Integer",
+	"generationQueueTTLMillis" : "Integer",
+	"background" : {
+		"fileHeader" : "String",
+		"fileBody" : "String",
+		"fileFooter" : "String",
+		"type" : "String"
+	}
+	"vaporTrailTime" : "Integer",
+	"bullet" : {
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"ignorePlatformCollision" : "Boolean",
+		"liquidFriction" : "Double",
+		"groundFriction" : "Integer",
+		"maxMovementPerStep" : "Double"
+	}
+	"arrivalOrigin" : {
+		"rotation" : "Double",
+		"offset" : "Array<Integer>"
+	}
+	"mouseoverTime" : "Double",
+	"paneIconOffset" : "Array<Integer>",
+	"body" : "String",
+	"lightball" : {
+		"fireTime" : "Integer",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"harvestToolVolume" : "Integer",
+	"teleportOutFrames" : "Integer",
+	"inventoryWindowLegsSlot" : "Array<Integer>",
+	"renderPreSleepRemainder" : "Integer",
+	"skyBackdropDarken" : "Array<Integer>",
+	"description" : "String",
+	"displayCenteredWindowGap" : "Integer",
+	"explosionDisplacementProbability" : "Double",
+	"beamGunSettings" : {
+		"segmentsPerUnit" : "Integer",
+		"targetSegmentRun" : "Integer",
+		"maxBeamTrans" : "Double",
+		"minBeamJitter" : "Double",
+		"image" : "String",
+		"minBeamWidth" : "Integer",
+		"minBeamLines" : "Integer",
+		"maxBeamWidth" : "Integer",
+		"maxBeamJitter" : "Double",
+		"nearControlPointElasticity" : "Double",
+		"minBeamTrans" : "Double",
+		"firePosition" : "Array<Integer>",
+		"endImages" : "Array<String>",
+		"nearControlPointDistance" : "Double",
+		"secondStripeThickness" : "Double",
+		"maxBeamLines" : "Integer",
+		"innerBrightnessScale" : "Integer",
+		"farControlPointElasticity" : "Double",
+		"firstStripeThickness" : "Double",
+		"handPosition" : "Array<Integer>"
+	}
+	"spawnNoDungeonReserve" : "Array<Integer>",
+	"portraitNullPlayerImagePart" : "String",
+	"spawnDungeonSpawnMinRadius" : "Integer",
+	"bouncy" : {
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"bounceFactor" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"ignorePlatformCollision" : "Boolean",
+		"groundFriction" : "Double",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double"
+	}
+	"liquidImpedance" : "Double",
+	"landingVolume" : "Double",
+	"flySpeed" : "Double",
+	"cleanupTimeSmear" : "Integer",
+	"emoteBindings" : {
+		"laugh" : "Array<String>",
+		"wink" : "Array<String>",
+		"oooh" : "Array<String>",
+		"sad" : "Array<String>",
+		"happy" : "Array<String>",
+		"angry" : "Array<String>",
+		"neutral" : "Array<String>",
+		"oh" : "Array<String>"
+	}
+	"explosionDisplacementVelocity" : "Integer",
+	"lightMidWeight" : "Double",
+	"exitHyperspaceAudioLeadIn" : "Double",
+	"scatteredPots" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"ignorePlatformCollision" : "Boolean",
+	"cameraSmoothFactor" : "Double",
+	"assetsIgnorePatterns" : "Array<String>",
+	"playerUpButton" : {
+		"position" : "Array<Integer>",
+		"pressedOffset" : "Array<Integer>",
+		"base" : "String",
+		"type" : "String"
+	}
+	"statusIconBlinkThreshold" : "Integer",
+	"backgroundShadowing" : "Double",
+	"focusIndicatorScale" : "Double",
+	"travelLineWidth" : "Integer",
+	"lightStrength" : "Double",
+	"generalspawn" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer",
+			"actionOnReap" : "Array<LinkedHashMap>"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"inventoryBar" : {
+		"craft" : {
+			"poly" : "Array<ArrayList>",
+			"base" : "String",
+			"hover" : "String",
+			"pos" : "Array<Integer>"
+		}
+		"questLog" : {
+			"poly" : "Array<ArrayList>",
+			"base" : "String",
+			"hover" : "String",
+			"pos" : "Array<Integer>"
+		}
+		"codex" : {
+			"poly" : "Array<ArrayList>",
+			"base" : "String",
+			"hover" : "String",
+			"pos" : "Array<Integer>"
+		}
+		"bag" : {
+			"open" : "String",
+			"openHover" : "String",
+			"poly" : "Array<ArrayList>",
+			"base" : "String",
+			"hover" : "String"
+		}
+		"money" : {
+			"textPos" : "Array<Integer>",
+			"image" : "String",
+			"pos" : "Array<Integer>"
+		}
+		"beam" : {
+			"poly" : "Array<ArrayList>",
+			"base" : "Array<String>",
+			"hover" : "Array<String>",
+			"pos" : "Array<Integer>"
+		}
+		"inspect" : {
+			"poly" : "Array<ArrayList>",
+			"base" : "String",
+			"hover" : "String",
+			"pos" : "Array<Integer>"
+		}
+	}
+	"plasmatorpedo" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"indicatorPulseLevel" : "Double",
+	"cacheLimitEvery" : "Integer",
+	"maxBehindUpdates" : "Integer",
+	"names" : "Array<LinkedHashMap>",
+	"shadowTopEdge" : "Double",
+	"chestArmorOffset" : "Array<Integer>",
+	"worldInfoFontSize" : "Integer",
+	"livingWorldUpdateStep" : "Integer",
+	"bottomOfWorldTouchMargin" : "Integer",
+	"travelLineDashLength" : "Integer",
+	"connect" : {
+		"position" : "Array<Integer>",
+		"base" : "String",
+		"caption" : "String",
+		"hover" : "String",
+		"type" : "String"
+	}
+	"worldBiomeDrawPosition" : "Array<Integer>",
+	"homeIndicatorScale" : "Double",
+	"defaultFootstepSound" : "String",
+	"randomEncounter" : {
+		"modulusVariance" : "Integer",
+		"typePeriod" : "Integer",
+		"alpha" : "Double",
+		"octaves" : "Integer",
+		"densityOffset" : "Double",
+		"beta" : "Double",
+		"type" : "String",
+		"densityPeriod" : "Integer",
+		"modulus" : "Integer"
+	}
+	"authHostname" : "String",
+	"airFriction" : "Double",
+	"buttonClickSound" : "Array<String>",
+	"inventoryWindowChestSlot" : "Array<Integer>",
+	"maxGenerationMillis" : "Integer",
+	"correctionPower" : "Double",
+	"tiyDist" : {
+		"modulusVariance" : "Integer",
+		"typePeriod" : "Integer",
+		"alpha" : "Double",
+		"octaves" : "Integer",
+		"densityOffset" : "Double",
+		"beta" : "Double",
+		"type" : "String",
+		"densityPeriod" : "Integer",
+		"modulus" : "Integer"
+	}
+	"sonicwave" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"satelliteTypes" : {
+		"Terrestrial" : {
+			"variationParameters" : "Array<LinkedHashMap>",
+			"orbitParameters" : {
+				"Cold" : "Array<LinkedHashMap>",
+				"Hot" : "Array<LinkedHashMap>",
+				"Mild" : "Array<LinkedHashMap>"
+			}
+			"selectionWeight" : "Double",
+			"baseParameters" : {
+				"dynamicsRange" : "Array<Integer>",
+				"biomeMaskImages" : "String",
+				"liquidImages" : "String",
+				"shadowImages" : "String",
+				"description" : "String",
+				"biomeMasks" : "Integer",
+				"dynamicsImages" : "String",
+				"type" : "String"
+			}
+		}
+	}
+	"offset" : "Array<Integer>",
+	"rareClumpySmall" : {
+		"modulusVariance" : "Integer",
+		"typePeriod" : "Integer",
+		"alpha" : "Double",
+		"octaves" : "Integer",
+		"densityOffset" : "Double",
+		"beta" : "Double",
+		"type" : "String",
+		"densityPeriod" : "Integer",
+		"modulus" : "Integer"
+	}
+	"desiredTextWidth" : "Integer",
+	"music" : {
+		"night" : {
+			"tracks" : "Array<String>"
+		}
+		"day" : {
+			"tracks" : "Array<String>"
+		}
+	}
+	"minInterfaceScale" : "Double",
+	"numPassiveFamilies" : "Integer",
+	"fallDamageFactor" : "Double",
+	"slaveUpdateSkip" : "Integer",
+	"namegen" : "Array<LinkedHashMap>",
+	"liquidForce" : "Double",
+	"groundForce" : "Double",
+	"bubbles" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"gravitybullet" : {
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"collisionBody" : "Array<ArrayList>",
+		"bounceFactor" : "Double",
+		"gravityMultiplier" : "Double",
+		"ignorePlatformCollision" : "Boolean",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double"
+	}
+	"liquidFriction" : "Double",
+	"masterSleepSpeed" : "Double",
+	"focusIndicatorLeft" : "String",
+	"dungeonQueryRadius" : "Integer",
+	"planetNameFormatString" : "String",
+	"message" : {
+		"windowSpring" : "Integer",
+		"offsetHidden" : "Array<Integer>",
+		"textContainerOffset" : "Array<Integer>",
+		"textContainer" : "String",
+		"showTime" : "Integer",
+		"textOffset" : "Array<Integer>",
+		"iconPos" : "Array<Integer>",
+		"itemOffset" : "Array<Integer>",
+		"barPos" : "Array<Integer>",
+		"progressContainer" : "String",
+		"hideTime" : "Integer",
+		"offsetHiddenBar" : "Array<Integer>",
+		"progressEmpty" : "String",
+		"offset" : "Array<Integer>",
+		"progressFilled" : "String"
+	}
+	"rareClumpyLarge" : {
+		"modulusVariance" : "Integer",
+		"typePeriod" : "Integer",
+		"alpha" : "Double",
+		"octaves" : "Integer",
+		"densityOffset" : "Double",
+		"beta" : "Double",
+		"type" : "String",
+		"densityPeriod" : "Integer",
+		"modulus" : "Integer"
+	}
+	"clusterSpawnCheckCount" : "Integer",
+	"serverProcessingGroupSteps" : "Integer",
+	"textParticleFontSize" : "Double",
+	"warpMessageDelay" : "Double",
+	"bind" : "String",
+	"itemIconOffset" : "Array<Integer>",
+	"teleportHeight" : "Double",
+	"rock" : {
+		"fireTime" : "Integer",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Integer",
+		"projectileType" : "String"
+	}
+	"teleportNoiseDown" : "String",
+	"titleCursor" : {
+		"image" : "String",
+		"offset" : "Array<Integer>"
+	}
+	"charGen" : {
+		"personalities" : "Array<ArrayList>"
+	}
+	"bouncer" : {
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"bounceFactor" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"ignorePlatformCollision" : "Boolean",
+		"groundFriction" : "Double",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double",
+		"groundSlideMovementEnabled" : "Boolean"
+	}
+	"passwordHash" : "String",
+	"satelliteIndicatorSize" : "Integer",
+	"healthPos" : "Array<Integer>",
+	"dungeonWhitelist" : "Array<String>",
+	"interactRadius" : "Double",
+	"starmapIndicatorSize" : "Integer",
+	"shadowCorner" : "Double",
+	"laser" : {
+		"airFriction" : "Double",
+		"bounceFactor" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"ignorePlatformCollision" : "Boolean",
+		"liquidFriction" : "Double",
+		"groundFriction" : "Integer",
+		"groundSlideMovementEnabled" : "Boolean",
+		"maxMovementPerStep" : "Double"
+	}
+	"nametagOpacityRate" : "Double",
+	"walkIntoInteractBias" : "Array<Integer>",
+	"energyReplenishmentRate" : "Double",
+	"coreBiomes" : "Array<String>",
+	"backArmorOffset" : "Array<Integer>",
+	"targetClustersPerPlayer" : "Integer",
+	"portraitNullPlayerImageFull" : "String",
+	"swimBob" : "Array<Integer>",
+	"focusIndicatorCenter" : "String",
+	"slowdownTimer" : "Double",
+	"title.connectionString" : "String",
+	"sectorBackgroundLayers" : "Array<LinkedHashMap>",
+	"teleportOutBeam" : "String",
+	"disabledButton" : "String",
+	"serverName" : "String",
+	"groundSlideMovementEnabled" : "Boolean",
+	"fontSize" : "Integer",
+	"skyMaxAlpha" : "Double",
+	"megabeam" : {
+		"fireTime" : "Integer",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"updateMeasureWindow" : "Integer",
+	"gas" : {
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"collisionPoly" : "Array<ArrayList>",
+		"ignorePlatformCollision" : "Boolean",
+		"liquidFriction" : "Double",
+		"cooldown" : "Integer",
+		"projectileType" : "String",
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"gravityMultiplier" : "Double",
+		"bounceFactor" : "Double",
+		"fireTime" : "Double",
+		"groundFriction" : "Double",
+		"maxMovementPerStep" : "Double",
+		"fireDt" : "Double"
+	}
+	"runningSuppressed" : "Boolean",
+	"layer2Chests" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"musicTrackSwitchGrace" : "Double",
+	"serverConnectTimeout" : "Integer",
+	"bloodvomit" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"mouseOffsetMember" : "Array<Integer>",
+	"playerActiveRegionPad" : "Array<Integer>",
+	"warmthBarPos" : "Array<Integer>",
+	"actionBarSwapItemOffset" : "Array<Integer>",
+	"starVelocityFactor" : "Double",
+	"zCoordRange" : "Array<Integer>",
+	"hazardUndergroundTop" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"maxSystemChunkSearches" : "Integer",
+	"starmapNameFontSize" : "Integer",
+	"satellite" : {
+		"area" : "Array<Integer>",
+		"moonScale" : "Double",
+		"planetScale" : "Double"
+	}
+	"footstepVolumeVariance" : "Double",
+	"freezeOverlayColor" : "Array<Integer>",
+	"runProbability" : "Double",
+	"flashTimer" : "Double",
+	"boomerang" : {
+		"airFriction" : "Integer",
+		"collisionBody" : "Array<ArrayList>",
+		"bounceFactor" : "Double",
+		"gravityMultiplier" : "Double",
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"ignorePlatformCollision" : "Boolean",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double",
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"debugOffset" : "Array<Integer>",
+	"disembarkOrigin" : {
+		"rotation" : "Integer",
+		"offset" : "Array<Integer>"
+	}
+	"meteor" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer",
+			"actionOnReap" : "Array<LinkedHashMap>"
+		}
+		"muzzleFlash" : {
+			"animation" : "String",
+			"fireSound" : "Array"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"minimumInspectionLight" : "Double",
+	"undergroundLayers" : "Array<LinkedHashMap>",
+	"maxAge" : "Integer",
+	"skyLevelExponent" : "Double",
+	"portraitScale" : "Double",
+	"useDefaultWorldCoordinate" : "Boolean",
+	"stickybomb" : {
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"stickyForce" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"stickyCollision" : "Boolean",
+		"ignorePlatformCollision" : "Boolean",
+		"groundFriction" : "Double",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double"
+	}
+	"portraitBackgroundMask" : "String",
+	"keypadSound" : "String",
+	"maxRecentlyVisitedSystems" : "Integer",
+	"acidspit" : {
+		"fireTime" : "Integer",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Integer",
+		"projectileType" : "String"
+	}
+	"starmapSelectDiameter" : "Integer",
+	"skyUpdateStepDelta" : "Integer",
+	"clientBufferZone" : "Array<Integer>",
+	"maxEnergy" : "Double",
+	"zoomList" : "Array<Integer>",
+	"renderVirtualCursor" : "Boolean",
+	"planetaryOrbitScales" : "Array<Double>",
+	"interBubbleMargin" : "Integer",
+	"frontArm" : "String",
+	"biomeHorizontalNoise" : {
+		"alpha" : "Double",
+		"octaves" : "Integer",
+		"frequency" : "Double",
+		"beta" : "Double",
+		"type" : "String",
+		"amplitude" : "Integer"
+	}
+	"hazardUndergroundCeilingMid" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"idealTemperature" : "Integer",
+	"shortdescription" : "String",
+	"liquidJumpProfile" : {
+		"autoJump" : "Boolean",
+		"jumpHoldTime" : "Double",
+		"reJumpDelay" : "Double",
+		"jumpInitialPercentage" : "Double",
+		"collisionCancelled" : "Boolean",
+		"jumpControlForce" : "Double",
+		"jumpSpeed" : "Double",
+		"multiJump" : "Boolean"
+	}
+	"biomeVerticalNoise" : {
+		"alpha" : "Double",
+		"octaves" : "Integer",
+		"frequency" : "Double",
+		"beta" : "Double",
+		"type" : "String",
+		"amplitude" : "Integer"
+	}
+	"lightNearWeight" : "Double",
+	"requiresBlueprint" : "Boolean",
+	"nametagOffset" : "Array<Integer>",
+	"airBuoyancy" : "Double",
+	"jumpBob" : "Integer",
+	"flyswarm" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"breathDepletionRate" : "Integer",
+	"coreBiomeTerrain" : "Array<String>",
+	"account" : {
+		"position" : "Array<Integer>",
+		"maxWidth" : "Integer",
+		"enterKey" : "String",
+		"textAlign" : "String",
+		"hint" : "String",
+		"border" : "Boolean",
+		"type" : "String"
+	}
+	"numAggressiveFamilies" : "Integer",
+	"keypressTimeout" : "Double",
+	"playerMonitoringBorder" : "Integer",
+	"machinegunbullet" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"power" : "Integer"
+		}
+		"muzzleFlash" : {
+			"animation" : "String",
+			"fireSound" : "Array"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"icebreath" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"fadeout" : "Double",
+	"planetNameFontSize" : "Integer",
+	"minimumConstellationMagnitude" : "Integer",
+	"homeIndicatorBasePosition" : "Array<Integer>",
+	"maximumCorrection" : "Integer",
+	"worldDimTime" : "Double",
+	"displayPerf" : "Boolean",
+	"action" : "String",
+	"recoilOffset" : "Array<Integer>",
+	"thorns" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"legsArmorOffset" : "Array<Integer>",
+	"textboxCursorVertical" : "Array<Double>",
+	"waterballoon" : {
+		"fireTime" : "Integer",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Integer",
+		"projectileType" : "String"
+	}
+	"dropCollision" : "Array<Double>",
+	"duckOffset" : "Integer",
+	"youAreHereIndicatorBasePosition" : "Array<Integer>",
+	"orbitPathScale" : "Double",
+	"rootKey" : "String",
+	"rareItems" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"windowMonitoringBorder" : "Integer",
+	"penguintankround" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"muzzleFlash" : {
+			"animation" : "String",
+			"fireSound" : "Array"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"missingAssetsAudio" : "String",
+	"sectors" : "Array<LinkedHashMap>",
+	"healthResponses" : "Array<LinkedHashMap>",
+	"spinner" : {
+		"rightBase" : "String",
+		"rightHover" : "String",
+		"defaultPadding" : "Integer",
+		"leftHover" : "String",
+		"leftBase" : "String"
+	}
+	"sfxVol" : "Integer",
+	"authPort" : "Integer",
+	"maxInterfaceScale" : "Double",
+	"console" : {
+		"setHomeWorld" : {
+			"position" : "Array<Integer>",
+			"pressed" : "String",
+			"pressedOffset" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"fuelGauge" : {
+			"position" : "Array<Integer>",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"xCoord" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"regex" : "String",
+			"maxWidth" : "Integer",
+			"textAlign" : "String",
+			"fontSize" : "Integer",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"systemRightButton" : {
+			"position" : "Array<Integer>",
+			"pressed" : "String",
+			"pressedOffset" : "Array<Integer>",
+			"base" : "String",
+			"callback" : "String",
+			"hover" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"findRandom" : {
+			"position" : "Array<Integer>",
+			"pressed" : "String",
+			"pressedOffset" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"sectorBackground" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"yCoord" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"regex" : "String",
+			"maxWidth" : "Integer",
+			"textAlign" : "String",
+			"fontSize" : "Integer",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"numpadFront" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"systemDownButton" : {
+			"position" : "Array<Integer>",
+			"pressed" : "String",
+			"pressedOffset" : "Array<Integer>",
+			"base" : "String",
+			"callback" : "String",
+			"hover" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"mouseIndicator" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"initiateJump" : {
+			"position" : "Array<Integer>",
+			"pressed" : "String",
+			"pressedOffset" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"fuelIcon" : {
+			"position" : "Array<Integer>",
+			"scale" : "Double",
+			"file" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"close" : {
+			"position" : "Array<Integer>",
+			"pressed" : "String",
+			"pressedOffset" : "Array<Integer>",
+			"callback" : "String",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"consoleScreenCanvas" : {
+			"rect" : "Array<Integer>",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"fuelCost" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String",
+			"fontSize" : "Integer",
+			"zlevel" : "Integer"
+		}
+		"goToHomeWorld" : {
+			"position" : "Array<Integer>",
+			"pressed" : "String",
+			"pressedOffset" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"systemLeftButton" : {
+			"position" : "Array<Integer>",
+			"pressed" : "String",
+			"pressedOffset" : "Array<Integer>",
+			"base" : "String",
+			"callback" : "String",
+			"hover" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"background" : {
+			"fileHeader" : "String",
+			"fileBody" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"sectorButtons" : {
+			"position" : "Array<Integer>",
+			"baseImageChecked" : "String",
+			"hoverImageChecked" : "String",
+			"hoverImage" : "String",
+			"buttons" : "Array<LinkedHashMap>",
+			"type" : "String",
+			"baseImage" : "String",
+			"zlevel" : "Integer"
+		}
+		"sectorLabel" : {
+			"position" : "Array<Integer>",
+			"hAnchor" : "String",
+			"type" : "String",
+			"fontSize" : "Integer",
+			"zlevel" : "Integer"
+		}
+		"systemUpButton" : {
+			"position" : "Array<Integer>",
+			"pressed" : "String",
+			"pressedOffset" : "Array<Integer>",
+			"base" : "String",
+			"callback" : "String",
+			"hover" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+	}
+	"grenadenobounce" : {
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"bounceFactor" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"ignorePlatformCollision" : "Boolean",
+		"groundFriction" : "Double",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double"
+	}
+	"levelVariability" : "Array<Double>",
+	"damageFactors" : {
+		"plantish" : "Double",
+		"beamish" : "Double",
+		"explosive" : "Double",
+		"blockish" : "Double",
+		"tilling" : "Double",
+		"fire" : "Double"
+	}
+	"cooldownDuration" : "Double",
+	"armRunSeq" : "Array<Integer>",
+	"maxHealth" : "Double",
+	"paneSubTitleOffset" : "Array<Integer>",
+	"maximumConstellationLineLength" : "Double",
+	"fallStatusSpeedMin" : "Double",
+	"playerReviveTime" : "Double",
+	"layOffset" : "Integer",
+	"onShowSound" : "Array<String>",
+	"controlPort" : "Integer",
+	"assetCleanupTimeout" : "Integer",
+	"spawnAdjustLimit" : "Integer",
+	"interfaceCrossoverRes" : "Array<Integer>",
+	"emoteCooldown" : "Integer",
+	"chunkSize" : "Integer",
+	"normalGroundFriction" : "Double",
+	"enterHyperspaceAudioLeadIn" : "Double",
+	"numCoordHashes" : "Integer",
+	"planetGenCacheSize" : "Integer",
+	"serverPasswords" : "Array<String>",
+	"headLayOffset" : "Array<Integer>",
+	"teleportOutBase" : "String",
+	"explosivegoo" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"allowAdminCommands" : "Boolean",
+	"nametagOpacityBoost" : "Integer",
+	"largeCharPlate" : {
+		"textColor" : "Array<Integer>",
+		"noPlayer" : "String",
+		"modeOffset" : "Array<Integer>",
+		"noPlayerTextColor" : "Array<Integer>",
+		"switchText" : "String",
+		"backingImage" : "String",
+		"playerHover" : "String",
+		"portraitScale" : "Double",
+		"textColorDisabled" : "Array<Integer>",
+		"portraitOffset" : "Array<Integer>",
+		"noPlayerHover" : "String",
+		"modeNameOffset" : "Array<Integer>",
+		"playerNameOffset" : "Array<Integer>",
+		"modeText" : "String",
+		"noPlayerText" : "String",
+		"createText" : "String"
+	}
+	"nametagColor" : "String",
+	"xySearchCoordRange" : "Array<Integer>",
+	"swaps" : "Array<LinkedHashMap>",
+	"surfaceTries" : "Integer",
+	"flyMaxVelocity" : "Integer",
+	"teleportVolume" : "Integer",
+	"veryRareItem" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"minimumConstellationLineCloseness" : "Integer",
+	"orbitRings" : "String",
+	"speciesShips" : {
+		"glitch" : "String",
+		"apex" : "String",
+		"avian" : "String",
+		"hylotl" : "String",
+		"floran" : "String",
+		"human" : "String"
+	}
+	"mainColor" : "Array<Integer>",
+	"hover" : {
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"stickyForce" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"stickyCollision" : "Boolean",
+		"ignorePlatformCollision" : "Boolean",
+		"groundFriction" : "Double",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double"
+	}
+	"list" : "Array<LinkedHashMap>",
+	"colorMultiplier" : "Double",
+	"clusterSize" : "Array<Integer>",
+	"starmapScreenScale" : "Double",
+	"humanoidTiming" : {
+		"emoteCycle" : "Array<Double>",
+		"emoteFrames" : "Array<Integer>",
+		"stateFrames" : "Array<Integer>",
+		"stateCycle" : "Array<Double>"
+	}
+	"planetaryOrbitPositions" : "Array<ArrayList>",
+	"floatystickybomb" : {
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"stickyForce" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"stickyCollision" : "Boolean",
+		"ignorePlatformCollision" : "Boolean",
+		"groundFriction" : "Double",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double"
+	}
+	"statusCriticalLevel" : "Double",
+	"bounceFactor" : "Double",
+	"speedupTimer" : "Double",
+	"sfxDelta" : "Integer",
+	"statusIconPos" : "Array<Integer>",
+	"textBoxDefaultWidth" : "Integer",
+	"crafting.filterHaveMaterials" : "Boolean",
+	"mouthOffset" : "Array<Integer>",
+	"engineAudio" : "String",
+	"planetSelectDiameter" : "Integer",
+	"blueprint" : {
+		"overlay" : {
+			"iconOverlay" : {
+				"image" : "String"
+			}
+		}
+		"inHandDrawable" : {
+			"image" : "String"
+		}
+		"messages" : {
+			"learned" : "String",
+			"alreadyKnown" : "String"
+		}
+	}
+	"coolingIndicatorOffset" : "Array<Integer>",
+	"defaultMaxDistance" : "Double",
+	"colorMapPixellation" : "Double",
+	"mouseoverOffset" : "Array<Integer>",
+	"defaultBlueprints" : {
+		"level37" : "Array<LinkedHashMap>",
+		"tier1" : "Array<LinkedHashMap>",
+		"portable3dprinter" : "Array<LinkedHashMap>",
+		"level32" : "Array<LinkedHashMap>",
+		"level34" : "Array<LinkedHashMap>",
+		"tier2" : "Array<LinkedHashMap>",
+		"level33" : "Array<LinkedHashMap>",
+		"tier3" : "Array<LinkedHashMap>",
+		"level36" : "Array<LinkedHashMap>",
+		"tier4" : "Array<LinkedHashMap>",
+		"level35" : "Array<LinkedHashMap>"
+	}
+	"bareHandsCrafting" : {
+		"filter" : "Array<String>"
+	}
+	"maxFallTimeFactor" : "Double",
+	"arrow" : {
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"bounceFactor" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"ignorePlatformCollision" : "Boolean",
+		"groundFriction" : "Double",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double"
+	}
+	"systemNames" : "Array<ArrayList>",
+	"clusterCloseRect" : "Array<Integer>",
+	"storageTriggerInterval" : "Integer",
+	"itemIconDurabilityOffset" : "Array<Integer>",
+	"minimumLiquidLevel" : "Double",
+	"initialquests" : {
+		"glitch" : "Array<String>",
+		"apex" : "Array<String>",
+		"avian" : "Array<String>",
+		"hylotl" : "Array<String>",
+		"floran" : "Array<String>",
+		"human" : "Array<String>"
+	}
+	"combatTrack" : {
+		"night" : {
+			"tracks" : "Array<String>"
+		}
+		"day" : {
+			"tracks" : "Array<String>"
+		}
+	}
+	"cameraSmoothRadius" : "Double",
+	"cursorItemSlot" : {
+		"position" : "Array<Integer>",
+		"iconMode" : "Boolean",
+		"callback" : "String",
+		"showCount" : "Boolean",
+		"type" : "String",
+		"showDurability" : "Boolean"
+	}
+	"youAreHereIndicatorScale" : "Double",
+	"walkBob" : "Array<Integer>",
+	"planetThreatAdjustment" : {
+		"dayTimeUndergroundAdjustmentRange" : "Array<Integer>",
+		"dayTimeSurfaceAdjustmentRange" : "Array<Integer>",
+		"nightTimeUndergroundAdjustmentRange" : "Array<Integer>",
+		"undergroundDifficultyIncreaseRange" : "Array<Double>",
+		"nightTimeSurfaceAdjustmentRange" : "Array<Double>"
+	}
+	"blueprintOnPickupMessage" : "String",
+	"selectText" : "String",
+	"constellationLineCountRange" : "Array<Integer>",
+	"claimFile" : "String",
+	"minimumDayLevel" : "Double",
+	"defaultItems" : "Array",
+	"statusDepletionDamage" : "Double",
+	"targetFps" : "Integer",
+	"miningBlockVolume" : "Double",
+	"audioChannelSeparation" : "Array<Integer>",
+	"waitForUpdate" : "Boolean",
+	"coolingIndicatorPos" : "Array<Integer>",
+	"mouseOffsetLeader" : "Array<Integer>",
+	"planetInfoBackgroundRect" : "Array<Integer>",
+	"snowball" : {
+		"airFriction" : "Double",
+		"bounceFactor" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"ignorePlatformCollision" : "Boolean",
+		"groundFriction" : "Double",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double"
+	}
+	"surfaceBiomeTerrains" : {
+		"moon" : "Array<String>",
+		"desert" : "Array<String>",
+		"tundra" : "Array<String>",
+		"magma" : "Array<String>",
+		"arid" : "Array<String>",
+		"ocean" : "Array<String>",
+		"forest" : "Array<String>",
+		"volcanic" : "Array<String>",
+		"tentacles" : "Array<String>",
+		"savannah" : "Array<String>",
+		"jungle" : "Array<String>",
+		"snow" : "Array<String>",
+		"grasslands" : "Array<String>",
+		"arctic" : "Array<String>"
+	}
+	"potsRare" : {
+		"modulusVariance" : "Integer",
+		"typePeriod" : "Integer",
+		"alpha" : "Double",
+		"octaves" : "Integer",
+		"densityOffset" : "Double",
+		"beta" : "Double",
+		"type" : "String",
+		"densityPeriod" : "Integer",
+		"modulus" : "Integer"
+	}
+	"25" : {
+		"down" : "Array<String>",
+		"up" : "Array<String>"
+	}
+	"tiyDistRare" : {
+		"modulusVariance" : "Integer",
+		"typePeriod" : "Integer",
+		"alpha" : "Double",
+		"octaves" : "Integer",
+		"densityOffset" : "Double",
+		"beta" : "Double",
+		"type" : "String",
+		"densityPeriod" : "Integer",
+		"modulus" : "Integer"
+	}
+	"dllLoadPath" : "String",
+	"breathPos" : "Array<Integer>",
+	"windChillFactor" : "Integer",
+	"bottom" : {
+		"scrolling" : {
+			"base" : "String",
+			"hover" : "String"
+		}
+		"atbottom" : {
+			"base" : "String",
+			"hover" : "String"
+		}
+	}
+	"planetNameDrawPosition" : "Array<Integer>",
+	"undergroundTerrain" : {
+		"undergroundCaves" : {
+			"caveSelector" : "String",
+			"oreSelector" : "String",
+			"bgCaveSelector" : "String",
+			"subBlockSelector" : "String"
+		}
+	}
+	"hungerIcon" : "String",
+	"skyBrightnessBase" : "Double",
+	"maxMessagePerEntity" : "Integer",
+	"terminalVelocityDifference" : "Double",
+	"backArm" : "String",
+	"musicDelta" : "Integer",
+	"modifiedTilePredictionTimeout" : "Double",
+	"maxStoreMillis" : "Integer",
+	"defaultWorldCoordinate" : "String",
+	"15" : {
+		"down" : "Array<String>",
+		"up" : "Array<String>"
+	}
+	"mainMenuButtons" : "Array<String>",
+	"orbitallaunch" : {
+		"airFriction" : "Double",
+		"bounceFactor" : "Integer",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"ignorePlatformCollision" : "Boolean",
+		"liquidFriction" : "Double",
+		"groundSlideMovementEnabled" : "Boolean",
+		"maxMovementPerStep" : "Double"
+	}
+	"hazardUndergroundCeilingTop" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"invitationPollInterval" : "Double",
+	"jellybossexplode" : {
+		"fireTime" : "Integer",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Integer",
+		"projectileType" : "String"
+	}
+	"paneLayoutLeader" : {
+		"windowtitle" : {
+			"position" : "Array<Integer>",
+			"title" : "String",
+			"subtitle" : "String",
+			"type" : "String",
+			"size" : "Integer"
+		}
+		"removeFromTeam" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"caption" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"makeLeader" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"caption" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"panefeature" : {
+			"persistent" : "Boolean",
+			"keyDismissable" : "Boolean",
+			"type" : "String"
+		}
+		"name" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"background" : {
+			"fileHeader" : "String",
+			"fileBody" : "String",
+			"fileFooter" : "String",
+			"type" : "String"
+		}
+		"beamToShip" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"caption" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+	}
+	"spawnRegionSize" : "Array<Double>",
+	"spawnRegionMaximumSearch" : "Integer",
+	"monsterHealth" : {
+		"progressChunks" : "Integer",
+		"levelTextOffset" : "Array<Integer>",
+		"skillTextOffset" : "Array<Integer>",
+		"skillTextDirectives" : "String",
+		"progressBarOffset" : "Array<Integer>",
+		"showTime" : "Integer",
+		"skillIconOffset" : "Array<Integer>",
+		"portraitScale" : "Integer",
+		"portraitOffset" : "Array<Integer>",
+		"container" : "String",
+		"progressEmpty" : "String",
+		"nameTextOffset" : "Array<Integer>",
+		"offset" : "Array<Integer>",
+		"progressFilled" : "String"
+	}
+	"projectile" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"power" : "Integer"
+		}
+		"muzzleFlash" : {
+			"animation" : "String",
+			"fireSound" : "Array"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"resolutionList" : "Array<ArrayList>",
+	"errorSound" : "String",
+	"trashBurnTimeout" : "Double",
+	"paneLayout" : {
+		"itemSlot1" : {
+			"position" : "Array<Integer>",
+			"callback" : "String",
+			"type" : "String"
+		}
+		"itemSlot2" : {
+			"position" : "Array<Integer>",
+			"callback" : "String",
+			"type" : "String"
+		}
+		"lblProducttitle" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"pantsColor" : {
+			"position" : "Array<Integer>",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"itemSlot3" : {
+			"position" : "Array<Integer>",
+			"callback" : "String",
+			"type" : "String"
+		}
+		"pants" : {
+			"position" : "Array<Integer>",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"itemSlot4" : {
+			"position" : "Array<Integer>",
+			"callback" : "String",
+			"type" : "String"
+		}
+		"imgComplete" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String"
+		}
+		"personality" : {
+			"position" : "Array<Integer>",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"saveChar" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"caption" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"legsSoc" : {
+			"position" : "Array<Integer>",
+			"backingImage" : "String",
+			"type" : "String"
+		}
+		"randomize" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"btnPlay" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"caption" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"lblSchematics" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"nqImage" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"lbllvlSort" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"modeStack" : {
+			"position" : "Array<Integer>",
+			"stack" : "Array<LinkedHashMap>",
+			"type" : "String"
+		}
+		"lblProduct" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"ok" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"caption" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"musicLabel" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"type" : "String"
+		}
+		"teamLeader" : {
+			"position" : "Array<Integer>",
+			"text" : "String",
+			"color" : "Array<Integer>",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"labelMoneyAmount" : {
+			"position" : "Array<Integer>",
+			"color" : "String",
+			"value" : "String",
+			"fontSize" : "Integer",
+			"type" : "String"
+		}
+		"speechBubbleLabel" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"lblHint" : {
+			"position" : "Array<Integer>",
+			"width" : "Integer",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"lblDescription" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"gridModeSelector" : {
+			"position" : "Array<Integer>",
+			"baseImageChecked" : "String",
+			"buttons" : "Array<LinkedHashMap>",
+			"type" : "String",
+			"baseImage" : "String"
+		}
+		"scanItem" : {
+			"position" : "Array<Integer>",
+			"rightClickCallback" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"tileItemGrid" : {
+			"position" : "Array<Integer>",
+			"dimensions" : "Array<Integer>",
+			"spacing" : "Array<Integer>",
+			"backingImage" : "String",
+			"type" : "String"
+		}
+		"leftOverlay" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"labelAlty" : {
+			"position" : "Array<Integer>",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"heady" : {
+			"position" : "Array<Integer>",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"backSoc" : {
+			"position" : "Array<Integer>",
+			"backingImage" : "String",
+			"type" : "String"
+		}
+		"musicSlider" : {
+			"gridImage" : "String",
+			"position" : "Array<Integer>",
+			"type" : "String"
+		}
+		"labelSpeciesRadio" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"lblTechSlots" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"lblErrors" : {
+			"position" : "Array<Integer>",
+			"width" : "Integer",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"labeltech" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"altHandSlot" : {
+			"position" : "Array<Integer>",
+			"iconMode" : "Boolean",
+			"showCount" : "Boolean",
+			"type" : "String",
+			"showDurability" : "Boolean",
+			"zlevel" : "Integer"
+		}
+		"btnFilterHaveMaterials" : {
+			"position" : "Array<Integer>",
+			"baseImageChecked" : "String",
+			"checkable" : "Boolean",
+			"base" : "String",
+			"type" : "String",
+			"checked" : "Boolean"
+		}
+		"imgMoney" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String"
+		}
+		"lblStatus" : {
+			"position" : "Array<Integer>",
+			"width" : "Integer",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"labelPantsColor" : {
+			"position" : "Array<Integer>",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"scanCostLabel" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"lblTech" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"headSoc" : {
+			"position" : "Array<Integer>",
+			"backingImage" : "String",
+			"type" : "String"
+		}
+		"randomName" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"btnOk" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"caption" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"btnAccept" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"caption" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"labelPortrait" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"fullscreenLabel" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"lblBandPlayback" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"resLabel" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"labelHairStyle" : {
+			"position" : "Array<Integer>",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"tech2Selection" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String"
+		}
+		"hairStyle" : {
+			"position" : "Array<Integer>",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"btnStart" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"caption" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"labeltech1" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"fontSize" : "Integer",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"species" : {
+			"position" : "Array<Integer>",
+			"baseImageChecked" : "String",
+			"hoverImageChecked" : "String",
+			"hoverImage" : "String",
+			"buttons" : "Array<LinkedHashMap>",
+			"type" : "String",
+			"baseImage" : "String"
+		}
+		"labelHeady" : {
+			"position" : "Array<Integer>",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"btnSetAsCurrent" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"caption" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"back" : {
+			"position" : "Array<Integer>",
+			"backingImage" : "String",
+			"type" : "String"
+		}
+		"labeltech4" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"fontSize" : "Integer",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"labeltech2" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"fontSize" : "Integer",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"sfxValueLabel" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"acceptButton" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"labeltech3" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"fontSize" : "Integer",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"tech1" : {
+			"position" : "Array<Integer>",
+			"backingImage" : "String",
+			"type" : "String"
+		}
+		"labelShirtColor" : {
+			"position" : "Array<Integer>",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"healthtext" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"tech4" : {
+			"position" : "Array<Integer>",
+			"backingImage" : "String",
+			"type" : "String"
+		}
+		"panefeature" : {
+			"persistent" : "Boolean",
+			"positionLocked" : "Boolean",
+			"keyDismissable" : "Boolean",
+			"type" : "String",
+			"anchor" : "String"
+		}
+		"tech3" : {
+			"position" : "Array<Integer>",
+			"backingImage" : "String",
+			"type" : "String"
+		}
+		"tech2" : {
+			"position" : "Array<Integer>",
+			"backingImage" : "String",
+			"type" : "String"
+		}
+		"background" : {
+			"fileHeader" : "String",
+			"fileBody" : "String",
+			"fileFooter" : "String",
+			"type" : "String"
+		}
+		"legs" : {
+			"position" : "Array<Integer>",
+			"backingImage" : "String",
+			"type" : "String"
+		}
+		"lblAmountInput" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"labelappearance" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"tech3Selection" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String"
+		}
+		"labelMainSkinColor" : {
+			"position" : "Array<Integer>",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"musicValueLabel" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"lblSong" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"rightOverlay" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"chestSoc" : {
+			"position" : "Array<Integer>",
+			"backingImage" : "String",
+			"type" : "String"
+		}
+		"labelShirt" : {
+			"position" : "Array<Integer>",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"cancel" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"caption" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"btnAbandon" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"caption" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"leaveButton" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"type" : "String"
+		}
+		"close" : {
+			"position" : "Array<Integer>",
+			"press" : "String",
+			"base" : "String",
+			"caption" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"shirtColor" : {
+			"position" : "Array<Integer>",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"labelPants" : {
+			"position" : "Array<Integer>",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"labelback" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"charPreview" : {
+			"position" : "Array<Integer>",
+			"scale" : "Double",
+			"type" : "String"
+		}
+		"weapontext" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"description" : {
+			"position" : "Array<Integer>",
+			"type" : "String",
+			"size" : "Array<Integer>"
+		}
+		"lblBandInput" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"gender" : {
+			"position" : "Array<Integer>",
+			"baseImageChecked" : "String",
+			"hoverImageChecked" : "String",
+			"hoverImage" : "String",
+			"buttons" : "Array<LinkedHashMap>",
+			"type" : "String",
+			"baseImage" : "String"
+		}
+		"zoomSlider" : {
+			"gridImage" : "String",
+			"position" : "Array<Integer>",
+			"type" : "String"
+		}
+		"head" : {
+			"position" : "Array<Integer>",
+			"backingImage" : "String",
+			"type" : "String"
+		}
+		"shirt" : {
+			"position" : "Array<Integer>",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"selectL" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String"
+		}
+		"selectR" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String"
+		}
+		"barItems" : {
+			"position" : "Array<Integer>",
+			"rowSpacing" : "Array<Integer>",
+			"dimensions" : "Array<Integer>",
+			"showBackingImageWhenFull" : "Boolean",
+			"backingImage" : "String",
+			"type" : "String",
+			"showDurability" : "Boolean",
+			"zlevel" : "Integer",
+			"showBackingImageWhenEmpty" : "Boolean",
+			"columnSpacing" : "Array<Integer>"
+		}
+		"tech4Selection" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String"
+		}
+		"portrait" : {
+			"position" : "Array<Integer>",
+			"scale" : "Double",
+			"type" : "String"
+		}
+		"sfxSlider" : {
+			"gridImage" : "String",
+			"position" : "Array<Integer>",
+			"type" : "String"
+		}
+		"petslot1" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String"
+		}
+		"petslot2" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String"
+		}
+		"rarities" : {
+			"buttons" : "Array<LinkedHashMap>",
+			"type" : "String",
+			"toggleMode" : "Boolean"
+		}
+		"trash" : {
+			"position" : "Array<Integer>",
+			"backingImage" : "String",
+			"type" : "String"
+		}
+		"fullscreenCheckbox" : {
+			"position" : "Array<Integer>",
+			"baseImageChecked" : "String",
+			"checkable" : "Boolean",
+			"base" : "String",
+			"type" : "String"
+		}
+		"imgDetails" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String"
+		}
+		"filter" : {
+			"position" : "Array<Integer>",
+			"escapeKey" : "String",
+			"enterKey" : "String",
+			"maxWidth" : "Integer",
+			"buttons" : "Array<LinkedHashMap>",
+			"focus" : "Boolean",
+			"hint" : "String",
+			"type" : "String",
+			"toggleMode" : "Boolean"
+		}
+		"rewardItems" : {
+			"position" : "Array<Integer>",
+			"callback" : "String",
+			"dimensions" : "Array<Integer>",
+			"spacing" : "Array<Integer>",
+			"backingImage" : "String",
+			"type" : "String"
+		}
+		"select2" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String"
+		}
+		"spinCount" : {
+			"position" : "Array<Integer>",
+			"type" : "String",
+			"upOffset" : "Integer"
+		}
+		"energytext" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"labelstats" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"sfxLabel" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"type" : "String"
+		}
+		"scanButton" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"mainItemGrid" : {
+			"position" : "Array<Integer>",
+			"dimensions" : "Array<Integer>",
+			"spacing" : "Array<Integer>",
+			"backingImage" : "String",
+			"type" : "String"
+		}
+		"songs" : {
+			"children" : {
+				"list" : {
+					"schema" : {
+						"listTemplate" : {
+							"background" : {
+								"position" : "Array<Integer>",
+								"file" : "String",
+								"type" : "String",
+								"zlevel" : "Integer"
+							}
+							"songName" : {
+								"position" : "Array<Integer>",
+								"width" : "Integer",
+								"value" : "String",
+								"hAnchor" : "String",
+								"type" : "String"
+							}
+						}
+						"memberSize" : "Array<Integer>",
+						"spacing" : "Array<Integer>",
+						"selectedBG" : "String",
+						"unselectedBG" : "String"
+					}
+					"type" : "String"
+				}
+			}
+			"rect" : "Array<Integer>",
+			"type" : "String"
+		}
+		"scrollArea" : {
+			"children" : {
+				"questList" : {
+					"schema" : {
+						"listTemplate" : {
+							"labelQuestEntry" : {
+								"position" : "Array<Integer>",
+								"vAnchor" : "String",
+								"color" : "String",
+								"lineSpacing" : "Double",
+								"width" : "Integer",
+								"value" : "String",
+								"hAnchor" : "String",
+								"type" : "String"
+							}
+							"background" : {
+								"position" : "Array<Integer>",
+								"file" : "String",
+								"type" : "String",
+								"zlevel" : "Integer"
+							}
+							"imageNew" : {
+								"position" : "Array<Integer>",
+								"file" : "String",
+								"type" : "String"
+							}
+						}
+						"memberSize" : "Array<Integer>",
+						"spacing" : "Array<Integer>",
+						"selectedBG" : "String",
+						"unselectedBG" : "String"
+					}
+					"type" : "String"
+				}
+				"itemList" : {
+					"schema" : {
+						"listTemplate" : {
+							"priceLabel" : {
+								"position" : "Array<Integer>",
+								"value" : "String",
+								"hAnchor" : "String",
+								"type" : "String"
+							}
+							"itemName" : {
+								"position" : "Array<Integer>",
+								"width" : "Integer",
+								"value" : "String",
+								"hAnchor" : "String",
+								"type" : "String"
+							}
+							"level" : {
+								"position" : "Array<Integer>",
+								"value" : "String",
+								"hAnchor" : "String",
+								"type" : "String"
+							}
+							"background" : {
+								"position" : "Array<Integer>",
+								"file" : "String",
+								"type" : "String",
+								"zlevel" : "Integer"
+							}
+							"notcraftableoverlay" : {
+								"position" : "Array<Integer>",
+								"file" : "String",
+								"type" : "String",
+								"zlevel" : "Integer"
+							}
+							"moneyIcon" : {
+								"position" : "Array<Integer>",
+								"file" : "String",
+								"type" : "String"
+							}
+							"itemIcon" : {
+								"position" : "Array<Integer>",
+								"callback" : "String",
+								"type" : "String"
+							}
+						}
+						"memberSize" : "Array<Integer>",
+						"spacing" : "Array<Integer>",
+						"selectedBG" : "String",
+						"unselectedBG" : "String"
+					}
+					"type" : "String"
+				}
+			}
+			"rect" : "Array<Integer>",
+			"type" : "String"
+		}
+		"alty" : {
+			"position" : "Array<Integer>",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"chest" : {
+			"position" : "Array<Integer>",
+			"backingImage" : "String",
+			"type" : "String"
+		}
+		"labelMoney" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"fontSize" : "Integer",
+			"type" : "String"
+		}
+		"lblBand" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"labelQuestBody" : {
+			"position" : "Array<Integer>",
+			"vAnchor" : "String",
+			"color" : "String",
+			"lineSpacing" : "Double",
+			"width" : "Integer",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"btnStop" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"caption" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"btnSlot4" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"btnSlot2" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"labelarmor" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"btnSlot3" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"bgShine" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"labelpet1" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"fontSize" : "Integer",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"labelpet2" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"fontSize" : "Integer",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"tbSpinCount" : {
+			"position" : "Array<Integer>",
+			"regex" : "String",
+			"maxWidth" : "Integer",
+			"hint" : "String",
+			"textAlign" : "String",
+			"type" : "String"
+		}
+		"name" : {
+			"position" : "Array<Integer>",
+			"escapeKey" : "String",
+			"enterKey" : "String",
+			"maxWidth" : "Integer",
+			"focus" : "Boolean",
+			"hint" : "String",
+			"type" : "String"
+		}
+		"bgOverlay" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"speechBubbleCheckbox" : {
+			"position" : "Array<Integer>",
+			"baseImageChecked" : "String",
+			"checkable" : "Boolean",
+			"base" : "String",
+			"type" : "String"
+		}
+		"btnSlot1" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"tech1Selection" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String"
+		}
+		"trashButton" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String"
+		}
+		"backButton" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"volumeLabel" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"zoomLabel" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"list" : {
+			"position" : "Array<Integer>",
+			"type" : "String"
+		}
+		"resSlider" : {
+			"gridImage" : "String",
+			"position" : "Array<Integer>",
+			"type" : "String"
+		}
+		"labelQuestTitle" : {
+			"position" : "Array<Integer>",
+			"vAnchor" : "String",
+			"color" : "Array<Integer>",
+			"lineSpacing" : "Double",
+			"width" : "Integer",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"resValueLabel" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"labelPersonality" : {
+			"position" : "Array<Integer>",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"message" : {
+			"position" : "Array<Integer>",
+			"vAnchor" : "String",
+			"color" : "String",
+			"lineSpacing" : "Double",
+			"width" : "Integer",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"windowtitle" : {
+			"position" : "Array<Integer>",
+			"icon" : {
+				"position" : "Array<Integer>",
+				"file" : "String",
+				"type" : "String",
+				"zlevel" : "Integer"
+			}
+			"title" : "String",
+			"subtitle" : "String",
+			"type" : "String",
+			"size" : "Integer"
+		}
+		"inviteButton" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"type" : "String"
+		}
+		"btnCraft" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"caption" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"mainSkinColor" : {
+			"position" : "Array<Integer>",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"scrollBG" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"readLabel" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"labelError" : {
+			"position" : "Array<Integer>",
+			"vAnchor" : "String",
+			"color" : "Array<Integer>",
+			"lineSpacing" : "Double",
+			"width" : "Integer",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"categories" : {
+			"buttons" : "Array<LinkedHashMap>",
+			"type" : "String",
+			"toggleMode" : "Boolean"
+		}
+		"labelpets" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"primaryHandSlot" : {
+			"position" : "Array<Integer>",
+			"iconMode" : "Boolean",
+			"showCount" : "Boolean",
+			"type" : "String",
+			"showDurability" : "Boolean",
+			"zlevel" : "Integer"
+		}
+		"group" : {
+			"position" : "Array<Integer>",
+			"maxWidth" : "Integer",
+			"hint" : "String",
+			"type" : "String"
+		}
+		"defensetext" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"zoomValueLabel" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+	}
+	"species" : "Array<String>",
+	"scatteredSmall" : {
+		"modulusVariance" : "Integer",
+		"typePeriod" : "Integer",
+		"alpha" : "Double",
+		"octaves" : "Integer",
+		"densityOffset" : "Double",
+		"beta" : "Double",
+		"type" : "String",
+		"densityPeriod" : "Integer",
+		"modulus" : "Integer"
+	}
+	"seed" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Integer",
+		"projectileType" : "String"
+	}
+	"runBob" : "Array<Integer>",
+	"partTypes" : {
+		"body" : {
+			"position" : "Array<Integer>",
+			"states" : {
+				"movement" : {
+					"idle" : "String",
+					"cleaningbotSpawn" : "String",
+					"spawn" : "String",
+					"resetEnd" : "String",
+					"resetStart" : "String",
+					"idleOpen" : "String",
+					"repairbotSpawn" : "String",
+					"reset" : "String",
+					"serpentdroidSpawn" : "String",
+					"close" : "String"
+				}
+			}
+			"zlevel" : "Integer"
+		}
+	}
+	"pixelRatio" : "Double",
+	"maxWorldSearches" : "Integer",
+	"pulsecannon" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer",
+			"actionOnReap" : "Array<LinkedHashMap>"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"sticky" : {
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"stickyForce" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"stickyCollision" : "Boolean",
+		"ignorePlatformCollision" : "Boolean",
+		"groundFriction" : "Double",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double"
+	}
+	"paneTitleOffset" : "Array<Integer>",
+	"10" : {
+		"down" : "Array<String>",
+		"up" : "Array<String>"
+	}
+	"paneTitleColor" : "Array<Integer>",
+	"connectionTimeout" : "Integer",
+	"lighting" : {
+		"pointMaxAir" : "Integer",
+		"pointMaxObstacle" : "Integer",
+		"spreadPasses" : "Integer",
+		"pointObstacleBoost" : "Integer",
+		"spreadMaxAir" : "Integer",
+		"spreadMaxObstacle" : "Integer"
+	}
+	"firespread" : {
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"bounceFactor" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"ignorePlatformCollision" : "Boolean",
+		"groundFriction" : "Double",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double"
+	}
+	"underwaterMinWaterLevel" : "Double",
+	"onGroundSustain" : "Double",
+	"energyPos" : "Array<Integer>",
+	"spikeball" : {
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"stickyForce" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"stickyCollision" : "Boolean",
+		"ignorePlatformCollision" : "Boolean",
+		"groundFriction" : "Double",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double"
+	}
+	"blockRadius" : "Integer",
+	"spawnMonsters" : "Boolean",
+	"focusIndicatorRight" : "String",
+	"starmapScreenFastMovement" : "Double",
+	"denseLarge" : {
+		"modulusVariance" : "Integer",
+		"typePeriod" : "Integer",
+		"alpha" : "Double",
+		"octaves" : "Integer",
+		"densityOffset" : "Double",
+		"beta" : "Double",
+		"type" : "String",
+		"densityPeriod" : "Integer",
+		"modulus" : "Integer"
+	}
+	"clearPlayerFiles" : "Boolean",
+	"energyResponses" : "Array<LinkedHashMap>",
+	"reviveCost" : {
+		"absolute" : "Integer",
+		"percentile" : "Double"
+	}
+	"spawnFlatSurfaceRadius" : "Integer",
+	"renderPriority" : "Boolean",
+	"audioDecompressLimit" : "Double",
+	"audioEnabled" : "Boolean",
+	"gravityEnabled" : "Boolean",
+	"ambulatingGroundFriction" : "Double",
+	"portraitPos" : "Array<Integer>",
+	"textLabels" : "Array<ArrayList>",
+	"fireswirl" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"handgunbullet" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"power" : "Double"
+		}
+		"muzzleFlash" : {
+			"animation" : "String",
+			"fireSound" : "Array"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"minimumConstellationLineLength" : "Double",
+	"runFallOffset" : "Integer",
+	"playerReviveAnimationDelayTime" : "Double",
+	"textZoom" : "Integer",
+	"constellationMaxTries" : "Integer",
+	"renderSleep" : "Boolean",
+	"pixelRatioIdx" : "Integer",
+	"miningToolVolume" : "Double",
+	"textureTimeout" : "Integer",
+	"orbitalLevels" : "Integer",
+	"clockUpdatePacketInterval" : "Integer",
+	"portraitIconOffset" : "Array<Integer>",
+	"damageRecovery" : "Double",
+	"maxOverlayPercent" : "Double",
+	"headSwimOffset" : "Array<Integer>",
+	"rockettrooperspawn" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer",
+			"actionOnReap" : "Array<LinkedHashMap>"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"cursorTypes" : "Array<LinkedHashMap>",
+	"systemSelectDiameter" : "Integer",
+	"lightning" : {
+		"fireTime" : "Integer",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer",
+			"timeToLive" : "Double"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"portraitIconImage" : "String",
+	"twinkleScale" : "Double",
+	"spaceBiomes" : "Array<String>",
+	"systemTypes" : {
+		"RedDwarf" : {
+			"planetaryBodyProbability" : "Double",
+			"variationParameters" : "Array<LinkedHashMap>",
+			"selectionWeight" : "Double",
+			"orbitRegions" : "Array<ArrayList>",
+			"baseParameters" : {
+				"twinkleTime" : "Array<Double>",
+				"image" : "String"
+			}
+		}
+		"BlueGiant" : {
+			"planetaryBodyProbability" : "Double",
+			"variationParameters" : "Array<LinkedHashMap>",
+			"selectionWeight" : "Double",
+			"orbitRegions" : "Array<ArrayList>",
+			"baseParameters" : {
+				"twinkleTime" : "Array<Double>",
+				"image" : "String"
+			}
+		}
+		"RedGiant" : {
+			"planetaryBodyProbability" : "Double",
+			"variationParameters" : "Array<LinkedHashMap>",
+			"selectionWeight" : "Double",
+			"orbitRegions" : "Array<ArrayList>",
+			"baseParameters" : {
+				"twinkleTime" : "Array<Double>",
+				"image" : "String"
+			}
+		}
+		"YellowDwarf" : {
+			"planetaryBodyProbability" : "Double",
+			"variationParameters" : "Array<LinkedHashMap>",
+			"selectionWeight" : "Double",
+			"orbitRegions" : "Array<ArrayList>",
+			"baseParameters" : {
+				"twinkleTime" : "Array<Double>",
+				"image" : "String"
+			}
+		}
+	}
+	"intraSystemFuelcost" : "Integer",
+	"grenade" : {
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"bounceFactor" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"ignorePlatformCollision" : "Boolean",
+		"groundFriction" : "Double",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double"
+	}
+	"75" : {
+		"down" : "Array<String>",
+		"up" : "Array<String>"
+	}
+	"slider" : {
+		"rightBase" : "String",
+		"rightHover" : "String",
+		"collisionPoly" : "Array<ArrayList>",
+		"defaultPadding" : "Integer",
+		"ignorePlatformCollision" : "Boolean",
+		"liquidFriction" : "Double",
+		"groundSlideMovementEnabled" : "Boolean",
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"jog" : "String",
+		"gravityMultiplier" : "Double",
+		"bounceFactor" : "Double",
+		"leftHover" : "String",
+		"groundFriction" : "Double",
+		"maxMovementPerStep" : "Double",
+		"leftBase" : "String"
+	}
+	"charSelector1" : {
+		"position" : "Array<Integer>",
+		"type" : "String"
+	}
+	"charSelector2" : {
+		"position" : "Array<Integer>",
+		"type" : "String"
+	}
+	"hazardUndergroundCore" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"charSelector3" : {
+		"position" : "Array<Integer>",
+		"type" : "String"
+	}
+	"paneLayoutMember" : {
+		"windowtitle" : {
+			"position" : "Array<Integer>",
+			"title" : "String",
+			"subtitle" : "String",
+			"type" : "String",
+			"size" : "Integer"
+		}
+		"panefeature" : {
+			"persistent" : "Boolean",
+			"keyDismissable" : "Boolean",
+			"type" : "String"
+		}
+		"name" : {
+			"position" : "Array<Integer>",
+			"color" : "Array<Integer>",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"background" : {
+			"fileHeader" : "String",
+			"fileBody" : "String",
+			"fileFooter" : "String",
+			"type" : "String"
+		}
+		"beamToShip" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"caption" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+	}
+	"maxPlayers" : "Integer",
+	"charSelector4" : {
+		"position" : "Array<Integer>",
+		"type" : "String"
+	}
+	"bodyTemperatureRangeLow" : "Array<Integer>",
+	"hazardUndergroundCeilingLower" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"hoverIndicatorScale" : "Double",
+	"warmthTransferRateCap" : "Double",
+	"systemOrbitScales" : "Array<Double>",
+	"planetHorizons" : {
+		"maskPerPlanetRange" : "Array<Integer>",
+		"biomeTextures" : "String",
+		"maskRange" : "Array<Integer>",
+		"atmosphereTextures" : "String",
+		"maskTextures" : "String",
+		"shadowTextures" : "String",
+		"liquidTextures" : "String"
+	}
+	"compass" : "String",
+	"sitOffset" : "Integer",
+	"planetCenter" : "Array<Integer>",
+	"sun" : {
+		"image" : "String",
+		"radius" : "Integer"
+	}
+	"blockDamageUpdateStep" : "Integer",
+	"tracing" : "Boolean",
+	"masterSleepUpdateSkipSmear" : "Integer",
+	"masterSleepBegin" : "Integer",
+	"layer3Chests" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"teleportBeamHeight" : "Integer",
+	"tierBlueprintsUnlockedMessage" : "String",
+	"biomeNoise" : {
+		"alpha" : "Double",
+		"octaves" : "Integer",
+		"frequency" : "Double",
+		"beta" : "Double",
+		"type" : "String",
+		"amplitude" : "Integer"
+	}
+	"debugFontSize" : "Integer",
+	"windowTitle" : "String",
+	"individualSpawnChances" : "Integer",
+	"modes" : {
+		"planet" : {
+			"base" : "String",
+			"hover" : "String"
+		}
+		"admin" : {
+			"base" : "String",
+			"hover" : "String"
+		}
+		"universe" : {
+			"base" : "String",
+			"hover" : "String"
+		}
+	}
+	"indicatorPulseMin" : "Double",
+	"dayLengthRange" : "Array<Integer>",
+	"randomEncounterUnderground" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"chip" : {
+		"overlay" : {
+			"iconOverlay" : {
+				"image" : "String"
+			}
+		}
+		"inHandDrawable" : {
+			"image" : "String"
+		}
+		"messages" : {
+			"learned" : "String",
+			"alreadyKnown" : "String"
+		}
+	}
+	"spaceDebris" : {
+		"velocityRange" : "Array<Integer>",
+		"cellSize" : "Integer",
+		"angularVelocity" : "Array<Integer>",
+		"list" : "Array<String>",
+		"animationSpeed" : "Array<Double>",
+		"cellCount" : "Array<Integer>",
+		"numFields" : "Array<Integer>"
+	}
+	"stickyCollision" : "Boolean",
+	"collisionPoly" : "Array<ArrayList>",
+	"objectPreviewInnerAlpha" : "Double",
+	"systemNameFontSize" : "Integer",
+	"textboxCursorHorizontal" : "Array<Double>",
+	"superCommon" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"teleportInTime" : "Double",
+	"speechBubbles" : "Boolean",
+	"fullUpdateInterval" : "Double",
+	"offSound" : "String",
+	"serverDisconnectTimeout" : "Integer",
+	"defaultSurfaceTerrain" : "String",
+	"maxFood" : "Double",
+	"headDuckOffset" : "Array<Integer>",
+	"systemOrbitPositions" : "Array<ArrayList>",
+	"missingAssetsImage" : "String",
+	"scanFactor" : "Integer",
+	"underwaterSensor" : "Array<Double>",
+	"teleportOutTime" : "Double",
+	"fullscreenResolution" : "Array<Integer>",
+	"plasmabullet" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"50" : {
+		"down" : "Array<String>",
+		"up" : "Array<String>"
+	}
+	"tooltip" : {
+		"panefeature" : {
+			"persistent" : "Boolean",
+			"keyDismissable" : "Boolean",
+			"type" : "String"
+		}
+		"itemList" : {
+			"schema" : {
+				"listTemplate" : {
+					"itemName" : {
+						"position" : "Array<Integer>",
+						"width" : "Integer",
+						"value" : "String",
+						"hAnchor" : "String",
+						"type" : "String"
+					}
+					"count" : {
+						"position" : "Array<Integer>",
+						"value" : "String",
+						"hAnchor" : "String",
+						"type" : "String"
+					}
+					"itemIcon" : {
+						"position" : "Array<Integer>",
+						"callback" : "String",
+						"type" : "String"
+					}
+				}
+				"memberSize" : "Array<Integer>",
+				"spacing" : "Array<Integer>"
+			}
+			"position" : "Array<Integer>",
+			"type" : "String"
+		}
+		"allowOver" : "Boolean",
+		"radius" : "Integer",
+		"offset" : "Array<Integer>",
+		"hoverTime" : "Double"
+	}
+	"assetLoadingWarnTime" : "Double",
+	"worldClientUpdateStepDelta" : "Integer",
+	"feetOffset" : "Array<Integer>",
+	"techControllerSettings" : {
+		"baseMovementParameters" : {
+			"mass" : "Double",
+			"airFriction" : "Double",
+			"maximumCorrection" : "Integer",
+			"crouchingPoly" : "Array<ArrayList>",
+			"standingPoly" : "Array<ArrayList>",
+			"maxMovementPerStep" : "Double"
+		}
+	}
+	"homeIndicator" : "String",
+	"warmthPos" : "Array<Integer>",
+	"deathPoof" : {
+		"particles" : "Array<LinkedHashMap>"
+	}
+	"hoverIndicatorBR" : "String",
+	"crashexplosion" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer",
+			"actionOnReap" : "Array<LinkedHashMap>"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"blinkInterval" : "Array<Integer>",
+	"cameraSmoothDeadzone" : "Double",
+	"sectorTTLMillis" : "Integer",
+	"enterHyperspaceAudio" : "String",
+	"satelliteSuffixes" : "Array<String>",
+	"gui" : {
+		"fuelGauge" : {
+			"position" : "Array<Integer>",
+			"type" : "String"
+		}
+		"textBoxBG" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String"
+		}
+		"upButton" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"count" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"bottomButton" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"modeButton" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"itemGrid2" : {
+			"position" : "Array<Integer>",
+			"dimensions" : "Array<Integer>",
+			"slotOffset" : "Integer",
+			"spacing" : "Array<Integer>",
+			"backingImage" : "String",
+			"type" : "String"
+		}
+		"textBox" : {
+			"position" : "Array<Integer>",
+			"color" : "String",
+			"maxWidth" : "Integer",
+			"type" : "String"
+		}
+		"close" : {
+			"position" : "Array<Integer>",
+			"pressed" : "String",
+			"pressedOffset" : "Array<Integer>",
+			"callback" : "String",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"clear" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"overlay" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String"
+		}
+		"panefeature" : {
+			"persistent" : "Boolean",
+			"keyDismissable" : "Boolean",
+			"type" : "String",
+			"anchor" : "String"
+		}
+		"dragDrop" : {
+			"position" : "Array<Integer>",
+			"value" : "String",
+			"hAnchor" : "String",
+			"type" : "String"
+		}
+		"background" : {
+			"fileHeader" : "String",
+			"fileBody" : "String",
+			"fileFooter" : "String",
+			"type" : "String"
+		}
+		"outputItemGrid" : {
+			"position" : "Array<Integer>",
+			"dimensions" : "Array<Integer>",
+			"slotOffset" : "Integer",
+			"spacing" : "Array<Integer>",
+			"backingImage" : "String",
+			"type" : "String"
+		}
+		"say" : {
+			"position" : "Array<Integer>",
+			"color" : "String",
+			"value" : "String",
+			"type" : "String"
+		}
+		"downButton" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"pointer" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String"
+		}
+		"objectImage" : {
+			"position" : "Array<Integer>",
+			"centered" : "Boolean",
+			"minSize" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String",
+			"maxSize" : "Array<Integer>"
+		}
+		"burn" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"itemGrid" : {
+			"position" : "Array<Integer>",
+			"dimensions" : "Array<Integer>",
+			"spacing" : "Array<Integer>",
+			"backingImage" : "String",
+			"type" : "String"
+		}
+		"toggleCrafting" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+	}
+	"constellationLineWidth" : "Double",
+	"shadow" : "Double",
+	"config" : {
+		"chatHistoryLimit" : "Integer",
+		"visTime" : "Integer",
+		"lineHeight" : "Integer",
+		"chatSize" : "Integer",
+		"colors" : {
+			"whisper" : "String",
+			"broadcast" : "String",
+			"commandResult" : "String",
+			"channel" : "String"
+		}
+		"font" : {
+			"itemSize" : "Integer",
+			"defaultColor" : "Array<Integer>",
+			"baseSize" : "Integer",
+			"nameSize" : "Integer"
+		}
+		"fadeRate" : "Double",
+		"durabilityBar" : {
+			"position" : "Array<Integer>",
+			"background" : "String",
+			"type" : "String",
+			"progressSet" : {
+				"inner" : "String",
+				"type" : "String"
+			}
+		}
+		"chatWrapLimit" : "Integer",
+		"offset" : "Array<Integer>"
+	}
+	"systemNameDrawPosition" : "Array<Integer>",
+	"teleportInBeam" : "String",
+	"combatTrackMixSettings" : {
+		"grace" : "Integer",
+		"mixMusicIn" : "Array<Integer>",
+		"mixMusicOut" : "Array<Integer>",
+		"mixCombatOut" : "Array<Integer>",
+		"mixCombatIn" : "Array<Integer>"
+	}
+	"workerPoolSize" : "Integer",
+	"scatteredLarge" : {
+		"modulusVariance" : "Integer",
+		"typePeriod" : "Integer",
+		"alpha" : "Double",
+		"octaves" : "Integer",
+		"densityOffset" : "Double",
+		"beta" : "Double",
+		"type" : "String",
+		"densityPeriod" : "Integer",
+		"modulus" : "Integer"
+	}
+	"systemHoverNameFontSize" : "Integer",
+	"masterSleepUpdateSkip" : "Integer",
+	"hoverIndicatorTR" : "String",
+	"friendlybubble" : {
+		"airFriction" : "Double",
+		"bounceFactor" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"ignorePlatformCollision" : "Boolean",
+		"groundFriction" : "Double",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double"
+	}
+	"surfaceTerrain" : {
+		"hills" : {
+			"caveSelector" : "String",
+			"oreSelector" : "String",
+			"bgCaveSelector" : "String",
+			"subBlockSelector" : "String",
+			"surfaceSelector" : "String"
+		}
+		"mountains" : {
+			"caveSelector" : "String",
+			"oreSelector" : "String",
+			"bgCaveSelector" : "String",
+			"subBlockSelector" : "String",
+			"surfaceSelector" : "String"
+		}
+		"dunes" : {
+			"caveSelector" : "String",
+			"oreSelector" : "String",
+			"bgCaveSelector" : "String",
+			"subBlockSelector" : "String",
+			"surfaceSelector" : "String"
+		}
+		"barren" : {
+			"caveSelector" : "String",
+			"oreSelector" : "String",
+			"bgCaveSelector" : "String",
+			"subBlockSelector" : "String",
+			"surfaceSelector" : "String"
+		}
+		"totallyflat" : {
+			"caveSelector" : "String",
+			"oreSelector" : "String",
+			"bgCaveSelector" : "String",
+			"subBlockSelector" : "String",
+			"surfaceSelector" : "String"
+		}
+		"islands" : {
+			"caveSelector" : "String",
+			"oreSelector" : "String",
+			"bgCaveSelector" : "String",
+			"subBlockSelector" : "String",
+			"surfaceSelector" : "String"
+		}
+		"chasms" : {
+			"caveSelector" : "String",
+			"oreSelector" : "String",
+			"bgCaveSelector" : "String",
+			"subBlockSelector" : "String",
+			"surfaceSelector" : "String"
+		}
+		"flats" : {
+			"caveSelector" : "String",
+			"oreSelector" : "String",
+			"bgCaveSelector" : "String",
+			"subBlockSelector" : "String",
+			"surfaceSelector" : "String"
+		}
+		"canyons" : {
+			"caveSelector" : "String",
+			"oreSelector" : "String",
+			"bgCaveSelector" : "String",
+			"subBlockSelector" : "String",
+			"surfaceSelector" : "String"
+		}
+	}
+	"sonic" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"bcryptRounds" : "Integer",
+	"worldInactiveShutdown" : "Integer",
+	"hoverIndicatorTL" : "String",
+	"audioChannels" : "Integer",
+	"undergroundChests" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"itemRequestReset" : "Integer",
+	"frontHandPosition" : "Array<Integer>",
+	"attemptAuthentication" : "Boolean",
+	"spaceBiomeTerrain" : "Array<String>",
+	"stars" : {
+		"cellSize" : "Integer",
+		"frames" : "Integer",
+		"list" : "Array<String>",
+		"twinkleMin" : "Double",
+		"cellCount" : "Array<Integer>",
+		"hyperlist" : "Array<String>",
+		"twinkleMax" : "Double"
+	}
+	"blockDamageParticle" : {
+		"collidesForeground" : "Boolean",
+		"initialVelocity" : "Array<Double>",
+		"layer" : "String",
+		"destructionTime" : "Double",
+		"approach" : "Array<Integer>",
+		"finalVelocity" : "Array<Double>",
+		"type" : "String",
+		"timeToLive" : "Double",
+		"destructionAction" : "String",
+		"size" : "Double"
+	}
+	"surfaceOnlyProbability" : "Double",
+	"jumpingSuppressed" : "Boolean",
+	"warmingIndicatorPos" : "Array<Integer>",
+	"clusterCount" : "Array<Integer>",
+	"warmthBarTextOffset" : "Array<Integer>",
+	"backArmOffset" : "Array<Integer>",
+	"nameOffset" : "Array<Integer>",
+	"refreshInterval" : "Double",
+	"planetSizes" : {
+		"huge" : {
+			"surfaceDungeonCount" : "Integer",
+			"lavaLevel" : "Integer",
+			"blendSize" : "Integer",
+			"undergroundDetachedBiomeCaveFactor" : "Double",
+			"undergroundDetachedBiomeCount" : "Integer",
+			"detachedBiomeRadius" : "Integer",
+			"undergroundLayers" : "Integer",
+			"deadZoneSize" : "Integer",
+			"size" : "Array<Integer>",
+			"undergroundDetachedBiomeEnvironmentRadius" : "Integer",
+			"undergroundDetachedBiomeHeightVariance" : "Integer",
+			"surfaceLevel" : "Integer",
+			"undergroundDetachedBiomeRadius" : "Integer",
+			"description" : "String",
+			"undergroundLevel" : "Integer",
+			"bedrockLevel" : "Integer",
+			"spaceBoundary" : "Integer",
+			"detachedBiomeCount" : "Integer"
+		}
+		"tiny" : {
+			"surfaceDungeonCount" : "Integer",
+			"lavaLevel" : "Integer",
+			"blendSize" : "Integer",
+			"undergroundDetachedBiomeCaveFactor" : "Double",
+			"undergroundDetachedBiomeCount" : "Integer",
+			"detachedBiomeRadius" : "Integer",
+			"undergroundLayers" : "Integer",
+			"deadZoneSize" : "Integer",
+			"size" : "Array<Integer>",
+			"undergroundDetachedBiomeEnvironmentRadius" : "Integer",
+			"undergroundDetachedBiomeHeightVariance" : "Integer",
+			"surfaceLevel" : "Integer",
+			"undergroundDetachedBiomeRadius" : "Integer",
+			"description" : "String",
+			"undergroundLevel" : "Integer",
+			"bedrockLevel" : "Integer",
+			"spaceBoundary" : "Integer",
+			"detachedBiomeCount" : "Integer"
+		}
+		"verylarge" : {
+			"surfaceDungeonCount" : "Integer",
+			"lavaLevel" : "Integer",
+			"blendSize" : "Integer",
+			"undergroundDetachedBiomeCaveFactor" : "Double",
+			"undergroundDetachedBiomeCount" : "Integer",
+			"detachedBiomeRadius" : "Integer",
+			"undergroundLayers" : "Integer",
+			"deadZoneSize" : "Integer",
+			"size" : "Array<Integer>",
+			"undergroundDetachedBiomeEnvironmentRadius" : "Integer",
+			"undergroundDetachedBiomeHeightVariance" : "Integer",
+			"surfaceLevel" : "Integer",
+			"undergroundDetachedBiomeRadius" : "Integer",
+			"description" : "String",
+			"undergroundLevel" : "Integer",
+			"bedrockLevel" : "Integer",
+			"spaceBoundary" : "Integer",
+			"detachedBiomeCount" : "Integer"
+		}
+		"small" : {
+			"surfaceDungeonCount" : "Integer",
+			"lavaLevel" : "Integer",
+			"blendSize" : "Integer",
+			"undergroundDetachedBiomeCaveFactor" : "Double",
+			"undergroundDetachedBiomeCount" : "Integer",
+			"detachedBiomeRadius" : "Integer",
+			"undergroundLayers" : "Integer",
+			"deadZoneSize" : "Integer",
+			"size" : "Array<Integer>",
+			"undergroundDetachedBiomeEnvironmentRadius" : "Integer",
+			"undergroundDetachedBiomeHeightVariance" : "Integer",
+			"surfaceLevel" : "Integer",
+			"undergroundDetachedBiomeRadius" : "Integer",
+			"description" : "String",
+			"undergroundLevel" : "Integer",
+			"bedrockLevel" : "Integer",
+			"spaceBoundary" : "Integer",
+			"detachedBiomeCount" : "Integer"
+		}
+		"large" : {
+			"surfaceDungeonCount" : "Integer",
+			"lavaLevel" : "Integer",
+			"blendSize" : "Integer",
+			"undergroundDetachedBiomeCaveFactor" : "Double",
+			"undergroundDetachedBiomeCount" : "Integer",
+			"detachedBiomeRadius" : "Integer",
+			"undergroundLayers" : "Integer",
+			"deadZoneSize" : "Integer",
+			"size" : "Array<Integer>",
+			"undergroundDetachedBiomeEnvironmentRadius" : "Integer",
+			"undergroundDetachedBiomeHeightVariance" : "Integer",
+			"surfaceLevel" : "Integer",
+			"undergroundDetachedBiomeRadius" : "Integer",
+			"description" : "String",
+			"undergroundLevel" : "Integer",
+			"bedrockLevel" : "Integer",
+			"spaceBoundary" : "Integer",
+			"detachedBiomeCount" : "Integer"
+		}
+	}
+	"planetNameFadeTime" : "Double",
+	"slopeSlidingFactor" : "Double",
+	"mapping" : {
+		"79" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"78" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"77" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"35" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"36" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"33" : {
+			"f" : "Double",
+			"files" : "Array<String>",
+			"file" : "String"
+		}
+		"34" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"39" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"37" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"38" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"43" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"42" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"41" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"40" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"82" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"83" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"80" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"81" : {
+			"f" : "Double",
+			"files" : "Array<String>",
+			"file" : "String"
+		}
+		"86" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"87" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"84" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"85" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"67" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"66" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"69" : {
+			"f" : "Double",
+			"files" : "Array<String>",
+			"file" : "String"
+		}
+		"68" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"22" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"23" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"24" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"25" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"26" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"27" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"28" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"29" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"30" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"32" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"31" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"70" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"71" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"72" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"73" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"74" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"75" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"76" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"59" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"58" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"57" : {
+			"f" : "Double",
+			"files" : "Array<String>",
+			"file" : "String"
+		}
+		"56" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"55" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"21" : {
+			"f" : "Double",
+			"files" : "Array<String>",
+			"file" : "String"
+		}
+		"108" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"107" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"106" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"64" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"105" : {
+			"f" : "Double",
+			"files" : "Array<String>",
+			"file" : "String"
+		}
+		"65" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"104" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"62" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"103" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"63" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"60" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"102" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"99" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"101" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"61" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"100" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"49" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"98" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"48" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"97" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"96" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"95" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"45" : {
+			"f" : "Double",
+			"files" : "Array<String>",
+			"file" : "String"
+		}
+		"94" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"44" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"93" : {
+			"f" : "Double",
+			"files" : "Array<String>",
+			"file" : "String"
+		}
+		"47" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"92" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"46" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"91" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"90" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"51" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"52" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"53" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"54" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"88" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"50" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+		"89" : {
+			"f" : "Double",
+			"file" : "String"
+		}
+	}
+	"defaultHumanoidIdentity" : {
+		"hairType" : "String",
+		"color" : "Array<Integer>",
+		"gender" : "String"
+	}
+	"blockDamageParticleVariance" : {
+		"initialVelocity" : "Array<Double>"
+	}
+	"radialSlots" : "Integer",
+	"kind" : "String",
+	"nameGen" : "Array<LinkedHashMap>",
+	"backdropImages" : "Array<ArrayList>",
+	"pollen" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Integer",
+		"projectileType" : "String"
+	}
+	"escapeDialog" : {
+		"showOptions" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"paneFeature" : {
+			"positionLocked" : "Boolean",
+			"keyDismissable" : "Boolean",
+			"type" : "String",
+			"anchor" : "String"
+		}
+		"background" : {
+			"fileHeader" : "String",
+			"fileBody" : "String",
+			"fileFooter" : "String",
+			"type" : "String"
+		}
+		"saveAndQuit" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+		"returnToGame" : {
+			"position" : "Array<Integer>",
+			"base" : "String",
+			"hover" : "String",
+			"type" : "String"
+		}
+	}
+	"hyperspaceAudio" : "String",
+	"tiyDistTerrainfeatures" : {
+		"modulusVariance" : "Integer",
+		"typePeriod" : "Integer",
+		"alpha" : "Double",
+		"octaves" : "Integer",
+		"densityOffset" : "Double",
+		"beta" : "Double",
+		"type" : "String",
+		"densityPeriod" : "Integer",
+		"modulus" : "Integer"
+	}
+	"focusIndicatorTop" : "String",
+	"clusterTargetRect" : "Array<Double>",
+	"clustergoo" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"minibiomeChests" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"99" : {
+		"down" : "Array<String>",
+		"up" : "Array<String>"
+	}
+	"planetNameTime" : "Double",
+	"100" : {
+		"down" : "Array<String>",
+		"up" : "Array<String>"
+	}
+	"statusIconShift" : "Array<Integer>",
+	"marioball" : {
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"bounceFactor" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"ignorePlatformCollision" : "Boolean",
+		"groundFriction" : "Double",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double"
+	}
+	"spawnDungeonNearSpawnMaxRadius" : "Integer",
+	"textColor" : "String",
+	"exitHyperspaceAudio" : "String",
+	"buttonPressedOffset" : "Array<Integer>",
+	"slaveUpdateSkipSmear" : "Integer",
+	"fallThroughSustainFrames" : "Integer",
+	"statusUpdateInterval" : "Double",
+	"systemHoverNameDrawPosition" : "Array<Integer>",
+	"overgroundChests" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"blockbreaker" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer",
+			"actionOnReap" : "Array<LinkedHashMap>"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"paneSubTitleColor" : "Array<Integer>",
+	"sampleRate" : "Integer",
+	"hoverIndicatorBL" : "String",
+	"tankspawn" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer",
+			"actionOnReap" : "Array<LinkedHashMap>"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"breathBarNextBarOffset" : "Array<Integer>",
+	"altBlockRadius" : "Integer",
+	"mainWakeupInterval" : "Integer",
+	"warmthTransferRate" : "Double",
+	"focusIndicatorBottom" : "String",
+	"initialBeamGunRadius" : "Double",
+	"satelliteNameDrawPosition" : "Array<Integer>",
+	"clearUniverseFiles" : "Boolean",
+	"visibleRect" : "Array<Double>",
+	"mainMenuButtonsDisabled" : "Array<String>",
+	"bazookarocket" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Double",
+			"power" : "Double"
+		}
+		"muzzleFlash" : {
+			"animation" : "String",
+			"fireSound" : "Array"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"headArmorOffset" : "Array<Integer>",
+	"initialcodex" : {
+		"glitch" : "Array<String>",
+		"apex" : "Array<String>",
+		"avian" : "Array<String>",
+		"hylotl" : "Array<String>",
+		"floran" : "Array<String>",
+		"human" : "Array<String>"
+	}
+	"refreshTimer" : "Double",
+	"gravityRange" : "Array<Integer>",
+	"hazardUndergroundMid" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"traceFile" : "String",
+	"spawnDungeonNearSpawn" : "Boolean",
+	"planetHorizon" : {
+		"clouds" : "Array<String>",
+		"scale" : "Double",
+		"cloudCount" : "Array<Integer>",
+		"cloudRadius" : "Array<Integer>",
+		"cloudSpeed" : "Array<Double>",
+		"yCenter" : "Integer"
+	}
+	"password" : "String",
+	"vaporTrailCycle" : "Double",
+	"buttonHoverSound" : "Array<String>",
+	"airForce" : "Double",
+	"mass" : "Double",
+	"mouseoverRadius" : "Integer",
+	"layer1Chests" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"mainMenuButtonsOffsets" : "Array<ArrayList>",
+	"clusterDespawnCheckCount" : "Integer",
+	"zoomLevel" : "Double",
+	"actionBarSelectOffset" : "Array<Integer>",
+	"planetInfoSeparatorRect" : "Array<Integer>",
+	"previewGlowBorder" : "Integer",
+	"windowedResolution" : "Array<Integer>",
+	"head" : "String",
+	"parenting" : "Array<ArrayList>",
+	"purgeableCacheLimit" : "Integer",
+	"blockDamageParticleProbability" : "Double",
+	"tiyDistPlatform" : {
+		"modulusVariance" : "Integer",
+		"typePeriod" : "Integer",
+		"alpha" : "Double",
+		"octaves" : "Integer",
+		"densityOffset" : "Double",
+		"beta" : "Double",
+		"type" : "String",
+		"densityPeriod" : "Integer",
+		"modulus" : "Integer"
+	}
+	"footstepSensor" : "Array<Integer>",
+	"maxFrameskip" : "Integer",
+	"itemCountRightAnchor" : "Array<Integer>",
+	"font" : {
+		"itemSize" : "Integer",
+		"planetSize" : "Integer",
+		"defaultColor" : "Array<Integer>",
+		"baseSize" : "Integer",
+		"buttonSize" : "Integer",
+		"nameSize" : "Integer"
+	}
+	"comfortRegen" : "Double",
+	"onSound" : "String",
+	"poopBurst" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"orbitalup" : {
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"bounceFactor" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"ignorePlatformCollision" : "Boolean",
+		"groundFriction" : "Double",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double"
+	}
+	"warmthRateScale" : "Double",
+	"vsync" : "Boolean",
+	"maximized" : "Boolean",
+	"default" : {
+		"airFriction" : "Double",
+		"maximumCorrection" : "Integer",
+		"bounceFactor" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"ignorePlatformCollision" : "Boolean",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double"
+	}
+	"stickyForce" : "Double",
+	"teleportInBase" : "String",
+	"foodDepletionRate" : "Double",
+	"airJumpProfile" : {
+		"autoJump" : "Boolean",
+		"jumpHoldTime" : "Double",
+		"reJumpDelay" : "Double",
+		"jumpInitialPercentage" : "Double",
+		"collisionCancelled" : "Boolean",
+		"jumpControlForce" : "Double",
+		"jumpSpeed" : "Double",
+		"multiJump" : "Boolean"
+	}
+	"teleportNoiseUp" : "String",
+	"stickybullet" : {
+		"airFriction" : "Double",
+		"stickyForce" : "Double",
+		"bounceFactor" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"stickyCollision" : "Boolean",
+		"ignorePlatformCollision" : "Boolean",
+		"liquidFriction" : "Double",
+		"groundFriction" : "Integer",
+		"groundSlideMovementEnabled" : "Boolean",
+		"maxMovementPerStep" : "Double"
+	}
+	"bomb" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"hazardUndergroundCeilingCore" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"systemIndicatorSize" : "Integer",
+	"maxBreath" : "Double",
+	"filter" : "Array",
+	"nothingThere" : "Array<String>",
+	"inventoryItemMouseOffset" : "Array<Integer>",
+	"scanSound" : "String",
+	"singleShotTest" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"nametagFontSize" : "Integer",
+	"minimumFallTime" : "Double",
+	"direction" : "String",
+	"scrollArea" : {
+		"thumbs" : {
+			"vertical" : {
+				"pressed" : {
+					"inner" : "String",
+					"end" : "String",
+					"begin" : "String"
+				}
+				"base" : {
+					"inner" : "String",
+					"end" : "String",
+					"begin" : "String"
+				}
+				"hover" : {
+					"inner" : "String",
+					"end" : "String",
+					"begin" : "String"
+				}
+			}
+			"horizontal" : {
+				"pressed" : {
+					"inner" : "String",
+					"end" : "String",
+					"begin" : "String"
+				}
+				"base" : {
+					"inner" : "String",
+					"end" : "String",
+					"begin" : "String"
+				}
+				"hover" : {
+					"inner" : "String",
+					"end" : "String",
+					"begin" : "String"
+				}
+			}
+		}
+		"buttonAdvance" : "Double",
+		"buttons" : {
+			"vertical" : {
+				"backward" : {
+					"pressed" : "String",
+					"base" : "String",
+					"hover" : "String"
+				}
+				"forward" : {
+					"pressed" : "String",
+					"base" : "String",
+					"hover" : "String"
+				}
+			}
+			"horizontal" : {
+				"backward" : {
+					"pressed" : "String",
+					"base" : "String",
+					"hover" : "String"
+				}
+				"forward" : {
+					"pressed" : "String",
+					"base" : "String",
+					"hover" : "String"
+				}
+			}
+		}
+	}
+	"dayTransitionTime" : "Double",
+	"trooperspawn" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer",
+			"actionOnReap" : "Array<LinkedHashMap>"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"statusRiskLevel" : "Double",
+	"flame" : {
+		"mass" : "Double",
+		"airFriction" : "Double",
+		"stickyForce" : "Double",
+		"gravityMultiplier" : "Double",
+		"collisionPoly" : "Array<ArrayList>",
+		"stickyCollision" : "Boolean",
+		"ignorePlatformCollision" : "Boolean",
+		"groundFriction" : "Double",
+		"liquidFriction" : "Double",
+		"maxMovementPerStep" : "Double"
+	}
+	"stateTypes" : {
+		"movement" : {
+			"default" : "String",
+			"priority" : "Integer",
+			"states" : {
+				"idle" : {
+					"frames" : "Integer",
+					"mode" : "String"
+				}
+				"cleaningbotSpawn" : {
+					"frames" : "Integer",
+					"transition" : "String",
+					"mode" : "String"
+				}
+				"spawn" : {
+					"frames" : "Integer",
+					"transition" : "String",
+					"mode" : "String"
+				}
+				"resetEnd" : {
+					"frames" : "Integer",
+					"transition" : "String",
+					"mode" : "String"
+				}
+				"resetStart" : {
+					"frames" : "Integer",
+					"transition" : "String",
+					"mode" : "String"
+				}
+				"idleOpen" : {
+					"frames" : "Integer"
+				}
+				"repairbotSpawn" : {
+					"frames" : "Integer",
+					"transition" : "String",
+					"mode" : "String"
+				}
+				"reset" : {
+					"frames" : "Integer",
+					"transition" : "String",
+					"mode" : "String"
+				}
+				"serpentdroidSpawn" : {
+					"frames" : "Integer",
+					"transition" : "String",
+					"mode" : "String"
+				}
+				"close" : {
+					"frames" : "Integer",
+					"transition" : "String",
+					"mode" : "String"
+				}
+			}
+		}
+	}
+	"darkgravityball" : {
+		"fireTime" : "Integer",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"warpSound" : "String",
+	"spaceTerrain" : {
+		"asteroids" : {
+			"caveSelector" : "String",
+			"oreSelector" : "String",
+			"floatingTerrainSelector" : "String",
+			"bgCaveSelector" : "String",
+			"subBlockSelector" : "String"
+		}
+	}
+	"socketTimeout" : "Integer",
+	"surfaceScan" : "Array<Integer>",
+	"travelLineColor" : "Array<Integer>",
+	"bubbleOffset" : "Array<Integer>",
+	"starmapNameDrawPosition" : "Array<Integer>",
+	"maxMovementPerStep" : "Double",
+	"3DPrinterSettings" : {
+		"config" : "String",
+		"filter" : "Array<String>"
+	}
+	"deathexplosion" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer",
+			"actionOnReap" : "Array<LinkedHashMap>"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"warmingIndicatorOffset" : "Array<Integer>",
+	"spawnRegion" : "Boolean",
+	"modeTypeTextAndColor" : "Array<ArrayList>",
+	"bodyMaterialKind" : "String",
+	"charPlate" : {
+		"portraitOffset" : "Array<Integer>",
+		"numberOffset" : "Array<Integer>",
+		"selectedImageHover" : "String",
+		"selectedImage" : "String",
+		"backingImageHover" : "String",
+		"backingImage" : "String"
+	}
+	"breathReplenishmentRate" : "Integer",
+	"planetInfoSeparatorColor" : "Array<Integer>",
+	"hazardUndergroundLower" : {
+		"blockProbability" : "Double",
+		"type" : "String"
+	}
+	"mainMenuButtonsKeys" : "Array<String>",
+	"planetInfoBackgroundColor" : "Array<Integer>",
+	"caCertPath" : "String",
+	"openIcon" : "String",
+	"shock" : {
+		"fireTime" : "Double",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Double",
+		"fireDt" : "Double",
+		"projectileType" : "String"
+	}
+	"chunkCacheSize" : "Integer",
+	"autoCompressTimeout" : "Integer",
+	"engineCrossfadeTime" : "Integer",
+	"address" : {
+		"position" : "Array<Integer>",
+		"maxWidth" : "Integer",
+		"enterKey" : "String",
+		"focus" : "Boolean",
+		"textAlign" : "String",
+		"hint" : "String",
+		"border" : "Boolean",
+		"type" : "String"
+	}
+	"entry" : {
+		"energyBar" : {
+			"position" : "Array<Integer>",
+			"direction" : "String",
+			"background" : "String",
+			"type" : "String",
+			"zlevel" : "Integer",
+			"progressSet" : {
+				"inner" : "String",
+				"type" : "String"
+			}
+		}
+		"healthBar" : {
+			"position" : "Array<Integer>",
+			"direction" : "String",
+			"background" : "String",
+			"type" : "String",
+			"zlevel" : "Integer",
+			"progressSet" : {
+				"inner" : "String",
+				"type" : "String"
+			}
+		}
+		"overlay" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"leader" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"click" : {
+			"position" : "Array<Integer>",
+			"pressedOffset" : "Array<Integer>",
+			"invisible" : "Boolean",
+			"type" : "String",
+			"zlevel" : "Integer",
+			"size" : "Array<Integer>"
+		}
+		"compassoffworld" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"compass" : {
+			"position" : "Array<Integer>",
+			"centered" : "Boolean",
+			"file" : "String",
+			"scissoring" : "Boolean",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"backing" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+		"portrait" : {
+			"position" : "Array<Integer>",
+			"file" : "String",
+			"scissoring" : "Boolean",
+			"type" : "String",
+			"zlevel" : "Integer"
+		}
+	}
+	"disembarkPath" : "Array<LinkedHashMap>",
+	"ftlAnimation" : {
+		"speedUp" : "Array<Integer>",
+		"speedDownLoopTime" : "Double",
+		"arriveLoop" : "Array<Integer>",
+		"textFrames" : "String",
+		"textWaitFrames" : "Integer",
+		"speedDownTime" : "Double",
+		"textRangeLoop" : "Array<Integer>",
+		"speedUpLoopTime" : "Double",
+		"arriveLoopTime" : "Double",
+		"disembarkLoop" : "Array<Integer>",
+		"textLoopTime" : "Double",
+		"disembarkTime" : "Integer",
+		"speedDownLoop" : "Array<Integer>",
+		"textRange" : "Array<Integer>",
+		"speedUpLoop" : "Array<Integer>",
+		"jumpLoopTime" : "Double",
+		"jump" : "Array<Integer>",
+		"jumpTime" : "Double",
+		"arrive" : "Array<Integer>",
+		"disembarkLoopTime" : "Double",
+		"textTime" : "Double",
+		"frames" : "String",
+		"arriveTime" : "Integer",
+		"speedDown" : "Array<Integer>",
+		"jumpLoop" : "Array<Integer>",
+		"speedUpTime" : "Double",
+		"disembark" : "Array<Integer>"
+	}
+	"groundFriction" : "Double",
+	"footstepTiming" : "Double",
+	"systemCenter" : "Array<Integer>",
+	"fireball" : {
+		"fireTime" : "Integer",
+		"projectileParams" : {
+			"speed" : "Integer",
+			"power" : "Integer"
+		}
+		"cooldown" : "Integer",
+		"fireDt" : "Integer",
+		"projectileType" : "String"
+	}
+	"spawnDungeon" : "Boolean"
+}

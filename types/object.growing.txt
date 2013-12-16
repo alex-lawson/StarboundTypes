@@ -1,2 +1,0 @@
-LinkedHashMap	1
-LinkedHashMap	0

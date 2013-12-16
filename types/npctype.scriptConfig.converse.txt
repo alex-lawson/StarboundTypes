@@ -1,2 +1,0 @@
-Double	waitTime
-LinkedHashMap	dialog

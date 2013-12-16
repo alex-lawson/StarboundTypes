@@ -1,3 +1,0 @@
-LinkedHashMap	floran
-Array<String>	default
-LinkedHashMap	glitch

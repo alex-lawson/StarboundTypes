@@ -1,18 +1,18 @@
-Array<Integer>	activeHandPosition
-String	inventoryIcon
-Array<Integer>	handPosition
-Boolean	twoHanded
-String	shortdescription
-String	rarity
-String	kind
-Integer	activeAngle
-String	itemName
-Array<Double>	activeHandPosition
-Array<Double>	dropCollision
-Integer	maxStack
-String	inspectionKind
-String	image
-Array<Double>	handPosition
-String	largeImage
-String	description
-String	activeImage
+{
+	"activeHandPosition" : "Array<Double>",
+	"dropCollision" : "Array<Double>",
+	"itemName" : "String",
+	"maxStack" : "Integer",
+	"twoHanded" : "Boolean",
+	"rarity" : "String",
+	"largeImage" : "String",
+	"image" : "String",
+	"inspectionKind" : "String",
+	"shortdescription" : "String",
+	"activeAngle" : "Integer",
+	"kind" : "String",
+	"description" : "String",
+	"inventoryIcon" : "String",
+	"handPosition" : "Array<Double>",
+	"activeImage" : "String"
+}

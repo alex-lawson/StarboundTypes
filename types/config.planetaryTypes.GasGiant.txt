@@ -1,4 +1,0 @@
-LinkedHashMap	baseParameters
-Double	satelliteProbability
-Array<LinkedHashMap>	variationParameters
-Double	selectionWeight

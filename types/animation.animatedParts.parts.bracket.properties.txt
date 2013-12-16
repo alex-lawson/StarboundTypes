@@ -1,3 +1,0 @@
-Array<Double>	offset
-Integer	zLevel
-Boolean	centered

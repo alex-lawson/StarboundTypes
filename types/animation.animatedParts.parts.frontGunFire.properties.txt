@@ -1,5 +1,0 @@
-Array<Integer>	offset
-Array<Double>	rotationCenter
-Boolean	centered
-String	rotationGroup
-Double	zLevel

@@ -1,3 +1,0 @@
-LinkedHashMap	attack
-LinkedHashMap	portrait
-LinkedHashMap	movement

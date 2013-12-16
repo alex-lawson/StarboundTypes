@@ -1,3 +1,0 @@
-LinkedHashMap	default
-LinkedHashMap	portrait
-LinkedHashMap	movement

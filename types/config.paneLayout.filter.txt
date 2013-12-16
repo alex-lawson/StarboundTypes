@@ -1,9 +1,0 @@
-String	enterKey
-Boolean	focus
-String	escapeKey
-Boolean	toggleMode
-String	type
-Array<LinkedHashMap>	buttons
-Array<Integer>	position
-Integer	maxWidth
-String	hint

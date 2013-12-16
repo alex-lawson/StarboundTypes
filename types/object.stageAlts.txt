@@ -1,2 +1,0 @@
-Integer	2
-Integer	count

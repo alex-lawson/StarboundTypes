@@ -1,3 +1,0 @@
-LinkedHashMap	crown3
-LinkedHashMap	crown2
-LinkedHashMap	crown1

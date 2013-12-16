@@ -1,3 +1,12 @@
-LinkedHashMap	metadata
-Array<LinkedHashMap>	tiles
-Array<LinkedHashMap>	parts
+{
+	"tiles" : "Array<LinkedHashMap>",
+	"parts" : "Array<LinkedHashMap>",
+	"metadata" : {
+		"species" : "String",
+		"maxRadius" : "Integer",
+		"name" : "String",
+		"maxParts" : "Integer",
+		"rules" : "Array",
+		"anchor" : "Array<String>"
+	}
+}

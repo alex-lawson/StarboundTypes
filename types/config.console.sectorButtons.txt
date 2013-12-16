@@ -1,8 +1,0 @@
-String	baseImageChecked
-String	hoverImageChecked
-String	type
-Array<LinkedHashMap>	buttons
-String	baseImage
-Array<Integer>	position
-Integer	zlevel
-String	hoverImage

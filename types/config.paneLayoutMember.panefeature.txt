@@ -1,3 +1,0 @@
-Boolean	persistent
-String	type
-Boolean	keyDismissable

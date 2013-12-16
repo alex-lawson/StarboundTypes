@@ -1,3 +1,4 @@
-Array	audio
-Array<LinkedHashMap>	audio
-Array<LinkedHashMap>	panels
+{
+	"audio" : "Array<LinkedHashMap>",
+	"panels" : "Array<LinkedHashMap>"
+}

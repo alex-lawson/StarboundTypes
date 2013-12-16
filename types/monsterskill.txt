@@ -1,5 +1,24 @@
-String	label
-String	image
-LinkedHashMap	parameters
-String	name
-LinkedHashMap	config
+{
+	"name" : "String",
+	"config" : {
+		"timeRange" : "Array<Double>",
+		"movementRadius" : "Double",
+		"projectile" : "Array<String>"
+	}
+	"image" : "String",
+	"label" : "String",
+	"parameters" : {
+		"scripts" : "Array<String>",
+		"staticProjectileCooldown" : "Double",
+		"staticProjectileHoldTime" : "Double",
+		"staticProjectile" : "Array<String>",
+		"swoopBounceTime" : "Double",
+		"staticSkillName" : "String",
+		"swoopTime" : "Double",
+		"swoopBounceLimit" : "Double",
+		"swoopDiameter" : "Double",
+		"shooterProjectile" : "Array<String>",
+		"swoopBounceAngle" : "Integer",
+		"shooterSkillName" : "String"
+	}
+}

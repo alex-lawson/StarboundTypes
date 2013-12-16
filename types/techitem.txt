@@ -1,7 +1,9 @@
-String	inventoryIcon
-String	inspectionKind
-String	shortdescription
-String	rarity
-String	techModule
-String	itemName
-String	description
+{
+	"techModule" : "String",
+	"itemName" : "String",
+	"description" : "String",
+	"inventoryIcon" : "String",
+	"rarity" : "String",
+	"inspectionKind" : "String",
+	"shortdescription" : "String"
+}

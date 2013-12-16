@@ -1,8 +1,0 @@
-Array<ArrayList>	standingPoly
-LinkedHashMap	airJumpProfile
-Integer	walkSpeed
-Array<ArrayList>	crouchingPoly
-Double	jumpSpeed
-Double	mass
-Integer	runSpeed
-Boolean	runningSuppressed

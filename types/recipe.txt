@@ -1,4 +1,12 @@
-Array<String>	groups
-LinkedHashMap	output
-Array	input
-Array<LinkedHashMap>	input
+{
+	"input" : "Array",
+	"output" : {
+		"count" : "Integer",
+		"item" : "String",
+		"data" : {
+			"level" : "Integer",
+			"definition" : "String"
+		}
+	}
+	"groups" : "Array<String>"
+}

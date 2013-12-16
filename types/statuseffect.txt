@@ -1,15 +1,18 @@
-Boolean	initialTick
-Array<LinkedHashMap>	primitives
-Array	effectSources
-String	kind
-String	damageKind
-LinkedHashMap	tick
-Array<String>	icon
-String	mainInterfaceIcon
-String	tooltipAmountLabel
-Array<String>	effectSources
-Boolean	percentage
-Boolean	suppressTooltip
-String	tooltipLabel
-Integer	duration
-Double	interval
+{
+	"icon" : "Array<String>",
+	"interval" : "Double",
+	"percentage" : "Boolean",
+	"suppressTooltip" : "Boolean",
+	"primitives" : "Array<LinkedHashMap>",
+	"tooltipLabel" : "String",
+	"kind" : "String",
+	"tick" : {
+		"statusEffects" : "Array<LinkedHashMap>"
+	}
+	"damageKind" : "String",
+	"initialTick" : "Boolean",
+	"duration" : "Integer",
+	"effectSources" : "Array<String>",
+	"mainInterfaceIcon" : "String",
+	"tooltipAmountLabel" : "String"
+}

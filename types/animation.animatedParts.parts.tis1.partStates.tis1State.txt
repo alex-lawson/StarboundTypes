@@ -1,3 +1,0 @@
-LinkedHashMap	active
-LinkedHashMap	expire
-LinkedHashMap	idle

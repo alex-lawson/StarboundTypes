@@ -1,19 +1,48 @@
-Integer	level
-String	rarity
-LinkedHashMap	primaryStances
-String	kind
-String	name
-Integer	multiplier
-Integer	maxStack
-Double	multiplier
-Array<Double>	firePosition
-Array	muzzleFlashes
-Boolean	bladeBehindHandle
-String	inspectionKind
-Array<String>	soundEffect
-String	nameGenerator
-Array<Double>	baseDps
-Boolean	fireAfterWindup
-Array<Double>	rateOfSwing
-Array<LinkedHashMap>	palette
-Array<Integer>	firePosition
+{
+	"soundEffect" : "Array<String>",
+	"fireAfterWindup" : "Boolean",
+	"maxStack" : "Integer",
+	"rarity" : "String",
+	"palette" : "Array<LinkedHashMap>",
+	"muzzleFlashes" : "Array",
+	"inspectionKind" : "String",
+	"multiplier" : "Double",
+	"kind" : "String",
+	"bladeBehindHandle" : "Boolean",
+	"level" : "Integer",
+	"baseDps" : "Array<Double>",
+	"rateOfSwing" : "Array<Double>",
+	"firePosition" : "Array<Double>",
+	"name" : "String",
+	"primaryStances" : {
+		"idle" : {
+			"duration" : "Double",
+			"armAngle" : "Integer",
+			"armFrameOverride" : "String",
+			"twoHanded" : "Boolean",
+			"swordAngle" : "Integer",
+			"handPosition" : "Array<Double>"
+		}
+		"windup" : {
+			"duration" : "Double",
+			"statusEffects" : "Array<LinkedHashMap>",
+			"armAngle" : "Integer",
+			"twoHanded" : "Boolean",
+			"swordAngle" : "Integer",
+			"handPosition" : "Array<Double>"
+		}
+		"projectile" : {
+			"speed" : "Double"
+		}
+		"cooldown" : {
+			"duration" : "Double",
+			"statusEffects" : "Array<LinkedHashMap>",
+			"armAngle" : "Integer",
+			"twoHanded" : "Boolean",
+			"swordAngle" : "Integer",
+			"handPosition" : "Array<Double>"
+		}
+		"projectileTypes" : "Array<String>"
+	}
+	"nameGenerator" : "String"
+}

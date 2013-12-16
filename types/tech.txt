@@ -1,47 +1,92 @@
-Double	ballTransformHeightChange
-String	script
-Double	blinkInTime
-String	blinkMode
-Integer	randomBlinkTries
-Integer	energyUsagePerSecond
-Integer	boostSpeed
-Double	blinkFootOffset
-Integer	boostControlForce
-Integer	dashSpeed
-Double	blinkOutTime
-Integer	mechAimLimit
-Boolean	randomBlinkAvoidMidair
-Double	jetpackSpeed
-Double	energyUsage
-Integer	blinkCollisionCheckDiameter
-Boolean	randomBlinkAvoidCollision
-LinkedHashMap	ballCustomMovementParameters
-Array<String>	actions
-Double	superjumpTime
-String	sound
-Integer	energyCostPerSecond
-LinkedHashMap	mechProjectileConfig
-Integer	randomBlinkDiameter
-Integer	ballFrames
-Integer	energyUsage
-Array<Double>	mechTransformPositionChange
-String	superjumpSound
-Double	maximumDoubleTapTime
-LinkedHashMap	mechCustomMovementParameters
-Double	jetpackControlForce
-Integer	superjumpControlForce
-Double	dashDuration
-Array<Double>	ballDeactivateCollisionTest
-Double	energyUsagePerSecond
-Double	mechFireCycle
-Array<Double>	parentOffset
-Array<Double>	mechCollisionTest
-String	ballBombProjectile
-String	animator
-Integer	blinkVerticalGroundCheck
-Integer	dashControlForce
-Integer	multiJumpCount
-Integer	superjumpSpeed
-String	mechProjectile
-Integer	ballRadius
-Boolean	randomBlinkAvoidLiquid
+{
+	"ballCustomMovementParameters" : {
+		"airJumpProfile" : {
+			"jumpHoldTime" : "Double",
+			"jumpInitialPercentage" : "Double",
+			"jumpControlForce" : "Double",
+			"jumpSpeed" : "Double"
+		}
+		"groundForce" : "Double",
+		"normalGroundFriction" : "Double",
+		"slopeSlidingFactor" : "Double",
+		"crouchingPoly" : "Array<ArrayList>",
+		"standingPoly" : "Array<ArrayList>",
+		"liquidJumpProfile" : {
+			"jumpHoldTime" : "Double",
+			"jumpInitialPercentage" : "Double",
+			"jumpControlForce" : "Double",
+			"jumpSpeed" : "Double"
+		}
+		"ambulatingGroundFriction" : "Double"
+	}
+	"maximumDoubleTapTime" : "Double",
+	"randomBlinkAvoidCollision" : "Boolean",
+	"dashSpeed" : "Integer",
+	"mechFireCycle" : "Double",
+	"superjumpSound" : "String",
+	"blinkVerticalGroundCheck" : "Integer",
+	"dashDuration" : "Double",
+	"energyCostPerSecond" : "Integer",
+	"blinkCollisionCheckDiameter" : "Integer",
+	"multiJumpCount" : "Integer",
+	"mechProjectile" : "String",
+	"ballDeactivateCollisionTest" : "Array<Double>",
+	"ballTransformHeightChange" : "Double",
+	"blinkMode" : "String",
+	"ballBombProjectile" : "String",
+	"randomBlinkAvoidLiquid" : "Boolean",
+	"mechCollisionTest" : "Array<Double>",
+	"boostControlForce" : "Integer",
+	"ballRadius" : "Integer",
+	"mechProjectileConfig" : {
+		"power" : "Integer"
+	}
+	"randomBlinkAvoidMidair" : "Boolean",
+	"superjumpSpeed" : "Integer",
+	"parentOffset" : "Array<Double>",
+	"blinkOutTime" : "Double",
+	"mechAimLimit" : "Integer",
+	"mechCustomMovementParameters" : {
+		"runSpeed" : "Double",
+		"skiddingGroundFriction" : "Double",
+		"liquidForce" : "Double",
+		"groundForce" : "Double",
+		"liquidJumpProfile" : {
+			"jumpHoldTime" : "Double",
+			"jumpInitialPercentage" : "Double",
+			"jumpControlForce" : "Double",
+			"jumpSpeed" : "Double"
+		}
+		"ambulatingGroundFriction" : "Double",
+		"walkSpeed" : "Double",
+		"mass" : "Double",
+		"airForce" : "Double",
+		"airJumpProfile" : {
+			"jumpHoldTime" : "Double",
+			"jumpInitialPercentage" : "Double",
+			"jumpControlForce" : "Double",
+			"jumpSpeed" : "Double"
+		}
+		"normalGroundFriction" : "Double",
+		"standingPoly" : "Array<ArrayList>",
+		"crouchingPoly" : "Array<ArrayList>"
+	}
+	"jetpackControlForce" : "Double",
+	"energyUsagePerSecond" : "Double",
+	"script" : "String",
+	"energyUsage" : "Double",
+	"ballFrames" : "Integer",
+	"blinkInTime" : "Double",
+	"jetpackSpeed" : "Double",
+	"blinkFootOffset" : "Double",
+	"superjumpControlForce" : "Integer",
+	"animator" : "String",
+	"randomBlinkDiameter" : "Integer",
+	"sound" : "String",
+	"randomBlinkTries" : "Integer",
+	"boostSpeed" : "Integer",
+	"mechTransformPositionChange" : "Array<Double>",
+	"dashControlForce" : "Integer",
+	"superjumpTime" : "Double",
+	"actions" : "Array<String>"
+}

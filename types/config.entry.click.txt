@@ -1,6 +1,0 @@
-Array<Integer>	size
-String	type
-Array<Integer>	position
-Array<Integer>	pressedOffset
-Boolean	invisible
-Integer	zlevel

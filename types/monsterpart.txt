@@ -1,5 +1,58 @@
-String	type
-String	category
-LinkedHashMap	frames
-LinkedHashMap	parameters
-String	name
+{
+	"category" : "String",
+	"frames" : {
+		"body" : "String",
+		"backArm" : "String",
+		"eyesmall" : "String",
+		"chest" : "String",
+		"fin" : "String",
+		"tentacle1" : "String",
+		"eyelarge" : "String",
+		"turret" : "String",
+		"knight" : "String",
+		"frontLegs" : "String",
+		"pilot" : "String",
+		"arm" : "String",
+		"ufo" : "String",
+		"head" : "String",
+		"foreground" : "String",
+		"flames" : "String",
+		"backLegs" : "String",
+		"frontArm" : "String",
+		"backWings" : "String",
+		"helm" : "String",
+		"tail" : "String",
+		"gun" : "String",
+		"smoke" : "String",
+		"tentacle2" : "String",
+		"tentacle3" : "String",
+		"tentacle4" : "String",
+		"tentacle5" : "String",
+		"tentacle6" : "String",
+		"mount" : "String",
+		"tentacle7" : "String",
+		"tentacle8" : "String",
+		"eyemedium" : "String",
+		"frontWings" : "String",
+		"mountcover" : "String",
+		"weapon" : "String",
+		"background" : "String"
+	}
+	"name" : "String",
+	"parameters" : {
+		"skills" : "Array<String>",
+		"projectileSourcePosition" : "Array<Integer>",
+		"deathNoise" : "Array<String>",
+		"jumpMultiplier" : "Double",
+		"idleNoise" : "Array<String>",
+		"attackNoise" : "Array<String>",
+		"turnHostileNoise" : "Array<String>",
+		"projectileType" : "String",
+		"walkMultiplier" : "Double",
+		"painNoise" : "Array<String>",
+		"gunBarrelOffset" : "Array<Double>",
+		"runMultiplier" : "Double",
+		"gunBaseOffset" : "Array<Double>"
+	}
+	"type" : "String"
+}

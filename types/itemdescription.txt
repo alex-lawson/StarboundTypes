@@ -1,25 +1,200 @@
-LinkedHashMap	augmentList
-LinkedHashMap	handednessLabel
-LinkedHashMap	subTitle
-LinkedHashMap	damagePerShotTitleLabel
-LinkedHashMap	speedLabel
-LinkedHashMap	descriptionLabel
-LinkedHashMap	damageKindImage
-LinkedHashMap	speedTitleLabel
-LinkedHashMap	priceLabel
-LinkedHashMap	title
-LinkedHashMap	dpsLabel
-LinkedHashMap	energyPerShotLabel
-LinkedHashMap	dpsTitleLabel
-LinkedHashMap	statusList
-LinkedHashMap	largeImage
-LinkedHashMap	armorProtection
-LinkedHashMap	titleIcon
-LinkedHashMap	toolLabel
-LinkedHashMap	objectImage
-LinkedHashMap	energyPerShotTitleLabel
-LinkedHashMap	moneyIcon
-LinkedHashMap	consumableLabel
-LinkedHashMap	armorLabelTitle
-LinkedHashMap	damagePerShotLabel
-LinkedHashMap	rarityLabel
+{
+	"priceLabel" : {
+		"position" : "Array<Integer>",
+		"value" : "String",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"descriptionLabel" : {
+		"position" : "Array<Integer>",
+		"width" : "Integer",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"dpsLabel" : {
+		"position" : "Array<Integer>",
+		"centered" : "Boolean",
+		"width" : "Integer",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"energyPerShotLabel" : {
+		"position" : "Array<Integer>",
+		"width" : "Integer",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"largeImage" : {
+		"position" : "Array<Integer>",
+		"centered" : "Boolean",
+		"minSize" : "Array<Integer>",
+		"file" : "String",
+		"type" : "String",
+		"maxSize" : "Array<Integer>"
+	}
+	"armorLabelTitle" : {
+		"position" : "Array<Integer>",
+		"color" : "Array<Integer>",
+		"value" : "String",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"statusList" : {
+		"schema" : {
+			"listTemplate" : {
+				"statusImage" : {
+					"position" : "Array<Integer>",
+					"file" : "String",
+					"type" : "String",
+					"scissoring" : "Boolean"
+				}
+				"statusAmount" : {
+					"position" : "Array<Integer>",
+					"hAnchor" : "String",
+					"type" : "String"
+				}
+				"statusLabel" : {
+					"position" : "Array<Integer>",
+					"hAnchor" : "String",
+					"type" : "String"
+				}
+			}
+			"memberSize" : "Array<Integer>",
+			"spacing" : "Array<Integer>"
+		}
+		"position" : "Array<Integer>",
+		"type" : "String"
+	}
+	"toolLabel" : {
+		"position" : "Array<Integer>",
+		"color" : "Array<Integer>",
+		"value" : "String",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"damageKindImage" : {
+		"position" : "Array<Integer>",
+		"centered" : "Boolean",
+		"minSize" : "Array<Integer>",
+		"file" : "String",
+		"type" : "String",
+		"maxSize" : "Array<Integer>"
+	}
+	"energyPerShotTitleLabel" : {
+		"position" : "Array<Integer>",
+		"value" : "String",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"rarityLabel" : {
+		"position" : "Array<Integer>",
+		"centered" : "Boolean",
+		"width" : "Integer",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"dpsTitleLabel" : {
+		"position" : "Array<Integer>",
+		"value" : "String",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"titleIcon" : {
+		"position" : "Array<Integer>",
+		"iconMode" : "Boolean",
+		"callback" : "String",
+		"backingImage" : "String",
+		"type" : "String"
+	}
+	"subTitle" : {
+		"position" : "Array<Integer>",
+		"color" : "Array<Integer>",
+		"value" : "String",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"title" : {
+		"position" : "Array<Integer>",
+		"value" : "String",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"handednessLabel" : {
+		"position" : "Array<Integer>",
+		"centered" : "Boolean",
+		"width" : "Integer",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"damagePerShotLabel" : {
+		"position" : "Array<Integer>",
+		"width" : "Integer",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"damagePerShotTitleLabel" : {
+		"position" : "Array<Integer>",
+		"value" : "String",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"consumableLabel" : {
+		"position" : "Array<Integer>",
+		"color" : "Array<Integer>",
+		"value" : "String",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"armorProtection" : {
+		"position" : "Array<Integer>",
+		"centered" : "Boolean",
+		"width" : "Integer",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"objectImage" : {
+		"position" : "Array<Integer>",
+		"centered" : "Boolean",
+		"minSize" : "Array<Integer>",
+		"file" : "String",
+		"type" : "String",
+		"maxSize" : "Array<Integer>"
+	}
+	"speedTitleLabel" : {
+		"position" : "Array<Integer>",
+		"value" : "String",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"speedLabel" : {
+		"position" : "Array<Integer>",
+		"width" : "Integer",
+		"hAnchor" : "String",
+		"type" : "String"
+	}
+	"moneyIcon" : {
+		"position" : "Array<Integer>",
+		"file" : "String",
+		"type" : "String"
+	}
+	"augmentList" : {
+		"schema" : {
+			"listTemplate" : {
+				"augmentImage" : {
+					"position" : "Array<Integer>",
+					"file" : "String",
+					"type" : "String"
+				}
+				"augmentLabel" : {
+					"position" : "Array<Integer>",
+					"hAnchor" : "String",
+					"type" : "String"
+				}
+			}
+			"memberSize" : "Array<Integer>",
+			"spacing" : "Array<Integer>"
+		}
+		"position" : "Array<Integer>",
+		"type" : "String"
+	}
+}

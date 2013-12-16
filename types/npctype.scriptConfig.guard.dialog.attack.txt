@@ -1,8 +1,0 @@
-Array<String>	glitch
-LinkedHashMap	hylotl
-LinkedHashMap	avian
-LinkedHashMap	human
-LinkedHashMap	floran
-Array<String>	default
-LinkedHashMap	glitch
-LinkedHashMap	apex

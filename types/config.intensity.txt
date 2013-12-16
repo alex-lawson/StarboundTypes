@@ -1,6 +1,0 @@
-Integer	spreadMaxAir
-Integer	pointMaxObstacle
-Integer	spreadMaxObstacle
-Integer	spreadPasses
-Integer	pointObstacleBoost
-Integer	pointMaxAir

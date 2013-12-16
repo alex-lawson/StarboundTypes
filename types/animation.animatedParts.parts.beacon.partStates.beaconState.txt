@@ -1,2 +1,0 @@
-LinkedHashMap	active
-LinkedHashMap	idle

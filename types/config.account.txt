@@ -1,7 +1,0 @@
-String	enterKey
-String	textAlign
-String	type
-Array<Integer>	position
-Integer	maxWidth
-Boolean	border
-String	hint

@@ -1,2 +1,0 @@
-Integer	bx
-Integer	by

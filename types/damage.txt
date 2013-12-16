@@ -1,7 +1,35 @@
-Double	damageCooldownDuration
-String	damageCooldownMode
-String	kind
-String	damageCooldownGroup
-LinkedHashMap	damageNumberParticleKind
-Double	damageCooldownPreGrace
-LinkedHashMap	effects
+{
+	"damageCooldownDuration" : "Double",
+	"damageCooldownMode" : "String",
+	"damageCooldownGroup" : "String",
+	"effects" : {
+		"organic" : {
+			"hit" : {
+				"particles" : "Array<ArrayList>",
+				"sounds" : "Array<String>"
+			}
+			"kill" : {
+				"particles" : "Array<ArrayList>",
+				"sounds" : "Array<String>"
+			}
+		}
+		"robotic" : {
+			"hit" : {
+				"particles" : "Array<ArrayList>",
+				"sounds" : "Array<String>"
+			}
+			"kill" : {
+				"particles" : "Array<ArrayList>",
+				"sounds" : "Array<String>"
+			}
+		}
+	}
+	"damageCooldownPreGrace" : "Double",
+	"damageNumberParticleKind" : {
+		"normal" : {
+			"hit" : "String",
+			"kill" : "String"
+		}
+	}
+	"kind" : "String"
+}

@@ -1,3 +1,0 @@
-LinkedHashMap	planet
-LinkedHashMap	admin
-LinkedHashMap	universe

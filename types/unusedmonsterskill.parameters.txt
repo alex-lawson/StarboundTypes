@@ -1,5 +1,0 @@
-Array<String>	scripts
-Double	rangedSwoopRadius
-Double	rangedSwoopDistance
-Array<String>	rangedSwoopProjectile
-Double	rangedSwoopTime

@@ -1,25 +1,35 @@
-Array<Integer>	handPosition
-Boolean	twoHanded
-Integer	level
-String	shortdescription
-Boolean	walkWhileFiring
-String	rarity
-Array<Double>	dropCollision
-String	powerProjectileType
-LinkedHashMap	muzzleEffect
-Integer	fireTime
-String	imageFrameSelector
-String	projectileType
-String	description
-String	inventoryIcon
-Double	recoilTime
-Double	fireTime
-LinkedHashMap	projectile
-String	itemName
-Array<Double>	powerProjectileTime
-Integer	maxStack
-String	inspectionKind
-String	image
-Array<Double>	handPosition
-Boolean	fireOnRelease
-Array<Integer>	firePosition
+{
+	"imageFrameSelector" : "String",
+	"muzzleEffect" : {
+		"animation" : "String",
+		"fireSound" : "Array<LinkedHashMap>"
+	}
+	"dropCollision" : "Array<Double>",
+	"itemName" : "String",
+	"maxStack" : "Integer",
+	"twoHanded" : "Boolean",
+	"rarity" : "String",
+	"inspectionKind" : "String",
+	"image" : "String",
+	"shortdescription" : "String",
+	"projectileType" : "String",
+	"powerProjectileType" : "String",
+	"walkWhileFiring" : "Boolean",
+	"level" : "Integer",
+	"fireTime" : "Double",
+	"powerProjectileTime" : "Array<Double>",
+	"firePosition" : "Array<Integer>",
+	"description" : "String",
+	"inventoryIcon" : "String",
+	"fireOnRelease" : "Boolean",
+	"recoilTime" : "Double",
+	"projectile" : {
+		"life" : "Integer",
+		"color" : "Array<Integer>",
+		"speed" : "Integer",
+		"power" : "Integer",
+		"speedCurve" : "String",
+		"powerCurve" : "String"
+	}
+	"handPosition" : "Array<Integer>"
+}

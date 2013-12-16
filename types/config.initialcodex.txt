@@ -1,6 +1,0 @@
-Array<String>	apex
-Array<String>	human
-Array<String>	glitch
-Array<String>	hylotl
-Array<String>	avian
-Array<String>	floran

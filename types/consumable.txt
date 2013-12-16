@@ -1,8 +1,10 @@
-String	inventoryIcon
-Array<Integer>	handPosition
-Array<ArrayList>	effects
-String	shortdescription
-String	rarity
-String	emote
-String	itemName
-String	description
+{
+	"itemName" : "String",
+	"emote" : "String",
+	"description" : "String",
+	"inventoryIcon" : "String",
+	"rarity" : "String",
+	"effects" : "Array<ArrayList>",
+	"shortdescription" : "String",
+	"handPosition" : "Array<Integer>"
+}

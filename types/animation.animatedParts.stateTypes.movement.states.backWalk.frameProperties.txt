@@ -1,2 +1,0 @@
-Array<ArrayList>	stateNudge
-Array<String>	immediateSound

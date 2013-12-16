@@ -1,4 +1,0 @@
-Integer	level
-Integer	armorPenetration
-Integer	power
-Integer	speed

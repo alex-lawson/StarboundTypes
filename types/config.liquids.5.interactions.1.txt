@@ -1,2 +1,0 @@
-Integer	blockGenerationChance
-Array<String>	blockOptions

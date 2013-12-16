@@ -1,6 +1,0 @@
-Array<ArrayList>	standingPoly
-Double	airFriction
-Array<ArrayList>	crouchingPoly
-Integer	maximumCorrection
-Double	mass
-Double	maxMovementPerStep

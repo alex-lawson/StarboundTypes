@@ -1,7 +1,0 @@
-String	value
-String	type
-String	hAnchor
-Array<Integer>	position
-Integer	zlevel
-Array<Integer>	color
-Integer	fontSize

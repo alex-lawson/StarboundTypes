@@ -1,4 +1,0 @@
-LinkedHashMap	progressSet
-String	type
-Array<Integer>	position
-String	background

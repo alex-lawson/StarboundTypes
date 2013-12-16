@@ -1,5 +1,0 @@
-LinkedHashMap	projectile
-LinkedHashMap	windup
-Array<String>	projectileTypes
-LinkedHashMap	cooldown
-LinkedHashMap	idle

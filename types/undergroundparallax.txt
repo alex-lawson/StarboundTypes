@@ -1,7 +1,7 @@
-Double	parallax
-Integer	parallax
-String	image
-Array<Integer>	origin
-Boolean	nohueshift
-Integer	nohueshift
-String	dividerimage
+{
+	"dividerimage" : "String",
+	"nohueshift" : "Boolean",
+	"origin" : "Array<Integer>",
+	"image" : "String",
+	"parallax" : "Double"
+}

@@ -1,4 +1,0 @@
-Array<String>	npcTypeOptions
-Array<LinkedHashMap>	npcParameterOptions
-Array<String>	npcSpeciesOptions
-Double	searchRadius

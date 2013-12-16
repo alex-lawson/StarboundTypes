@@ -1,2 +1,0 @@
-Double	emissionRate
-Array	particles

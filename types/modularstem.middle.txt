@@ -1,4 +1,0 @@
-LinkedHashMap	middle1
-LinkedHashMap	middle2
-LinkedHashMap	middle3
-LinkedHashMap	middle4

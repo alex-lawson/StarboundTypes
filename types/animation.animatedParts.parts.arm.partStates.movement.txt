@@ -1,6 +1,0 @@
-LinkedHashMap	shieldStart
-LinkedHashMap	shield
-LinkedHashMap	attack
-LinkedHashMap	idle
-LinkedHashMap	shieldEnd
-LinkedHashMap	move

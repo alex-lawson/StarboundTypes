@@ -1,6 +1,0 @@
-Integer	amplitude
-Integer	octaves
-Double	frequency
-String	type
-Double	beta
-Double	alpha

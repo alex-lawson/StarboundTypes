@@ -1,15 +1,24 @@
-String	inventoryIcon
-LinkedHashMap	maleFrames
-Array<LinkedHashMap>	augments
-String	shortdescription
-String	rarity
-String	itemName
-Array<String>	colorOptions
-Array<String>	learnBlueprintsOnPickup
-Array<Double>	dropCollision
-Integer	maxStack
-String	inspectionKind
-Array<LinkedHashMap>	colorOptions
-LinkedHashMap	femaleFrames
-String	description
-Array<LinkedHashMap>	statusEffects
+{
+	"dropCollision" : "Array<Double>",
+	"itemName" : "String",
+	"statusEffects" : "Array<LinkedHashMap>",
+	"description" : "String",
+	"maxStack" : "Integer",
+	"rarity" : "String",
+	"inventoryIcon" : "String",
+	"femaleFrames" : {
+		"body" : "String",
+		"frontSleeve" : "String",
+		"backSleeve" : "String"
+	}
+	"inspectionKind" : "String",
+	"augments" : "Array<LinkedHashMap>",
+	"shortdescription" : "String",
+	"colorOptions" : "Array<LinkedHashMap>",
+	"maleFrames" : {
+		"body" : "String",
+		"frontSleeve" : "String",
+		"backSleeve" : "String"
+	}
+	"learnBlueprintsOnPickup" : "Array<String>"
+}

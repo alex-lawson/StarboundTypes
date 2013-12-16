@@ -1,5 +1,0 @@
-Array<ArrayList>	poly
-String	openHover
-String	base
-String	hover
-String	open

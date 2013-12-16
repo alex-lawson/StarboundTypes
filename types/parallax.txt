@@ -1,2 +1,464 @@
-LinkedHashMap	settings
-Array<LinkedHashMap>	layers
+{
+	"layers" : "Array<LinkedHashMap>",
+	"settings" : {
+		"verticalOrigin" : "Integer",
+		"definitions" : {
+			"iceberg" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"forestback" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"lavabelow" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"oceanbelow" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"volcanicfoliage" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"ocean1" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"lava1" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"moon9" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"glitters" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"lava2" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"lava3" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"aridback2" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"ocean4" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"lava4" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"magmacap" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"ocean5" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"jungleback" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"lava5" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"desertback" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"ocean2" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"lava6" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"lava7" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"ocean3" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"moon3" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"lava8" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"ocean8" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"moon4" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"moon1" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"ocean6" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"moon2" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"ocean7" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"moon7" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"moon8" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"moltenback" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"moon5" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"moon6" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"iceshelf" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"moonbelow3" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"lavaisland" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"moonbelow2" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"moonbelow1" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"magmafront" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"tundrafront" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"tentacles" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"volcanicfront" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"northern" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"grassrare" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"desertfront2" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"snowfront" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"grass9" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"grass8" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"grass7" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"grass6" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"savannahrare" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"grass2" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"grassbelow1" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"savannahbelow3" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"grass3" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"grassbelow2" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"savannahbelow2" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"grass4" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"savannahbelow1" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"grass5" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"grass1" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"snowdunes" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"grassbelow3" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"magmarun" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"desertrare" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"moonglow" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"aridback" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"forestfront" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"savannah1" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"savannah3" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"savannah2" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"desertfront" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"savannah5" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"savannah4" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"savannah7" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"savannah6" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"tentacletakeover" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"savannah9" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"savannah8" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"volcanicfoliageback" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"magmaskyglow" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"clouds1" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"snowback" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"desertback2" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"clouds2" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"clouds3" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"junglefront" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+			"oceanglow" : {
+				"mod1Count" : "Integer",
+				"mod2Count" : "Integer",
+				"baseCount" : "Integer"
+			}
+		}
+		"weatherEffectZLevel" : "Integer"
+	}
+}

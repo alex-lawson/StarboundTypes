@@ -1,9 +1,0 @@
-String	destructionAction
-Array<Integer>	approach
-String	type
-Double	timeToLive
-Array<Integer>	position
-Double	destructionTime
-Double	size
-Array<Integer>	color
-Array<Integer>	finalVelocity

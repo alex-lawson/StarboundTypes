@@ -1,12 +1,14 @@
-String	Description
-String	footstepSound
-Boolean	tilled
-Boolean	grass
-String	frames
-Boolean	breaksWithTile
-Integer	variants
-Integer	modId
-String	itemDrop
-Integer	health
-String	modName
-String	description
+{
+	"Description" : "String",
+	"grass" : "Boolean",
+	"itemDrop" : "String",
+	"frames" : "String",
+	"description" : "String",
+	"breaksWithTile" : "Boolean",
+	"modId" : "Integer",
+	"footstepSound" : "String",
+	"variants" : "Integer",
+	"tilled" : "Boolean",
+	"health" : "Integer",
+	"modName" : "String"
+}

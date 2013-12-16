@@ -1,3 +1,0 @@
-Integer	h
-Integer	bx
-Integer	by

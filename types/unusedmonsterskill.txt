@@ -1,4 +1,12 @@
-String	label
-String	image
-LinkedHashMap	parameters
-String	name
+{
+	"name" : "String",
+	"image" : "String",
+	"label" : "String",
+	"parameters" : {
+		"scripts" : "Array<String>",
+		"rangedSwoopProjectile" : "Array<String>",
+		"rangedSwoopTime" : "Double",
+		"rangedSwoopDistance" : "Double",
+		"rangedSwoopRadius" : "Double"
+	}
+}

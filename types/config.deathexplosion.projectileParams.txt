@@ -1,3 +1,0 @@
-Array<LinkedHashMap>	actionOnReap
-Integer	power
-Integer	speed

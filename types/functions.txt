@@ -1,13 +1,15 @@
-Array<String>	npcLevelHealthMultiplier
-Array<String>	busterImageSelector
-Array<String>	shieldLevelMultiplier
-Array<String>	drawTimeMultiplier
-Array<String>	gunLevelEnergyCostPerDamage
-Array<String>	swordDamageLevelMultiplier
-Array<String>	monsterLevelPowerMultiplier
-Array<String>	busterTimeMultiplier
-Array<String>	gunDamageLevelMultiplier
-Array<String>	npcLevelEnergyMultiplier
-Array<String>	bowImageSelector
-Array<String>	monsterLevelTouchDamageMultiplier
-Array<String>	monsterLevelHealthMultiplier
+{
+	"monsterLevelPowerMultiplier" : "Array<String>",
+	"npcLevelHealthMultiplier" : "Array<String>",
+	"monsterLevelTouchDamageMultiplier" : "Array<String>",
+	"monsterLevelHealthMultiplier" : "Array<String>",
+	"swordDamageLevelMultiplier" : "Array<String>",
+	"gunLevelEnergyCostPerDamage" : "Array<String>",
+	"shieldLevelMultiplier" : "Array<String>",
+	"gunDamageLevelMultiplier" : "Array<String>",
+	"bowImageSelector" : "Array<String>",
+	"busterTimeMultiplier" : "Array<String>",
+	"npcLevelEnergyMultiplier" : "Array<String>",
+	"drawTimeMultiplier" : "Array<String>",
+	"busterImageSelector" : "Array<String>"
+}

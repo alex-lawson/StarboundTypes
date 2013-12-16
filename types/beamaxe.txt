@@ -1,36 +1,38 @@
-Integer	targetSegmentRun
-Double	nearControlPointElasticity
-Array<Integer>	handPosition
-Boolean	twoHanded
-String	shortdescription
-Integer	maxBeamWidth
-String	rarity
-String	category
-Array<Double>	dropCollision
-Integer	blockRadius
-Double	minBeamJitter
-Array<String>	endImages
-Integer	minBeamLines
-Integer	segmentsPerUnit
-Double	farControlPointElasticity
-Integer	maxBeamLines
-Double	maxBeamJitter
-Integer	innerBrightnessScale
-Double	maxBeamTrans
-String	description
-String	inventoryIcon
-Double	fireTime
-Double	minBeamTrans
-String	itemName
-Integer	minBeamWidth
-Boolean	critical
-String	strikeSound
-Integer	maxStack
-String	inspectionKind
-String	image
-Integer	altBlockRadius
-Double	nearControlPointDistance
-Double	secondStripeThickness
-String	largeImage
-Double	firstStripeThickness
-Array<Integer>	firePosition
+{
+	"maxStack" : "Integer",
+	"strikeSound" : "String",
+	"minBeamWidth" : "Integer",
+	"maxBeamWidth" : "Integer",
+	"critical" : "Boolean",
+	"minBeamTrans" : "Double",
+	"description" : "String",
+	"nearControlPointDistance" : "Double",
+	"inventoryIcon" : "String",
+	"farControlPointElasticity" : "Double",
+	"firstStripeThickness" : "Double",
+	"handPosition" : "Array<Integer>",
+	"segmentsPerUnit" : "Integer",
+	"dropCollision" : "Array<Double>",
+	"itemName" : "String",
+	"targetSegmentRun" : "Integer",
+	"maxBeamTrans" : "Double",
+	"minBeamJitter" : "Double",
+	"largeImage" : "String",
+	"rarity" : "String",
+	"twoHanded" : "Boolean",
+	"inspectionKind" : "String",
+	"image" : "String",
+	"shortdescription" : "String",
+	"minBeamLines" : "Integer",
+	"maxBeamJitter" : "Double",
+	"category" : "String",
+	"altBlockRadius" : "Integer",
+	"nearControlPointElasticity" : "Double",
+	"fireTime" : "Double",
+	"firePosition" : "Array<Integer>",
+	"secondStripeThickness" : "Double",
+	"endImages" : "Array<String>",
+	"maxBeamLines" : "Integer",
+	"innerBrightnessScale" : "Integer",
+	"blockRadius" : "Integer"
+}

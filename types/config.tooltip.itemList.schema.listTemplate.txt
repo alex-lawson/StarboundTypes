@@ -1,3 +1,0 @@
-LinkedHashMap	itemIcon
-LinkedHashMap	itemName
-LinkedHashMap	count

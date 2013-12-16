@@ -1,6 +1,0 @@
-Array<String>	anchor
-Array	rules
-String	name
-String	species
-Integer	maxParts
-Integer	maxRadius

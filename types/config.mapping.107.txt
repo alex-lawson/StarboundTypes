@@ -1,2 +1,0 @@
-Double	f
-String	file

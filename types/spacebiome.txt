@@ -1,5 +1,11 @@
-String	mainBlock
-String	ores
-String	name
-LinkedHashMap	statusParameters
-Array<Integer>	hueShiftOptions
+{
+	"ores" : "String",
+	"mainBlock" : "String",
+	"name" : "String",
+	"hueShiftOptions" : "Array<Integer>",
+	"statusParameters" : {
+		"temperatureBounds" : "Array<Integer>",
+		"temperatureVariability" : "Integer",
+		"dayNightTemperatureVariability" : "Integer"
+	}
+}

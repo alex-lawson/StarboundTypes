@@ -1,4 +1,0 @@
-String	fileHeader
-String	type
-Integer	zlevel
-String	fileBody

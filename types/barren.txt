@@ -1,4 +1,6 @@
-Double	wavelength
-Double	height
-String	name
-Integer	noise
+{
+	"wavelength" : "Double",
+	"height" : "Double",
+	"name" : "String",
+	"noise" : "Integer"
+}

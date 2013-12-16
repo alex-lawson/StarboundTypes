@@ -1,12 +1,3169 @@
-LinkedHashMap	animatedParts
-Integer	frameNumber
-LinkedHashMap	rotationGroups
-Double	loops
-LinkedHashMap	scalingGroups
-Array<Integer>	offset
-String	frames
-Boolean	looping
-Integer	variants
-LinkedHashMap	particleEmitters
-Double	animationCycle
-LinkedHashMap	effects
+{
+	"loops" : "Double",
+	"particleEmitters" : {
+		"levelUp" : {
+			"particles" : "Array<LinkedHashMap>"
+		}
+		"mechDeactivateParticles" : {
+			"particles" : "Array"
+		}
+		"jumpParticles" : {
+			"emissionRate" : "Double",
+			"particles" : "Array<LinkedHashMap>"
+		}
+		"morphballActivateParticles" : {
+			"particles" : "Array"
+		}
+		"boostParticles" : {
+			"emissionRate" : "Double",
+			"particles" : "Array"
+		}
+		"dashParticles" : {
+			"emissionRate" : "Double",
+			"particles" : "Array<LinkedHashMap>"
+		}
+		"damage" : {
+			"emissionRate" : "Double",
+			"particles" : "Array"
+		}
+		"captured" : {
+			"particles" : "Array<LinkedHashMap>"
+		}
+		"deathPoof" : {
+			"particles" : "Array<LinkedHashMap>"
+		}
+		"morphballDeactivateParticles" : {
+			"particles" : "Array"
+		}
+		"multiJumpParticles" : {
+			"particles" : "Array<LinkedHashMap>"
+		}
+		"captureParticles" : {
+			"particles" : "Array<LinkedHashMap>"
+		}
+		"jetpackParticles" : {
+			"emissionRate" : "Double",
+			"particles" : "Array<LinkedHashMap>"
+		}
+		"mechActivateParticles" : {
+			"particles" : "Array"
+		}
+		"teleport" : {
+			"emissionRate" : "Integer",
+			"particles" : "Array<LinkedHashMap>"
+		}
+		"miniboss" : {
+			"emissionRate" : "Integer",
+			"active" : "Boolean",
+			"emissionVariance" : "Double",
+			"particles" : "Array<LinkedHashMap>"
+		}
+	}
+	"animatedParts" : {
+		"stateTypes" : {
+			"dashing" : {
+				"default" : "String",
+				"states" : {
+					"off" : {
+					}
+					"on" : {
+						"properties" : {
+							"immediateSound" : "String"
+						}
+					}
+				}
+			}
+			"tis1State" : {
+				"default" : "String",
+				"states" : {
+					"idle" : {
+						"frames" : "Integer"
+					}
+					"expire" : {
+						"cycle" : "Double",
+						"frames" : "Integer"
+					}
+					"active" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+				}
+			}
+			"jumping" : {
+				"default" : "String",
+				"states" : {
+					"off" : {
+					}
+					"on" : {
+						"properties" : {
+							"persistentSound" : "String"
+						}
+					}
+				}
+			}
+			"eye2" : {
+				"default" : "String",
+				"priority" : "Integer",
+				"states" : {
+					"open" : {
+						"frames" : "Integer"
+					}
+					"blink" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"closed" : {
+						"frames" : "Integer"
+					}
+				}
+			}
+			"eye1" : {
+				"default" : "String",
+				"priority" : "Integer",
+				"states" : {
+					"open" : {
+						"frames" : "Integer"
+					}
+					"blink" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"closed" : {
+						"frames" : "Integer"
+					}
+				}
+			}
+			"morphball" : {
+				"default" : "String",
+				"states" : {
+					"default" : {
+					}
+				}
+			}
+			"eye3" : {
+				"default" : "String",
+				"priority" : "Integer",
+				"states" : {
+					"open" : {
+						"frames" : "Integer"
+					}
+					"blink" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"closed" : {
+						"frames" : "Integer"
+					}
+				}
+			}
+			"tentacle1" : {
+				"default" : "String",
+				"priority" : "Integer",
+				"states" : {
+					"idle" : {
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"extend" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"hidden" : {
+						"frames" : "Integer"
+					}
+					"retract" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+				}
+			}
+			"jetpack" : {
+				"default" : "String",
+				"states" : {
+					"off" : {
+						"properties" : {
+							"particleEmittersOff" : "Array<String>"
+						}
+					}
+					"on" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"properties" : {
+							"particleEmittersOn" : "Array<String>",
+							"persistentSound" : "String"
+						}
+						"mode" : "String"
+					}
+				}
+			}
+			"rider" : {
+				"default" : "String",
+				"priority" : "Integer",
+				"states" : {
+					"idle" : {
+						"frames" : "Integer"
+					}
+					"dismounted" : {
+						"frames" : "Integer"
+					}
+					"run" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"jump" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+				}
+			}
+			"movement" : {
+				"default" : "String",
+				"priority" : "Integer",
+				"states" : {
+					"ground" : {
+						"frames" : "Integer"
+					}
+					"knockout" : {
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"closedIdle" : {
+						"frames" : "Integer"
+					}
+					"run" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"attackEnd" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"repairEnd" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"swimming" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"knockback" : {
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"throw" : {
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"flying" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"open" : {
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"die" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"ranged" : {
+						"frameProperties" : {
+							"projectile" : "Array<String>"
+						}
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"spin" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"aggro" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"repair" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"moveshoot" : {
+						"cycle" : "Integer",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"move" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"properties" : {
+							"persistentSound" : "String"
+						}
+						"mode" : "String"
+					}
+					"alert" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"properties" : {
+							"persistentSound" : "String"
+						}
+						"mode" : "String"
+					}
+					"invisible" : {
+						"frames" : "Integer"
+					}
+					"shieldEnd" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"backWalk" : {
+						"frameProperties" : {
+							"immediateSound" : "Array<String>",
+							"stateNudge" : "Array<ArrayList>"
+						}
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"chargeWindup" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"jump" : {
+						"frameProperties" : {
+							"stateNudge" : "Array<ArrayList>"
+						}
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"properties" : {
+							"immediateSound" : "String"
+						}
+						"mode" : "String"
+					}
+					"gliding" : {
+						"frames" : "Integer"
+					}
+					"attackStart" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"idle" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"phase1" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"phase2" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"charge" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"blink" : {
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"fly" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"aim" : {
+						"frames" : "Integer"
+					}
+					"fall" : {
+						"frameProperties" : {
+							"stateNudge" : "Array<ArrayList>"
+						}
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"flyingAttack" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"shieldStart" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"attack" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"shield" : {
+						"cycle" : "Integer",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"repairStart" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"phase3" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"walk" : {
+						"frameProperties" : {
+							"immediateSound" : "Array<String>",
+							"stateNudge" : "Array<ArrayList>"
+						}
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"standing" : {
+						"frames" : "Integer"
+					}
+				}
+			}
+			"flames" : {
+				"default" : "String",
+				"priority" : "Integer",
+				"states" : {
+					"idle" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"hidden" : {
+						"frames" : "Integer"
+					}
+				}
+			}
+			"switchState" : {
+				"default" : "String",
+				"states" : {
+					"off" : {
+						"cycle" : "Double",
+						"frames" : "Integer"
+					}
+					"on" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+				}
+			}
+			"boosting" : {
+				"default" : "String",
+				"states" : {
+					"off" : {
+					}
+					"on" : {
+						"properties" : {
+							"persistentSound" : "String"
+						}
+					}
+				}
+			}
+			"frontFiring" : {
+				"states" : {
+					"off" : {
+					}
+					"fire" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+				}
+			}
+			"portrait" : {
+				"default" : "String",
+				"priority" : "Integer",
+				"states" : {
+					"portrait" : {
+						"frames" : "Integer"
+					}
+				}
+			}
+			"tentacle2" : {
+				"default" : "String",
+				"priority" : "Integer",
+				"states" : {
+					"idle" : {
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"extend" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"hidden" : {
+						"frames" : "Integer"
+					}
+					"retract" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+				}
+			}
+			"tentacle3" : {
+				"default" : "String",
+				"priority" : "Integer",
+				"states" : {
+					"idle" : {
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"extend" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"hidden" : {
+						"frames" : "Integer"
+					}
+					"retract" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+				}
+			}
+			"tentacle4" : {
+				"default" : "String",
+				"priority" : "Integer",
+				"states" : {
+					"idle" : {
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"extend" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"hidden" : {
+						"frames" : "Integer"
+					}
+					"retract" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+				}
+			}
+			"default" : {
+				"default" : "String",
+				"priority" : "Integer",
+				"states" : {
+					"idle" : {
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"shoot" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"invisible" : {
+						"frames" : "Integer"
+					}
+					"die" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"recoil" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+				}
+			}
+			"tentacle5" : {
+				"default" : "String",
+				"priority" : "Integer",
+				"states" : {
+					"idle" : {
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"extend" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"hidden" : {
+						"frames" : "Integer"
+					}
+					"retract" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+				}
+			}
+			"mount" : {
+				"default" : "String",
+				"priority" : "Integer",
+				"states" : {
+					"idle" : {
+						"frames" : "Integer"
+					}
+					"run" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"jump" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+				}
+			}
+			"tentacle6" : {
+				"default" : "String",
+				"priority" : "Integer",
+				"states" : {
+					"idle" : {
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"extend" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"hidden" : {
+						"frames" : "Integer"
+					}
+					"retract" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+				}
+			}
+			"tentacle7" : {
+				"default" : "String",
+				"priority" : "Integer",
+				"states" : {
+					"idle" : {
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"extend" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"hidden" : {
+						"frames" : "Integer"
+					}
+					"retract" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+				}
+			}
+			"tentacle8" : {
+				"default" : "String",
+				"priority" : "Integer",
+				"states" : {
+					"idle" : {
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"extend" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"hidden" : {
+						"frames" : "Integer"
+					}
+					"retract" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+				}
+			}
+			"blinking" : {
+				"default" : "String",
+				"states" : {
+					"off" : {
+					}
+					"in" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+					"out" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+				}
+			}
+			"backFiring" : {
+				"states" : {
+					"off" : {
+					}
+					"fire" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+				}
+			}
+			"beam" : {
+				"default" : "String",
+				"states" : {
+					"visible" : {
+						"frames" : "Integer"
+					}
+					"invisible" : {
+						"frames" : "Integer"
+					}
+				}
+			}
+			"attack" : {
+				"default" : "String",
+				"priority" : "Integer",
+				"states" : {
+					"idle" : {
+						"frames" : "Integer"
+					}
+					"charge" : {
+						"frames" : "Integer"
+					}
+					"chargeAttack" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"shooting" : {
+						"frames" : "Integer"
+					}
+					"melee" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"transition" : "String",
+						"mode" : "String"
+					}
+				}
+			}
+			"beaconState" : {
+				"default" : "String",
+				"states" : {
+					"idle" : {
+						"cycle" : "Double",
+						"frames" : "Integer"
+					}
+					"active" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+				}
+			}
+			"doorState" : {
+				"default" : "String",
+				"states" : {
+					"closeLeft" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"closeRight" : {
+						"cycle" : "Double",
+						"frames" : "Integer",
+						"mode" : "String"
+					}
+					"openRight" : {
+						"cycle" : "Double",
+						"frames" : "Integer"
+					}
+					"openLeft" : {
+						"cycle" : "Double",
+						"frames" : "Integer"
+					}
+				}
+			}
+		}
+		"parts" : {
+			"body" : {
+				"partStates" : {
+					"default" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"shoot" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"invisible" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"die" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"recoil" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"movement" : {
+						"ground" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"knockout" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"closedIdle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"run" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"attackEnd" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"repairEnd" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"knockback" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"flying" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"open" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"throw" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"die" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"ranged" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"aggro" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"repair" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"move" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"invisible" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"shieldEnd" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"backWalk" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"gliding" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"jump" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"chargeWindup" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"attackStart" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"charge" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"blink" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"fly" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"aim" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"fall" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"flyingAttack" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"shieldStart" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"attack" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"shield" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"repairStart" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"walk" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"standing" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"zLevel" : "Integer",
+					"rotationGroup" : "String"
+				}
+			}
+			"blinkeffect" : {
+				"partStates" : {
+					"blinking" : {
+						"in" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"out" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean"
+				}
+			}
+			"door" : {
+				"partStates" : {
+					"doorState" : {
+						"closeLeft" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"closeRight" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"openRight" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"openLeft" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean"
+				}
+			}
+			"eyelarge" : {
+				"partStates" : {
+					"eye1" : {
+						"open" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"blink" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"closed" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer"
+				}
+			}
+			"bracket" : {
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"alert" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"attack" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"move" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"zLevel" : "Integer",
+					"offset" : "Array<Double>"
+				}
+			}
+			"turret" : {
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"open" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"invisible" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"attack" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"move" : {
+							"frameProperties" : {
+								"offset" : "Array<ArrayList>"
+							}
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer",
+					"offset" : "Array<Double>"
+				}
+			}
+			"tis1" : {
+				"partStates" : {
+					"tis1State" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"expire" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"active" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"unlit" : "Boolean"
+				}
+			}
+			"arm" : {
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"shieldEnd" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"shieldStart" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"attack" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"shield" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"move" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer",
+					"rotationGroup" : "String"
+				}
+			}
+			"head" : {
+				"partStates" : {
+					"movement" : {
+						"knockback" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"flying" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"charge" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"fly" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"ground" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"flyingAttack" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"knockout" : {
+							"properties" : {
+								"image" : "String",
+								"offset" : "Array<Double>"
+							}
+						}
+						"attack" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"run" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"walk" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"standing" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"swimming" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"chargeWindup" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"jump" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"gliding" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"attack" : {
+						"charge" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"chargeAttack" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"shooting" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"melee" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"zLevel" : "Integer",
+					"offset" : "Array<Double>",
+					"rotationGroup" : "String"
+				}
+			}
+			"foreground" : {
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer"
+				}
+			}
+			"flames" : {
+				"partStates" : {
+					"flames" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"hidden" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer",
+					"rotationGroup" : "String"
+				}
+			}
+			"backLegs" : {
+				"partStates" : {
+					"movement" : {
+						"knockback" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"charge" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"knockout" : {
+							"properties" : {
+								"image" : "String",
+								"offset" : "Array<Double>"
+							}
+						}
+						"run" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"walk" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"chargeWindup" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"jump" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"zLevel" : "Integer",
+					"offset" : "Array<Double>"
+				}
+			}
+			"backGun" : {
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String",
+								"rotationCenter" : "Array<Double>"
+							}
+						}
+						"fall" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"walk" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"backWalk" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"jump" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"zLevel" : "Integer",
+					"rotationCenter" : "Array<Double>",
+					"offset" : "Array<Integer>",
+					"relativeAnchors" : {
+						"backGunFirePoint" : "Array<Double>"
+					}
+					"rotationGroup" : "String"
+				}
+			}
+			"tail" : {
+				"partStates" : {
+					"movement" : {
+						"knockback" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"charge" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"knockout" : {
+							"properties" : {
+								"image" : "String",
+								"offset" : "Array<Double>"
+							}
+						}
+						"run" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"walk" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"swimming" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"chargeWindup" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"jump" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"zLevel" : "Integer",
+					"offset" : "Array<Double>",
+					"rotationGroup" : "String"
+				}
+			}
+			"smoke" : {
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"open" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"invisible" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"attack" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"move" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer"
+				}
+			}
+			"backLeg" : {
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"fall" : {
+							"frameProperties" : {
+								"offset" : "Array<ArrayList>"
+							}
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"walk" : {
+							"frameProperties" : {
+								"offset" : "Array<ArrayList>"
+							}
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"backWalk" : {
+							"frameProperties" : {
+								"offset" : "Array<ArrayList>"
+							}
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"jump" : {
+							"frameProperties" : {
+								"offset" : "Array<ArrayList>"
+							}
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"zLevel" : "Integer",
+					"back" : "Boolean"
+				}
+			}
+			"bubble" : {
+				"partStates" : {
+					"jetpack" : {
+						"on" : {
+							"properties" : {
+								"centered" : "Boolean",
+								"back" : "Boolean",
+								"image" : "String"
+							}
+						}
+					}
+					"boosting" : {
+						"on" : {
+							"properties" : {
+								"centered" : "Boolean",
+								"image" : "String"
+							}
+						}
+					}
+				}
+			}
+			"frontGunFire" : {
+				"partStates" : {
+					"frontFiring" : {
+						"fire" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"zLevel" : "Double",
+					"rotationCenter" : "Array<Double>",
+					"offset" : "Array<Integer>",
+					"rotationGroup" : "String"
+				}
+			}
+			"eyemedium" : {
+				"partStates" : {
+					"eye2" : {
+						"open" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"blink" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"closed" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer"
+				}
+			}
+			"frontWings" : {
+				"partStates" : {
+					"movement" : {
+						"knockback" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"flying" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"flyingAttack" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"knockout" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"standing" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"gliding" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"zLevel" : "Integer"
+				}
+			}
+			"jumping" : {
+				"partStates" : {
+					"jumping" : {
+						"on" : {
+							"properties" : {
+								"centered" : "Boolean",
+								"image" : "String"
+							}
+						}
+					}
+				}
+			}
+			"backArm" : {
+				"partStates" : {
+					"movement" : {
+						"knockback" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"charge" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"aim" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"invisible" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"knockout" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"run" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"walk" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"chargeWindup" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"jump" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"attack" : {
+						"charge" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"chargeAttack" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"shooting" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"melee" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer",
+					"rotationCenter" : "Array<Double>",
+					"rotationGroup" : "String"
+				}
+			}
+			"eyesmall" : {
+				"partStates" : {
+					"eye3" : {
+						"open" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"blink" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"closed" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer"
+				}
+			}
+			"chest" : {
+				"partStates" : {
+					"movement" : {
+						"knockback" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"charge" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"aim" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"invisible" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"spin" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"aggro" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"knockout" : {
+							"properties" : {
+								"image" : "String",
+								"offset" : "Array<Double>"
+							}
+						}
+						"run" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"walk" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"chargeWindup" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"jump" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"zLevel" : "Integer",
+					"offset" : "Array<Double>"
+				}
+			}
+			"fin" : {
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"swimming" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer",
+					"rotationGroup" : "String"
+				}
+			}
+			"switch" : {
+				"partStates" : {
+					"switchState" : {
+						"off" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"on" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean"
+				}
+			}
+			"morphball" : {
+				"partStates" : {
+					"morphball" : {
+						"default" : {
+							"properties" : {
+								"centered" : "Boolean",
+								"image" : "String"
+							}
+						}
+					}
+				}
+			}
+			"tentacle1" : {
+				"partStates" : {
+					"tentacle1" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"extend" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"hidden" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"retract" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer"
+				}
+			}
+			"knight" : {
+				"partStates" : {
+					"rider" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"dismounted" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"run" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"jump" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer"
+				}
+			}
+			"frontLegs" : {
+				"partStates" : {
+					"movement" : {
+						"knockback" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"charge" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"knockout" : {
+							"properties" : {
+								"image" : "String",
+								"offset" : "Array<Double>"
+							}
+						}
+						"run" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"walk" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"chargeWindup" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"jump" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"zLevel" : "Integer",
+					"offset" : "Array<Double>"
+				}
+			}
+			"pilot" : {
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"open" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"phase1" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"phase2" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"invisible" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"attack" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"phase3" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"move" : {
+							"frameProperties" : {
+								"move" : "Array<ArrayList>"
+							}
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer",
+					"rotationGroup" : "String"
+				}
+			}
+			"ufo" : {
+				"partStates" : {
+					"movement" : {
+						"flying" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"phase1" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"phase2" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"invisible" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"phase3" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer",
+					"rotationGroup" : "String"
+				}
+			}
+			"frontGun" : {
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String",
+								"rotationCenter" : "Array<Double>"
+							}
+						}
+						"fall" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"walk" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"backWalk" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"jump" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"zLevel" : "Integer",
+					"rotationCenter" : "Array<Double>",
+					"relativeAnchors" : {
+						"frontGunFirePoint" : "Array<Double>"
+					}
+					"rotationGroup" : "String"
+				}
+			}
+			"frontArm" : {
+				"partStates" : {
+					"movement" : {
+						"knockback" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"charge" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"aim" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"invisible" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"knockout" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"run" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"walk" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"chargeWindup" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"jump" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"attack" : {
+						"charge" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"chargeAttack" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"shooting" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"melee" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer",
+					"rotationCenter" : "Array<Double>",
+					"rotationGroup" : "String"
+				}
+			}
+			"frontLeg" : {
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"fall" : {
+							"frameProperties" : {
+								"offset" : "Array<ArrayList>"
+							}
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"walk" : {
+							"frameProperties" : {
+								"offset" : "Array<ArrayList>"
+							}
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"backWalk" : {
+							"frameProperties" : {
+								"offset" : "Array<ArrayList>"
+							}
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"jump" : {
+							"frameProperties" : {
+								"offset" : "Array<ArrayList>"
+							}
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"zLevel" : "Integer"
+				}
+			}
+			"backWings" : {
+				"partStates" : {
+					"movement" : {
+						"knockback" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"flying" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"flyingAttack" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"knockout" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"standing" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"gliding" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"zLevel" : "Integer"
+				}
+			}
+			"camera" : {
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"alert" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"move" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"zLevel" : "Integer",
+					"offset" : "Array<Double>",
+					"rotationGroup" : "String"
+				}
+			}
+			"helm" : {
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"aim" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"invisible" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"walk" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer"
+				}
+			}
+			"backGunFire" : {
+				"partStates" : {
+					"backFiring" : {
+						"fire" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"zLevel" : "Double",
+					"rotationCenter" : "Array<Double>",
+					"offset" : "Array<Integer>",
+					"rotationGroup" : "String"
+				}
+			}
+			"gun" : {
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"open" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"invisible" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"attack" : {
+							"frameProperties" : {
+								"offset" : "Array<ArrayList>"
+							}
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"move" : {
+							"frameProperties" : {
+								"offset" : "Array<ArrayList>"
+							}
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"zLevel" : "Integer",
+					"offset" : "Array<Double>",
+					"rotationGroup" : "String"
+				}
+			}
+			"tentacle2" : {
+				"partStates" : {
+					"tentacle2" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"extend" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"hidden" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"retract" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer"
+				}
+			}
+			"tentacle3" : {
+				"partStates" : {
+					"tentacle3" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"extend" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"hidden" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"retract" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer"
+				}
+			}
+			"tentacle4" : {
+				"partStates" : {
+					"tentacle4" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"extend" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"hidden" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"retract" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer"
+				}
+			}
+			"tentacle5" : {
+				"partStates" : {
+					"tentacle5" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"extend" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"hidden" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"retract" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer"
+				}
+			}
+			"mount" : {
+				"partStates" : {
+					"mount" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"run" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"jump" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+			}
+			"tentacle6" : {
+				"partStates" : {
+					"tentacle6" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"extend" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"hidden" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"retract" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer"
+				}
+			}
+			"tentacle7" : {
+				"partStates" : {
+					"tentacle7" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"extend" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"hidden" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"retract" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer"
+				}
+			}
+			"tentacle8" : {
+				"partStates" : {
+					"tentacle8" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"extend" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"hidden" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"retract" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer"
+				}
+			}
+			"background" : {
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"fall" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"walk" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"backWalk" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"jump" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"zLevel" : "Integer",
+					"back" : "Boolean"
+				}
+			}
+			"weapon" : {
+				"partStates" : {
+					"movement" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String",
+								"offset" : "Array<Double>"
+							}
+						}
+						"aim" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"invisible" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"walk" : {
+							"frameProperties" : {
+								"offset" : "Array<ArrayList>"
+							}
+							"properties" : {
+								"image" : "String",
+								"offset" : "Array<Integer>"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer",
+					"rotationCenter" : "Array<Double>",
+					"offset" : "Array<Double>",
+					"rotationGroup" : "String"
+				}
+			}
+			"mountcover" : {
+				"partStates" : {
+					"mount" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"run" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"jump" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+					"portrait" : {
+						"portrait" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"zLevel" : "Integer"
+				}
+			}
+			"beam" : {
+				"partStates" : {
+					"beam" : {
+						"visible" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"invisible" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean",
+					"zLevel" : "Integer",
+					"scalingGroup" : "String",
+					"offset" : "Array<Double>",
+					"rotationGroup" : "String"
+				}
+			}
+			"beacon" : {
+				"partStates" : {
+					"beaconState" : {
+						"idle" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+						"active" : {
+							"properties" : {
+								"image" : "String"
+							}
+						}
+					}
+				}
+				"properties" : {
+					"centered" : "Boolean"
+				}
+			}
+		}
+	}
+	"frames" : "String",
+	"scalingGroups" : {
+		"beam" : {
+			"pivot" : "Array<Double>"
+		}
+	}
+	"variants" : "Integer",
+	"rotationGroups" : {
+		"guns" : {
+			"angularVelocity" : "Double"
+		}
+		"flames" : {
+			"angularVelocity" : "Integer"
+		}
+		"projectileAim" : {
+			"angularVelocity" : "Double",
+			"rotationCenter" : "Array<Integer>"
+		}
+		"camera" : {
+			"angularVelocity" : "Double",
+			"rotationCenter" : "Array<Double>"
+		}
+		"weapon" : {
+			"angularVelocity" : "Double",
+			"rotationCenter" : "Array<Double>"
+		}
+		"arms" : {
+			"angularVelocity" : "Double",
+			"rotationCenter" : "Array<Double>"
+		}
+		"arm" : {
+			"angularVelocity" : "Double",
+			"rotationCenter" : "Array<Double>"
+		}
+		"head" : {
+			"angularVelocity" : "Double",
+			"rotationCenter" : "Array<Double>"
+		}
+		"emptyHand" : {
+			"angularVelocity" : "Double"
+		}
+		"gun" : {
+			"angularVelocity" : "Double",
+			"rotationCenter" : "Array<Double>"
+		}
+		"all" : {
+			"angularVelocity" : "Double"
+		}
+	}
+	"effects" : {
+		"blink" : {
+			"time" : "Double",
+			"directives" : "String",
+			"type" : "String"
+		}
+	}
+	"looping" : "Boolean",
+	"offset" : "Array<Integer>",
+	"frameNumber" : "Integer",
+	"animationCycle" : "Double"
+}

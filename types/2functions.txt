@@ -1,1 +1,3 @@
-Array<String>	protection
+{
+	"protection" : "Array<String>"
+}

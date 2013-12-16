@@ -1,8 +1,122 @@
-LinkedHashMap	dropConfig
-LinkedHashMap	parallax
-String	shape
-LinkedHashMap	baseLeaves
-LinkedHashMap	crownLeaves
-String	name
-LinkedHashMap	trunkLeaves
-LinkedHashMap	branchLeaves
+{
+	"baseLeaves" : {
+		"base1" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer"
+			}
+			"backimage" : "String"
+		}
+		"base2" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer"
+			}
+			"backimage" : "String"
+		}
+	}
+	"name" : "String",
+	"branchLeaves" : {
+		"branch3" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer"
+			}
+			"backimage" : "String"
+		}
+		"branch2" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer"
+			}
+			"backimage" : "String"
+		}
+		"branch1" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer"
+			}
+			"backimage" : "String"
+		}
+	}
+	"shape" : "String",
+	"crownLeaves" : {
+		"crown3" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer"
+			}
+			"backimage" : "String"
+		}
+		"crown2" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer"
+			}
+			"backimage" : "String"
+		}
+		"crown1" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer"
+			}
+			"backimage" : "String"
+		}
+	}
+	"dropConfig" : {
+		"drops" : "Array<ArrayList>",
+		"particles" : {
+			"breakTree" : {
+				"density" : "Integer",
+				"options" : "Array<LinkedHashMap>"
+			}
+			"hitGround" : {
+				"density" : "Integer",
+				"options" : "Array<LinkedHashMap>"
+			}
+		}
+		"sounds" : {
+			"breakTree" : "Array<LinkedHashMap>",
+			"hitGround" : "Array<LinkedHashMap>"
+		}
+	}
+	"trunkLeaves" : {
+		"middle2" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer"
+			}
+			"backimage" : "String"
+		}
+		"middle1" : {
+			"image" : "String",
+			"attachment" : {
+				"by" : "Integer",
+				"bx" : "Integer"
+			}
+			"backimage" : "String"
+		}
+	}
+	"parallax" : {
+		"definitions" : {
+			"treeback2" : {
+				"baseCount" : "Integer"
+			}
+			"treeback" : {
+				"baseCount" : "Integer"
+			}
+			"treefront" : {
+				"baseCount" : "Integer"
+			}
+		}
+	}
+}

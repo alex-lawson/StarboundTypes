@@ -1,2 +1,10 @@
-String	kind
-LinkedHashMap	definition
+{
+	"definition" : {
+		"loops" : "Boolean",
+		"duration" : "Double",
+		"initialParticles" : "Array<ArrayList>",
+		"particles" : "Array<ArrayList>",
+		"finalParticles" : "Array<ArrayList>"
+	}
+	"kind" : "String"
+}

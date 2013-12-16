@@ -1,11 +1,13 @@
-String	inventoryIcon
-String	shortdescription
-String	rarity
-String	itemName
-String	category
-String	glitchdescription
-Array<String>	learnBlueprintsOnPickup
-Array<Double>	dropCollision
-Integer	materialId
-String	description
-String	florandescription
+{
+	"dropCollision" : "Array<Double>",
+	"category" : "String",
+	"florandescription" : "String",
+	"itemName" : "String",
+	"glitchdescription" : "String",
+	"materialId" : "Integer",
+	"description" : "String",
+	"inventoryIcon" : "String",
+	"rarity" : "String",
+	"shortdescription" : "String",
+	"learnBlueprintsOnPickup" : "Array<String>"
+}

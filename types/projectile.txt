@@ -1,38 +1,35 @@
-Integer	frameNumber
-String	physics
-Boolean	supportsProcessing
-Integer	level
-String	frames
-String	projectileName
-Array<ArrayList>	damagePoly
-Boolean	flippable
-String	damageKindImage
-Array<Integer>	lightColor
-Integer	timeToLive
-Integer	bounces
-Integer	speed
-Boolean	universalDamage
-Boolean	piercing
-Array<String>	effectSources
-Double	animationCycle
-Array<String>	emitters
-Integer	windupFrames
-Array<LinkedHashMap>	statusEffects
-Double	power
-Integer	initialVelocity
-Boolean	animationLoops
-String	damageKind
-String	damageType
-Integer	knockbackPower
-Double	fallSpeed
-Boolean	pointLight
-Boolean	hypdrophobic
-Boolean	orientationLocked
-Integer	materialBlock
-Integer	armorPenetration
-Double	timeToLive
-Array<LinkedHashMap>	actionOnReap
-Integer	power
-Integer	animationCycle
-Double	speed
-Integer	fallSpeed
+{
+	"armorPenetration" : "Integer",
+	"flippable" : "Boolean",
+	"physics" : "String",
+	"damageType" : "String",
+	"piercing" : "Boolean",
+	"actionOnReap" : "Array<LinkedHashMap>",
+	"animationLoops" : "Boolean",
+	"bounces" : "Integer",
+	"supportsProcessing" : "Boolean",
+	"damageKindImage" : "String",
+	"timeToLive" : "Double",
+	"damagePoly" : "Array<ArrayList>",
+	"damageKind" : "String",
+	"level" : "Integer",
+	"lightColor" : "Array<Integer>",
+	"effectSources" : "Array<String>",
+	"power" : "Double",
+	"fallSpeed" : "Double",
+	"knockbackPower" : "Integer",
+	"universalDamage" : "Boolean",
+	"speed" : "Double",
+	"emitters" : "Array<String>",
+	"initialVelocity" : "Integer",
+	"hypdrophobic" : "Boolean",
+	"frameNumber" : "Integer",
+	"pointLight" : "Boolean",
+	"animationCycle" : "Double",
+	"materialBlock" : "Integer",
+	"statusEffects" : "Array<LinkedHashMap>",
+	"frames" : "String",
+	"windupFrames" : "Integer",
+	"orientationLocked" : "Boolean",
+	"projectileName" : "String"
+}

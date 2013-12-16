@@ -1,7 +1,0 @@
-Array<Integer>	handPosition
-Boolean	twoHanded
-Array<Double>	handPosition
-Integer	swordAngle
-Integer	armAngle
-Array<LinkedHashMap>	statusEffects
-Double	duration

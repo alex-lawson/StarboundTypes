@@ -1,8 +1,0 @@
-LinkedHashMap	7
-LinkedHashMap	3
-LinkedHashMap	6
-LinkedHashMap	2
-LinkedHashMap	5
-LinkedHashMap	1
-LinkedHashMap	4
-LinkedHashMap	0

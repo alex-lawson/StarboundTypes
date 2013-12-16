@@ -1,6 +1,0 @@
-Integer	life
-String	powerCurve
-String	speedCurve
-Array<Integer>	color
-Integer	power
-Integer	speed

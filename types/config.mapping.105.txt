@@ -1,3 +1,0 @@
-Double	f
-String	file
-Array<String>	files

@@ -1,3 +1,0 @@
-Integer	weatherEffectZLevel
-LinkedHashMap	definitions
-Integer	verticalOrigin

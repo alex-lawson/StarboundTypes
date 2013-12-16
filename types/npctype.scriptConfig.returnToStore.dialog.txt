@@ -1,3 +1,0 @@
-LinkedHashMap	tout
-LinkedHashMap	follow
-LinkedHashMap	welcome

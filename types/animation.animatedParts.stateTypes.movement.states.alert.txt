@@ -1,4 +1,0 @@
-LinkedHashMap	properties
-Double	cycle
-String	mode
-Integer	frames

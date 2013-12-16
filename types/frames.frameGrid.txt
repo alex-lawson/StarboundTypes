@@ -1,3 +1,0 @@
-Array<Integer>	size
-Array<Integer>	dimensions
-Array<ArrayList>	names

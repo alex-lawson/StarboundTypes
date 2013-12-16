@@ -1,9 +1,0 @@
-Double	airFriction
-Integer	groundFriction
-Boolean	groundSlideMovementEnabled
-Array<ArrayList>	collisionPoly
-Double	bounceFactor
-Double	liquidFriction
-Boolean	ignorePlatformCollision
-Double	maxMovementPerStep
-Double	gravityMultiplier

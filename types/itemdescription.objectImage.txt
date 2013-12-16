@@ -1,6 +1,0 @@
-Boolean	centered
-String	type
-String	file
-Array<Integer>	position
-Array<Integer>	minSize
-Array<Integer>	maxSize

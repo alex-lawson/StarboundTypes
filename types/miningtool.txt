@@ -1,28 +1,29 @@
-Array<Integer>	handPosition
-Long	durability
-Boolean	twoHanded
-String	shortdescription
-Integer	durability
-String	rarity
-Array<ArrayList>	durabilityRegenChart
-Double	tileDamage
-Array<Double>	dropCollision
-String	idleSound
-Integer	blockRadius
-Integer	swingFinish
-Double	animationCycle
-Integer	frames
-String	description
-String	inventoryIcon
-Double	fireTime
-Boolean	pointable
-String	itemName
-String	strikeSound
-Integer	durabilityPerUse
-Double	tileDamageBlunted
-Integer	maxStack
-String	inspectionKind
-String	image
-Integer	altBlockRadius
-String	largeImage
-Integer	swingStart
+{
+	"maxStack" : "Integer",
+	"pointable" : "Boolean",
+	"strikeSound" : "String",
+	"swingFinish" : "Integer",
+	"idleSound" : "String",
+	"swingStart" : "Integer",
+	"description" : "String",
+	"inventoryIcon" : "String",
+	"handPosition" : "Array<Integer>",
+	"dropCollision" : "Array<Double>",
+	"itemName" : "String",
+	"durability" : "Long",
+	"largeImage" : "String",
+	"rarity" : "String",
+	"twoHanded" : "Boolean",
+	"image" : "String",
+	"inspectionKind" : "String",
+	"tileDamageBlunted" : "Double",
+	"shortdescription" : "String",
+	"animationCycle" : "Double",
+	"durabilityRegenChart" : "Array<ArrayList>",
+	"altBlockRadius" : "Integer",
+	"durabilityPerUse" : "Integer",
+	"fireTime" : "Double",
+	"frames" : "Integer",
+	"tileDamage" : "Double",
+	"blockRadius" : "Integer"
+}

@@ -1,4 +1,0 @@
-LinkedHashMap	attack
-LinkedHashMap	alert
-LinkedHashMap	idle
-LinkedHashMap	move

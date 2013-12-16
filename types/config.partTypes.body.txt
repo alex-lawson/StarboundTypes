@@ -1,3 +1,0 @@
-LinkedHashMap	states
-Array<Integer>	position
-Integer	zlevel

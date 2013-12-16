@@ -1,21 +1,22 @@
-Array<Integer>	handPosition
-Double	recoilTime
-Array<Integer>	rateOfFire
-String	rarity
-Array<String>	projectileTypes
-Array<Integer>	baseDps
-Array<Integer>	hands
-String	weaponType
-Array<String>	muzzleFlashes
-String	name
-Double	multiplier
-Integer	maxStack
-Array<Integer>	spread
-Array<String>	directories
-String	inspectionKind
-Integer	accuracy
-String	nameGenerator
-Array<String>	fireSound
-Array<Double>	rateOfFire
-Array<LinkedHashMap>	palette
-Array<Integer>	firePosition
+{
+	"maxStack" : "Integer",
+	"palette" : "Array<LinkedHashMap>",
+	"rarity" : "String",
+	"muzzleFlashes" : "Array<String>",
+	"inspectionKind" : "String",
+	"weaponType" : "String",
+	"projectileTypes" : "Array<String>",
+	"multiplier" : "Double",
+	"baseDps" : "Array<Integer>",
+	"directories" : "Array<String>",
+	"firePosition" : "Array<Integer>",
+	"hands" : "Array<Integer>",
+	"rateOfFire" : "Array<Double>",
+	"name" : "String",
+	"fireSound" : "Array<String>",
+	"recoilTime" : "Double",
+	"spread" : "Array<Integer>",
+	"accuracy" : "Integer",
+	"handPosition" : "Array<Integer>",
+	"nameGenerator" : "String"
+}

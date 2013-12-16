@@ -1,13 +1,20 @@
-String	inventoryIcon
-String	shortdescription
-String	rarity
-Double	windupTime
-String	image
-String	itemName
-Boolean	edgeTrigger
-String	projectileType
-Integer	ammoUsage
-LinkedHashMap	projectileConfig
-String	description
-Double	cooldown
-Integer	maxStack
+{
+	"itemName" : "String",
+	"ammoUsage" : "Integer",
+	"maxStack" : "Integer",
+	"rarity" : "String",
+	"image" : "String",
+	"shortdescription" : "String",
+	"cooldown" : "Double",
+	"projectileType" : "String",
+	"windupTime" : "Double",
+	"projectileConfig" : {
+		"armorPenetration" : "Integer",
+		"level" : "Integer",
+		"speed" : "Integer",
+		"power" : "Integer"
+	}
+	"description" : "String",
+	"inventoryIcon" : "String",
+	"edgeTrigger" : "Boolean"
+}

@@ -1,4 +1,0 @@
-Integer	baseSize
-Integer	itemSize
-Integer	nameSize
-Array<Integer>	defaultColor

@@ -1,3 +1,19 @@
-String	location
-String	kind
-LinkedHashMap	definition
+{
+	"definition" : {
+		"stop" : {
+			"particles" : "Array<ArrayList>",
+			"sounds" : "Array<ArrayList>"
+		}
+		"loops" : "Boolean",
+		"duration" : "Double",
+		"start" : {
+			"particles" : "Array<ArrayList>",
+			"sounds" : "Array<ArrayList>"
+		}
+		"location" : "String",
+		"particles" : "Array<ArrayList>",
+		"sounds" : "Array<ArrayList>"
+	}
+	"location" : "String",
+	"kind" : "String"
+}

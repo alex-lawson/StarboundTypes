@@ -1,3 +1,0 @@
-Integer	cooldown
-Array<ArrayList>	conversations
-Array<Double>	distanceRange

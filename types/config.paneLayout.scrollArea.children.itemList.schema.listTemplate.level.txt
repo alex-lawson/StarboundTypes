@@ -1,4 +1,0 @@
-String	value
-String	type
-String	hAnchor
-Array<Integer>	position

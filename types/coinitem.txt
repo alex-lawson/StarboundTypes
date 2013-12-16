@@ -1,13 +1,15 @@
-Integer	mediumStackLimit
-String	inventoryIcon
-Array<String>	pickupSoundsSmall
-String	shortdescription
-String	rarity
-Array<String>	pickupSoundsLarge
-String	itemName
-Integer	value
-Integer	smallStackLimit
-Array<String>	pickupSoundsMedium
-Array<Double>	dropCollision
-String	description
-Integer	maxStack
+{
+	"dropCollision" : "Array<Double>",
+	"smallStackLimit" : "Integer",
+	"itemName" : "String",
+	"maxStack" : "Integer",
+	"rarity" : "String",
+	"shortdescription" : "String",
+	"mediumStackLimit" : "Integer",
+	"pickupSoundsMedium" : "Array<String>",
+	"description" : "String",
+	"pickupSoundsSmall" : "Array<String>",
+	"pickupSoundsLarge" : "Array<String>",
+	"inventoryIcon" : "String",
+	"value" : "Integer"
+}

@@ -1,7 +1,19 @@
-LinkedHashMap	weatherNoises
-Integer	density
-Double	maxDarkness
-Double	lightningFrequency
-Array<LinkedHashMap>	particles
-Array<Integer>	windVelocity
-String	name
+{
+	"density" : "Integer",
+	"lightningFrequency" : "Double",
+	"maxDarkness" : "Double",
+	"windVelocity" : "Array<Integer>",
+	"name" : "String",
+	"weatherNoises" : {
+		"heavy" : {
+			"tracks" : "Array<String>"
+		}
+		"light" : {
+			"tracks" : "Array<String>"
+		}
+		"medium" : {
+			"tracks" : "Array<String>"
+		}
+	}
+	"particles" : "Array<LinkedHashMap>"
+}

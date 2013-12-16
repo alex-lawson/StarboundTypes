@@ -1,6 +1,0 @@
-LinkedHashMap	hylotl
-LinkedHashMap	avian
-LinkedHashMap	floran
-Array<String>	default
-LinkedHashMap	glitch
-LinkedHashMap	apex

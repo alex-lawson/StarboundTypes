@@ -1,17 +1,28 @@
-Boolean	altOptionAsFacialMask
-Boolean	headOptionAsHairColor
-Array<String>	ouchNoises
-Boolean	altOptionAsUndyColor
-String	kind
-Array<LinkedHashMap>	bodyColor
-Array<LinkedHashMap>	undyColor
-Array<String>	hairColor
-Boolean	hairColorAsBodySubColor
-Array<LinkedHashMap>	hairColor
-Boolean	altOptionAsHairColor
-Boolean	headOptionAsFacialhair
-Array<LinkedHashMap>	genders
-Array<String>	nameGen
-LinkedHashMap	defaultBlueprints
-Integer	index
-Array<String>	undyColor
+{
+	"index" : "Integer",
+	"defaultBlueprints" : {
+		"level37" : "Array<LinkedHashMap>",
+		"tier1" : "Array<LinkedHashMap>",
+		"level32" : "Array<LinkedHashMap>",
+		"level34" : "Array<LinkedHashMap>",
+		"tier2" : "Array<LinkedHashMap>",
+		"level33" : "Array<LinkedHashMap>",
+		"tier3" : "Array<LinkedHashMap>",
+		"level36" : "Array<LinkedHashMap>",
+		"tier4" : "Array<LinkedHashMap>",
+		"level35" : "Array<LinkedHashMap>"
+	}
+	"bodyColor" : "Array<LinkedHashMap>",
+	"altOptionAsHairColor" : "Boolean",
+	"genders" : "Array<LinkedHashMap>",
+	"undyColor" : "Array<LinkedHashMap>",
+	"hairColor" : "Array<LinkedHashMap>",
+	"kind" : "String",
+	"nameGen" : "Array<String>",
+	"altOptionAsUndyColor" : "Boolean",
+	"hairColorAsBodySubColor" : "Boolean",
+	"headOptionAsHairColor" : "Boolean",
+	"altOptionAsFacialMask" : "Boolean",
+	"ouchNoises" : "Array<String>",
+	"headOptionAsFacialhair" : "Boolean"
+}

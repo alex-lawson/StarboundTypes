@@ -1,3 +1,0 @@
-Double	grassModDensity
-Array<String>	grassMod
-Array<LinkedHashMap>	items

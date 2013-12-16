@@ -1,5 +1,120 @@
-String	image
-LinkedHashMap	frameGrid
-LinkedHashMap	aliases
-LinkedHashMap	grouped
-LinkedHashMap	frameList
+{
+	"frameGrid" : {
+		"names" : "Array<ArrayList>",
+		"dimensions" : "Array<Integer>",
+		"size" : "Array<Integer>"
+	}
+	"grouped" : {
+		"nested" : {
+			"frameList" : {
+				"0" : "Array<Integer>"
+			}
+		}
+		"names" : "Array<String>",
+		"offset" : "Array<Integer>"
+	}
+	"image" : "String",
+	"frameList" : {
+		"climb" : "Array<Integer>",
+		"pants" : "Array<Integer>",
+		"tool" : "Array<Integer>",
+		"normal" : "Array<Integer>",
+		"injector" : "Array<Integer>",
+		"chest" : "Array<Integer>",
+		"run" : "Array<Integer>",
+		"swim" : "Array<Integer>",
+		"duck" : "Array<Integer>",
+		"head" : "Array<Integer>",
+		"frontblock" : "Array<Integer>",
+		"back" : "Array<Integer>",
+		"frontidle" : "Array<Integer>",
+		"chest.2" : "Array<Integer>",
+		"chest.1" : "Array<Integer>",
+		"chest.3" : "Array<Integer>",
+		"3" : "Array<Integer>",
+		"backidle" : "Array<Integer>",
+		"2" : "Array<Integer>",
+		"1" : "Array<Integer>",
+		"5" : "Array<Integer>",
+		"4" : "Array<Integer>",
+		"reticle" : "Array<Integer>",
+		"pointer" : "Array<Integer>",
+		"backblock" : "Array<Integer>",
+		"inspect" : "Array<Integer>"
+	}
+	"aliases" : {
+		"blue.on" : "String",
+		"default.off" : "String",
+		"turningOff.1" : "String",
+		"turningOff.2" : "String",
+		"openLeft.1" : "String",
+		"turningOff.3" : "String",
+		"openLeft.2" : "String",
+		"idle.5" : "String",
+		"idle.4" : "String",
+		"idle.3" : "String",
+		"red.on" : "String",
+		"idle.2" : "String",
+		"red.default" : "String",
+		"idle.1" : "String",
+		"pink.default" : "String",
+		"red.off" : "String",
+		"yellow.default" : "String",
+		"knockback" : "String",
+		"default.default" : "String",
+		"pink.off" : "String",
+		"orange.default" : "String",
+		"orange.on" : "String",
+		"green.default" : "String",
+		"closeLeft.1" : "String",
+		"turningOff.4" : "String",
+		"closeLeft.2" : "String",
+		"bmove.3" : "String",
+		"bmove.4" : "String",
+		"blue.default" : "String",
+		"white.off" : "String",
+		"white.on" : "String",
+		"green.on" : "String",
+		"bmove.1" : "String",
+		"portrait" : "String",
+		"bmove.2" : "String",
+		"default" : "String",
+		"preview" : "String",
+		"default.on" : "String",
+		"yellow.on" : "String",
+		"green.off" : "String",
+		"eat.1" : "String",
+		"eat.2" : "String",
+		"swimIdle.2" : "String",
+		"yellow.off" : "String",
+		"default.default.default" : "String",
+		"black.default" : "String",
+		"sit.1" : "String",
+		"expire.4" : "String",
+		"die.1" : "String",
+		"turningOn.1" : "String",
+		"closeRight.2" : "String",
+		"turningOn.2" : "String",
+		"closeRight.1" : "String",
+		"turningOn.3" : "String",
+		"openRight.2" : "String",
+		"turningOn.4" : "String",
+		"lay.1" : "String",
+		"openRight.1" : "String",
+		"pink.on" : "String",
+		"icon" : "String",
+		"orange.off" : "String",
+		"wink.5" : "String",
+		"blue.off" : "String",
+		"black.on" : "String",
+		"swim.5" : "String",
+		"blink.3" : "String",
+		"black.off" : "String",
+		"sleep.2" : "String",
+		"idle" : "String",
+		"sleep.1" : "String",
+		"swim.6" : "String",
+		"swim.7" : "String",
+		"white.default" : "String"
+	}
+}

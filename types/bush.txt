@@ -1,5 +1,6 @@
-Array<LinkedHashMap>	shapes
-String	ceiling
-Boolean	ceiling
-String	name
-Array<String>	mods
+{
+	"ceiling" : "Boolean",
+	"name" : "String",
+	"mods" : "Array<String>",
+	"shapes" : "Array<LinkedHashMap>"
+}

@@ -1,4 +1,6 @@
-Integer	size
-Double	frequency
-Double	noise
-String	name
+{
+	"name" : "String",
+	"frequency" : "Double",
+	"noise" : "Double",
+	"size" : "Integer"
+}

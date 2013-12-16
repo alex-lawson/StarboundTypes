@@ -1,2 +1,0 @@
-LinkedHashMap	parts
-LinkedHashMap	stateTypes

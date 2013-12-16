@@ -1,4 +1,8 @@
-Array<LinkedHashMap>	blockKey
-Array<LinkedHashMap>	backgroundOverlays
-String	blockImage
-LinkedHashMap	config
+{
+	"blockImage" : "String",
+	"config" : {
+		"fuelMax" : "Integer"
+	}
+	"blockKey" : "Array<LinkedHashMap>",
+	"backgroundOverlays" : "Array<LinkedHashMap>"
+}

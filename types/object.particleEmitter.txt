@@ -1,7 +1,0 @@
-Double	emissionRate
-LinkedHashMap	particleVariance
-Integer	emissionRate
-Double	emissionVariance
-Integer	emissionVariance
-Array<Integer>	pixelOrigin
-LinkedHashMap	particle

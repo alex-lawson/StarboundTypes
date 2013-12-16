@@ -1,5 +1,0 @@
-Double	planetaryBodyProbability
-LinkedHashMap	baseParameters
-Array<LinkedHashMap>	variationParameters
-Double	selectionWeight
-Array<ArrayList>	orbitRegions

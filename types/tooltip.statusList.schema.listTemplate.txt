@@ -1,3 +1,0 @@
-LinkedHashMap	statusImage
-LinkedHashMap	statusAmount
-LinkedHashMap	statusLabel

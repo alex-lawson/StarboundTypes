@@ -1,4 +1,0 @@
-Array<ArrayList>	poly
-String	base
-Array<Integer>	pos
-String	hover

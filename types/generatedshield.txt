@@ -1,8 +1,17 @@
-LinkedHashMap	baseline
-String	rarity
-String	kind
-String	nameGenerator
-String	hitSound
-String	name
-Array<LinkedHashMap>	palette
-String	description
+{
+	"description" : "String",
+	"name" : "String",
+	"palette" : "Array<LinkedHashMap>",
+	"rarity" : "String",
+	"baseline" : {
+		"statusEffects" : "Array<LinkedHashMap>",
+		"shieldPoly" : "Array<ArrayList>",
+		"knockbackDamageKind" : "String",
+		"recoil" : "Double",
+		"knockbackPower" : "Integer",
+		"damagePoly" : "Array<ArrayList>"
+	}
+	"hitSound" : "String",
+	"nameGenerator" : "String",
+	"kind" : "String"
+}

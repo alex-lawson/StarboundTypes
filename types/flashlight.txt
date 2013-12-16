@@ -1,18 +1,18 @@
-String	inventoryIcon
-Array<Integer>	handPosition
-String	shortdescription
-Integer	ambientFactor
-Boolean	pointable
-String	rarity
-Array<Integer>	lightColor
-String	itemName
-Double	beamWidth
-Array<Double>	dropCollision
-Integer	beamWidth
-Double	ambientFactor
-Integer	maxStack
-Array<Integer>	lightPosition
-String	inspectionKind
-String	image
-String	largeImage
-String	description
+{
+	"ambientFactor" : "Double",
+	"dropCollision" : "Array<Double>",
+	"itemName" : "String",
+	"maxStack" : "Integer",
+	"pointable" : "Boolean",
+	"rarity" : "String",
+	"largeImage" : "String",
+	"inspectionKind" : "String",
+	"image" : "String",
+	"lightPosition" : "Array<Integer>",
+	"shortdescription" : "String",
+	"description" : "String",
+	"lightColor" : "Array<Integer>",
+	"inventoryIcon" : "String",
+	"beamWidth" : "Double",
+	"handPosition" : "Array<Integer>"
+}

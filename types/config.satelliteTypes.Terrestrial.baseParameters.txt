@@ -1,8 +1,0 @@
-Integer	biomeMasks
-String	liquidImages
-String	biomeMaskImages
-Array<Integer>	dynamicsRange
-String	type
-String	shadowImages
-String	dynamicsImages
-String	description

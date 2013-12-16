@@ -1,3 +1,5 @@
-Array<String>	images
-Boolean	ceiling
-String	name
+{
+	"ceiling" : "Boolean",
+	"name" : "String",
+	"images" : "Array<String>"
+}

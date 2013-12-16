@@ -1,4 +1,0 @@
-LinkedHashMap	safe
-LinkedHashMap	encourage
-LinkedHashMap	helpthem
-LinkedHashMap	helpme

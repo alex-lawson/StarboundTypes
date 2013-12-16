@@ -1,9 +1,11 @@
-String	inventoryIcon
-String	shortdescription
-String	rarity
-String	tierRecipesUnlock
-String	image
-String	itemName
-String	unlockMessage
-String	description
-String	sectorUnlock
+{
+	"tierRecipesUnlock" : "String",
+	"itemName" : "String",
+	"description" : "String",
+	"inventoryIcon" : "String",
+	"rarity" : "String",
+	"image" : "String",
+	"sectorUnlock" : "String",
+	"unlockMessage" : "String",
+	"shortdescription" : "String"
+}

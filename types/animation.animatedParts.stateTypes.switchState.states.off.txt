@@ -1,2 +1,0 @@
-Double	cycle
-Integer	frames

@@ -1,15 +1,17 @@
-Double	minDist
-Double	minWidth
-Integer	distanceBetween
-Double	maxDist
-Double	ceiling
-Double	jaggedScaleX
-Double	cutoff
-Double	jaggedScaleY
-String	name
-Integer	clumpingWavelength
-Double	maxDepth
-Double	minDepth
-Double	maxWidth
-Integer	clumpingAmplitude
-Integer	jaggedSize
+{
+	"minWidth" : "Double",
+	"minDepth" : "Double",
+	"distanceBetween" : "Integer",
+	"clumpingAmplitude" : "Integer",
+	"cutoff" : "Double",
+	"maxDist" : "Double",
+	"maxDepth" : "Double",
+	"ceiling" : "Double",
+	"jaggedSize" : "Integer",
+	"name" : "String",
+	"maxWidth" : "Double",
+	"jaggedScaleY" : "Double",
+	"jaggedScaleX" : "Double",
+	"clumpingWavelength" : "Integer",
+	"minDist" : "Double"
+}

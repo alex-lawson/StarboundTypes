@@ -1,3 +1,0 @@
-LinkedHashMap	imageNew
-LinkedHashMap	background
-LinkedHashMap	labelQuestEntry

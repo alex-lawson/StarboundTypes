@@ -1,4 +1,0 @@
-Array<Integer>	stateFrames
-Array<Double>	emoteCycle
-Array<Double>	stateCycle
-Array<Integer>	emoteFrames

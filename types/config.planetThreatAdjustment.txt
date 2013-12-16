@@ -1,5 +1,0 @@
-Array<Integer>	dayTimeUndergroundAdjustmentRange
-Array<Double>	nightTimeSurfaceAdjustmentRange
-Array<Integer>	nightTimeUndergroundAdjustmentRange
-Array<Integer>	dayTimeSurfaceAdjustmentRange
-Array<Double>	undergroundDifficultyIncreaseRange

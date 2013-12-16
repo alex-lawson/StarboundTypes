@@ -1,105 +1,180 @@
-Array<ArrayList>	smashDropOptions
-Integer	detectTickDuration
-Array<Integer>	animationPosition
-Integer	flickerTiming
-LinkedHashMap	touchDamage
-String	sitEmote
-LinkedHashMap	stageAlts
-Array<Double>	tipOffset
-LinkedHashMap	state
-Array<LinkedHashMap>	engineOnOrientations
-Array<Integer>	rotationRange
-Array<String>	onSounds
-Double	fireCooldown
-String	description
-Array<ArrayList>	inboundNodes
-Array<String>	useSounds
-Array<Double>	baseOffset
-Integer	interval
-Array<LinkedHashMap>	orientations
-Array<String>	openSounds
-Integer	scriptDelta
-String	script
-String	rarity
-String	genericDescription
-Array<Integer>	lightColor
-String	interactAction
-String	category
-String	glitchDescription
-Array<ArrayList>	breakDropOptions
-Array	breakDropOptions
-Array	outboundNodes
-Array	inboundNodes
-Array<String>	sitEffectEmitters
-Integer	gates
-Integer	autoCloseCooldown
-String	humanDescription
-Array<LinkedHashMap>	projectileOptions
-Boolean	unbreakable
-String	hylotlDescription
-Boolean	sitFlipDirection
-String	inventoryIcon
-String	objectName
-String	uiConfig
-String	sitAngle
-Integer	health
-Array<String>	closeSounds
-String	animation
-Boolean	hydrophobic
-String	shortdescription
-String	soundEffect
-Integer	soundEffectRadius
-String	recipeGroup
-LinkedHashMap	growing
-Array<String>	smashSounds
-String	objectItem
-Array<String>	scripts
-LinkedHashMap	interactData
-Double	health
-LinkedHashMap	interactionTransition
-LinkedHashMap	spawner
-Double	rotationTime
-String	sitCoverImage
-Integer	maxLaserLength
-Double	flickerTiming
-Boolean	unlit
-String	objectType
-LinkedHashMap	lightColors
-String	avianDescription
-Boolean	pointLight
-Integer	price
-Integer	targetHoldTime
-Array<String>	offSounds
-Boolean	hasWindowIcon
-LinkedHashMap	damageTeam
-Array<String>	sounds
-Array<LinkedHashMap>	particleEmitters
-Array	statusEffects
-Array<Integer>	outboundNodesLocation
-Integer	detectRadius
-String	shortddescription
-String	printable
-String	race
-String	unlit
-LinkedHashMap	particleEmitter
-LinkedHashMap	animationParts
-Array<Double>	fireOffsets
-Array<ArrayList>	truthtable
-Double	flickerDistance
-String	price
-String	apexDescription
-Array<Boolean>	truthtable
-Integer	slotCount
-Array<Integer>	sitPosition
-String	floranDescription
-Double	flickerStrength
-Array<LinkedHashMap>	statusEffects
-Array<Double>	sitPosition
-Integer	frameCooldown
-Double	rotationPauseTime
-String	subtitle
-Boolean	printable
-Double	pointBeam
-Array<ArrayList>	outboundNodes
-String	sitOrientation
-Array<LinkedHashMap>	sitStatusEffects
+{
+	"particleEmitters" : "Array<LinkedHashMap>",
+	"sitAngle" : "String",
+	"lightColors" : {
+		"orange" : "Array<Integer>",
+		"red" : "Array<Integer>",
+		"default" : "Array<Integer>",
+		"blue" : "Array<Integer>",
+		"green" : "Array<Integer>",
+		"white" : "Array<Integer>",
+		"pink" : "Array<Integer>",
+		"yellow" : "Array<Integer>",
+		"black" : "Array<Integer>"
+	}
+	"animationParts" : {
+		"tis1" : "String",
+		"camera" : "String",
+		"door" : "String",
+		"beam" : "String",
+		"switch" : "String",
+		"beacon" : "String",
+		"bracket" : "String",
+		"gun" : "String"
+	}
+	"scriptDelta" : "Integer",
+	"spawner" : {
+		"npcParameterOptions" : "Array<LinkedHashMap>",
+		"npcTypeOptions" : "Array<String>",
+		"searchRadius" : "Double",
+		"npcSpeciesOptions" : "Array<String>"
+	}
+	"sitStatusEffects" : "Array<LinkedHashMap>",
+	"breakDropOptions" : "Array<ArrayList>",
+	"interactionTransition" : {
+		"2" : {
+			"command" : "String",
+			"dropOptions" : "Array<Double>"
+		}
+	}
+	"shortddescription" : "String",
+	"particleEmitter" : {
+		"particle" : {
+			"fade" : "Double",
+			"initialVelocity" : "Array<Integer>",
+			"destructionTime" : "Integer",
+			"layer" : "String",
+			"image" : "String",
+			"type" : "String",
+			"timeToLive" : "Double",
+			"size" : "String",
+			"color" : "Array<Integer>",
+			"approach" : "Array<Integer>",
+			"finalVelocity" : "Array<Integer>",
+			"light" : "Array<Integer>",
+			"destructionAction" : "String"
+		}
+		"emissionRate" : "Double",
+		"pixelOrigin" : "Array<Integer>",
+		"particleVariance" : {
+			"position" : "Array<Integer>",
+			"initialVelocity" : "Array<Double>",
+			"finalVelocity" : "Array<Double>"
+		}
+		"emissionVariance" : "Double"
+	}
+	"race" : "String",
+	"scripts" : "Array<String>",
+	"outboundNodesLocation" : "Array<Integer>",
+	"description" : "String",
+	"touchDamage" : {
+		"statusEffects" : "Array<LinkedHashMap>",
+		"damageType" : "String",
+		"damageSourceKind" : "String",
+		"poly" : "Array<ArrayList>",
+		"damage" : "Integer"
+	}
+	"closeSounds" : "Array<String>",
+	"truthtable" : "Array<ArrayList>",
+	"inventoryIcon" : "String",
+	"openSounds" : "Array<String>",
+	"sitCoverImage" : "String",
+	"offSounds" : "Array<String>",
+	"hasWindowIcon" : "Boolean",
+	"glitchDescription" : "String",
+	"smashSounds" : "Array<String>",
+	"rotationRange" : "Array<Integer>",
+	"frameCooldown" : "Integer",
+	"animation" : "String",
+	"hylotlDescription" : "String",
+	"rarity" : "String",
+	"detectTickDuration" : "Integer",
+	"autoCloseCooldown" : "Integer",
+	"health" : "Double",
+	"script" : "String",
+	"category" : "String",
+	"pointBeam" : "Double",
+	"price" : "String",
+	"inboundNodes" : "Array<ArrayList>",
+	"flickerDistance" : "Double",
+	"uiConfig" : "String",
+	"fireCooldown" : "Double",
+	"orientations" : "Array<LinkedHashMap>",
+	"sitEffectEmitters" : "Array<String>",
+	"hydrophobic" : "Boolean",
+	"animationPosition" : "Array<Integer>",
+	"interval" : "Integer",
+	"engineOnOrientations" : "Array<LinkedHashMap>",
+	"state" : {
+		"uiconfig" : "String",
+		"closeSounds" : "Array<String>",
+		"openSounds" : "Array<String>",
+		"kind" : "String",
+		"slotCount" : "Integer"
+	}
+	"tipOffset" : "Array<Double>",
+	"outboundNodes" : "Array<ArrayList>",
+	"targetHoldTime" : "Integer",
+	"sitPosition" : "Array<Integer>",
+	"onSounds" : "Array<String>",
+	"slotCount" : "Integer",
+	"printable" : "Boolean",
+	"genericDescription" : "String",
+	"unlit" : "Boolean",
+	"fireOffsets" : "Array<Double>",
+	"objectItem" : "String",
+	"rotationPauseTime" : "Double",
+	"lightColor" : "Array<Integer>",
+	"interactAction" : "String",
+	"sounds" : "Array<String>",
+	"sitFlipDirection" : "Boolean",
+	"floranDescription" : "String",
+	"soundEffect" : "String",
+	"objectName" : "String",
+	"detectRadius" : "Integer",
+	"stageAlts" : {
+		"2" : "Integer",
+		"count" : "Integer"
+	}
+	"rotationTime" : "Double",
+	"flickerTiming" : "Double",
+	"useSounds" : "Array<String>",
+	"growing" : {
+		"1" : {
+			"failure" : "Integer",
+			"duration" : "Array<Integer>",
+			"success" : "Integer"
+		}
+		"0" : {
+			"failure" : "Integer",
+			"duration" : "Array<Integer>",
+			"success" : "Integer"
+		}
+	}
+	"flickerStrength" : "Double",
+	"gates" : "Integer",
+	"pointLight" : "Boolean",
+	"shortdescription" : "String",
+	"apexDescription" : "String",
+	"avianDescription" : "String",
+	"humanDescription" : "String",
+	"projectileOptions" : "Array<LinkedHashMap>",
+	"baseOffset" : "Array<Double>",
+	"damageTeam" : {
+		"type" : "String"
+	}
+	"statusEffects" : "Array<LinkedHashMap>",
+	"interactData" : {
+		"config" : "String",
+		"filter" : "Array<String>"
+	}
+	"soundEffectRadius" : "Integer",
+	"sitOrientation" : "String",
+	"subtitle" : "String",
+	"sitEmote" : "String",
+	"maxLaserLength" : "Integer",
+	"smashDropOptions" : "Array<ArrayList>",
+	"recipeGroup" : "String",
+	"unbreakable" : "Boolean",
+	"objectType" : "String"
+}

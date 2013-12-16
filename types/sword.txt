@@ -1,19 +1,52 @@
-String	inventoryIcon
-Boolean	twoHanded
-Integer	level
-Double	fireTime
-String	shortdescription
-LinkedHashMap	primaryStances
-String	rarity
-String	kind
-String	itemName
-Array<Double>	dropCollision
-LinkedHashMap	soundEffect
-Integer	maxStack
-Array<Double>	firePosition
-String	inspectionKind
-String	image
-Boolean	fireAfterWindup
-Array<LinkedHashMap>	colorOptions
-String	description
-Array<Integer>	firePosition
+{
+	"soundEffect" : {
+		"fireSound" : "Array<LinkedHashMap>"
+	}
+	"dropCollision" : "Array<Double>",
+	"itemName" : "String",
+	"fireAfterWindup" : "Boolean",
+	"maxStack" : "Integer",
+	"twoHanded" : "Boolean",
+	"rarity" : "String",
+	"inspectionKind" : "String",
+	"image" : "String",
+	"shortdescription" : "String",
+	"colorOptions" : "Array<LinkedHashMap>",
+	"kind" : "String",
+	"level" : "Integer",
+	"fireTime" : "Double",
+	"firePosition" : "Array<Integer>",
+	"description" : "String",
+	"inventoryIcon" : "String",
+	"primaryStances" : {
+		"idle" : {
+			"duration" : "Double",
+			"armAngle" : "Integer",
+			"armFrameOverride" : "String",
+			"twoHanded" : "Boolean",
+			"swordAngle" : "Integer",
+			"handPosition" : "Array<Integer>"
+		}
+		"windup" : {
+			"duration" : "Double",
+			"statusEffects" : "Array<LinkedHashMap>",
+			"armAngle" : "Integer",
+			"twoHanded" : "Boolean",
+			"swordAngle" : "Integer",
+			"handPosition" : "Array<Integer>"
+		}
+		"projectile" : {
+			"speed" : "Double",
+			"power" : "Integer"
+		}
+		"cooldown" : {
+			"duration" : "Double",
+			"statusEffects" : "Array<LinkedHashMap>",
+			"armAngle" : "Integer",
+			"twoHanded" : "Boolean",
+			"swordAngle" : "Integer",
+			"handPosition" : "Array<Integer>"
+		}
+		"projectileType" : "String"
+	}
+}

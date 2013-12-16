@@ -1,18 +1,94 @@
-Integer	yYInfluence
-Array<LinkedHashMap>	sources
-String	type
-Integer	xXInfluence
-String	xType
-Double	yBias
-Integer	value
-String	name
-LinkedHashMap	source
-Double	yAmp
-Integer	xOctaves
-Integer	xAmp
-Integer	yOctaves
-Double	xFreq
-Array<Integer>	yClamp
-Integer	yAmp
-String	yType
-Double	yFreq
+{
+	"xType" : "String",
+	"xXInfluence" : "Integer",
+	"yClamp" : "Array<Integer>",
+	"xOctaves" : "Integer",
+	"yFreq" : "Double",
+	"yType" : "String",
+	"yBias" : "Double",
+	"type" : "String",
+	"sources" : "Array<LinkedHashMap>",
+	"yOctaves" : "Integer",
+	"xFreq" : "Double",
+	"source" : {
+		"mixSource" : {
+			"yInfluence" : "Integer",
+			"freq" : "Double",
+			"xInfluence" : "Integer",
+			"octaves" : "Integer",
+			"type" : "String",
+			"amp" : "Integer",
+			"function" : "String"
+		}
+		"aSource" : {
+			"yClampSmoothing" : "Integer",
+			"yOctaves" : "Integer",
+			"xFreq" : "Double",
+			"xType" : "String",
+			"yClamp" : "Array<Integer>",
+			"xOctaves" : "Integer",
+			"source" : {
+				"adjustment" : "Integer",
+				"type" : "String"
+			}
+			"yFreq" : "Double",
+			"yYInfluence" : "Integer",
+			"xAmp" : "Integer",
+			"yType" : "String",
+			"yAmp" : "Integer",
+			"type" : "String"
+		}
+		"type" : "String",
+		"bSource" : {
+			"yOctaves" : "Integer",
+			"xFreq" : "Double",
+			"xType" : "String",
+			"xXInfluence" : "Integer",
+			"xOctaves" : "Integer",
+			"source" : {
+				"yClampSmoothing" : "Integer",
+				"yOctaves" : "Integer",
+				"xFreq" : "Double",
+				"xType" : "String",
+				"yClamp" : "Array<Integer>",
+				"xOctaves" : "Integer",
+				"source" : {
+					"yClampSmoothing" : "Integer",
+					"yOctaves" : "Integer",
+					"xFreq" : "Double",
+					"xType" : "String",
+					"yClamp" : "Array<Integer>",
+					"xOctaves" : "Integer",
+					"source" : {
+						"adjustment" : "Integer",
+						"type" : "String"
+					}
+					"yFreq" : "Double",
+					"yYInfluence" : "Integer",
+					"xAmp" : "Integer",
+					"yType" : "String",
+					"yAmp" : "Integer",
+					"type" : "String"
+				}
+				"yFreq" : "Double",
+				"yYInfluence" : "Integer",
+				"xAmp" : "Integer",
+				"yType" : "String",
+				"yAmp" : "Integer",
+				"type" : "String"
+			}
+			"yFreq" : "Double",
+			"yYInfluence" : "Integer",
+			"xAmp" : "Integer",
+			"yType" : "String",
+			"yAmp" : "Integer",
+			"type" : "String"
+		}
+		"sources" : "Array<LinkedHashMap>"
+	}
+	"name" : "String",
+	"yYInfluence" : "Integer",
+	"value" : "Integer",
+	"xAmp" : "Integer",
+	"yAmp" : "Double"
+}
